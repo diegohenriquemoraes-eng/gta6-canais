@@ -136,8 +136,14 @@ def duracao(mp4: Path) -> float:
     return float(out.stdout.strip())
 
 
-def detectar(mp4: Path, limiar: float = 0.35) -> list[float]:
-    """Pontos de corte (segundos) via `scdet` do ffmpeg."""
+def detectar(mp4: Path, limiar: float = 0.10) -> list[float]:
+    """Pontos de corte (segundos) via `scdet` do ffmpeg.
+
+    Limiar 0.10 (= `threshold=10`, o padrão do filtro). Medido em 22/09/2026:
+    com 0.35 o scdet achou **1 corte no Trailer 1 inteiro e nenhum no
+    Trailer 2** — e o resultado eram "cenas" de 12 s fatiadas no relógio, sem
+    relação com o corte de montagem. Com 0.10 os cortes reais aparecem.
+    """
     out = subprocess.run(
         ["ffmpeg", "-i", str(mp4), "-vf", f"scdet=threshold={limiar * 100}",
          "-f", "null", "-"],

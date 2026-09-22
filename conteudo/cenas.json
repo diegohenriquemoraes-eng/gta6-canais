@@ -1,0 +1,474 @@
+[
+ {
+  "id": "trailer1-001",
+  "video_origem": "trailer1",
+  "inicio": 0.0,
+  "fim": 6.53,
+  "descricao": "Rodovia elevada de Vice City ao pôr do sol, com trânsito e palmeiras",
+  "tags": [
+   "cidade",
+   "estrada",
+   "por-do-sol",
+   "vice-city"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-002",
+  "video_origem": "trailer1",
+  "inicio": 6.53,
+  "fim": 18.37,
+  "descricao": "Praia lotada vista de cima, com banhistas na água esverdeada",
+  "tags": [
+   "praia",
+   "cidade",
+   "dia",
+   "vice-city"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-003",
+  "video_origem": "trailer1",
+  "inicio": 18.37,
+  "fim": 24.83,
+  "descricao": "Flamingos levantando voo sobre o pântano de Leonida",
+  "tags": [
+   "natureza",
+   "pantano",
+   "leonida",
+   "animais"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-004",
+  "video_origem": "trailer1",
+  "inicio": 24.83,
+  "fim": 32.57,
+  "descricao": "Rua movimentada com carro rosa customizado, motos e pedestres",
+  "tags": [
+   "cidade",
+   "carro",
+   "rua",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-005",
+  "video_origem": "trailer1",
+  "inicio": 32.57,
+  "fim": 39.8,
+  "descricao": "Ponte sobre o mar turquesa vista do alto, com barcos e hidroavião",
+  "tags": [
+   "mapa",
+   "mar",
+   "ponte",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-006",
+  "video_origem": "trailer1",
+  "inicio": 39.8,
+  "fim": 46.53,
+  "descricao": "Homem carregando outro nas costas à beira de uma piscina",
+  "tags": [
+   "personagem",
+   "casa",
+   "piscina"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-007",
+  "video_origem": "trailer1",
+  "inicio": 46.53,
+  "fim": 53.97,
+  "descricao": "Posto de gasolina sob chuva forte, com o poste balançando",
+  "tags": [
+   "clima",
+   "tempestade",
+   "posto",
+   "noite"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-008",
+  "video_origem": "trailer1",
+  "inicio": 53.97,
+  "fim": 60.47,
+  "descricao": "Grupo de pessoas de costas numa praia vazia ao entardecer",
+  "tags": [
+   "praia",
+   "personagem",
+   "por-do-sol"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-009",
+  "video_origem": "trailer1",
+  "inicio": 60.47,
+  "fim": 66.67,
+  "descricao": "Imagem de helicóptero de jornal sobre uma rodovia interditada",
+  "tags": [
+   "policia",
+   "estrada",
+   "noticia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-010",
+  "video_origem": "trailer1",
+  "inicio": 66.67,
+  "fim": 72.83,
+  "descricao": "Dupla mascarada dentro de uma loja de conveniência",
+  "tags": [
+   "assalto",
+   "policia",
+   "personagem",
+   "loja"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer1-011",
+  "video_origem": "trailer1",
+  "inicio": 72.83,
+  "fim": 84.83,
+  "descricao": "",
+  "tags": [],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-001",
+  "video_origem": "trailer2",
+  "inicio": 0.0,
+  "fim": 8.13,
+  "descricao": "",
+  "tags": [],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-002",
+  "video_origem": "trailer2",
+  "inicio": 8.13,
+  "fim": 18.83,
+  "descricao": "Jason subindo no telhado de uma casa de madeira à beira d'água",
+  "tags": [
+   "jason",
+   "personagem",
+   "casa",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-003",
+  "video_origem": "trailer2",
+  "inicio": 18.83,
+  "fim": 30.83,
+  "descricao": "Jason de costas, sem camisa, na varanda de casa em dia claro",
+  "tags": [
+   "jason",
+   "personagem",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-004",
+  "video_origem": "trailer2",
+  "inicio": 30.83,
+  "fim": 38.37,
+  "descricao": "Direção em primeira pessoa numa via expressa, com a cidade ao fundo",
+  "tags": [
+   "carro",
+   "direcao",
+   "cidade",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-005",
+  "video_origem": "trailer2",
+  "inicio": 38.37,
+  "fim": 45.27,
+  "descricao": "Interior de uma loja de conveniência vista por trás do personagem",
+  "tags": [
+   "loja",
+   "personagem",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-006",
+  "video_origem": "trailer2",
+  "inicio": 45.27,
+  "fim": 51.87,
+  "descricao": "Volante em primeira pessoa dentro de um carro, à noite",
+  "tags": [
+   "carro",
+   "direcao",
+   "noite"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-007",
+  "video_origem": "trailer2",
+  "inicio": 51.87,
+  "fim": 60.57,
+  "descricao": "Balcão de atendimento com aviso na parede e dois personagens",
+  "tags": [
+   "personagem",
+   "interior"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-008",
+  "video_origem": "trailer2",
+  "inicio": 60.57,
+  "fim": 72.57,
+  "descricao": "Lucia e Jason se encontrando na rua, com palmeiras e carro atrás",
+  "tags": [
+   "jason",
+   "lucia",
+   "personagem",
+   "dupla",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-009",
+  "video_origem": "trailer2",
+  "inicio": 72.57,
+  "fim": 79.5,
+  "descricao": "Arma apontada para um homem de terno numa sala com computadores",
+  "tags": [
+   "assalto",
+   "interior",
+   "tensao"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-010",
+  "video_origem": "trailer2",
+  "inicio": 79.5,
+  "fim": 86.0,
+  "descricao": "Casas de madeira sobre palafitas à beira do canal, com barcos",
+  "tags": [
+   "mapa",
+   "agua",
+   "barco",
+   "leonida"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-011",
+  "video_origem": "trailer2",
+  "inicio": 86.0,
+  "fim": 92.0,
+  "descricao": "Lucia e Jason parados dentro de uma cozinha simples",
+  "tags": [
+   "jason",
+   "lucia",
+   "personagem",
+   "dupla",
+   "interior"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-012",
+  "video_origem": "trailer2",
+  "inicio": 92.0,
+  "fim": 98.47,
+  "descricao": "Mulher de vestido dourado subindo uma escada em ambiente escuro",
+  "tags": [
+   "festa",
+   "noite",
+   "personagem"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-013",
+  "video_origem": "trailer2",
+  "inicio": 98.47,
+  "fim": 106.73,
+  "descricao": "Grupo dentro de uma boate com luzes roxas e azuis",
+  "tags": [
+   "festa",
+   "noite",
+   "boate",
+   "cidade"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-014",
+  "video_origem": "trailer2",
+  "inicio": 106.73,
+  "fim": 117.1,
+  "descricao": "Mulher com o braço para fora da janela de um carro em movimento",
+  "tags": [
+   "carro",
+   "personagem",
+   "cidade",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-015",
+  "video_origem": "trailer2",
+  "inicio": 117.1,
+  "fim": 124.57,
+  "descricao": "Picape parada numa rua escura sob a luz de um poste",
+  "tags": [
+   "carro",
+   "noite",
+   "rua"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-016",
+  "video_origem": "trailer2",
+  "inicio": 124.57,
+  "fim": 134.4,
+  "descricao": "Sala com televisão ligada e garrafas sobre a mesa",
+  "tags": [
+   "interior",
+   "personagem",
+   "dia"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-017",
+  "video_origem": "trailer2",
+  "inicio": 134.4,
+  "fim": 141.83,
+  "descricao": "Lancha cortando o rio no meio do pântano, vista de cima",
+  "tags": [
+   "barco",
+   "pantano",
+   "natureza",
+   "leonida"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-018",
+  "video_origem": "trailer2",
+  "inicio": 141.83,
+  "fim": 148.23,
+  "descricao": "Perseguição noturna na cidade, com faíscas e neon rosa",
+  "tags": [
+   "policia",
+   "carro",
+   "noite",
+   "cidade",
+   "perseguicao"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-019",
+  "video_origem": "trailer2",
+  "inicio": 148.23,
+  "fim": 160.23,
+  "descricao": "Avenida com fios e palmeiras banhada pela luz alaranjada do fim de tarde",
+  "tags": [
+   "cidade",
+   "por-do-sol",
+   "rua",
+   "vice-city"
+  ],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ },
+ {
+  "id": "trailer2-020",
+  "video_origem": "trailer2",
+  "inicio": 160.23,
+  "fim": 166.79,
+  "descricao": "",
+  "tags": [],
+  "licenca": "rockstar_oficial",
+  "credito": "",
+  "no_runner": false
+ }
+]

@@ -1,0 +1,33 @@
+{
+  "_regras": "Descrição escrita OLHANDO o quadro (benchmark/contato/*.jpg), em palavras próprias e sem interpretar o que não está na tela. Cena sem descrição não vira cartão — é o filtro que impede frase de polícia sobre cena de praia. As tags são o vocabulário que o escalar.py cruza com as tags da frase. Cenas de cartela/logo ficam DE FORA de propósito: não há o que mostrar num cartão.",
+
+  "trailer1-001": {"descricao": "Rodovia elevada de Vice City ao pôr do sol, com trânsito e palmeiras", "tags": ["cidade", "estrada", "por-do-sol", "vice-city"]},
+  "trailer1-002": {"descricao": "Praia lotada vista de cima, com banhistas na água esverdeada", "tags": ["praia", "cidade", "dia", "vice-city"]},
+  "trailer1-003": {"descricao": "Flamingos levantando voo sobre o pântano de Leonida", "tags": ["natureza", "pantano", "leonida", "animais"]},
+  "trailer1-004": {"descricao": "Rua movimentada com carro rosa customizado, motos e pedestres", "tags": ["cidade", "carro", "rua", "dia"]},
+  "trailer1-005": {"descricao": "Ponte sobre o mar turquesa vista do alto, com barcos e hidroavião", "tags": ["mapa", "mar", "ponte", "dia"]},
+  "trailer1-006": {"descricao": "Homem carregando outro nas costas à beira de uma piscina", "tags": ["personagem", "casa", "piscina"]},
+  "trailer1-007": {"descricao": "Posto de gasolina sob chuva forte, com o poste balançando", "tags": ["clima", "tempestade", "posto", "noite"]},
+  "trailer1-008": {"descricao": "Grupo de pessoas de costas numa praia vazia ao entardecer", "tags": ["praia", "personagem", "por-do-sol"]},
+  "trailer1-009": {"descricao": "Imagem de helicóptero de jornal sobre uma rodovia interditada", "tags": ["policia", "estrada", "noticia"]},
+  "trailer1-010": {"descricao": "Dupla mascarada dentro de uma loja de conveniência", "tags": ["assalto", "policia", "personagem", "loja"]},
+
+  "trailer2-002": {"descricao": "Jason subindo no telhado de uma casa de madeira à beira d'água", "tags": ["jason", "personagem", "casa", "dia"]},
+  "trailer2-003": {"descricao": "Jason de costas, sem camisa, na varanda de casa em dia claro", "tags": ["jason", "personagem", "dia"]},
+  "trailer2-004": {"descricao": "Direção em primeira pessoa numa via expressa, com a cidade ao fundo", "tags": ["carro", "direcao", "cidade", "dia"]},
+  "trailer2-005": {"descricao": "Interior de uma loja de conveniência vista por trás do personagem", "tags": ["loja", "personagem", "dia"]},
+  "trailer2-006": {"descricao": "Volante em primeira pessoa dentro de um carro, à noite", "tags": ["carro", "direcao", "noite"]},
+  "trailer2-007": {"descricao": "Balcão de atendimento com aviso na parede e dois personagens", "tags": ["personagem", "interior"]},
+  "trailer2-008": {"descricao": "Lucia e Jason se encontrando na rua, com palmeiras e carro atrás", "tags": ["jason", "lucia", "personagem", "dupla", "dia"]},
+  "trailer2-009": {"descricao": "Arma apontada para um homem de terno numa sala com computadores", "tags": ["assalto", "interior", "tensao"]},
+  "trailer2-010": {"descricao": "Casas de madeira sobre palafitas à beira do canal, com barcos", "tags": ["mapa", "agua", "barco", "leonida"]},
+  "trailer2-011": {"descricao": "Lucia e Jason parados dentro de uma cozinha simples", "tags": ["jason", "lucia", "personagem", "dupla", "interior"]},
+  "trailer2-012": {"descricao": "Mulher de vestido dourado subindo uma escada em ambiente escuro", "tags": ["festa", "noite", "personagem"]},
+  "trailer2-013": {"descricao": "Grupo dentro de uma boate com luzes roxas e azuis", "tags": ["festa", "noite", "boate", "cidade"]},
+  "trailer2-014": {"descricao": "Mulher com o braço para fora da janela de um carro em movimento", "tags": ["carro", "personagem", "cidade", "dia"]},
+  "trailer2-015": {"descricao": "Picape parada numa rua escura sob a luz de um poste", "tags": ["carro", "noite", "rua"]},
+  "trailer2-016": {"descricao": "Sala com televisão ligada e garrafas sobre a mesa", "tags": ["interior", "personagem", "dia"]},
+  "trailer2-017": {"descricao": "Lancha cortando o rio no meio do pântano, vista de cima", "tags": ["barco", "pantano", "natureza", "leonida"]},
+  "trailer2-018": {"descricao": "Perseguição noturna na cidade, com faíscas e neon rosa", "tags": ["policia", "carro", "noite", "cidade", "perseguicao"]},
+  "trailer2-019": {"descricao": "Avenida com fios e palmeiras banhada pela luz alaranjada do fim de tarde", "tags": ["cidade", "por-do-sol", "rua", "vice-city"]}
+}
