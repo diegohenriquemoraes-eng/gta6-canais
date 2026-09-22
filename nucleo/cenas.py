@@ -96,28 +96,63 @@ def e_foto(cena: dict) -> bool:
     return cena.get("video_origem") == "galeria"
 
 
-def _da_galeria(rotulo: str) -> Path | None:
-    """Casa o rótulo do poço com um arquivo da galeria oficial, por substring.
+# Palavras que aparecem em quase todo nome de arquivo da galeria e não
+# distinguem nada. Sem esta lista, `galeria: logo GTA VI` casava com
+# `gta-plus-logo.jpg` e o Short de contagem regressiva saía com a marca do
+# GTA+ ocupando a tela inteira (visto no primeiro render, 22/09/2026).
+VAZIAS = {"gta", "vi", "logo", "the", "art", "cover", "official", "oficial",
+          "imagem", "screenshot", "wallpaper", "jpg", "png"}
 
-    O poço escreve `galeria: Jason`; a galeria baixada traz nomes como
-    `gta6-screenshot-jason-duval-01.jpg`. Casar por substring de palavra
-    (ignorando acento e caixa) é frágil de propósito: quando não casa, o render
-    cai no gradiente, que é o comportamento correto.
+
+def _da_galeria(rotulo: str) -> Path | None:
+    """Casa o rótulo do poço com um arquivo da galeria oficial.
+
+    O poço escreve `galeria: Jason`; a galeria traz `jason-duval-07.jpg`. O
+    casamento é por palavra DISTINTIVA (ver `VAZIAS`) e **exige pelo menos uma**
+    — rótulo genérico não casa com nada, de propósito: quando não casa, quem
+    resolve é `fundo_para_fato`, e no fim da fila está o gradiente da casa.
+    Melhor liso e limpo que errado.
     """
     if not GALERIA.is_dir():
         return None
-    termos = [t for t in re.split(r"\W+", rotulo.lower()) if len(t) > 2]
+    termos = [t for t in re.split(r"\W+", rotulo.lower())
+              if len(t) > 2 and t not in VAZIAS]
     if not termos:
         return None
     melhor, pontos = None, 0
     for p in sorted(GALERIA.iterdir()):
         if p.suffix.lower() not in (".jpg", ".jpeg", ".png", ".webp"):
             continue
-        nome = p.name.lower()
+        nome = p.stem.lower()
         n = sum(1 for t in termos if t in nome)
         if n > pontos:
             melhor, pontos = p, n
     return melhor if pontos else None
+
+
+def fundo_para_fato(fato: dict, destino: Path, seed: int = 0,
+                    largura: int = 1080) -> bool:
+    """A imagem de fundo de um Short, em ordem de preferência.
+
+    1. a `cena` declarada no poço (quadro do trailer ou foto da galeria);
+    2. uma foto da galeria que compartilhe TAG com o fato — é o que salva os
+       fatos cujo rótulo de galeria é genérico ("logo GTA VI");
+    3. qualquer foto da galeria, sorteada pelo seed do item;
+    4. False — e aí o chamador usa o gradiente da casa.
+
+    Sortear por seed no passo 3 não é preguiça: a alternativa é a MESMA imagem
+    em todo Short sem cena declarada, que é a impressão digital de produção em
+    massa que a política de conteúdo procura.
+    """
+    if quadro(fato.get("cena", ""), destino, largura):
+        return True
+    da_galeria = [c for c in carregar() if c.get("video_origem") == "galeria"]
+    if not da_galeria:
+        return False
+    tags = set(fato.get("tags", []))
+    combinam = [c for c in da_galeria if tags & set(c.get("tags", []))]
+    escolha = (combinam or da_galeria)[seed % len(combinam or da_galeria)]
+    return quadro(f"galeria: {Path(escolha['arquivo']).stem}", destino, largura)
 
 
 def quadro(cena: str, destino: Path, largura: int = 1080) -> bool:

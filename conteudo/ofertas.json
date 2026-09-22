@@ -1,0 +1,85 @@
+{
+  "_nota": "ESQUELETO. Em 22/09/2026 o Chrome não estava logado na Shopee (affiliate.shopee.com.br redirecionou para /buyer/login) e a busca do site devolveu a página de verificação anti-robô. Fazer login ou passar por verificação anti-robô não é coisa que eu faça — então os campos `vendidos`, `nota`, `comissao_pct`, `preco` e `links` ficam vazios para o Diego preencher em 15 minutos (passo a passo em PENDENCIAS-DIEGO.md §9). O motor roda sem oferta nenhuma: `oferta_do_dia` devolve string vazia e a descrição sai sem o bloco. O teste `test_config.py` reprova qualquer link sem `src=` e qualquer oferta sem `vigencia.ate`.",
+  "_ordem": "prioridade 1 é o link principal; o reabastecedor põe no máximo 2 ofertas por descrição, em ordem de prioridade, respeitando a vigência.",
+  "_origens": "src= por origem: yt_short, yt_largo, yt_bio, ig_bio, ig_story, tt_bio. Sem isso não dá para saber de onde veio a venda, e trocar de produto vira achismo.",
+  "ofertas": [
+    {
+      "produto": "GTA VI PS5 Standard (pré-venda)",
+      "loja": "Shopee — loja oficial",
+      "url_produto": "",
+      "preco": null,
+      "vendidos": null,
+      "nota": null,
+      "comissao_pct": null,
+      "prioridade": 1,
+      "vigencia": {"de": "2026-09-22", "ate": "2026-11-20"},
+      "links": {},
+      "porque": "Maior tíquete e a intenção de compra é exatamente o tema do canal. Conta honesta: R$ 449 a ~3% rende ~R$ 13 por venda."
+    },
+    {
+      "produto": "DualSense edição GTA 6",
+      "loja": "Shopee",
+      "url_produto": "",
+      "preco": null,
+      "vendidos": null,
+      "nota": null,
+      "comissao_pct": null,
+      "prioridade": 2,
+      "vigencia": {"de": "2026-11-19", "ate": "2027-03-31"},
+      "links": {},
+      "porque": "Chega em 19/11 junto com o jogo; vira o link principal quando a pré-venda morre (20/11). É a troca prevista na régua de 05/12."
+    },
+    {
+      "produto": "Camiseta GTA 6",
+      "loja": "Shopee",
+      "url_produto": "",
+      "preco": null,
+      "vendidos": null,
+      "nota": null,
+      "comissao_pct": null,
+      "prioridade": 3,
+      "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
+      "links": {},
+      "porque": "Moda tem a maior faixa de comissão (até 15%). R$ 50 a ~12% rende ~R$ 6."
+    },
+    {
+      "produto": "Caneca GTA 6",
+      "loja": "Shopee",
+      "url_produto": "",
+      "preco": null,
+      "vendidos": null,
+      "nota": null,
+      "comissao_pct": null,
+      "prioridade": 4,
+      "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
+      "links": {},
+      "porque": "Compra por impulso, tíquete baixo."
+    },
+    {
+      "produto": "Pôster adesivo A3 GTA 6",
+      "loja": "Shopee",
+      "url_produto": "",
+      "preco": null,
+      "vendidos": null,
+      "nota": null,
+      "comissao_pct": null,
+      "prioridade": 5,
+      "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
+      "links": {},
+      "porque": "R$ 15-25, impulso puro; entra na vitrine, não na descrição."
+    },
+    {
+      "produto": "Chaveiro 3D / action figure GTA VI",
+      "loja": "Shopee",
+      "url_produto": "",
+      "preco": null,
+      "vendidos": null,
+      "nota": null,
+      "comissao_pct": null,
+      "prioridade": 6,
+      "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
+      "links": {},
+      "porque": "Completa a vitrine de 4-6 produtos da bio."
+    }
+  ]
+}

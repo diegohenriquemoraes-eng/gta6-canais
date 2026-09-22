@@ -1,0 +1,52 @@
+name: Reabastecer
+
+# De 6 em 6 horas: monta os pacotes de hoje ate hoje+2 e colhe as noticias.
+# Fila com folga de 2 dias e o que da tempo de um poco seco ser notado antes de
+# o canal ficar mudo.
+on:
+  schedule:
+    - cron: "10 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: reabastecer-gta6
+  cancel-in-progress: false
+
+jobs:
+  reabastecer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Colher noticias (formato C)
+        # Sem ANTHROPIC_API_KEY o script usa o resumo de emergencia e grava
+        # nota 6, abaixo do corte de 7 - ou seja, a noticia NAO vira Short
+        # sozinha. Nunca derruba o reabastecedor.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python produzir/noticias.py
+        continue-on-error: true
+
+      - name: Montar a fila
+        run: python produzir/reabastecer.py
+
+      - name: Guardar a fila
+        run: |
+          alvos="fila conteudo/fatos_uso.json conteudo/frases_uso.json conteudo/noticias"
+          if [ -n "$(git status --porcelain $alvos)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add $alvos
+            git commit -m "Reabastece a fila (auto)"
+            git pull --rebase --autostash origin main
+            git push
+          fi

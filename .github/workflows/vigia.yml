@@ -1,0 +1,39 @@
+name: Vigia
+
+# Duas vezes por dia. Abre issue quando alguma coisa para de funcionar em
+# SILENCIO - inclusive o alarme de "publicou menos do que a config manda", que
+# e o que faltava no motor biblico: o canal ES publicou 9 Shorts de 16 em sete
+# dias (26/08 a 02/09/2026) e nenhum alarme tocou, porque o vigia media so
+# silencio e um canal que publica 1 de 2 nunca fica calado.
+on:
+  schedule:
+    - cron: "5 8,20 * * *"
+  workflow_dispatch:
+
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Restaurar credenciais (para a checagem de licenca CC)
+        env:
+          YT_CLIENT_SECRET_GTA: ${{ secrets.YT_CLIENT_SECRET_GTA }}
+          YT_TOKEN_GTA: ${{ secrets.YT_TOKEN_GTA }}
+        run: |
+          if [ -n "$YT_TOKEN_GTA" ]; then
+            mkdir -p credenciais/gta
+            printf '%s' "$YT_CLIENT_SECRET_GTA" > credenciais/gta/client_secret.json
+            printf '%s' "$YT_TOKEN_GTA" > credenciais/gta/token.json
+          fi
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: python produzir/vigia.py --issues

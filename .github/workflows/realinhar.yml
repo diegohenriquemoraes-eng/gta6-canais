@@ -1,0 +1,37 @@
+name: Realinhar
+
+# 07:10 UTC, logo depois da virada da cota e antes do 1o Short do dia (10 UTC).
+# Serve para uma coisa: quando a oferta muda (a pre-venda morre em 20/11 e o
+# link principal vira o DualSense), o acervo antigo continua com o link velho.
+# Idempotente: em dia sem mudanca gasta ~40 unidades e nao toca em nada.
+on:
+  schedule:
+    - cron: "10 7 * * *"
+  workflow_dispatch:
+    inputs:
+      limite:
+        description: "Maximo de videos por rodada"
+        default: "10"
+
+jobs:
+  realinhar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - env:
+          YT_CLIENT_SECRET_GTA: ${{ secrets.YT_CLIENT_SECRET_GTA }}
+          YT_TOKEN_GTA: ${{ secrets.YT_TOKEN_GTA }}
+          LIMITE: ${{ inputs.limite }}
+        run: |
+          if [ -z "$YT_TOKEN_GTA" ]; then echo "sem token; nada a fazer"; exit 0; fi
+          mkdir -p credenciais/gta
+          printf '%s' "$YT_CLIENT_SECRET_GTA" > credenciais/gta/client_secret.json
+          printf '%s' "$YT_TOKEN_GTA" > credenciais/gta/token.json
+          python produzir/realinhar_publicados.py --limite "${LIMITE:-10}"
+          rm -rf credenciais

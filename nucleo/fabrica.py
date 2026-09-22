@@ -117,7 +117,7 @@ def _fundo_do_fato(fato: dict, outdir: Path, seed: int) -> Path | None:
     """
     alvo = outdir / "fundo.jpg"
     try:
-        if cenas.quadro(fato.get("cena", ""), alvo):
+        if cenas.fundo_para_fato(fato, alvo, seed):
             return alvo
     except Exception as exc:                      # nunca derruba o render
         print(f"  cena indisponível ({exc}); caindo para o gradiente", flush=True)
@@ -270,7 +270,9 @@ def montar_longo(pacote: dict, outdir: Path, oferta: str = "",
     #    runner de 2 núcleos — ver render.render_longo_estatico)
     seed = _seed(pacote, "longo")
     capa_fonte = outdir / "capa-fonte.jpg"
-    if not cenas.quadro(longo.get("cena", ""), capa_fonte, largura=1920):
+    if not cenas.fundo_para_fato({"cena": longo.get("cena", ""),
+                                  "tags": longo.get("tags_extra", [])},
+                                 capa_fonte, seed, largura=1920):
         arte.gerar_gradiente(capa_fonte, 1920, 1080, seed)
 
     pad = outdir / "pad.wav"
