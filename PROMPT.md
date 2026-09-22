@@ -120,8 +120,10 @@ Ordem de execução:
 3. Marcar cenas: gerar conteudo/cenas.json com detecção de corte do ffmpeg
    (scdet) nos 3 vídeos, 6-12 s por cena, descrição curta por cena (usar a
    transcrição/legenda oficial quando houver), licenca="rockstar_oficial".
-4. Gravar conteudo/fatos.json e conteudo/frases.json com o que o Fable
-   escreveu; validar com o teste de poço.
+4. Os fatos já estão em conteudo/fatos/*.json (150) e as frases em
+   conteudo/frases.json (40), gravados e validados pelo Fable em 22/09.
+   Escrever o test_poco.py que os valida (ARQUITETURA.md §K) e resolver o
+   F110 (`revisar: true`): achar a fonte primária ou trocar o fato.
 5. Cartão: implementar nucleo/cartao.py com os 3 layouts; renderizar 3
    exemplos (um por layout) com cena real do trailer e abrir para conferir:
    frase legível, blur, avatar, sem preto, duração de vídeo = duração de

@@ -1,0 +1,51 @@
+{
+  "_regras": "Frase do cartão (formato G). ≤ 12 palavras. Uma frase por clipe por 7 dias. 'identidade' só em 1 de cada 4 posts. 'fato' e 'contagem' têm de casar com a cena (o escalar.py cruza tags). {N} = dias até 19/11/2026, calculado na hora.",
+  "identidade": [
+    "Você encontrou a página que fala tudo sobre GTA 6",
+    "Tudo o que você precisa saber de GTA 6, todo dia",
+    "A página certa para quem está contando os dias",
+    "Se você espera GTA 6, este é o seu lugar",
+    "Aqui a gente vive Vice City antes de todo mundo",
+    "Segue para não perder nada de GTA 6",
+    "Rumo a Vice City: um post por vez",
+    "A conta regressiva mais completa do Brasil",
+    "GTA 6 explicado em segundos, sem enrolação",
+    "Salva esse perfil: 19 de novembro chega rápido"
+  ],
+  "fato": [
+    "Vice City é duas vezes o tamanho de Los Santos",
+    "GTA 6 tem seis estrelas de procurado",
+    "A polícia precisa de uma testemunha para te caçar",
+    "O romance entre Jason e Lucia é opcional",
+    "Mais de 600 mil animações, contra 55 mil em GTA 5",
+    "Cerca de 80 horas para terminar a história",
+    "Legendas em português do Brasil confirmadas",
+    "Carro de luxo só abre com clonador de chave",
+    "O jogo julga como você joga: Perfil Criminal",
+    "Trailer 2: 475 milhões de views em um dia"
+  ],
+  "pergunta": [
+    "Você tinha visto esse detalhe?",
+    "Jason ou Lucia: com quem você começa?",
+    "Standard ou Ultimate: qual você vai pegar?",
+    "Você vai comprar o controle de GTA 6?",
+    "Qual cena do trailer você mais esperou?",
+    "Você já fez a pré-venda?",
+    "PS5 ou Xbox no dia 19?",
+    "Você percebeu o que muda na polícia?",
+    "Vice City ou Los Santos: qual é a melhor cidade?",
+    "Você lembra de Vice City em 2002?"
+  ],
+  "contagem": [
+    "Faltam {N} dias para GTA 6",
+    "{N} dias para Vice City",
+    "Mais {N} noites e o jogo é nosso",
+    "{N} dias. Pré-venda aberta.",
+    "GTA 6 em {N} dias: você está pronto?",
+    "Contagem: {N} dias para 19 de novembro",
+    "{N} dias para conhecer Leonida de verdade",
+    "Pré-download em 12/11, jogo em 19/11, faltam {N}",
+    "{N} dias e a espera de 13 anos acaba",
+    "Vice City abre em {N} dias"
+  ]
+}
