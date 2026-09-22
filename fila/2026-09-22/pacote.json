@@ -2,7 +2,7 @@
  "data": "2026-09-22",
  "handle": "rumoavicecity",
  "dias_para_lancamento": 58,
- "gerado_em": "2026-09-22T12:40:24+00:00",
+ "gerado_em": "2026-09-22T13:12:43+00:00",
  "shorts": [
   {
    "id": "F001",
@@ -654,6 +654,34 @@
   {
    "id": "2026-09-22-c3",
    "cena": {
+    "id": "galeria-jason-and-lucia-13",
+    "video_origem": "galeria",
+    "arquivo": "jason-and-lucia-13.jpg",
+    "inicio": 0.0,
+    "fim": 8.0,
+    "descricao": "Jason e Lucia juntos, em imagem oficial da Rockstar",
+    "tags": [
+     "jason",
+     "lucia",
+     "dupla",
+     "personagem"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "frase_base": "O romance entre Jason e Lucia é opcional",
+   "categoria": "fato",
+   "layout": 3,
+   "contexto": "Jason e Lucia juntos, em imagem oficial da Rockstar",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-22-c4",
+   "cena": {
     "id": "trailer2-018",
     "video_origem": "trailer2",
     "inicio": 141.83,
@@ -670,17 +698,17 @@
     "credito": "",
     "no_runner": false
    },
-   "frase": "Vice City é duas vezes o tamanho de Los Santos",
-   "frase_base": "Vice City é duas vezes o tamanho de Los Santos",
-   "categoria": "fato",
-   "layout": 3,
+   "frase": "58 dias para Vice City",
+   "frase_base": "{N} dias para Vice City",
+   "categoria": "contagem",
+   "layout": 1,
    "contexto": "Perseguição noturna na cidade, com faíscas e neon rosa",
    "fonte": "rockstargames.com/VI",
    "zoom": 1.0,
    "dx": 0
   },
   {
-   "id": "2026-09-22-c4",
+   "id": "2026-09-22-c5",
    "cena": {
     "id": "trailer2-014",
     "video_origem": "trailer2",
@@ -697,38 +725,11 @@
     "credito": "",
     "no_runner": false
    },
-   "frase": "58 dias para Vice City",
-   "frase_base": "{N} dias para Vice City",
-   "categoria": "contagem",
-   "layout": 1,
-   "contexto": "Mulher com o braço para fora da janela de um carro em movimento",
-   "fonte": "rockstargames.com/VI",
-   "zoom": 1.0,
-   "dx": 0
-  },
-  {
-   "id": "2026-09-22-c5",
-   "cena": {
-    "id": "trailer2-004",
-    "video_origem": "trailer2",
-    "inicio": 30.83,
-    "fim": 38.37,
-    "descricao": "Direção em primeira pessoa numa via expressa, com a cidade ao fundo",
-    "tags": [
-     "carro",
-     "direcao",
-     "cidade",
-     "dia"
-    ],
-    "licenca": "rockstar_oficial",
-    "credito": "",
-    "no_runner": false
-   },
    "frase": "Rumo a Vice City: um post por vez",
    "frase_base": "Rumo a Vice City: um post por vez",
    "categoria": "identidade",
    "layout": 2,
-   "contexto": "Direção em primeira pessoa numa via expressa, com a cidade ao fundo",
+   "contexto": "Mulher com o braço para fora da janela de um carro em movimento",
    "fonte": "rockstargames.com/VI",
    "zoom": 1.0,
    "dx": 0

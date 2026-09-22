@@ -106,13 +106,30 @@ def largura_texto(texto: str, corpo: int) -> int:
 def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
                 corpo: int, tem_avatar: bool, tem_selo: bool,
                 tem_foto: bool, identidade: dict, rodape: str,
-                zoom: float = 1.0, dx: int = 0) -> str:
-    """Monta o -filter_complex. Separado do render para o teste poder validá-lo."""
+                zoom: float = 1.0, dx: int = 0, estatico: bool = False) -> str:
+    """Monta o -filter_complex. Separado do render para o teste poder validá-lo.
+
+    `estatico=True`: a origem é uma FOTO da galeria oficial, não um clipe. A
+    entrada já entra com `-loop 1 -framerate 30 -t dur` (o `-framerate` é
+    obrigatório: sem ele o demuxer de imagem entrega 25 fps e o vídeo sai 17 %
+    mais curto que a trilha — o defeito de 27/07/2026), então aqui não há
+    `trim`, e o áudio vem da trilha procedural, não do clipe.
+    """
     g = GEOMETRIA[layout]
     fonte = _fonte()
     dur = fim - inicio
+    if estatico:
+        # zoom lento de 1.0 a 1.06: foto totalmente parada num feed de vídeo
+        # parece erro de carregamento
+        entrada_v = (f"[0:v]fps={FPS},scale={W * 2}:-2,"
+                     f"zoompan=z='min(1.06,1+0.06*on/{int(dur * FPS)})':"
+                     f"x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d=1:"
+                     f"s={W}x{H_VIDEO * 2}:fps={FPS}[src]")
+    else:
+        entrada_v = (f"[0:v]trim={inicio:.2f}:{fim:.2f},setpts=PTS-STARTPTS,"
+                     f"fps={FPS}[src]")
     partes = [
-        f"[0:v]trim={inicio:.2f}:{fim:.2f},setpts=PTS-STARTPTS,fps={FPS}[src]",
+        entrada_v,
         "[src]split=2[a][b]",
         # fundo: recorta 9:16, MINIATURIZA, borra, amplia e escurece
         (f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,"
@@ -181,16 +198,28 @@ def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
         f"[{ultimo}]drawtext=fontfile='{fonte}':text='{_escapar(rodape)}':"
         f"x=(w-text_w)/2:y={g['rodape_y']}:fontsize=26:fontcolor=0xD8CCC4:"
         f"shadowcolor=black@0.8:shadowx=2:shadowy=2,format=yuv420p[vout]")
-    partes.append(f"[0:a]atrim={inicio:.2f}:{fim:.2f},asetpts=PTS-STARTPTS,"
-                  f"volume=0.7,apad=whole_dur={dur:.2f}[aout]")
+    if estatico:
+        # a trilha procedural entra como a ÚLTIMA entrada de áudio; o índice é
+        # resolvido pelo chamador em `montar`
+        partes.append(f"[{entrada}:a]atrim=0:{dur:.2f},asetpts=PTS-STARTPTS,"
+                      f"volume=0.8,apad=whole_dur={dur:.2f}[aout]")
+    else:
+        partes.append(f"[0:a]atrim={inicio:.2f}:{fim:.2f},asetpts=PTS-STARTPTS,"
+                      f"volume=0.7,apad=whole_dur={dur:.2f}[aout]")
     return ";".join(partes)
 
 
 def montar(clipe: Path, inicio: float, fim: float, frase: str, layout: int,
            identidade: dict, outdir: Path, rodape: str = "",
            foto: Path | None = None, zoom: float = 1.0, dx: int = 0,
-           saida: str = "cartao.mp4") -> Path:
-    """Renderiza o cartão. `identidade`: {avatar, selo, nome, handle}."""
+           saida: str = "cartao.mp4", estatico: bool = False,
+           seed: int = 0) -> Path:
+    """Renderiza o cartão. `identidade`: {avatar, selo, nome, handle}.
+
+    `estatico=True` quando `clipe` é uma FOTO da galeria oficial: a imagem
+    ganha zoom lento e a trilha procedural da casa (`nucleo/musica.py`) — nossa,
+    sintetizada, sem risco de claim. Nunca biblioteca de música de terceiro.
+    """
     if layout not in LAYOUTS:
         raise SystemExit(f"layout {layout} não existe (use 1, 2 ou 3)")
     outdir.mkdir(parents=True, exist_ok=True)
@@ -207,7 +236,12 @@ def montar(clipe: Path, inicio: float, fim: float, frase: str, layout: int,
     # resolve. As fontes já vão absolutas por `_fonte()`.
     avatar = identidade.get("avatar")
     selo = identidade.get("selo")
-    entradas = ["-i", str(Path(clipe).resolve())]
+    dur = fim - inicio
+    if estatico:
+        entradas = ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.2f}",
+                    "-i", str(Path(clipe).resolve())]
+    else:
+        entradas = ["-i", str(Path(clipe).resolve())]
     if avatar and Path(avatar).exists():
         entradas += ["-i", str(Path(avatar).resolve())]
     if foto and layout == 3 and Path(foto).exists():
@@ -215,12 +249,18 @@ def montar(clipe: Path, inicio: float, fim: float, frase: str, layout: int,
     if selo and Path(selo).exists():
         entradas += ["-i", str(Path(selo).resolve())]
 
+    if estatico:
+        from . import musica
+        trilha = outdir / f"trilha-{seed}.wav"
+        musica.gerar_trilha_fria(dur, seed, trilha)
+        entradas += ["-i", str(trilha.resolve())]
+
     filtro = filtergraph(
         layout, inicio, fim, len(linhas), corpo,
         bool(avatar and Path(avatar).exists()),
         bool(selo and Path(selo).exists()),
         bool(foto and layout == 3 and Path(foto).exists()),
-        identidade, rodape or canal.CREDITO_ROCKSTAR, zoom, dx)
+        identidade, rodape or canal.CREDITO_ROCKSTAR, zoom, dx, estatico)
 
     subprocess.run(
         ["ffmpeg", "-y", "-loglevel", "error", *entradas,

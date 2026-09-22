@@ -11,6 +11,14 @@ conteúdo repetitivo na atualização de originalidade do Instagram de
 30/04/2026 — quem faz isso perde Explorar, aba de Reels e sugeridos. A
 variação aqui é ENTRE cenas, não do mesmo clipe.
 
+⚠ A trava de 7 dias é da **CENA** e do **PAR cena+frase**, não da frase
+sozinha. São 40 frases-base e 35 cartões por semana: exigir descanso de 7 dias
+também da frase é aritmeticamente impossível, e seria a regra errada de
+qualquer jeito — o que a política do Instagram chama de repetitivo é o
+ARQUIVO repetido, não a legenda parecida. A frase segue o critério do motor da
+casa: **rebaixar, nunca excluir** — a menos usada há mais tempo vem primeiro, e
+nenhuma frase sai duas vezes no mesmo dia.
+
 As outras quatro regras (ARQUITETURA.md §C.7), todas com caso de teste:
 
 1. nunca duas cenas do mesmo trecho do trailer (mesmo minuto) em posts
@@ -97,6 +105,14 @@ def _recente(quando: str | None, hoje: date, dias: int) -> bool:
     return (hoje - date.fromisoformat(quando)).days < dias
 
 
+def _idade(uso: dict, frase: str, quando: date) -> int:
+    """Há quantos dias a frase não é usada. Frase nunca usada vale o máximo."""
+    visto = uso["frases"].get(frase)
+    if not visto:
+        return 10_000
+    return (quando - date.fromisoformat(visto)).days
+
+
 def _afinidade(frase: str, cena: dict) -> int:
     """Quantos gatilhos da frase batem com as tags da cena."""
     f = frase.lower()
@@ -154,16 +170,24 @@ def montar_fila(quantos: int, quando: date, uso: dict | None = None,
         if not candidatas:
             break
 
-        # frases elegíveis: não usadas nos últimos 7 dias
-        frases_ok = [f for f in opcoes
-                     if not _recente(uso["frases"].get(f), quando,
-                                     DIAS_REPETICAO)] or list(opcoes)
+        # frases elegíveis: nenhuma repete no mesmo dia; fora isso, a menos
+        # usada há mais tempo vem primeiro (rebaixar, nunca excluir)
+        usadas_hoje = {f["frase_base"] for f in fila}
+        frases_ok = [f for f in opcoes if f not in usadas_hoje] or list(opcoes)
+        pares_recentes = {(p["cena"], p["frase"]) for p in uso.get("pares", [])
+                          if _recente(p["em"], quando, DIAS_REPETICAO)}
 
         melhor = max(
-            ((c, f) for c in candidatas for f in frases_ok),
+            ((c, f) for c in candidatas for f in frases_ok
+             if (c["id"], f) not in pares_recentes),
             key=lambda par: (_afinidade(par[1], par[0]),
-                             -len(uso["frases"].get(par[1], "") or ""),
-                             par[0]["id"]))
+                             _idade(uso, par[1], quando),
+                             par[0]["id"]),
+            default=None)
+        if melhor is None:
+            melhor = max(((c, f) for c in candidatas for f in frases_ok),
+                         key=lambda par: (_afinidade(par[1], par[0]),
+                                          par[0]["id"]))
         cena, frase = melhor
         texto = frase.replace("{N}", str(max(dias, 0)))
         fila.append({

@@ -12,13 +12,23 @@
       "longos_por_dia": 1,
       "shorts_por_dia": 3,
       "hora_short_utc": 10,
-      "gap_shorts_min": 300,
+      "gap_shorts_min": 180,
       "lancamento": "2026-11-19",
-      "fase_pos_lancamento": {"shorts": ["E", "E", "C"], "longos": ["guia"]},
+      "fase_pos_lancamento": {
+        "shorts": [
+          "E",
+          "E",
+          "C"
+        ],
+        "longos": [
+          "guia"
+        ]
+      },
       "max_short_s": 25.0,
       "oferta_longo": "",
       "oferta_short": "",
-      "bio": "Tudo sobre GTA 6, todo dia, até 19/11. Pré-venda e controle oficial no link."
+      "bio": "Tudo sobre GTA 6, todo dia, até 19/11. Pré-venda e controle oficial no link.",
+      "_nota_gap": "gap_shorts_min 180, não 300: medido contra as execuções que o cron do GitHub entrega de verdade (~6/dia, intervalos de 2 a 7 h). Com 300 o 2º e o 3º Short caíam fora do dia — o defeito de 02/09/2026 no canal ES, em forma de config."
     }
   },
   "instagram": {
@@ -32,7 +42,8 @@
     "hora_story_utc": 23,
     "regra_frase_dias": 7,
     "repo_midia": "diegohenriquemoraes-eng/gta6-media",
-    "release_tag": "cartoes"
+    "release_tag": "cartoes",
+    "_nota_cartoes": "5/dia dentro dos 4-6 do PLANO.md §3. O teto real é o acervo de cenas: a regra é uma frase por cena a cada 7 dias, então 5/dia exige 35 cenas aptas. Os trailers 1 e 2 sozinhos dão 28 (257 s de material a 6-12 s por cena) — por isso a galeria oficial virou fonte de cartão em 22/09/2026 (`produzir/cenas_da_galeria.py`, 162 fotos com assunto declarado no nome do arquivo). Com ela são ~190 aptas."
   },
   "tiktok": {
     "ativo": false,

@@ -76,6 +76,26 @@ def arquivo_de(video_origem: str) -> Path | None:
     return p if p and p.exists() else None
 
 
+def arquivo_da_cena(cena: dict) -> Path | None:
+    """O arquivo de origem de uma cena, seja clipe de vídeo ou foto da galeria.
+
+    A galeria entrou como fonte de cartão em 22/09/2026, e por um motivo de
+    aritmética: os trailers 1 e 2 somam 257 s, o que dá **28 cenas aptas**, e
+    com a regra de uma frase por cena a cada 7 dias isso limita o Instagram a
+    4 cartões/dia sem folga nenhuma. A galeria oficial tem 306 imagens. Foto
+    parada com zoom lento é exatamente o que as páginas do nicho postam, e é
+    material de divulgação da própria Rockstar.
+    """
+    if cena.get("video_origem") == "galeria":
+        p = GALERIA / cena["arquivo"]
+        return p if p.exists() else None
+    return arquivo_de(cena.get("video_origem", ""))
+
+
+def e_foto(cena: dict) -> bool:
+    return cena.get("video_origem") == "galeria"
+
+
 def _da_galeria(rotulo: str) -> Path | None:
     """Casa o rótulo do poço com um arquivo da galeria oficial, por substring.
 

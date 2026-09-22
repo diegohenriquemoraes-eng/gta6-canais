@@ -135,20 +135,27 @@ def identidade(cfg: dict) -> dict:
 
 
 def render_cartao(item: dict, cfg: dict, outdir: Path) -> Path:
-    """Renderiza o cartão do item da fila. Sem clipe local, não há cartão."""
+    """Renderiza o cartão do item da fila. Sem arquivo local, não há cartão.
+
+    A origem pode ser um clipe do trailer ou uma FOTO da galeria oficial
+    (`cenas.e_foto`); no segundo caso a imagem ganha zoom lento e a trilha
+    procedural da casa, porque foto parada e muda não entrega em feed de vídeo.
+    """
     cena = item["cena"]
-    mp4 = cenas.arquivo_de(cena["video_origem"])
-    if not mp4:
+    origem = cenas.arquivo_da_cena(cena)
+    if not origem:
         raise SystemExit(
-            f"clipe {cena['video_origem']} ausente em marca/oficial — "
+            f"origem de {cena['id']} ausente em marca/oficial — "
             f"rode produzir/baixar_oficial.py antes")
     rodape = (canal.credito_cc(cena["credito"]) if cena.get("licenca") == "cc-by"
               else canal.CREDITO_ROCKSTAR)
-    return cartao.montar(mp4, cena["inicio"], cena["fim"], item["frase"],
+    return cartao.montar(origem, cena["inicio"], cena["fim"], item["frase"],
                          item["layout"], identidade(cfg), outdir,
                          rodape=rodape, zoom=item.get("zoom", 1.0),
                          dx=item.get("dx", 0),
-                         saida=f"{item['id']}.mp4")
+                         saida=f"{item['id']}.mp4",
+                         estatico=cenas.e_foto(cena),
+                         seed=abs(hash(cena["id"])) % 99991)
 
 
 def legenda_do_cartao(item: dict, cfg: dict) -> str:
