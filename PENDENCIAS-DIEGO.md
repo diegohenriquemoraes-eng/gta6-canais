@@ -1,185 +1,162 @@
 # PENDÊNCIAS DO DIEGO — só login e criação de conta
 
-Tudo o que não exige as suas credenciais **já está feito**. O que sobrou é
-exatamente o que você pediu para ficar com você: criar conta e fazer login.
-
-**As abas já estão abertas no Chrome, na ordem.** Vá da esquerda para a direita.
-Depois de cada passo, rode:
+Atualizado em 22/09/2026, depois da rodada em que fiz tudo o que não exige as
+suas credenciais. Depois de cada passo, rode:
 
 ```bash
 python produzir/conferir_instalacao.py
 ```
 
-Ele diz, em uma tela, o que já está de pé e o que falta — com o comando exato
-de cada pendência.
-
-## Já feito por mim (não precisa tocar)
-
-- ✅ Repositório `gta6-canais` **público** (privado dá 2.000 min/mês de Actions
-  e o render diário passa disso na 1ª semana). Auditado antes: nenhum token,
-  chave ou credencial no código nem no histórico.
-- ✅ Repositório de mídia `gta6-media` **público** criado (o Instagram baixa o
-  MP4 de um Release de lá; asset de repo privado ele recusa sem explicar).
-- ✅ Os 7 workflows ativos no GitHub, e a suíte de **81 testes já passou no
-  runner** (47 s).
-- ✅ Material oficial baixado, 193 cenas marcadas, fila com 3 dias, marca
-  gerada, `ofertas.json` montado.
+Ele diz em uma tela o que está de pé e o que falta, com o comando de cada
+pendência.
 
 ---
 
-## Aba 1 — Conta Google nova · `accounts.google.com/signup`
+## ✅ Já feito (não precisa tocar)
 
-Crie a conta. Sugestão de nome: **Rumo a Vice City**.
+**Infra**
+- Repositório `gta6-canais` **público** (privado dá 2.000 min/mês de Actions e
+  o render diário passa disso na 1ª semana). Auditado antes: nenhum token,
+  chave ou credencial no código nem no histórico.
+- Repositório de mídia `gta6-media` **público** criado.
+- 7 workflows ativos; a suíte de **83 testes** passa no runner do GitHub.
 
-- 2FA ligado, senha no gerenciador.
-- ⚠ **Não use a conta dos 5 canais bíblicos nem a `diegohenriquemoraes@gmail.com`.**
-  Strike de copyright atinge todos os canais da mesma conta — em 08/09/2026
-  você chegou a um clique de excluir quatro canais de uma vez por causa disso.
-- **Anote o e-mail**: ele vai ser usado nas abas 5 e 8 (alias `+gta6`).
+**Conteúdo**
+- Material oficial baixado (trailers 1 e 2 + **306 imagens** da galeria),
+  193 cenas marcadas, fila com 3 dias, marca gerada.
 
-## Aba 2 — Criar o canal · `youtube.com/create_channel`
+**Shopee — fechada**
+- 6 produtos escolhidos com **dados reais medidos** (preço, vendas, comissão).
+- **36 links de afiliado gerados** (6 produtos × 6 origens), cada um com
+  Sub_id próprio. Já entram nas descrições, nos Shorts e no story.
 
-Logado na conta nova:
+**Instagram @rumoavicecity — quase pronto**
+- Conta profissional de **Criador** (categoria *Gaming video creator*).
+- **Foto de perfil** aplicada (o avatar do projeto).
+- **Bio** no ar: "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas
+  do que a Rockstar já mostrou. Quadro, capa e camiseta no link 👇"
 
-- Nome: **Rumo a Vice City** · handle: **@rumoavicecity**
-  (livre em 22/09/2026; se tiver sido tomado, use `@rumoavicecitybr` e me avise).
-- Avatar e banner prontos em `marca/avatar.png` e `marca/banner.png` — suba os
-  dois pelo Studio (o avatar **não tem API**; o banner tem, e o script aplica
-  depois).
-- **Copie o channel_id**: Studio → Configurações → Canal → Configurações
-  avançadas. Cole em `publicador/config.json`, campo `channel_id`.
+---
 
-## Aba 3 — Verificação por telefone · `youtube.com/verify_phone_number`
+## O que falta — na ordem
 
-Libera **capa personalizada** (sem isso o longo fica com o frame automático do
-YouTube, que num fundo escuro é um retângulo preto) e Shorts acima de 60 s.
+### 1. Instagram: o token (5 min) — é o mais perto de ficar pronto
 
-## Aba 4 — Projeto Cloud próprio · `console.cloud.google.com/projectcreate`
+A aba já está na tela certa:
+`developers.facebook.com/apps/1717198369563451` → **Configuração da API com
+login do Instagram** (o app "Palavra Viva Reels", reaproveitado; ele já serve
+`vendanaobra` e `psicologiafria.br`).
 
-1. Nome do projeto: `gta6-canais`.
-2. **APIs e serviços → Biblioteca** → ativar **YouTube Data API v3** e
-   **YouTube Analytics API**.
-3. **Tela de consentimento OAuth** → Externo → preencher → **PUBLICAR o app**.
-   ⚠ Deixar "Em teste" faz o refresh token morrer em 7 dias e o canal emudece
-   sem avisar.
-4. **Credenciais → Criar credencial → ID do cliente OAuth → App para
-   computador** → baixar o JSON.
-5. Salve como `credenciais/gta/client_secret.json` (pasta gitignorada).
-
-Projeto próprio é obrigatório: a cota de 10.000 unidades/dia é por projeto e
-este canal sozinho gasta ~7.600.
-
-### Depois da aba 4, no terminal (é só colar)
+1. No passo **2. Gerar tokens de acesso**, clique em **Adicionar conta**.
+   Abre um popup do Instagram — **é aí que a automação não entra**: autorize
+   com a conta `@rumoavicecity`.
+2. Depois que ela aparecer na lista, clique em **Gerar token** e copie.
+3. No terminal:
 
 ```bash
-python produzir/autorizar.py --canal gta
+python produzir/instalar.py instagram
 ```
 
-Abre o navegador; **escolha o canal certo**. O script confere e se recusa a
-gravar se não bater com o `channel_id`. Depois:
+Ele pede o token **sem ecoar na tela**, descobre o `IG_USER_ID` sozinho em
+`graph.instagram.com/me` (é o id que a API usa, não o número do painel — trocar
+os dois é erro clássico) e sobe os dois secrets. **Daí o Instagram publica
+sozinho.**
+
+### 2. Instagram: duas coisas que só o APP do celular faz
+
+- **Nome de exibição**: ainda está "Diego Moraes" → mudar para
+  **Rumo a Vice City**. Tentei pelo web e o campo resiste à automação; como o
+  Instagram só permite **2 trocas de nome em 14 dias**, não insisti às cegas.
+- **Link da bio**: a própria tela do Instagram web avisa — *"Somente é possível
+  editar o link no celular"*. Cole lá:
+  `https://s.shopee.com.br/1137fMYRT0` (quadro GTA 6, Sub_id `igbio`).
+
+### 3. YouTube: canal na conta nova (20 min)
+
+Logado em `gta6diegomoraes@gmail.com`:
+
+1. **Criar o canal** — youtube.com/create_channel. Nome **Rumo a Vice City**,
+   handle **@rumoavicecity**. Suba `marca/avatar.png` e `marca/banner.png`.
+2. **Verificação por telefone** — youtube.com/verify_phone_number (libera capa
+   personalizada; sem ela o longo fica com um retângulo preto).
+3. **Projeto Cloud próprio** — console.cloud.google.com/projectcreate, nome
+   `gta6-canais`:
+   - ativar **YouTube Data API v3** e **YouTube Analytics API**;
+   - tela de consentimento OAuth → Externo → **PUBLICAR o app**
+     (⚠ em "Em teste" o refresh token morre em 7 dias e o canal emudece);
+   - Credenciais → ID do cliente OAuth → **App para computador** → baixar o JSON
+     e **deixar na pasta Downloads**.
+4. No terminal, **um comando só**:
 
 ```bash
-gh secret set YT_CLIENT_SECRET_GTA < credenciais/gta/client_secret.json
-gh secret set YT_TOKEN_GTA < credenciais/gta/token.json
-python produzir/aplicar_marca.py
+python produzir/instalar.py youtube
 ```
 
-**A partir daqui o YouTube publica sozinho.** Para ver na hora:
-Actions → **Publicar** → Run workflow → `forcar_tipo: short`.
+Ele acha o JSON sozinho, abre a tela de consentimento (você escolhe o canal e
+clica em Permitir — o único clique que não dá para automatizar), grava o token,
+**lê o channel_id e põe no config**, sobe os dois secrets, aplica banner, bio,
+keywords e idioma, e roda o conferidor.
 
 Opcional, para medir hora contável:
 ```bash
-python produzir/autorizar.py --canal gta --analytics
-gh secret set YT_TOKEN_ANALYTICS_GTA < credenciais/gta/token_analytics.json
+python produzir/instalar.py analytics
 ```
 
-## Aba 5 — Instagram novo · `instagram.com/accounts/emailsignup`
+### 4. TikTok + Zernio (15 min)
 
-- Usuário: **@rumoavicecity**. E-mail: o alias `seuemailnovo+gta6@gmail.com`.
-- Depois de criar: Configurações → Conta → **Mudar para conta profissional** →
-  Criador.
-- ⚠ **Armadilha já paga**: bio e foto ficam travadas até haver **contato
-  confirmado**. Confirme o e-mail na Central de Contas; o código chega no
-  WhatsApp.
+Você já deslogou do TikTok para criar a conta nova.
 
-## Aba 6 — Página do Facebook nova · `facebook.com/pages/creation`
-
-Crie uma Página nova (**não** reaproveite nenhuma existente) e vincule-a à
-conta do Instagram da aba 5. A Graph API só publica em conta profissional
-vinculada a uma Página.
-
-## Aba 7 — Token da Graph API · `developers.facebook.com/apps`
-
-Dá para **reaproveitar o app da Meta do `psicologia-fria`** — basta adicionar a
-conta nova. Você precisa de dois valores:
-
-- `IG_USER_ID_GTA` — o id de `graph.instagram.com/me`, **não** o número que
-  aparece no painel;
-- `IG_TOKEN_GTA` — token longo com `instagram_business_content_publish`.
+1. tiktok.com/signup — conta **business** (libera link na bio sem mínimo de
+   seguidores), usuário **@rumoavicecity**, e-mail `gta6diegomoraes@gmail.com`.
+2. No Zernio (já logado), conecte essa conta do TikTok.
+3. Copie a chave de API e:
 
 ```bash
-gh secret set IG_USER_ID_GTA
-gh secret set IG_TOKEN_GTA
+gh secret set ZERNIO_KEY_GTA -R diegohenriquemoraes-eng/gta6-canais
 ```
 
-## Aba 8 — TikTok novo · `tiktok.com/signup`
+4. Em `publicador/config.json`, mude `tiktok.ativo` para `true`.
 
-Conta **business** (libera link na bio sem mínimo de seguidores):
-**@rumoavicecity**. Use o mesmo alias de e-mail.
-
-## Aba 9 — Zernio · `zernio.com`
-
-Conta nova, conecte o TikTok da aba 8 (grátis para 2 contas; a API oficial do
-TikTok só publica público depois de auditoria e robô de navegador é proibido).
+### 5. Opcional — notícias com resumo de verdade
 
 ```bash
-gh secret set ZERNIO_KEY_GTA
+gh secret set ANTHROPIC_API_KEY -R diegohenriquemoraes-eng/gta6-canais
 ```
 
-E mude `tiktok.ativo` para `true` em `publicador/config.json`.
+Sem ela, o resumo de emergência entra com nota 6 — abaixo do corte de 7 — e a
+notícia **não vira Short sozinha**. É de propósito: publicar resumo não
+conferido sobre lançamento de jogo é o caminho curto para o canal virar fonte
+de boato.
 
-## Aba 10 — Shopee Afiliados · `affiliate.shopee.com.br`
+---
 
-⚠ **Aqui a regra "conta nova em todo lugar" não se aplica**, e é melhor assim:
-o programa de afiliados é vinculado ao CPF — não dá para ter duas contas. E não
-há interferência nenhuma com o que já roda: **cada link leva o seu próprio
-`src=`**, então a medição de origem fica separada mesmo com a comissão caindo
-na mesma conta. Se você ainda assim quiser conta separada, aí é CNPJ, e vale
-decidir depois de ver a primeira venda.
+## O que mudou no plano (leia, muda a expectativa de dinheiro)
 
-`conteudo/ofertas.json` já está montado com os 6 produtos, prioridade, vigência
-e o porquê de cada escolha. Falta preencher, por produto:
+**O jogo GTA 6 de PS5 não está à venda na Shopee.** Medido em 22/09: a busca
+por "grand theft auto vi ps5 lacrado" volta vazia e "gta 6 ps5 mídia física" só
+devolve mod de PS2 e peça decorativa. A oferta principal do plano (pré-venda a
+R$ 449, ~3 % = ~R$ 13 por venda) **não existe** nessa plataforma.
 
-1. na página do produto: **`preco`, `vendidos`, `nota`**;
-2. no portal: a **`comissao_pct`** daquele item;
-3. em **Ofertas → Link personalizado**, um link **por origem**, com `?src=`
-   (ou `&src=` se a URL já tiver `?`): `yt_short`, `yt_largo`, `yt_bio`,
-   `ig_bio`, `ig_story`, `tt_bio`.
+O que existe, e é o que está no ar:
 
-```json
-"links": {
-  "yt_largo": "https://s.shopee.com.br/XXXXXXX?src=yt_largo",
-  "yt_short": "https://s.shopee.com.br/XXXXXXX?src=yt_short",
-  "ig_bio":   "https://s.shopee.com.br/XXXXXXX?src=ig_bio",
-  "ig_story": "https://s.shopee.com.br/XXXXXXX?src=ig_story",
-  "tt_bio":   "https://s.shopee.com.br/XXXXXXX?src=tt_bio"
-}
-```
+| produto | preço | vendas | comissão | por venda |
+|---|---|---|---|---|
+| Quadro GTA 6 3 peças | R$ 27,96 | 265 | 17 % | **R$ 4,75** |
+| Camiseta GTA 6 | R$ 33,75 | 449 | 5 % | R$ 1,69 |
+| Capa GTA VI para PS5 | R$ 14,90 | 67 | **30 %** | R$ 4,47 |
+| Quadro grande com moldura | R$ 45,90 | 119 | 10 % | R$ 4,59 |
+| Capa frontal PS5 (lançamento) | R$ 18,75 | 89 | 15 % | R$ 2,81 |
+| Quadro decorativo simples | R$ 14,99 | 129 | 12 % | R$ 1,80 |
 
-4. Reordene `prioridade` por **vendidos × comissão × preço** (1 = link
-   principal; hoje é a pré-venda do jogo).
-5. Monte a **vitrine** com os 4-6 primeiros e guarde o link único — é ele que
-   vai na bio das três redes.
-6. Rode `python -m unittest testes.test_config` (reprova link sem `src=` e
-   oferta sem `vigencia.ate`).
+**R$ 1.000/mês passam a ser ~210 vendas, ou 7 por dia** — não os ~80 jogos do
+plano. Em compensação, tíquete de R$ 15 a R$ 46 converte muito mais fácil que
+um console, e estes números de venda são reais, não projetados.
 
-## Por último — bio e links
-
-A bio está em `publicador/config.json` e o `aplicar_marca.py` aplica no YouTube.
-O que **não tem API** e é seu, pelo Studio/app:
-
-- avatar do canal · nome e handle · trailer para não inscritos · seção Links;
-- bio e link da vitrine no **Instagram** e no **TikTok**.
+⚠ **O rastreador da Shopee é o Sub_id, não `?src=`.** O campo só aceita
+alfanumérico (`yt_largo` com underscore é recusado) e parâmetro colado na URL
+encurtada o encurtador descarta. Os Sub_ids são `ytlargo`, `ytshort`, `ytbio`,
+`igbio`, `igstory`, `ttbio`. O relatório sai em affiliate.shopee.com.br →
+**Relatório de cliques / Relatório de vendas**, filtrando por Sub_id 1.
 
 ---
 
@@ -187,7 +164,7 @@ O que **não tem API** e é seu, pelo Studio/app:
 
 | issue | o que significa | o que fazer |
 |---|---|---|
-| *Poço de fatos quase seco* | menos de 9 fatos livres | escrever fatos novos em `conteudo/fatos/` (gancho ≤ 10 palavras, narração 35-55, fonte, cena, tags). A 3 Shorts/dia os 150 cobrem até ~08/11 |
+| *Poço de fatos quase seco* | menos de 9 fatos livres | escrever fatos novos em `conteudo/fatos/`. A 3 Shorts/dia os 150 cobrem até ~08/11 — e o lançamento é 19/11 |
 | *publicou menos que a config* | a esteira entregou menos do que devia | olhar o workflow Publicar em Actions |
 | *Fila sem pacote para amanhã* | o Reabastecer falhou | rodar à mão em Actions |
 | *Licença mudou em `<videoId>`* | um gameplay CC BY deixou de ser CC | tirar as cenas `cc:<id>` de `conteudo/cenas.json` |

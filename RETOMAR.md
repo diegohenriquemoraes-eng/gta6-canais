@@ -47,18 +47,46 @@ testes` → **81 casos verdes**, sem rede, em ~5 s.
 Render no PC do Diego: Short ~40 s, cartão 28-40 s, longo ~15 min. O runner do
 Actions tem 2 núcleos e o job do Publicar tem teto de 110 min — cabe.
 
+## Feito em 22/09, tarde (rodada "faça você")
+
+- Repo `gta6-canais` e `gta6-media` **públicos**; 7 workflows ativos; a suíte
+  passa no runner do GitHub.
+- **Shopee fechada**: 6 produtos medidos (preço, vendas, comissão reais) e
+  **36 links de afiliado gerados** (6 × 6 origens), com Sub_id por origem.
+- **Instagram @rumoavicecity** criado em `gta6diegomoraes@gmail.com`,
+  convertido em conta profissional de Criador, com foto de perfil e bio no ar.
+- `produzir/instalar.py` — um comando para tudo o que vem depois de criar a
+  conta (acha o JSON do Cloud, autoriza, grava o channel_id, sobe os secrets,
+  aplica a marca) e para o Instagram (descobre o IG_USER_ID sozinho).
+- `produzir/conferir_instalacao.py` — diz em uma tela o que falta.
+
+⚠ **O jogo GTA 6 de PS5 não existe na Shopee.** A oferta principal do plano
+(pré-venda a R$ 449, ~R$ 13/venda) foi substituída por quadro (R$ 4,75/venda),
+capa de PS5 (30 % de comissão) e camiseta. **R$ 1.000/mês passam a ser ~210
+vendas, ou 7 por dia** — a conta honesta do projeto piorou em tíquete e
+melhorou em facilidade de conversão. Detalhe em `conteudo/ofertas.json`.
+
+⚠ **O rastreador da Shopee é o Sub_id, não `?src=`**: o campo só aceita
+alfanumérico e o encurtador descarta parâmetro colado na URL. Como o link curto
+não mostra o Sub_id, a rastreabilidade é **declarada** no campo `subid` — e é
+isso que `test_config` exige.
+
 ## O que está pronto ESPERANDO secret
 
 Nada disso é código faltando — é conta que só o Diego pode criar.
 Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
 
-- YouTube: `YT_CLIENT_SECRET_GTA`, `YT_TOKEN_GTA` (+ `YT_TOKEN_ANALYTICS_GTA`)
-- Instagram: `IG_USER_ID_GTA`, `IG_TOKEN_GTA` + repo público `gta6-media`
-- TikTok: `ZERNIO_KEY_GTA` (e `tiktok.ativo: true`)
+- YouTube: `YT_CLIENT_SECRET_GTA`, `YT_TOKEN_GTA` (+ `YT_TOKEN_ANALYTICS_GTA`).
+  O canal ainda não existe — depende de o Diego criá-lo em
+  `gta6diegomoraes@gmail.com`. Depois é `python produzir/instalar.py youtube`.
+- Instagram: `IG_USER_ID_GTA`, `IG_TOKEN_GTA`. A conta já existe e já é
+  profissional; falta **autorizá-la no app da Meta** (o popup de consentimento
+  é o único ponto em que a automação não entra) e rodar
+  `python produzir/instalar.py instagram`.
+- TikTok: `ZERNIO_KEY_GTA` (e `tiktok.ativo: true`). Zernio já logado.
 - Notícias: `ANTHROPIC_API_KEY` (sem ele o resumo de emergência entra com nota 6
   e a notícia **não** vira Short sozinha — de propósito)
-- Shopee: `conteudo/ofertas.json` está montado com os 6 produtos e a vigência de
-  cada um, **faltando preço, vendidos, comissão e os links com `src=`**
+- Shopee: **fechada**, nada a fazer.
 
 ## O que falta, em ordem
 
@@ -128,9 +156,15 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
   screenshot de praia ao meio-dia o cabeçalho ciano sumia no céu. Agora há duas
   faixas `drawbox` translúcidas no topo e no rodapé — contraste garantido em
   qualquer foto, e a imagem continua parecendo GTA.
-- ⚠ **A Shopee bloqueia acesso automatizado**: a busca devolve a página de
-  verificação anti-robô e `affiliate.shopee.com.br` redireciona para o login.
-  O passo virou pendência do Diego, com o JSON já montado.
+- ⚠ **A Shopee bloqueia acesso automatizado enquanto deslogada**: a busca do
+  site devolve a página de verificação anti-robô. **Logado no portal de
+  afiliados, tudo funciona** — a lista de produtos sai de
+  `/api/v3/offer/product/list` (preço, vendas e as três taxas de comissão) e o
+  Link personalizado gera até 5 links por vez com Sub_id.
+- ⚠ **Instagram: o link da bio e o nome de exibição só saem pelo APP do
+  celular.** A própria tela do web avisa sobre o link; o campo do nome resiste
+  à automação e o Instagram só permite 2 trocas em 14 dias, então não se
+  insiste às cegas.
 
 ## Réguas (de `PLANO.md` §6)
 
