@@ -129,13 +129,19 @@ def linhas() -> list[tuple[str, str, str]]:
     out.append((OK if com_link else FALTA,
                 f"ofertas da Shopee com link: {len(com_link)} de {len(ofertas)}",
                 "affiliate.shopee.com.br → Link personalizado, um por origem, "
-                "com ?src=  (ver PENDENCIAS-DIEGO.md §8)"))
+                "com Sub_id 1 = origem (ver PENDENCIAS-DIEGO.md)"))
     for o in com_link:
-        ruins = [k for k, v in (o.get("links") or {}).items() if "src=" not in v]
+        # o rastreador da Shopee é o Sub_id, não um `?src=` na URL: o campo só
+        # aceita alfanumérico e o encurtador descarta parâmetro colado. Como o
+        # link curto não mostra o Sub_id, o que se confere é a DECLARAÇÃO.
+        subid = o.get("subid") or {}
+        ruins = [k for k in (o.get("links") or {})
+                 if not (subid.get(k) or "").isalnum()]
         if ruins:
-            out.append((FALTA, f"oferta '{o['produto']}' sem src= em: "
+            out.append((FALTA, f"oferta '{o['produto']}' sem Sub_id válido em: "
                                f"{', '.join(ruins)}",
-                        "sem src= não dá para saber de onde veio a venda"))
+                        "sem Sub_id não dá para saber de onde veio a venda "
+                        "(Relatório de cliques → filtrar por Sub_id 1)"))
         vig = (o.get("vigencia") or {}).get("ate")
         if vig and date.fromisoformat(vig) < date.today():
             out.append((AVISO, f"oferta '{o['produto']}' venceu em {vig}",
