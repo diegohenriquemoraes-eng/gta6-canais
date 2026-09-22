@@ -35,9 +35,16 @@ testes` → **81 casos verdes**, sem rede, em ~5 s.
 | `marca/` | avatar, banner, selo, paleta — procedurais, sem nada da Rockstar |
 | 7 workflows | publicar (2 crons/h), reabastecer (6 h), testes (todo push), vigia (2×/dia), medir, realinhar, colher-cc |
 
-**Renderizado e conferido no olho:** Short do formato A (19,9 s, gancho no frame
-zero, rodapé de crédito, fundo de screenshot oficial), cartão nos 3 layouts e
-cartão de foto da galeria com zoom lento + trilha procedural.
+**Renderizado e conferido no olho:**
+
+| formato | resultado |
+|---|---|
+| A (Short de contagem) | 19,9 s, 1080×1920, áudio = vídeo, gancho no frame zero, rodapé de crédito, fundo de screenshot oficial |
+| D (longo "tudo o que sabemos") | **16,5 min (990 s), 55,9 MB**, 44 fatos, capa com selo, legenda `.srt` gerada, áudio = vídeo (990,27 / 990,25) |
+| G (cartão) | os 3 layouts, com clipe do trailer; e o cartão de foto da galeria com zoom lento + trilha procedural |
+
+Render no PC do Diego: Short ~40 s, cartão 28-40 s, longo ~15 min. O runner do
+Actions tem 2 núcleos e o job do Publicar tem teto de 110 min — cabe.
 
 ## O que está pronto ESPERANDO secret
 
@@ -112,6 +119,11 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
 - ⚠ **A galeria oficial não sai por script simples** (`rockstargames.com/VI/media`
   monta por JavaScript). Saiu pelo Chrome: as 308 URLs estão em
   `marca/oficial/galeria-urls.txt` e o downloader do `baixar_oficial.py` as usa.
+- ⚠ **Foto clara de GTA come o texto do longo.** O fundo do longo herdou o
+  escurecimento do motor bíblico (-0,34), pensado para foto noturna; com
+  screenshot de praia ao meio-dia o cabeçalho ciano sumia no céu. Agora há duas
+  faixas `drawbox` translúcidas no topo e no rodapé — contraste garantido em
+  qualquer foto, e a imagem continua parecendo GTA.
 - ⚠ **A Shopee bloqueia acesso automatizado**: a busca devolve a página de
   verificação anti-robô e `affiliate.shopee.com.br` redireciona para o login.
   O passo virou pendência do Diego, com o JSON já montado.

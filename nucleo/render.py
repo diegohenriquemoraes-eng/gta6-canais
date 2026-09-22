@@ -125,10 +125,19 @@ def render_longo_estatico(pasta: Path, voz_wav: str, pad_wav: str, ass: str,
     if imagem is not None:
         entrada = ["-loop", "1", "-framerate", str(FPS_ESTATICO),
                    "-t", f"{dur:.2f}", "-i", imagem.name]
-        # a imagem entra bem escura: é fundo de quarto no escuro, não paisagem
+        # A imagem entra escura e com FAIXAS de escurecimento no topo e no
+        # rodapé, que é onde moram o cabeçalho da seção e a legenda. No motor
+        # bíblico bastava escurecer tudo (o fundo era noturno de propósito);
+        # aqui a fonte é screenshot oficial de GTA, e boa parte é dia claro na
+        # praia — o primeiro render saiu com o cabeçalho ciano sumindo no céu.
+        # `drawbox` com preenchimento translúcido custa quase nada e garante
+        # contraste em qualquer foto.
         fundo = (f"scale=1920:1080:force_original_aspect_ratio=increase,"
-                 f"crop=1920:1080,eq=brightness=-0.34:saturation=0.7,"
-                 f"vignette=PI/4,fps={FPS_ESTATICO}")
+                 f"crop=1920:1080,eq=brightness=-0.30:saturation=0.80,"
+                 f"vignette=PI/4,"
+                 f"drawbox=x=0:y=0:w=1920:h=170:color=black@0.55:t=fill,"
+                 f"drawbox=x=0:y=880:w=1920:h=200:color=black@0.55:t=fill,"
+                 f"fps={FPS_ESTATICO}")
     else:
         entrada = ["-f", "lavfi", "-i",
                    f"color=c=0x05070F:s=1920x1080:r={FPS_ESTATICO}:d={dur:.2f}"]
