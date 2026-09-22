@@ -68,8 +68,9 @@ sozinho.**
   **Rumo a Vice City**. Tentei pelo web e o campo resiste à automação; como o
   Instagram só permite **2 trocas de nome em 14 dias**, não insisti às cegas.
 - **Link da bio**: a própria tela do Instagram web avisa — *"Somente é possível
-  editar o link no celular"*. Cole lá:
-  `https://s.shopee.com.br/1137fMYRT0` (quadro GTA 6, Sub_id `igbio`).
+  editar o link no celular"*. Cole lá o link do **produto foco**:
+  `https://s.shopee.com.br/9KiFc9wYfG`
+  (chaveiro mini capa de PS5 GTA 6, Sub_id `igbio`).
 
 ### 3. YouTube: canal na conta nova (20 min)
 
@@ -137,20 +138,34 @@ por "grand theft auto vi ps5 lacrado" volta vazia e "gta 6 ps5 mídia física" s
 devolve mod de PS2 e peça decorativa. A oferta principal do plano (pré-venda a
 R$ 449, ~3 % = ~R$ 13 por venda) **não existe** nessa plataforma.
 
-O que existe, e é o que está no ar:
+**O foco é UM produto** (decisão sua, 22/09): o **acessório mais vendido**.
+Varri 157 produtos do tema em 12 buscas, ordenando pelo "Mais vendidos" da
+própria Shopee:
 
-| produto | preço | vendas | comissão | por venda |
+| vendas | produto | preço | comissão | por venda |
 |---|---|---|---|---|
-| Quadro GTA 6 3 peças | R$ 27,96 | 265 | 17 % | **R$ 4,75** |
-| Camiseta GTA 6 | R$ 33,75 | 449 | 5 % | R$ 1,69 |
-| Capa GTA VI para PS5 | R$ 14,90 | 67 | **30 %** | R$ 4,47 |
-| Quadro grande com moldura | R$ 45,90 | 119 | 10 % | R$ 4,59 |
-| Capa frontal PS5 (lançamento) | R$ 18,75 | 89 | 15 % | R$ 2,81 |
-| Quadro decorativo simples | R$ 14,99 | 129 | 12 % | R$ 1,80 |
+| 449 | Camiseta GTA 6 | R$ 33,75 | 5 % | R$ 1,69 |
+| **355** | **Chaveiro mini capa de PS5** | **R$ 13,99** | **16 %** | **R$ 2,24** |
+| 298 | Totem display de mesa | R$ 33,68 | 5 % | R$ 1,68 |
+| 267 | Skin adesiva PS5 Slim | R$ 49,97 | 5 % | R$ 2,50 |
+| 265 | Quadro 3 peças | R$ 27,96 | 17 % | R$ 4,75 |
+| 163 | Mouse pad grande | R$ 19,99 | 5 % | R$ 1,00 |
 
-**R$ 1.000/mês passam a ser ~210 vendas, ou 7 por dia** — não os ~80 jogos do
-plano. Em compensação, tíquete de R$ 15 a R$ 46 converte muito mais fácil que
-um console, e estes números de venda são reais, não projetados.
+**O foco ficou no chaveiro.** A camiseta vende mais, mas é vestuário, não
+acessório — e paga menos (R$ 1,69 contra R$ 2,24) com tíquete duas vezes e meia
+maior. O chaveiro é o caso raro de **volume alto E comissão alta**: 355 vendas a
+16 %, contra 84 vendas do segundo chaveiro do mesmo tipo. A R$ 13,99 é compra de
+impulso, que é o que um canal sem autoridade nenhuma consegue converter.
+
+A descrição de cada vídeo leva **uma oferta só** — com duas, nenhuma converte e
+o Sub_id não diz qual produto falhou, só a rede.
+
+O **quadro de 3 peças fica em prioridade 2** porque paga o dobro por venda
+(R$ 4,75): é a troca natural na régua de 05/12 se o chaveiro não vender.
+
+**R$ 1.000/mês = ~450 chaveiros, ou 15 por dia.** Muito longe dos ~80 jogos do
+plano original. O tíquete baixo é o que torna isso plausível para um canal novo,
+mas é honesto dizer que 15 vendas/dia por afiliado é meta agressiva.
 
 ⚠ **O rastreador da Shopee é o Sub_id, não `?src=`.** O campo só aceita
 alfanumérico (`yt_largo` com underscore é recusado) e parâmetro colado na URL

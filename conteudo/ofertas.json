@@ -7,6 +7,39 @@
   "_origens": "yt_short, yt_largo, yt_bio, ig_bio, ig_story, tt_bio. Sem rastreador não dá para saber de onde veio a venda, e trocar de produto vira achismo.",
   "ofertas": [
     {
+      "produto": "Chaveiro Mini Capa de Jogo PS5 — GTA 6",
+      "loja": "Shopee",
+      "url_produto": "https://shopee.com.br/product/585308333/58262795600",
+      "itemid": "58262795600",
+      "shopid": "585308333",
+      "preco": 13.99,
+      "vendidos": 355,
+      "comissao_pct": 16,
+      "por_venda": 2.24,
+      "prioridade": 1,
+      "vigencia": {
+        "de": "2026-09-22",
+        "ate": "2027-06-30"
+      },
+      "links": {
+        "yt_largo": "https://s.shopee.com.br/AAHMbepj3b",
+        "yt_short": "https://s.shopee.com.br/3B7cGnpdlT",
+        "yt_bio": "https://s.shopee.com.br/5AsgeUH1Dp",
+        "ig_bio": "https://s.shopee.com.br/9KiFc9wYfG",
+        "ig_story": "https://s.shopee.com.br/2BF54zsVBb",
+        "tt_bio": "https://s.shopee.com.br/9fL60mugAh"
+      },
+      "subid": {
+        "yt_largo": "ytlargo",
+        "yt_short": "ytshort",
+        "yt_bio": "ytbio",
+        "ig_bio": "igbio",
+        "ig_story": "igstory",
+        "tt_bio": "ttbio"
+      },
+      "porque": "O ACESSÓRIO MAIS VENDIDO do tema na Shopee: 355 vendas, contra 84 do segundo chaveiro do mesmo tipo. E é raro ter volume E comissão alta ao mesmo tempo — 16 % num produto de R$ 13,99. Tíquete de impulso: para um canal novo, sem autoridade nenhuma, converter R$ 14 é muito mais fácil que R$ 28 ou R$ 450. É o FOCO, decisão do Diego em 22/09."
+    },
+    {
       "produto": "Quadro GTA 6 Grand Theft Auto VI 3 Peças Decorativo",
       "loja": "Shopee",
       "url_produto": "https://shopee.com.br/product/603373476/58214422256",
@@ -16,7 +49,7 @@
       "vendidos": 265,
       "comissao_pct": 17,
       "por_venda": 4.75,
-      "prioridade": 1,
+      "prioridade": 2,
       "vigencia": {
         "de": "2026-09-22",
         "ate": "2027-06-30"
@@ -49,7 +82,7 @@
       "vendidos": 449,
       "comissao_pct": 5,
       "por_venda": 1.69,
-      "prioridade": 2,
+      "prioridade": 3,
       "vigencia": {
         "de": "2026-09-22",
         "ate": "2027-06-30"
@@ -73,29 +106,29 @@
       }
     },
     {
-      "produto": "Capa GTA VI para PS5 (pro/slim/fat)",
+      "produto": "Quadro decorativo GTA 6 (modelo simples)",
       "loja": "Shopee",
-      "url_produto": "https://shopee.com.br/product/1755538939/58214502136",
-      "itemid": "58214502136",
-      "shopid": "1755538939",
-      "preco": 14.9,
-      "vendidos": 67,
-      "comissao_pct": 30,
-      "por_venda": 4.47,
-      "prioridade": 3,
+      "url_produto": "https://shopee.com.br/product/1067233550/22897166922",
+      "itemid": "22897166922",
+      "shopid": "1067233550",
+      "preco": 14.99,
+      "vendidos": 129,
+      "comissao_pct": 12,
+      "por_venda": 1.8,
+      "prioridade": 4,
       "vigencia": {
         "de": "2026-09-22",
         "ate": "2027-06-30"
       },
       "links": {
-        "yt_largo": "https://s.shopee.com.br/1AaTSVGq6",
-        "yt_short": "https://s.shopee.com.br/7Adl0eTuiV",
-        "yt_bio": "https://s.shopee.com.br/9fL5zGSiuW",
-        "ig_bio": "https://s.shopee.com.br/1AaTWcFUq",
-        "ig_story": "https://s.shopee.com.br/6VO4DULy65",
-        "tt_bio": "https://s.shopee.com.br/50ZGQkw4Xk"
+        "yt_largo": "https://s.shopee.com.br/4qFqELhfYb",
+        "yt_short": "https://s.shopee.com.br/70KKoM3bnR",
+        "yt_bio": "https://s.shopee.com.br/6fhUPlDTlR",
+        "ig_bio": "https://s.shopee.com.br/3B7cFLzWou",
+        "ig_story": "https://s.shopee.com.br/5VVX1eyyMw",
+        "tt_bio": "https://s.shopee.com.br/4qFqESVuCO"
       },
-      "porque": "A MAIOR comissão encontrada (30 %) — R$ 4,47 num produto de R$ 14,90. Vira o link principal se o quadro não converter.",
+      "porque": "Completa a vitrine de 6 com a faixa de preço mais baixa.",
       "subid": {
         "yt_largo": "ytlargo",
         "yt_short": "ytshort",
@@ -115,7 +148,7 @@
       "vendidos": 119,
       "comissao_pct": 10,
       "por_venda": 4.59,
-      "prioridade": 4,
+      "prioridade": 5,
       "vigencia": {
         "de": "2026-09-22",
         "ate": "2027-06-30"
@@ -148,7 +181,7 @@
       "vendidos": 89,
       "comissao_pct": 15,
       "por_venda": 2.81,
-      "prioridade": 5,
+      "prioridade": 6,
       "vigencia": {
         "de": "2026-09-22",
         "ate": "2027-06-30"
@@ -172,29 +205,29 @@
       }
     },
     {
-      "produto": "Quadro decorativo GTA 6 (modelo simples)",
+      "produto": "Capa GTA VI para PS5 (pro/slim/fat)",
       "loja": "Shopee",
-      "url_produto": "https://shopee.com.br/product/1067233550/22897166922",
-      "itemid": "22897166922",
-      "shopid": "1067233550",
-      "preco": 14.99,
-      "vendidos": 129,
-      "comissao_pct": 12,
-      "por_venda": 1.8,
-      "prioridade": 6,
+      "url_produto": "https://shopee.com.br/product/1755538939/58214502136",
+      "itemid": "58214502136",
+      "shopid": "1755538939",
+      "preco": 14.9,
+      "vendidos": 67,
+      "comissao_pct": 30,
+      "por_venda": 4.47,
+      "prioridade": 7,
       "vigencia": {
         "de": "2026-09-22",
         "ate": "2027-06-30"
       },
       "links": {
-        "yt_largo": "https://s.shopee.com.br/4qFqELhfYb",
-        "yt_short": "https://s.shopee.com.br/70KKoM3bnR",
-        "yt_bio": "https://s.shopee.com.br/6fhUPlDTlR",
-        "ig_bio": "https://s.shopee.com.br/3B7cFLzWou",
-        "ig_story": "https://s.shopee.com.br/5VVX1eyyMw",
-        "tt_bio": "https://s.shopee.com.br/4qFqESVuCO"
+        "yt_largo": "https://s.shopee.com.br/1AaTSVGq6",
+        "yt_short": "https://s.shopee.com.br/7Adl0eTuiV",
+        "yt_bio": "https://s.shopee.com.br/9fL5zGSiuW",
+        "ig_bio": "https://s.shopee.com.br/1AaTWcFUq",
+        "ig_story": "https://s.shopee.com.br/6VO4DULy65",
+        "tt_bio": "https://s.shopee.com.br/50ZGQkw4Xk"
       },
-      "porque": "Completa a vitrine de 6 com a faixa de preço mais baixa.",
+      "porque": "A MAIOR comissão encontrada (30 %) — R$ 4,47 num produto de R$ 14,90. Vira o link principal se o quadro não converter.",
       "subid": {
         "yt_largo": "ytlargo",
         "yt_short": "ytshort",
@@ -211,5 +244,20 @@
     "Caneca GTA 6 — o melhor tem 132 vendas a 5 % (R$ 1,25 por venda); fica fora dos 6, entra na vitrine se sobrar espaço."
   ],
   "_rastreador": "Sub_id 1 da Shopee, não `?src=`. O portal só aceita valor ALFANUMÉRICO (a-z, A-Z, 0-9) — `yt_largo` com underscore é recusado, e parâmetro colado na URL encurtada o encurtador descarta. Por isso o Sub_id vai sem underscore (`ytlargo`, `igstory`…) e o campo `subid` guarda o mapa origem → valor: o link curto não mostra o Sub_id, então é aqui que a rastreabilidade fica declarada e testável. O relatório sai em affiliate.shopee.com.br → Relatório de cliques / Relatório de vendas, filtrando por Sub_id 1.",
-  "_gerado_em": "2026-09-22"
+  "_gerado_em": "2026-09-22",
+  "_FOCO": "Decisão do Diego em 22/09/2026: **um produto só**, o acessório mais vendido — o chaveiro mini capa de PS5 (355 vendas, 16 %). A descrição do vídeo leva UMA oferta, não duas: foco é foco, e é assim que dá para saber se o produto converte. O quadro de 3 peças fica em prioridade 2 porque paga o DOBRO por venda (R$ 4,75 contra R$ 2,24): é a troca natural na régua de 05/12 se o chaveiro não vender. Os demais ficam só na vitrine da bio.",
+  "_ranking_por_vendas": {
+    "medido_em": "2026-09-22",
+    "criterio": "vendas históricas na Shopee, só itens com GTA 6/VI no nome",
+    "top": [
+      "449 — Camiseta GTA 6 (R$ 33,75, 5 %) — vestuário, não acessório",
+      "355 — Chaveiro mini capa PS5 (R$ 13,99, 16 %) ← ACESSÓRIO CAMPEÃO, é o foco",
+      "298 — Totem display de mesa (R$ 33,68, 5 %)",
+      "267 — Skin adesiva PS5 Slim (R$ 49,97, 5 %)",
+      "265 — Quadro 3 peças (R$ 27,96, 17 %)",
+      "163 — Mouse pad grande (R$ 19,99, 5 %)",
+      "130 — Suporte de controle DualSense (R$ 17,49, 5 %)"
+    ],
+    "nota": "157 produtos do tema varridos em 12 buscas. A camiseta vende mais que o chaveiro, mas é vestuário — o pedido foi acessório. E o chaveiro paga R$ 2,24 contra R$ 1,69 da camiseta, com tíquete menos da metade."
+  }
 }

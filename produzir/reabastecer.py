@@ -131,7 +131,12 @@ def noticia_do_dia(quando: date) -> dict | None:
 
 
 def oferta_do_dia(origem: str, quando: date) -> str:
-    """Bloco de oferta com `src=` por origem, respeitando a vigência."""
+    """Bloco da oferta PRINCIPAL para esta origem, respeitando a vigência.
+
+    Cada link já carrega o Sub_id da origem (o rastreador nativo da Shopee —
+    `?src=` não serve: o campo só aceita alfanumérico e o encurtador descarta
+    parâmetro colado). Uma oferta por descrição, a de prioridade 1.
+    """
     if not OFERTAS.exists():
         return ""
     itens = json.loads(OFERTAS.read_text(encoding="utf-8"))
@@ -145,7 +150,10 @@ def oferta_do_dia(origem: str, quando: date) -> str:
         validos.append(o)
     validos.sort(key=lambda o: o.get("prioridade", 99))
     linhas = []
-    for o in validos[:2]:
+    # UMA oferta por descrição, não duas (decisão do Diego, 22/09/2026): com
+    # duas, nenhuma converte e o Sub_id não diz qual produto falhou — diz só a
+    # rede. Foco é o que torna a régua de 05/12 legível.
+    for o in validos[:1]:
         link = o.get("links", {}).get(origem, "")
         if not link:
             continue
