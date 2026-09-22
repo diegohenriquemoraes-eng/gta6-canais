@@ -21,7 +21,8 @@ E para o Instagram:
 
     python produzir/instalar.py instagram
 
-Pede o token longo **sem ecoar na tela**, descobre o `IG_USER_ID` sozinho em
+**Lê o token da área de transferência** (basta clicar em copiar no portal da
+Meta) ou, se não achar, pede **sem ecoar na tela**, descobre o `IG_USER_ID` sozinho em
 `graph.instagram.com/me` (é o id que a API usa, não o número do painel — a
 troca dos dois é erro clássico) e sobe os dois secrets. O valor nunca aparece
 em linha de comando nem em log.
@@ -170,13 +171,39 @@ def instalar_analytics() -> None:
 
 # ---------------------------------------------------------------- Instagram --
 
-def instalar_instagram() -> None:
+def _do_clipboard() -> str:
+    """Lê o token da área de transferência, sem ele passar por lugar nenhum.
+
+    O portal da Meta tem um botão de copiar; assim o token vai do navegador
+    direto para o secret, sem ser digitado, sem aparecer na tela e sem entrar
+    no histórico do terminal.
+    """
+    try:
+        r = subprocess.run(["powershell", "-NoProfile", "-Command",
+                            "Get-Clipboard -Raw"],
+                           capture_output=True, text=True, timeout=30)
+        return (r.stdout or "").strip()
+    except Exception:
+        return ""
+
+
+def instalar_instagram(do_clipboard: bool = True) -> None:
     import requests
 
     passo(1, "Token longo da Graph API")
-    print("  Cole o token com instagram_business_content_publish.")
-    print("  Ele NÃO aparece na tela e não vai para log nenhum.")
-    token = getpass.getpass("  token: ").strip()
+    token = ""
+    if do_clipboard:
+        token = _do_clipboard()
+        if token.startswith("IG") or (len(token) > 60 and " " not in token):
+            print(f"  peguei um token da área de transferência "
+                  f"({len(token)} caracteres). Não vou mostrá-lo.")
+        else:
+            print("  a área de transferência não tem cara de token; vou pedir.")
+            token = ""
+    if not token:
+        print("  Cole o token com instagram_business_content_publish.")
+        print("  Ele NÃO aparece na tela e não vai para log nenhum.")
+        token = getpass.getpass("  token: ").strip()
     if not token:
         raise SystemExit("Nada colado; nada foi enviado.")
 
@@ -211,13 +238,15 @@ def main() -> None:
     ap.add_argument("alvo", choices=["youtube", "analytics", "instagram"],
                     nargs="?", default="youtube")
     ap.add_argument("--pular-marca", action="store_true")
+    ap.add_argument("--sem-clipboard", action="store_true",
+                    help="não tenta ler o token da área de transferência")
     a = ap.parse_args()
     if a.alvo == "youtube":
         instalar_youtube(a.pular_marca)
     elif a.alvo == "analytics":
         instalar_analytics()
     else:
-        instalar_instagram()
+        instalar_instagram(not a.sem_clipboard)
 
 
 if __name__ == "__main__":
