@@ -32,6 +32,7 @@ testes` → **81 casos verdes**, sem rede, em ~5 s.
 | `produzir/colher_cc.py` | gameplay CC BY, com trava de data em 19/11 |
 | `produzir/vigia.py` | 6 alarmes, incluindo "publicou menos que a config" |
 | `produzir/medir_desempenho.py` · `realinhar_publicados.py` · `aplicar_marca.py` | prontos, esperando token |
+| `produzir/conferir_instalacao.py` | confere repo, secrets, config, token, ofertas, cenas e fila; diz o comando de cada pendência |
 | `marca/` | avatar, banner, selo, paleta — procedurais, sem nada da Rockstar |
 | 7 workflows | publicar (2 crons/h), reabastecer (6 h), testes (todo push), vigia (2×/dia), medir, realinhar, colher-cc |
 
@@ -61,11 +62,14 @@ Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
 
 ## O que falta, em ordem
 
-1. **Tornar o repo público** antes de ligar qualquer cron. Repo privado dá
-   2.000 min/mês de Actions e só o render diário passa disso na primeira semana.
-2. Diego faz os passos de `PENDENCIAS-DIEGO.md` (contas, tokens, Shopee).
-3. Colar o `channel_id` em `publicador/config.json` e rodar
-   `produzir/aplicar_marca.py`.
+1. ~~Tornar o repo público~~ — **feito em 22/09** (`gta6-canais` e
+   `gta6-media`, os dois públicos; o repo foi auditado antes e não tem token,
+   chave nem credencial no código ou no histórico). Os 7 workflows estão ativos
+   e a suíte de 81 testes já passou no runner (47 s).
+2. Diego faz os passos de `PENDENCIAS-DIEGO.md` — **só criar conta e login**,
+   com as abas já abertas no Chrome na ordem certa.
+3. Depois de cada passo: `python produzir/conferir_instalacao.py` diz em uma
+   tela o que está de pé e o que falta, com o comando de cada pendência.
 4. Fase 0 fecha em **30/09** com o 1º post no ar.
 
 ## Decisões que não se reabrem

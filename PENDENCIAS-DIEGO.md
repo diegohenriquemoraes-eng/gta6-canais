@@ -1,126 +1,117 @@
-# PENDÊNCIAS DO DIEGO — o que só você pode fazer
+# PENDÊNCIAS DO DIEGO — só login e criação de conta
 
-Tudo o que não depende de você já está feito e testado. Isto aqui é ~2 h, uma
-vez. Depois disso você não participa mais.
+Tudo o que não exige as suas credenciais **já está feito**. O que sobrou é
+exatamente o que você pediu para ficar com você: criar conta e fazer login.
 
-**Faça na ordem.** Os passos 1 a 4 destravam o YouTube; 5 e 6 destravam o
-Instagram; 7 destrava o TikTok; 8 destrava o dinheiro. Dá para parar no 4 e já
-ter canal publicando sozinho.
+**As abas já estão abertas no Chrome, na ordem.** Vá da esquerda para a direita.
+Depois de cada passo, rode:
+
+```bash
+python produzir/conferir_instalacao.py
+```
+
+Ele diz, em uma tela, o que já está de pé e o que falta — com o comando exato
+de cada pendência.
+
+## Já feito por mim (não precisa tocar)
+
+- ✅ Repositório `gta6-canais` **público** (privado dá 2.000 min/mês de Actions
+  e o render diário passa disso na 1ª semana). Auditado antes: nenhum token,
+  chave ou credencial no código nem no histórico.
+- ✅ Repositório de mídia `gta6-media` **público** criado (o Instagram baixa o
+  MP4 de um Release de lá; asset de repo privado ele recusa sem explicar).
+- ✅ Os 7 workflows ativos no GitHub, e a suíte de **81 testes já passou no
+  runner** (47 s).
+- ✅ Material oficial baixado, 193 cenas marcadas, fila com 3 dias, marca
+  gerada, `ofertas.json` montado.
 
 ---
 
-## 0. Tornar o repositório PÚBLICO (2 min) — antes de qualquer cron
+## Aba 1 — Conta Google nova · `accounts.google.com/signup`
 
-https://github.com/diegohenriquemoraes-eng/gta6-canais/settings → *Danger Zone*
-→ **Change visibility** → Public.
+Crie a conta. Sugestão de nome: **Rumo a Vice City**.
 
-Por quê: repo privado dá **2.000 minutos de Actions por mês**. Só o render
-diário (1 longo de ~15 min + 3 Shorts + 5 cartões) passa disso na primeira
-semana. Em repo público os minutos são ilimitados — é a mesma decisão que o
-`Palavra-Viva-3x` já tomou.
-
-Não há segredo no código: tokens moram nos Secrets, e `marca/oficial/`
-(432 MB de galeria da Rockstar) é gitignorado.
-
----
-
-## 1. Conta Google NOVA (10 min)
-
-https://accounts.google.com/signup
-
-- Nome sugerido da conta: **Rumo a Vice City**.
-- Senha no gerenciador, **2FA ligado**.
-- ⚠ **NÃO usar a conta dos 5 canais bíblicos nem a `diegohenriquemoraes@gmail.com`.**
-  Um strike de copyright atinge todos os canais da mesma conta, e em 08/09/2026
+- 2FA ligado, senha no gerenciador.
+- ⚠ **Não use a conta dos 5 canais bíblicos nem a `diegohenriquemoraes@gmail.com`.**
+  Strike de copyright atinge todos os canais da mesma conta — em 08/09/2026
   você chegou a um clique de excluir quatro canais de uma vez por causa disso.
+- **Anote o e-mail**: ele vai ser usado nas abas 5 e 8 (alias `+gta6`).
 
----
+## Aba 2 — Criar o canal · `youtube.com/create_channel`
 
-## 2. Criar o canal no YouTube (5 min)
-
-https://www.youtube.com/ (logado na conta nova) → foto → **Criar canal**
+Logado na conta nova:
 
 - Nome: **Rumo a Vice City** · handle: **@rumoavicecity**
-  (conferido livre em 22/09/2026; se tiver sido tomado, tente
-  `@rumoavicecitybr` e me avise o handle final).
-- Avatar e banner já estão prontos em `marca/avatar.png` e `marca/banner.png` —
-  suba os dois pelo YouTube Studio (o avatar **não tem API**; o banner tem, e o
-  script `produzir/aplicar_marca.py` aplica sozinho depois).
-- **Copie o channel_id** (Studio → Configurações → Canal → Configurações
-  avançadas) e cole em `publicador/config.json`, campo `channel_id`.
+  (livre em 22/09/2026; se tiver sido tomado, use `@rumoavicecitybr` e me avise).
+- Avatar e banner prontos em `marca/avatar.png` e `marca/banner.png` — suba os
+  dois pelo Studio (o avatar **não tem API**; o banner tem, e o script aplica
+  depois).
+- **Copie o channel_id**: Studio → Configurações → Canal → Configurações
+  avançadas. Cole em `publicador/config.json`, campo `channel_id`.
 
-## 2b. Verificação por telefone (5 min)
-
-https://www.youtube.com/verify_phone_number
+## Aba 3 — Verificação por telefone · `youtube.com/verify_phone_number`
 
 Libera **capa personalizada** (sem isso o longo fica com o frame automático do
 YouTube, que num fundo escuro é um retângulo preto) e Shorts acima de 60 s.
 
----
+## Aba 4 — Projeto Cloud próprio · `console.cloud.google.com/projectcreate`
 
-## 3. Projeto Google Cloud PRÓPRIO (20 min)
-
-https://console.cloud.google.com/ (logado na conta NOVA)
-
-1. **Novo projeto**: `gta6-canais`.
+1. Nome do projeto: `gta6-canais`.
 2. **APIs e serviços → Biblioteca** → ativar **YouTube Data API v3** e
    **YouTube Analytics API**.
-3. **Tela de consentimento OAuth** → Externo → preencher → **PUBLICAR o app**
-   (deixar "Em teste" faz o refresh token morrer em 7 dias e o canal emudece
-   sem avisar).
+3. **Tela de consentimento OAuth** → Externo → preencher → **PUBLICAR o app**.
+   ⚠ Deixar "Em teste" faz o refresh token morrer em 7 dias e o canal emudece
+   sem avisar.
 4. **Credenciais → Criar credencial → ID do cliente OAuth → App para
    computador** → baixar o JSON.
-5. Salvar como `credenciais/gta/client_secret.json` (a pasta é gitignorada).
+5. Salve como `credenciais/gta/client_secret.json` (pasta gitignorada).
 
-Projeto próprio é obrigatório: a cota de 10.000 unidades/dia é por projeto, e
-este canal sozinho gasta ~7.500.
+Projeto próprio é obrigatório: a cota de 10.000 unidades/dia é por projeto e
+este canal sozinho gasta ~7.600.
 
----
-
-## 4. Gerar o token e colar nos secrets (10 min)
+### Depois da aba 4, no terminal (é só colar)
 
 ```bash
-cd C:\Users\NOTE\Desktop\Projetos\gta6-canais
 python produzir/autorizar.py --canal gta
 ```
 
-Abre o navegador; **escolha a conta/canal certo**. O script confere o canal e
-se recusa a gravar se não bater com o `channel_id` do config.
-
-Depois (opcional, para a medição de horas):
-
-```bash
-python produzir/autorizar.py --canal gta --analytics
-```
-
-E suba os secrets:
+Abre o navegador; **escolha o canal certo**. O script confere e se recusa a
+gravar se não bater com o `channel_id`. Depois:
 
 ```bash
 gh secret set YT_CLIENT_SECRET_GTA < credenciais/gta/client_secret.json
 gh secret set YT_TOKEN_GTA < credenciais/gta/token.json
+python produzir/aplicar_marca.py
 ```
 
-**A partir daqui o YouTube publica sozinho.** Rode uma vez à mão para ver:
+**A partir daqui o YouTube publica sozinho.** Para ver na hora:
 Actions → **Publicar** → Run workflow → `forcar_tipo: short`.
 
----
+Opcional, para medir hora contável:
+```bash
+python produzir/autorizar.py --canal gta --analytics
+gh secret set YT_TOKEN_ANALYTICS_GTA < credenciais/gta/token_analytics.json
+```
 
-## 5. Instagram profissional + Página do Facebook (20 min)
+## Aba 5 — Instagram novo · `instagram.com/accounts/emailsignup`
 
-1. Criar conta nova no app do Instagram: **@rumoavicecity**.
-2. Configurações → Conta → **Mudar para conta profissional** → Criador.
-3. Criar uma **Página do Facebook** nova (facebook.com/pages/create) e vincular
-   à conta do Instagram.
-4. ⚠ **Armadilha já paga**: bio e foto ficam travadas até haver **contato
-   confirmado**. Use um alias do Gmail (`seuemail+gta6@gmail.com`) na Central
-   de Contas; o código chega no WhatsApp.
+- Usuário: **@rumoavicecity**. E-mail: o alias `seuemailnovo+gta6@gmail.com`.
+- Depois de criar: Configurações → Conta → **Mudar para conta profissional** →
+  Criador.
+- ⚠ **Armadilha já paga**: bio e foto ficam travadas até haver **contato
+  confirmado**. Confirme o e-mail na Central de Contas; o código chega no
+  WhatsApp.
 
-## 6. Token de longa duração da Graph API (15 min)
+## Aba 6 — Página do Facebook nova · `facebook.com/pages/creation`
 
-https://developers.facebook.com/ — dá para **reaproveitar o app da Meta do
-`psicologia-fria`**: basta adicionar a conta nova.
+Crie uma Página nova (**não** reaproveite nenhuma existente) e vincule-a à
+conta do Instagram da aba 5. A Graph API só publica em conta profissional
+vinculada a uma Página.
 
-Você precisa de dois valores:
+## Aba 7 — Token da Graph API · `developers.facebook.com/apps`
+
+Dá para **reaproveitar o app da Meta do `psicologia-fria`** — basta adicionar a
+conta nova. Você precisa de dois valores:
 
 - `IG_USER_ID_GTA` — o id de `graph.instagram.com/me`, **não** o número que
   aparece no painel;
@@ -131,45 +122,39 @@ gh secret set IG_USER_ID_GTA
 gh secret set IG_TOKEN_GTA
 ```
 
-E crie o repositório de mídia **público** (o Instagram baixa o MP4 de lá; asset
-de repo privado ele recusa sem explicar):
+## Aba 8 — TikTok novo · `tiktok.com/signup`
+
+Conta **business** (libera link na bio sem mínimo de seguidores):
+**@rumoavicecity**. Use o mesmo alias de e-mail.
+
+## Aba 9 — Zernio · `zernio.com`
+
+Conta nova, conecte o TikTok da aba 8 (grátis para 2 contas; a API oficial do
+TikTok só publica público depois de auditoria e robô de navegador é proibido).
 
 ```bash
-gh repo create diegohenriquemoraes-eng/gta6-media --public --description "Hospedagem dos MP4 do @rumoavicecity"
+gh secret set ZERNIO_KEY_GTA
 ```
 
----
+E mude `tiktok.ativo` para `true` em `publicador/config.json`.
 
-## 7. TikTok + Zernio (15 min)
+## Aba 10 — Shopee Afiliados · `affiliate.shopee.com.br`
 
-1. Conta nova no TikTok, **business** (libera link na bio sem mínimo de
-   seguidores): @rumoavicecity.
-2. Conectar no **Zernio** (grátis para 2 contas; a API oficial do TikTok só
-   publica público depois de auditoria e robô de navegador é proibido).
-3. `gh secret set ZERNIO_KEY_GTA` e mude `tiktok.ativo` para `true` em
-   `publicador/config.json`.
+⚠ **Aqui a regra "conta nova em todo lugar" não se aplica**, e é melhor assim:
+o programa de afiliados é vinculado ao CPF — não dá para ter duas contas. E não
+há interferência nenhuma com o que já roda: **cada link leva o seu próprio
+`src=`**, então a medição de origem fica separada mesmo com a comissão caindo
+na mesma conta. Se você ainda assim quiser conta separada, aí é CNPJ, e vale
+decidir depois de ver a primeira venda.
 
----
+`conteudo/ofertas.json` já está montado com os 6 produtos, prioridade, vigência
+e o porquê de cada escolha. Falta preencher, por produto:
 
-## 8. Shopee: gerar os links (15 min) — este é o passo do dinheiro
-
-Em 22/09/2026 o Chrome **não estava logado** na Shopee: `affiliate.shopee.com.br`
-redirecionou para a tela de login e a busca do site devolveu a página de
-verificação anti-robô. Logar e passar por verificação anti-robô não é coisa que
-eu faça por você, então este passo ficou inteiro aqui.
-
-`conteudo/ofertas.json` já está montado com os 6 produtos, a prioridade, a
-vigência de cada um e o porquê de cada escolha. Falta preencher 4 campos por
-produto:
-
-1. Entre em https://affiliate.shopee.com.br/ (conta de afiliado já ativa).
-2. Para cada produto de `conteudo/ofertas.json`:
-   - ache o item na Shopee, **anote `preco`, `vendidos` e `nota`** da página;
-   - anote a **`comissao_pct`** que o portal mostra para aquele item;
-   - cole a URL em **Ofertas → Link personalizado** e gere um link **por
-     origem**, acrescentando `?src=` (ou `&src=` se já houver `?`):
-     `yt_short`, `yt_largo`, `yt_bio`, `ig_bio`, `ig_story`, `tt_bio`.
-3. Preencha `links` no JSON, assim:
+1. na página do produto: **`preco`, `vendidos`, `nota`**;
+2. no portal: a **`comissao_pct`** daquele item;
+3. em **Ofertas → Link personalizado**, um link **por origem**, com `?src=`
+   (ou `&src=` se a URL já tiver `?`): `yt_short`, `yt_largo`, `yt_bio`,
+   `ig_bio`, `ig_story`, `tt_bio`.
 
 ```json
 "links": {
@@ -181,36 +166,28 @@ produto:
 }
 ```
 
-4. Reordene `prioridade` por **vendidos × comissão × preço** (prioridade 1 = o
-   link principal, que hoje é a pré-venda do jogo).
-5. Monte a **vitrine de afiliado** com os 4-6 primeiros e guarde o link único —
-   é ele que vai na bio das três redes.
-6. Rode `python -m unittest testes.test_config` — ele reprova link sem `src=` e
-   oferta sem `vigencia.ate`.
+4. Reordene `prioridade` por **vendidos × comissão × preço** (1 = link
+   principal; hoje é a pré-venda do jogo).
+5. Monte a **vitrine** com os 4-6 primeiros e guarde o link único — é ele que
+   vai na bio das três redes.
+6. Rode `python -m unittest testes.test_config` (reprova link sem `src=` e
+   oferta sem `vigencia.ate`).
 
-⚠ Sem `src=`, daqui a dois meses não dá para saber se a oferta gerou um clique
-sequer, e trocar de produto vira achismo.
+## Por último — bio e links
 
----
+A bio está em `publicador/config.json` e o `aplicar_marca.py` aplica no YouTube.
+O que **não tem API** e é seu, pelo Studio/app:
 
-## 9. Bio e links nas três redes (5 min)
-
-A bio já está em `publicador/config.json` (`bio`) e é aplicada no YouTube por
-`python produzir/aplicar_marca.py`. O que **não tem API** e é seu:
-
-- **avatar** do YouTube (só Studio/app);
-- **nome e handle** do canal (só Studio — a API devolve 200 gravando nada);
-- **trailer para não inscritos** (só Studio);
-- **seção Links** do canal (só Studio);
-- bio e link do **Instagram** e do **TikTok** (cole o link da vitrine).
+- avatar do canal · nome e handle · trailer para não inscritos · seção Links;
+- bio e link da vitrine no **Instagram** e no **TikTok**.
 
 ---
 
-## O que fazer quando o vigia abrir issue
+## Quando o vigia abrir issue
 
 | issue | o que significa | o que fazer |
 |---|---|---|
-| *Poço de fatos quase seco* | menos de 9 fatos livres | escrever fatos novos em `conteudo/fatos/` (gancho ≤ 10 palavras, narração 35-55, fonte, cena, tags) e dar push. A 3 Shorts/dia os 150 fatos cobrem até ~08/11 |
-| *publicou menos que a config* | a esteira está entregando menos do que devia | olhar o workflow Publicar em Actions |
+| *Poço de fatos quase seco* | menos de 9 fatos livres | escrever fatos novos em `conteudo/fatos/` (gancho ≤ 10 palavras, narração 35-55, fonte, cena, tags). A 3 Shorts/dia os 150 cobrem até ~08/11 |
+| *publicou menos que a config* | a esteira entregou menos do que devia | olhar o workflow Publicar em Actions |
 | *Fila sem pacote para amanhã* | o Reabastecer falhou | rodar à mão em Actions |
 | *Licença mudou em `<videoId>`* | um gameplay CC BY deixou de ser CC | tirar as cenas `cc:<id>` de `conteudo/cenas.json` |
