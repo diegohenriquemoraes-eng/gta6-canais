@@ -1,0 +1,43 @@
+{
+  "espera_short_s": 900,
+  "espera_longo_s": 2400,
+  "canais": {
+    "gta": {
+      "ativo": true,
+      "titulo_canal": "Rumo a Vice City · GTA 6",
+      "handle": "rumoavicecity",
+      "channel_id": "",
+      "fila": "fila",
+      "hora_longo_utc": 21,
+      "longos_por_dia": 1,
+      "shorts_por_dia": 3,
+      "hora_short_utc": 10,
+      "gap_shorts_min": 300,
+      "lancamento": "2026-11-19",
+      "fase_pos_lancamento": {"shorts": ["E", "E", "C"], "longos": ["guia"]},
+      "max_short_s": 25.0,
+      "oferta_longo": "",
+      "oferta_short": "",
+      "bio": "Tudo sobre GTA 6, todo dia, até 19/11. Pré-venda e controle oficial no link."
+    }
+  },
+  "instagram": {
+    "ativo": true,
+    "nome": "Rumo a Vice City",
+    "handle": "rumoavicecity",
+    "cartoes_por_dia": 5,
+    "hora_cartao_utc": 11,
+    "gap_cartoes_min": 150,
+    "stories_por_dia": 1,
+    "hora_story_utc": 23,
+    "regra_frase_dias": 7,
+    "repo_midia": "diegohenriquemoraes-eng/gta6-media",
+    "release_tag": "cartoes"
+  },
+  "tiktok": {
+    "ativo": false,
+    "via": "zernio",
+    "atraso_min": 30,
+    "nota": "Espelha os cartões do Instagram. A API oficial do TikTok só publica público depois de auditoria e robô de navegador é proibido — por isso Zernio (2 contas grátis, app auditado). Ver PENDENCIAS-DIEGO.md."
+  }
+}
