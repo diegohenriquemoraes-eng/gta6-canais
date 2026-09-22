@@ -1,85 +1,111 @@
 {
-  "_nota": "ESQUELETO. Em 22/09/2026 o Chrome não estava logado na Shopee (affiliate.shopee.com.br redirecionou para /buyer/login) e a busca do site devolveu a página de verificação anti-robô. Fazer login ou passar por verificação anti-robô não é coisa que eu faça — então os campos `vendidos`, `nota`, `comissao_pct`, `preco` e `links` ficam vazios para o Diego preencher em 15 minutos (passo a passo em PENDENCIAS-DIEGO.md §9). O motor roda sem oferta nenhuma: `oferta_do_dia` devolve string vazia e a descrição sai sem o bloco. O teste `test_config.py` reprova qualquer link sem `src=` e qualquer oferta sem `vigencia.ate`.",
+  "_medido_em": "2026-09-22",
+  "_como": "Lido no portal de afiliados da Shopee (Oferta de produto), pela resposta de /api/v3/offer/product/list: preço, vendas históricas e a maior taxa de comissão entre max/seller/default. Ordenado por vendas × comissão × preço.",
+
+  "_ACHADO_QUE_MUDA_O_PLANO": "O jogo GTA 6 para PS5 NÃO está à venda na Shopee. A busca por 'grand theft auto vi ps5 lacrado' volta vazia, e 'gta 6 ps5 mídia física' só devolve mod de PS2, chaveiro e peça decorativa. A oferta principal do PLANO.md §4 (pré-venda do jogo a R$ 449, ~3% = ~R$ 13 por venda) NÃO EXISTE nesta plataforma. O mercado real de GTA 6 na Shopee é acessório e decoração — tíquete de R$ 14 a R$ 46, mas comissão de 10 a 30 %, bem acima dos 3 % de console.",
+
+  "_CONTA_HONESTA_REVISADA": "O melhor produto rende R$ 4,75 por venda (quadro de 3 peças, 17 %). R$ 1.000/mês passam a ser ~210 vendas, ou 7 por dia — não os ~80 jogos/mês do plano original. Em compensação, o tíquete baixo converte muito mais fácil que um console de R$ 449, e os números de venda aqui são reais e medidos, não projetados. A régua de 05/12 (1º clique/venda no rastreador) vale igual.",
+
   "_ordem": "prioridade 1 é o link principal; o reabastecedor põe no máximo 2 ofertas por descrição, em ordem de prioridade, respeitando a vigência.",
-  "_origens": "src= por origem: yt_short, yt_largo, yt_bio, ig_bio, ig_story, tt_bio. Sem isso não dá para saber de onde veio a venda, e trocar de produto vira achismo.",
+  "_origens": "yt_short, yt_largo, yt_bio, ig_bio, ig_story, tt_bio. Sem rastreador não dá para saber de onde veio a venda, e trocar de produto vira achismo.",
+  "_links_pendentes": "Falta gerar o link de afiliado por origem (Ofertas → Link personalizado). Tudo o mais aqui é dado real medido.",
+
   "ofertas": [
     {
-      "produto": "GTA VI PS5 Standard (pré-venda)",
-      "loja": "Shopee — loja oficial",
-      "url_produto": "",
-      "preco": null,
-      "vendidos": null,
-      "nota": null,
-      "comissao_pct": null,
+      "produto": "Quadro GTA 6 Grand Theft Auto VI 3 Peças Decorativo",
+      "loja": "Shopee",
+      "url_produto": "https://shopee.com.br/product/603373476/58214422256",
+      "itemid": "58214422256",
+      "shopid": "603373476",
+      "preco": 27.96,
+      "vendidos": 265,
+      "comissao_pct": 17,
+      "por_venda": 4.75,
       "prioridade": 1,
-      "vigencia": {"de": "2026-09-22", "ate": "2026-11-20"},
+      "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
       "links": {},
-      "porque": "Maior tíquete e a intenção de compra é exatamente o tema do canal. Conta honesta: R$ 449 a ~3% rende ~R$ 13 por venda."
+      "porque": "O melhor da casa em vendas × comissão × preço: 265 vendas já feitas e R$ 4,75 por venda. Decoração de parede é compra de fã, que é exatamente o público de um canal de contagem regressiva."
     },
     {
-      "produto": "DualSense edição GTA 6",
+      "produto": "Camiseta GTA 6 / Grand Theft Auto",
       "loja": "Shopee",
-      "url_produto": "",
-      "preco": null,
-      "vendidos": null,
-      "nota": null,
-      "comissao_pct": null,
+      "url_produto": "https://shopee.com.br/product/455064461/18699033179",
+      "itemid": "18699033179",
+      "shopid": "455064461",
+      "preco": 33.75,
+      "vendidos": 449,
+      "comissao_pct": 5,
+      "por_venda": 1.69,
       "prioridade": 2,
-      "vigencia": {"de": "2026-11-19", "ate": "2027-03-31"},
+      "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
       "links": {},
-      "porque": "Chega em 19/11 junto com o jogo; vira o link principal quando a pré-venda morre (20/11). É a troca prevista na régua de 05/12."
+      "porque": "O item mais vendido do tema na plataforma (449). Comissão baixa, mas é o que mais gente já comprou — bom para a vitrine e para story."
     },
     {
-      "produto": "Camiseta GTA 6",
+      "produto": "Capa GTA VI para PS5 (pro/slim/fat)",
       "loja": "Shopee",
-      "url_produto": "",
-      "preco": null,
-      "vendidos": null,
-      "nota": null,
-      "comissao_pct": null,
+      "url_produto": "https://shopee.com.br/product/1755538939/58214502136",
+      "itemid": "58214502136",
+      "shopid": "1755538939",
+      "preco": 14.9,
+      "vendidos": 67,
+      "comissao_pct": 30,
+      "por_venda": 4.47,
       "prioridade": 3,
       "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
       "links": {},
-      "porque": "Moda tem a maior faixa de comissão (até 15%). R$ 50 a ~12% rende ~R$ 6."
+      "porque": "A MAIOR comissão encontrada (30 %) — R$ 4,47 num produto de R$ 14,90. Vira o link principal se o quadro não converter."
     },
     {
-      "produto": "Caneca GTA 6",
+      "produto": "Quadro grande com moldura GTA 6",
       "loja": "Shopee",
-      "url_produto": "",
-      "preco": null,
-      "vendidos": null,
-      "nota": null,
-      "comissao_pct": null,
+      "url_produto": "https://shopee.com.br/product/1021671405/23099026258",
+      "itemid": "23099026258",
+      "shopid": "1021671405",
+      "preco": 45.9,
+      "vendidos": 119,
+      "comissao_pct": 10,
+      "por_venda": 4.59,
       "prioridade": 4,
       "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
       "links": {},
-      "porque": "Compra por impulso, tíquete baixo."
+      "porque": "Maior tíquete com venda comprovada (R$ 45,90, 119 vendas)."
     },
     {
-      "produto": "Pôster adesivo A3 GTA 6",
+      "produto": "Capa frontal GTA 6 para PS5 (lançamento)",
       "loja": "Shopee",
-      "url_produto": "",
-      "preco": null,
-      "vendidos": null,
-      "nota": null,
-      "comissao_pct": null,
+      "url_produto": "https://shopee.com.br/product/1598321730/58259129119",
+      "itemid": "58259129119",
+      "shopid": "1598321730",
+      "preco": 18.75,
+      "vendidos": 89,
+      "comissao_pct": 15,
+      "por_venda": 2.81,
       "prioridade": 5,
       "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
       "links": {},
-      "porque": "R$ 15-25, impulso puro; entra na vitrine, não na descrição."
+      "porque": "Produto de lançamento, tende a crescer conforme 19/11 se aproxima."
     },
     {
-      "produto": "Chaveiro 3D / action figure GTA VI",
+      "produto": "Quadro decorativo GTA 6 (modelo simples)",
       "loja": "Shopee",
-      "url_produto": "",
-      "preco": null,
-      "vendidos": null,
-      "nota": null,
-      "comissao_pct": null,
+      "url_produto": "https://shopee.com.br/product/1067233550/22897166922",
+      "itemid": "22897166922",
+      "shopid": "1067233550",
+      "preco": 14.99,
+      "vendidos": 129,
+      "comissao_pct": 12,
+      "por_venda": 1.8,
       "prioridade": 6,
       "vigencia": {"de": "2026-09-22", "ate": "2027-06-30"},
       "links": {},
-      "porque": "Completa a vitrine de 4-6 produtos da bio."
+      "porque": "Completa a vitrine de 6 com a faixa de preço mais baixa."
     }
+  ],
+
+  "_descartados": [
+    "GTA VI PS5 Standard (pré-venda) — NÃO EXISTE na Shopee; só mods de PS2 e peças decorativas se passando por 'mídia física'. Era a prioridade 1 do plano original.",
+    "DualSense edição GTA 6 — o que a busca devolve são SUPORTES de controle com tema GTA, não o controle oficial. Reavaliar depois de 19/11, quando o produto chegar ao Brasil.",
+    "Caneca GTA 6 — o melhor tem 132 vendas a 5 % (R$ 1,25 por venda); fica fora dos 6, entra na vitrine se sobrar espaço."
   ]
 }
