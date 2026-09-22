@@ -2,7 +2,7 @@
  "data": "2026-09-23",
  "handle": "rumoavicecity",
  "dias_para_lancamento": 57,
- "gerado_em": "2026-09-22T13:12:43+00:00",
+ "gerado_em": "2026-09-22T14:21:11+00:00",
  "shorts": [
   {
    "id": "F004",
@@ -391,33 +391,6 @@
   {
    "id": "2026-09-23-c1",
    "cena": {
-    "id": "trailer2-017",
-    "video_origem": "trailer2",
-    "inicio": 134.4,
-    "fim": 141.83,
-    "descricao": "Lancha cortando o rio no meio do pântano, vista de cima",
-    "tags": [
-     "barco",
-     "pantano",
-     "natureza",
-     "leonida"
-    ],
-    "licenca": "rockstar_oficial",
-    "credito": "",
-    "no_runner": false
-   },
-   "frase": "Você encontrou a página que fala tudo sobre GTA 6",
-   "frase_base": "Você encontrou a página que fala tudo sobre GTA 6",
-   "categoria": "identidade",
-   "layout": 1,
-   "contexto": "Lancha cortando o rio no meio do pântano, vista de cima",
-   "fonte": "rockstargames.com/VI",
-   "zoom": 1.0,
-   "dx": 0
-  },
-  {
-   "id": "2026-09-23-c2",
-   "cena": {
     "id": "trailer2-013",
     "video_origem": "trailer2",
     "inicio": 98.47,
@@ -433,17 +406,72 @@
     "credito": "",
     "no_runner": false
    },
-   "frase": "Vice City abre em 57 dias",
-   "frase_base": "Vice City abre em {N} dias",
-   "categoria": "contagem",
-   "layout": 2,
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "frase_base": "Aqui a gente vive Vice City antes de todo mundo",
+   "categoria": "identidade",
+   "layout": 1,
    "contexto": "Grupo dentro de uma boate com luzes roxas e azuis",
    "fonte": "rockstargames.com/VI",
    "zoom": 1.0,
    "dx": 0
   },
   {
+   "id": "2026-09-23-c2",
+   "cena": {
+    "id": "trailer2-017",
+    "video_origem": "trailer2",
+    "inicio": 134.4,
+    "fim": 141.83,
+    "descricao": "Lancha cortando o rio no meio do pântano, vista de cima",
+    "tags": [
+     "barco",
+     "pantano",
+     "natureza",
+     "leonida"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "57 dias para conhecer Leonida de verdade",
+   "frase_base": "{N} dias para conhecer Leonida de verdade",
+   "categoria": "contagem",
+   "layout": 2,
+   "contexto": "Lancha cortando o rio no meio do pântano, vista de cima",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
    "id": "2026-09-23-c3",
+   "cena": {
+    "id": "trailer2-011",
+    "video_origem": "trailer2",
+    "inicio": 86.0,
+    "fim": 92.0,
+    "descricao": "Lucia e Jason parados dentro de uma cozinha simples",
+    "tags": [
+     "jason",
+     "lucia",
+     "personagem",
+     "dupla",
+     "interior"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "frase_base": "O romance entre Jason e Lucia é opcional",
+   "categoria": "fato",
+   "layout": 3,
+   "contexto": "Lucia e Jason parados dentro de uma cozinha simples",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-23-c4",
    "cena": {
     "id": "trailer2-004",
     "video_origem": "trailer2",
@@ -460,17 +488,17 @@
     "credito": "",
     "no_runner": false
    },
-   "frase": "Vice City é duas vezes o tamanho de Los Santos",
-   "frase_base": "Vice City é duas vezes o tamanho de Los Santos",
-   "categoria": "fato",
-   "layout": 3,
+   "frase": "Vice City abre em 57 dias",
+   "frase_base": "Vice City abre em {N} dias",
+   "categoria": "contagem",
+   "layout": 1,
    "contexto": "Direção em primeira pessoa numa via expressa, com a cidade ao fundo",
    "fonte": "rockstargames.com/VI",
    "zoom": 1.0,
    "dx": 0
   },
   {
-   "id": "2026-09-23-c4",
+   "id": "2026-09-23-c5",
    "cena": {
     "id": "trailer2-010",
     "video_origem": "trailer2",
@@ -487,37 +515,11 @@
     "credito": "",
     "no_runner": false
    },
-   "frase": "57 dias para conhecer Leonida de verdade",
-   "frase_base": "{N} dias para conhecer Leonida de verdade",
-   "categoria": "contagem",
-   "layout": 1,
-   "contexto": "Casas de madeira sobre palafitas à beira do canal, com barcos",
-   "fonte": "rockstargames.com/VI",
-   "zoom": 1.0,
-   "dx": 0
-  },
-  {
-   "id": "2026-09-23-c5",
-   "cena": {
-    "id": "trailer2-016",
-    "video_origem": "trailer2",
-    "inicio": 124.57,
-    "fim": 134.4,
-    "descricao": "Sala com televisão ligada e garrafas sobre a mesa",
-    "tags": [
-     "interior",
-     "personagem",
-     "dia"
-    ],
-    "licenca": "rockstar_oficial",
-    "credito": "",
-    "no_runner": false
-   },
-   "frase": "Tudo o que você precisa saber de GTA 6, todo dia",
-   "frase_base": "Tudo o que você precisa saber de GTA 6, todo dia",
+   "frase": "Rumo a Vice City: um post por vez",
+   "frase_base": "Rumo a Vice City: um post por vez",
    "categoria": "identidade",
    "layout": 2,
-   "contexto": "Sala com televisão ligada e garrafas sobre a mesa",
+   "contexto": "Casas de madeira sobre palafitas à beira do canal, com barcos",
    "fonte": "rockstargames.com/VI",
    "zoom": 1.0,
    "dx": 0
@@ -525,9 +527,9 @@
  ],
  "stories": [
   {
-   "oferta": ""
+   "oferta": "🛒 Quadro GTA 6 Grand Theft Auto VI 3 Peças Decorativo — Shopee\nhttps://s.shopee.com.br/50ZGQjRg8l\n🛒 Camiseta GTA 6 / Grand Theft Auto — Shopee\nhttps://s.shopee.com.br/6L4e1BMbR2\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal."
   }
  ],
- "oferta_yt_longo": "",
- "oferta_yt_short": ""
+ "oferta_yt_longo": "🛒 Quadro GTA 6 Grand Theft Auto VI 3 Peças Decorativo — Shopee\nhttps://s.shopee.com.br/LnQs4U0A8\n🛒 Camiseta GTA 6 / Grand Theft Auto — Shopee\nhttps://s.shopee.com.br/W6r4NTMpB\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal.",
+ "oferta_yt_short": "🛒 Quadro GTA 6 Grand Theft Auto VI 3 Peças Decorativo — Shopee\nhttps://s.shopee.com.br/6q0uc2VBOP\n🛒 Camiseta GTA 6 / Grand Theft Auto — Shopee\nhttps://s.shopee.com.br/70KKoLUY3S\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal."
 }

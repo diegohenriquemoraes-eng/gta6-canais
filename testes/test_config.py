@@ -4,8 +4,8 @@
 Cada caso aqui protege uma regra que, se quebrada, não dá erro nenhum — só
 custa dinheiro, alcance ou o canal inteiro:
 
-- link de oferta sem `src=`: dois meses depois ninguém sabe se a oferta gerou
-  um clique, e trocar de produto vira achismo;
+- link de oferta sem rastreador: dois meses depois ninguém sabe se a oferta
+  gerou um clique, e trocar de produto vira achismo;
 - oferta sem `vigencia.ate`: a pré-venda morre em 20/11 e o canal continua
   mandando gente para uma página que não existe mais;
 - divulgação de afiliado ausente: é exigência da Shopee e da lei;
@@ -78,12 +78,43 @@ class TestOfertas(unittest.TestCase):
         return d if isinstance(d, list) else d.get("ofertas", [])
 
     def test_todo_link_leva_rastreador(self):
+        """O rastreador da Shopee é o **Sub_id**, não um `?src=` na URL.
+
+        Medido no portal em 22/09/2026: o campo Sub_id só aceita valor
+        ALFANUMÉRICO (a-z, A-Z, 0-9) — `yt_largo` com underscore é recusado —,
+        e parâmetro colado na URL encurtada o encurtador descarta. Como o link
+        curto não mostra o Sub_id, a rastreabilidade não dá para conferir pela
+        URL: ela é declarada no campo `subid`, e é isso que este teste exige.
+        """
         for o in self.ofertas():
+            subid = o.get("subid") or {}
             for origem, link in (o.get("links") or {}).items():
                 with self.subTest(produto=o.get("produto"), origem=origem):
-                    self.assertIn("src=", link,
-                                  "sem src= não dá para saber de onde veio a "
-                                  "venda")
+                    self.assertTrue(link.startswith("https://"), "link inválido")
+                    valor = subid.get(origem, "")
+                    self.assertTrue(
+                        valor, f"origem {origem} sem Sub_id declarado — sem "
+                               f"isso não dá para saber de onde veio a venda")
+                    self.assertTrue(
+                        valor.isalnum(),
+                        f"Sub_id '{valor}' tem caractere não alfanumérico; a "
+                        f"Shopee recusa")
+
+    def test_cada_origem_tem_o_seu_proprio_subid(self):
+        """Dois canais com o mesmo Sub_id tornam o relatório inútil."""
+        for o in self.ofertas():
+            subid = o.get("subid") or {}
+            with self.subTest(produto=o.get("produto")):
+                self.assertEqual(len(set(subid.values())), len(subid),
+                                 "Sub_id repetido entre origens")
+
+    def test_link_diferente_por_origem(self):
+        for o in self.ofertas():
+            links = list((o.get("links") or {}).values())
+            with self.subTest(produto=o.get("produto")):
+                self.assertEqual(len(set(links)), len(links),
+                                 "o mesmo link curto em duas origens: o "
+                                 "relatório não separa a fonte")
 
     def test_origem_conhecida(self):
         for o in self.ofertas():
