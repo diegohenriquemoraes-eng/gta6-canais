@@ -11,9 +11,17 @@ Três layouts, como no original (VICESCALE.md §2):
 
 | layout | cabeçalho | vídeo | frase | rodapé |
 |---|---|---|---|---|
-| 1 "Twitter" | avatar + nome + selo + @handle, y 120 | 1080×1350 em y 560 | 64 px, y 300 | crédito |
-| 2 "meme" | — | 1080×1350 em y 420 | 72 px, y 150 | avatar + nome, y 1800 |
-| 3 "dividido" | — | 1080×960 em y 0 + foto oficial 1080×760 em y 1160 | faixa em y 960 | crédito |
+| 1 "Twitter" | avatar + nome + selo + @handle, y 96 | 1080×608 em y 700 | 64 px, y 340 | crédito |
+| 2 "meme" | — | 1080×608 em y 660 | 72 px, y 180 | avatar + nome, y 1650 |
+| 3 "dividido" | — | 1080×608 em y 130 + foto oficial 1080×608 em y 1060 | faixa em y 800 | avatar + nome, y 1712 |
+
+⚠ **A zona de vídeo é 1080×608, não 1080×1350.** O desenho original supunha
+uma fonte vertical; os trailers são 16:9, e `crop` para 1350 px de altura
+exigiria ampliar o clipe 2,2× — o enquadramento morre e o rosto some. Medido no
+primeiro render (22/09/2026): o clipe entrava com 608 px e o cartão saía com
+uma tarja preta de 700 px, com a frase por cima da foto no layout 3. Agora a
+zona é fixa (`force_original_aspect_ratio=increase` + `crop`), qualquer clipe
+preenche exatamente, e cada elemento tem a sua faixa.
 
 Duas armadilhas já pagas no motor e respeitadas aqui:
 
@@ -73,15 +81,26 @@ def _fonte() -> str:
     return (canal.FONTES_DIR / "Montserrat-Bold.ttf").as_posix().replace(":", "\\:")
 
 
-# Geometria por layout: (y do vídeo, altura do vídeo, y da frase, corpo)
+H_VIDEO = 608             # 1080×608 = 16:9, a forma nativa dos trailers
+
+# Geometria por layout. `y_nome` é onde entram avatar, nome, selo e @handle.
 GEOMETRIA = {
-    1: {"y_video": 560, "h_video": 1350, "y_frase": 300, "corpo": 64,
-        "cabecalho": True, "rodape_y": H - 70},
-    2: {"y_video": 420, "h_video": 1350, "y_frase": 150, "corpo": 72,
-        "cabecalho": False, "rodape_y": H - 70},
-    3: {"y_video": 0, "h_video": 960, "y_frase": 1000, "corpo": 60,
-        "cabecalho": False, "rodape_y": H - 40},
+    1: {"y_video": 700, "y_frase": 340, "corpo": 64, "y_nome": 120,
+        "y_avatar": 96, "rodape_y": H - 70},
+    2: {"y_video": 660, "y_frase": 180, "corpo": 72, "y_nome": 1670,
+        "y_avatar": 1646, "rodape_y": H - 70},
+    3: {"y_video": 130, "y_frase": 800, "corpo": 60, "y_nome": 1712,
+        "y_avatar": 1688, "rodape_y": H - 48, "y_foto": 1060},
 }
+
+
+def largura_texto(texto: str, corpo: int) -> int:
+    """Largura em px do texto na fonte do cartão — o `drawtext` não devolve a
+    largura para o `overlay`, e o selo precisa ficar depois do nome."""
+    from PIL import ImageDraw, ImageFont
+    f = ImageFont.truetype(str(canal.FONTES_DIR / "Montserrat-Bold.ttf"), corpo)
+    from PIL import Image
+    return int(ImageDraw.Draw(Image.new("RGB", (1, 1))).textlength(texto, font=f))
 
 
 def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
@@ -98,35 +117,37 @@ def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
         # fundo: recorta 9:16, MINIATURIZA, borra, amplia e escurece
         (f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,"
          f"crop={W}:{H},scale=108:192,boxblur=8:2,"
-         f"scale={W}:{H}:flags=bicubic,eq=brightness=-0.28:saturation=1.15,"
-         f"setsar=1[bg]"),
-        # primeiro plano: a cena em si, com zoom/deslocamento do pacote
-        (f"[b]scale={int(W * zoom)}:-2,"
-         f"crop={W}:min(ih\\,{g['h_video']}):{max(0, dx)}:(ih-oh)/2,"
-         f"setsar=1[fg]"),
+         f"scale={W}:{H}:flags=bicubic,"
+         f"eq=brightness=-0.16:contrast=1.05:saturation=1.20,setsar=1[bg]"),
+        # primeiro plano: caixa FIXA de 1080x608, preenchida por cover-crop.
+        # `dx` desloca o recorte na horizontal (o "deslocamento H" do
+        # ViceScale); `zoom` aproxima antes do corte.
+        (f"[b]scale={int(W * zoom)}:{int(H_VIDEO * zoom)}:"
+         f"force_original_aspect_ratio=increase,"
+         f"crop={W}:{H_VIDEO}:(iw-ow)/2+{dx}:(ih-oh)/2,setsar=1[fg]"),
         f"[bg][fg]overlay=(W-w)/2:{g['y_video']}[v0]",
     ]
     ultimo = "v0"
     entrada = 1
     if tem_avatar:
-        if layout == 1:
-            pos = "60:96"
-        elif layout == 2:
-            pos = f"60:{H - 200}"
-        else:
-            pos = f"60:{H - 200}"
-        partes.append(f"[{ultimo}][{entrada}:v]overlay={pos}[v{entrada}]")
+        partes.append(f"[{ultimo}][{entrada}:v]overlay=60:{g['y_avatar']}"
+                      f"[v{entrada}]")
         ultimo = f"v{entrada}"
         entrada += 1
     if tem_foto and layout == 3:
-        partes.append(f"[{ultimo}][{entrada}:v]overlay=0:1160[v{entrada}]")
+        # a foto oficial entra na mesma caixa 1080×608 do vídeo
+        partes.append(f"[{entrada}:v]scale={W}:{H_VIDEO}:"
+                      f"force_original_aspect_ratio=increase,"
+                      f"crop={W}:{H_VIDEO}[foto]")
+        partes.append(f"[{ultimo}][foto]overlay=0:{g['y_foto']}[v{entrada}]")
         ultimo = f"v{entrada}"
         entrada += 1
 
-    if g["cabecalho"] or layout in (2, 3):
-        nome = _escapar(identidade.get("nome", ""))
+    if True:
+        nome_txt = identidade.get("nome", "")
+        nome = _escapar(nome_txt)
         handle = _escapar("@" + identidade.get("handle", ""))
-        y_nome = 120 if layout == 1 else H - 190
+        y_nome = g["y_nome"]
         partes.append(
             f"[{ultimo}]drawtext=fontfile='{fonte}':text='{nome}':"
             f"x=176:y={y_nome}:fontsize=40:fontcolor=white:"
@@ -148,11 +169,11 @@ def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
         ultimo = f"vf{i}"
 
     if tem_selo:
-        # o selo fica à direita do nome, em x fixo: o drawtext não devolve a
-        # largura do texto para o overlay, e medir a fonte em Python só para
-        # isso custaria mais do que vale.
-        y_selo = 124 if layout == 1 else H - 186
-        partes.append(f"[{ultimo}][{entrada}:v]overlay=430:{y_selo}[vs]")
+        # o selo fica logo à direita do nome; a largura do nome é medida com a
+        # mesma fonte em `largura_texto` (o primeiro render colocou o selo em
+        # x fixo e ele caiu em cima da palavra "City")
+        x_selo = 176 + largura_texto(identidade.get("nome", ""), 40) + 14
+        partes.append(f"[{ultimo}][{entrada}:v]overlay={x_selo}:{y_nome + 4}[vs]")
         ultimo = "vs"
         entrada += 1
 
@@ -181,15 +202,18 @@ def montar(clipe: Path, inicio: float, fim: float, frase: str, layout: int,
     if len(linhas) > 3:                 # frase longa encolhe para caber
         corpo = int(corpo * 0.85)
 
+    # Caminhos ABSOLUTOS: o ffmpeg roda com cwd na pasta de saída (é de lá que
+    # ele lê os `linha*.txt` do drawtext), então caminho relativo do repo não
+    # resolve. As fontes já vão absolutas por `_fonte()`.
     avatar = identidade.get("avatar")
     selo = identidade.get("selo")
-    entradas = ["-i", str(clipe)]
+    entradas = ["-i", str(Path(clipe).resolve())]
     if avatar and Path(avatar).exists():
-        entradas += ["-i", str(avatar)]
+        entradas += ["-i", str(Path(avatar).resolve())]
     if foto and layout == 3 and Path(foto).exists():
-        entradas += ["-i", str(foto)]
+        entradas += ["-i", str(Path(foto).resolve())]
     if selo and Path(selo).exists():
-        entradas += ["-i", str(selo)]
+        entradas += ["-i", str(Path(selo).resolve())]
 
     filtro = filtergraph(
         layout, inicio, fim, len(linhas), corpo,

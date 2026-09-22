@@ -1,0 +1,744 @@
+{
+ "data": "2026-09-22",
+ "handle": "rumoavicecity",
+ "dias_para_lancamento": 58,
+ "gerado_em": "2026-09-22T12:40:24+00:00",
+ "shorts": [
+  {
+   "id": "F001",
+   "formato": "A",
+   "gancho": "A data que o mundo inteiro anotou",
+   "narracao": "GTA 6 chega em 19 de novembro de 2026 para PlayStation 5 e Xbox Series X e S. A data foi confirmada pela Rockstar no Newswire depois de dois adiamentos. É o lançamento mais esperado da história do entretenimento, e agora tem dia marcado.",
+   "fonte": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "cena": "galeria: logo GTA VI",
+   "tags": [
+    "lancamento",
+    "data"
+   ]
+  },
+  {
+   "id": "F006",
+   "formato": "B",
+   "gancho": "O site oficial diz onde o jogo roda melhor",
+   "narracao": "O site oficial de GTA 6 traz a frase: melhor desempenho no PlayStation 5. O Extended Look de 27 de agosto foi inteiro capturado num PS5. A Sony também lançou dois controles DualSense de edição limitada com a marca do jogo.",
+   "fonte": "https://www.rockstargames.com/VI",
+   "cena": "galeria: logo GTA VI",
+   "tags": [
+    "plataformas",
+    "ps5"
+   ]
+  },
+  {
+   "id": "F010",
+   "formato": "B",
+   "gancho": "O primeiro trailer tem só 91 segundos",
+   "narracao": "O Trailer 1 de GTA 6 saiu em 4 de dezembro de 2023 e dura um minuto e trinta e um segundos. Foi a primeira confirmação de Vice City e da protagonista Lucia. A Rockstar publicou no YouTube um dia antes do previsto, depois de um vazamento.",
+   "fonte": "https://www.rockstargames.com/newswire/article/8978kok9385a82/grand-theft-auto-vi-watch-trailer-1-now",
+   "cena": "trailer1@0:05",
+   "tags": [
+    "trailer1",
+    "data"
+   ]
+  }
+ ],
+ "longo": {
+  "formato": "tudo",
+  "fatos": [
+   {
+    "id": "F001",
+    "formato": "A",
+    "gancho": "A data que o mundo inteiro anotou",
+    "narracao": "GTA 6 chega em 19 de novembro de 2026 para PlayStation 5 e Xbox Series X e S. A data foi confirmada pela Rockstar no Newswire depois de dois adiamentos. É o lançamento mais esperado da história do entretenimento, e agora tem dia marcado.",
+    "fonte": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+    "cena": "galeria: logo GTA VI",
+    "tags": [
+     "lancamento",
+     "data"
+    ]
+   },
+   {
+    "id": "F003",
+    "formato": "C",
+    "gancho": "A pré-venda abriu em junho",
+    "narracao": "A pré-venda de GTA 6 começou em 25 de junho de 2026, nas lojas digitais e no varejo. Uma semana antes, em 18 de junho, a Rockstar revelou a arte de capa. Os detalhes das edições Standard e Ultimate saíram em 24 de junho.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "pre-venda",
+     "data"
+    ]
+   },
+   {
+    "id": "F004",
+    "formato": "A",
+    "gancho": "O jogo foi adiado duas vezes",
+    "narracao": "GTA 6 foi anunciado para o fim de 2025. Em maio de 2025 a Rockstar adiou para 26 de maio de 2026. Depois veio o segundo adiamento, para 19 de novembro de 2026. A empresa disse que precisava do tempo para entregar o nível de polimento que os fãs esperam.",
+    "fonte": "https://www.rockstargames.com/newswire/article/258aa538o412ok/grand-theft-auto-vi-is-now-coming-may-26-2026",
+    "cena": "galeria: Jason e Lucia",
+    "tags": [
+     "lancamento",
+     "adiamento"
+    ]
+   },
+   {
+    "id": "F006",
+    "formato": "B",
+    "gancho": "O site oficial diz onde o jogo roda melhor",
+    "narracao": "O site oficial de GTA 6 traz a frase: melhor desempenho no PlayStation 5. O Extended Look de 27 de agosto foi inteiro capturado num PS5. A Sony também lançou dois controles DualSense de edição limitada com a marca do jogo.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: logo GTA VI",
+    "tags": [
+     "plataformas",
+     "ps5"
+    ]
+   },
+   {
+    "id": "F010",
+    "formato": "B",
+    "gancho": "O primeiro trailer tem só 91 segundos",
+    "narracao": "O Trailer 1 de GTA 6 saiu em 4 de dezembro de 2023 e dura um minuto e trinta e um segundos. Foi a primeira confirmação de Vice City e da protagonista Lucia. A Rockstar publicou no YouTube um dia antes do previsto, depois de um vazamento.",
+    "fonte": "https://www.rockstargames.com/newswire/article/8978kok9385a82/grand-theft-auto-vi-watch-trailer-1-now",
+    "cena": "trailer1@0:05",
+    "tags": [
+     "trailer1",
+     "data"
+    ]
+   },
+   {
+    "id": "F017",
+    "formato": "B",
+    "gancho": "26 minutos de gameplay numa plataforma de filmes",
+    "narracao": "Em 27 de agosto de 2026 a Rockstar lançou Grand Theft Auto VI: An Extended Look. São 26 minutos de gameplay capturado no PS5. Estreou na Netflix às 15 horas de Nova York e foi para o YouTube no mesmo dia, às 21 horas.",
+    "fonte": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
+    "cena": "extended@0:00",
+    "tags": [
+     "extended",
+     "data"
+    ]
+   },
+   {
+    "id": "F029",
+    "formato": "B",
+    "gancho": "A capa foi revelada em junho",
+    "narracao": "A Rockstar revelou a arte de capa de GTA 6 em 18 de junho de 2026, uma semana antes da pré-venda. A capa segue a tradição da série, com os personagens em quadros, e traz Jason e Lucia como centro da composição.",
+    "fonte": "https://www.rockstargames.com/newswire",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "capa",
+     "data"
+    ]
+   },
+   {
+    "id": "F106",
+    "formato": "C",
+    "gancho": "Os itens da Ultimate chegam capítulo a capítulo",
+    "narracao": "O conteúdo da Ultimate Edition de GTA 6 não vem todo de uma vez. Lojas, garagem e veículos se liberam ao longo dos capítulos da história de Jason e Lucia. A Rockstar descreve como uma coleção costurada por toda a campanha.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "ultimate",
+     "capitulos"
+    ]
+   },
+   {
+    "id": "F112",
+    "formato": "A",
+    "gancho": "O jogo sai numa quinta-feira",
+    "narracao": "19 de novembro de 2026 cai numa quinta-feira. A Rockstar escolheu o mesmo dia da semana de lançamentos anteriores. No Brasil, quem fez o pré-download vai poder jogar assim que a liberação acontecer, provavelmente à meia-noite do horário local.",
+    "fonte": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+    "cena": "galeria: Vice City à noite",
+    "tags": [
+     "lancamento",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F122",
+    "formato": "A",
+    "gancho": "GTA 6 não vai sair no PS4",
+    "narracao": "GTA 6 é exclusivo da geração atual: PlayStation 5 e Xbox Series X e S. Não há versão para PS4 nem Xbox One. GTA 5, por comparação, saiu no PS3 e no Xbox 360 e foi portado duas vezes depois.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: logo GTA VI",
+    "tags": [
+     "plataformas",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F123",
+    "formato": "A",
+    "gancho": "O jogo roda no Xbox Series S",
+    "narracao": "GTA 6 foi confirmado para o Xbox Series S, o console mais barato da geração. É o mesmo jogo, com ajustes de desempenho. A Rockstar não divulgou resolução nem taxa de quadros de nenhuma das versões.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "plataformas",
+     "xbox"
+    ]
+   },
+   {
+    "id": "F130",
+    "formato": "A",
+    "gancho": "O adiamento fez a Take-Two subir na bolsa",
+    "narracao": "Quando a Rockstar adiou GTA 6 para novembro de 2026, a Take-Two, dona da empresa, manteve a projeção de receita e disse que o tempo extra era para polimento. O mercado reagiu bem: a data final passou a ser tratada como definitiva.",
+    "fonte": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+    "cena": "galeria: logo GTA VI",
+    "tags": [
+     "adiamento",
+     "take-two"
+    ]
+   },
+   {
+    "id": "F002",
+    "formato": "A",
+    "gancho": "Você vai poder baixar antes do lançamento",
+    "narracao": "O pré-download digital de GTA 6 abre em 12 de novembro de 2026, uma semana antes do lançamento. Quem comprou na PlayStation Store ou na Microsoft Store deixa o jogo instalado e só espera a liberação do dia 19.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "lancamento",
+     "pre-load"
+    ]
+   },
+   {
+    "id": "F005",
+    "formato": "A",
+    "gancho": "PC fica de fora no lançamento",
+    "narracao": "GTA 6 sai em 19 de novembro só para PlayStation 5 e Xbox Series X e S. A versão para PC não tem data anunciada. Foi assim com GTA 5, que chegou aos consoles em 2013 e ao PC dezoito meses depois.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "galeria: Vice City à noite",
+    "tags": [
+     "plataformas",
+     "pc"
+    ]
+   },
+   {
+    "id": "F007",
+    "formato": "C",
+    "gancho": "O bônus de pré-venda tem prazo",
+    "narracao": "O Vintage Vice City Pack vem com toda compra digital feita até 20 de novembro de 2026 e com a pré-venda da edição física enquanto durar o estoque. Depois dessa data o pacote deixa de acompanhar o jogo.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "pre-venda",
+     "bonus",
+     "prazo"
+    ]
+   },
+   {
+    "id": "F008",
+    "formato": "B",
+    "gancho": "Treze idiomas, e o português está na lista",
+    "narracao": "GTA 6 terá legendas e menus em português do Brasil desde o lançamento. São treze idiomas ao todo. O áudio é só em inglês para o mundo inteiro, como foi em GTA 5 e em Red Dead Redemption 2. Português de Portugal ficou fora.",
+    "fonte": "https://www.tecmundo.com.br/voxel/504716-rockstar-confirma-que-gta-6-sera-localizado-em-portugues-brasileiro.htm",
+    "cena": "galeria: Lucia",
+    "tags": [
+     "idiomas",
+     "brasil"
+    ]
+   },
+   {
+    "id": "F020",
+    "formato": "A",
+    "gancho": "Um mês de GTA+ vem de brinde",
+    "narracao": "Quem faz a pré-venda digital na PlayStation Store ou na Microsoft Store ganha um mês de GTA+, a assinatura da Rockstar. Ela dá um depósito de 500 mil dólares no GTA Online e acesso a Shark Cards especiais.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "pre-venda",
+     "gta-plus"
+    ]
+   },
+   {
+    "id": "F021",
+    "formato": "C",
+    "gancho": "Quanto custa no Brasil",
+    "narracao": "Na PlayStation Store brasileira, GTA 6 Standard custa 449 reais e 90 centavos, e a Ultimate Edition custa 549 reais e 90 centavos. Nos Estados Unidos são 79,99 e 99,99 dólares. As duas edições incluem o Vintage Vice City Pack na pré-venda.",
+    "fonte": "https://store.playstation.com/pt-br/product/EP1004-PPSA01547_00-GTAVISTANDARD001/",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "preco",
+     "brasil"
+    ]
+   },
+   {
+    "id": "F022",
+    "formato": "C",
+    "gancho": "Já esteve por 365 reais",
+    "narracao": "Na promoção 9.9 da Shopee, a pré-venda de GTA 6 para PS5 chegou a 365 reais, com desconto da campanha, do Pix e de cupom. O preço de tabela era 449. Amazon, Magazine Luiza e Mercado Livre vendiam entre 418 e 436 reais.",
+    "fonte": "https://www.techtudo.com.br/noticias/2026/09/pre-venda-de-gta-vi-game-esta-disponivel-por-r-365-em-oferta-da-shopee-edqualcomprarjg.ghtml",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "preco",
+     "brasil",
+     "shopee"
+    ]
+   },
+   {
+    "id": "F023",
+    "formato": "C",
+    "gancho": "A edição Ultimate é só digital",
+    "narracao": "A Ultimate Edition de GTA 6 existe apenas em formato digital. Quem comprar a Standard pode fazer o upgrade depois, vendido separadamente. A Ultimate acrescenta veículos, armas, lojas e uma missão que se liberam ao longo dos capítulos.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "edicoes",
+     "ultimate"
+    ]
+   },
+   {
+    "id": "F025",
+    "formato": "C",
+    "gancho": "O controle oficial custa quase 600 reais",
+    "narracao": "Os controles DualSense de edição limitada de GTA 6 entraram em pré-venda no Brasil por 599 reais e 90 centavos cada. Nos Estados Unidos custam 84,99 dólares. Chegam em 19 de novembro, no mesmo dia do jogo, em quantidade limitada.",
+    "fonte": "https://gamehall.com.br/dualsense-de-gta-6-entra-em-pre-venda-no-brasil-por-r-59990-e-chega-junto-com-o-jogo/",
+    "cena": "galeria: DualSense GTA VI",
+    "tags": [
+     "dualsense",
+     "preco",
+     "brasil"
+    ]
+   },
+   {
+    "id": "F026",
+    "formato": "C",
+    "gancho": "Dois controles, dia e noite",
+    "narracao": "A Sony fez dois DualSense de GTA 6. O branco representa Vice City de dia, com areia clara e céu pastel. O preto representa a vida noturna da cidade. Os dois têm acabamento que muda de cor, palmeiras gravadas, botões rosa e o logo no touchpad.",
+    "fonte": "https://www.techtimes.com/articles/326481/20260903/sony-reveals-gta-6-dualsense-controllers-black-edition-playstation-direct-exclusive.htm",
+    "cena": "galeria: DualSense GTA VI",
+    "tags": [
+     "dualsense",
+     "design"
+    ]
+   },
+   {
+    "id": "F027",
+    "formato": "C",
+    "gancho": "O controle preto é mais difícil de achar",
+    "narracao": "Nos Estados Unidos, no Reino Unido e nos principais mercados europeus, o DualSense preto de GTA 6 é exclusivo da loja PlayStation Direct. O branco vai também para varejistas. A pré-venda começou em 10 de setembro de 2026.",
+    "fonte": "https://www.techtimes.com/articles/326481/20260903/sony-reveals-gta-6-dualsense-controllers-black-edition-playstation-direct-exclusive.htm",
+    "cena": "galeria: DualSense GTA VI",
+    "tags": [
+     "dualsense",
+     "exclusivo"
+    ]
+   },
+   {
+    "id": "F028",
+    "formato": "C",
+    "gancho": "Esgotou em dias no Brasil",
+    "narracao": "Poucos dias depois da abertura da pré-venda no Brasil, em setembro de 2026, o DualSense de GTA 6 começou a esgotar nas lojas. A Sony avisou que a produção é limitada. Amazon e Kabum estavam entre os varejistas participantes.",
+    "fonte": "https://www.mobilebit.com.br/noticias/2026/09/13/controle-gta-6-esgotando",
+    "cena": "galeria: DualSense GTA VI",
+    "tags": [
+     "dualsense",
+     "brasil",
+     "estoque"
+    ]
+   },
+   {
+    "id": "F030",
+    "formato": "A",
+    "gancho": "Há uma janela de sete dias para o bônus",
+    "narracao": "Entre o lançamento, em 19 de novembro, e o fim do bônus, em 20 de novembro, há apenas um dia para comprar a versão digital e ainda receber o Vintage Vice City Pack. Quem compra na pré-venda não precisa se preocupar com isso.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "bonus",
+     "prazo"
+    ]
+   },
+   {
+    "id": "F039",
+    "formato": "B",
+    "gancho": "Um vendedor de carros clássicos com missão própria",
+    "narracao": "Wyman é um personagem ligado a carros clássicos. Na Ultimate Edition ele dá uma missão especial exclusiva. É um dos vários nomes secundários que a galeria oficial e o guia de edições já confirmaram antes do lançamento.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "personagem",
+     "wyman",
+     "ultimate"
+    ]
+   },
+   {
+    "id": "F048",
+    "formato": "B",
+    "gancho": "Sua primeira garagem fica perto da praia",
+    "narracao": "A garagem Shore Court, perto de Ocean Beach, vem no Vintage Vice City Pack. Tem armário de armas e um lugar seguro para guardar mercadoria roubada. É a base de operações de quem faz a pré-venda.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "lugar",
+     "garagem",
+     "bonus"
+    ]
+   },
+   {
+    "id": "F049",
+    "formato": "B",
+    "gancho": "A garagem da Ultimate fica em Watson Bay",
+    "narracao": "A Ultimate Edition inclui a garagem Paradise, em Watson Bay. É onde ficam os seis veículos exclusivos da edição, como o Grotti Cheetah 95 e a lancha Shitzu Squalo. Watson Bay é mais uma área nomeada de Vice City.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "lugar",
+     "watson-bay",
+     "ultimate"
+    ]
+   },
+   {
+    "id": "F101",
+    "formato": "C",
+    "gancho": "O que vem no Vintage Vice City Pack",
+    "narracao": "O bônus de pré-venda de GTA 6 inclui o sedã Vapid Stanier 55 com garagem, roupas e penteados para Jason e Lucia e uma padronagem de arma inspirada em Tommy Vercetti. A garagem Shore Court fica perto de Ocean Beach.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "bonus",
+     "vintage"
+    ]
+   },
+   {
+    "id": "F102",
+    "formato": "C",
+    "gancho": "Um terno pastel e um vestido vermelho",
+    "narracao": "As roupas do Vintage Vice City Pack são um terno pastel para Jason e um vestido vermelho para Lucia, com penteados de época. É a homenagem direta ao visual dos anos oitenta de GTA Vice City, de 2002.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "bonus",
+     "roupas"
+    ]
+   },
+   {
+    "id": "F103",
+    "formato": "C",
+    "gancho": "Seis veículos só na Ultimate",
+    "narracao": "A Ultimate Edition de GTA 6 traz o Grotti Cheetah 95, a moto Dinka Enduro, o caiaque Crest, a picape Vapid Ganado modificada, a lancha Shitzu Squalo e o buggy Vapid Dominator 67. Todos ficam na garagem Paradise, em Watson Bay.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "ultimate",
+     "veiculos"
+    ]
+   },
+   {
+    "id": "F104",
+    "formato": "C",
+    "gancho": "Revólveres dele e dela",
+    "narracao": "A Ultimate Edition inclui um par de revólveres Morgan, um para Jason e um para Lucia, além de variantes personalizadas das pistolas Girardi e Klose. São quatro variantes de arma exclusivas da edição, todas cosméticas.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "ultimate",
+     "armas"
+    ]
+   },
+   {
+    "id": "F105",
+    "formato": "C",
+    "gancho": "Cinco lojas que só a Ultimate abre",
+    "narracao": "A Ultimate Edition libera cinco lojas exclusivas ao longo da história: Rideout Customs, o salão Sara's, Stock 305, o estúdio Electric Fang Tattoo, com mais de cinquenta tatuagens, e One-Eyed Willie's, de modificações off-road para picapes.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "ultimate",
+     "lojas"
+    ]
+   },
+   {
+    "id": "F107",
+    "formato": "C",
+    "gancho": "Uma missão só para quem tem a Ultimate",
+    "narracao": "A Ultimate Edition inclui uma missão paralela exclusiva de carros clássicos com o personagem Wyman, roupas da coleção Goodtime Gear e acesso ao complexo PTT Youngin$. É o único conteúdo de história ligado a uma edição.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "ultimate",
+     "missao"
+    ]
+   },
+   {
+    "id": "F108",
+    "formato": "C",
+    "gancho": "Cem reais separam as duas edições",
+    "narracao": "No Brasil, a diferença entre a Standard e a Ultimate de GTA 6 é de cem reais: 449,90 contra 549,90 na PlayStation Store. A Ultimate acrescenta seis veículos, quatro armas, cinco lojas, uma garagem e uma missão.",
+    "fonte": "https://www.techtudo.com.br/noticias/2026/06/gta-6-ganha-preco-oficial-veja-pre-venda-ultimate-edition-e-se-vale-a-pena-edjogos.ghtml",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "preco",
+     "edicoes",
+     "brasil"
+    ]
+   },
+   {
+    "id": "F109",
+    "formato": "C",
+    "gancho": "GTA 6 não custa 100 dólares",
+    "narracao": "Antes do anúncio, analistas previam GTA 6 a 100 dólares. A Rockstar fixou a Standard em 79,99 dólares e a Ultimate em 99,99. Uma pesquisa com jogadores brasileiros mostrou que um terço acharia 100 dólares um preço justo.",
+    "fonte": "https://www.notebookcheck.net/100-would-be-a-fair-GTA-6-price-according-to-a-third-of-Brazilian-gamers-surveyed.1097974.0.html",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "preco",
+     "curiosidade"
+    ]
+   },
+   {
+    "id": "F125",
+    "formato": "A",
+    "gancho": "Pré-venda física com código na caixa",
+    "narracao": "Segundo o guia de edições, a versão física de GTA 6 vem com o jogo em disco e o bônus por código de download. A Ultimate Edition não tem versão física. O Vintage Vice City Pack acompanha a física enquanto durar o estoque.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "edicoes",
+     "fisica"
+    ]
+   },
+   {
+    "id": "F127",
+    "formato": "A",
+    "gancho": "As Keys também estão no controle",
+    "narracao": "As palmeiras gravadas nos DualSense de GTA 6 vêm da identidade visual de Leonida Keys e de Ocean Beach. O rosa dos botões é o rosa de Lucia, e o gradiente que muda de cor imita o neon de Vice City à noite.",
+    "fonte": "https://www.techtimes.com/articles/326481/20260903/sony-reveals-gta-6-dualsense-controllers-black-edition-playstation-direct-exclusive.htm",
+    "cena": "galeria: DualSense GTA VI",
+    "tags": [
+     "dualsense",
+     "design"
+    ]
+   },
+   {
+    "id": "F128",
+    "formato": "A",
+    "gancho": "Nove meses de pré-venda para o controle não",
+    "narracao": "O jogo entrou em pré-venda em junho, e o controle DualSense de GTA 6 só em 10 de setembro de 2026. Os dois chegam em 19 de novembro. No Brasil, o controle custa mais do que a Ultimate Edition do jogo.",
+    "fonte": "https://gamehall.com.br/dualsense-de-gta-6-entra-em-pre-venda-no-brasil-por-r-59990-e-chega-junto-com-o-jogo/",
+    "cena": "galeria: DualSense GTA VI",
+    "tags": [
+     "dualsense",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F129",
+    "formato": "A",
+    "gancho": "Um terço dos brasileiros pagaria 100 dólares",
+    "narracao": "Uma pesquisa com jogadores brasileiros mostrou que cerca de um terço consideraria 100 dólares um preço justo para GTA 6. A maioria disse estar disposta a pagar entre 500 e 600 reais. O preço oficial ficou abaixo disso.",
+    "fonte": "https://www.notebookcheck.net/100-would-be-a-fair-GTA-6-price-according-to-a-third-of-Brazilian-gamers-surveyed.1097974.0.html",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "preco",
+     "brasil",
+     "pesquisa"
+    ]
+   },
+   {
+    "id": "F147",
+    "formato": "B",
+    "gancho": "Um Stanier de 1955 como primeiro carro",
+    "narracao": "O Vapid Stanier 55 do Vintage Vice City Pack é a versão clássica do sedã que serve de viatura de polícia na série há anos. Vem com garagem própria e é o primeiro carro garantido de quem faz a pré-venda.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "veiculos",
+     "bonus"
+    ]
+   },
+   {
+    "id": "F148",
+    "formato": "B",
+    "gancho": "Cheetah de 1995 na Ultimate",
+    "narracao": "O Grotti Cheetah 95 da Ultimate Edition é a versão dos anos noventa do superesportivo inspirado na Ferrari, presente na série desde GTA 3. Vem acompanhado de uma moto Dinka Enduro e de uma lancha Shitzu Squalo.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "veiculos",
+     "ultimate"
+    ]
+   },
+   {
+    "id": "F149",
+    "formato": "B",
+    "gancho": "Mais de 50 tatuagens numa loja só",
+    "narracao": "O estúdio Electric Fang Tattoo, exclusivo da Ultimate Edition de GTA 6, oferece mais de cinquenta tatuagens. Junto com o salão Sara's e as roupas da Goodtime Gear, é o pacote de personalização visual da edição.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "ultimate",
+     "tatuagem"
+    ]
+   },
+   {
+    "id": "F150",
+    "formato": "A",
+    "gancho": "O dia seguinte também importa",
+    "narracao": "20 de novembro de 2026 é o último dia para receber o Vintage Vice City Pack numa compra digital. Depois, o bônus some. É a única data da divulgação de GTA 6 que vem depois do lançamento, e quase ninguém reparou nela.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "bonus",
+     "prazo",
+     "contagem"
+    ]
+   }
+  ],
+  "cena": "galeria: logo GTA VI",
+  "titulo": "GTA 6: data, pré-venda, edições e tudo sobre o lançamento — faltam 58 dias",
+  "thumb_titulo": "FALTAM\n58 DIAS",
+  "thumb_sub": "A data que o mundo inteiro anotou",
+  "descricao_busca": "Os fatos confirmados sobre GTA 6, um de cada vez, com a fonte de cada um. Sem rumor sem fonte e sem vazamento.",
+  "tags_extra": [
+   "gta 6 tudo o que sabemos",
+   "gta 6 fatos",
+   "gta 6 data de lançamento",
+   "gta 6 novidades",
+   "gta 6 lancamento"
+  ],
+  "minutos_estimados": 13.9
+ },
+ "cartoes": [
+  {
+   "id": "2026-09-22-c1",
+   "cena": {
+    "id": "trailer2-019",
+    "video_origem": "trailer2",
+    "inicio": 148.23,
+    "fim": 160.23,
+    "descricao": "Avenida com fios e palmeiras banhada pela luz alaranjada do fim de tarde",
+    "tags": [
+     "cidade",
+     "por-do-sol",
+     "rua",
+     "vice-city"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "frase_base": "Aqui a gente vive Vice City antes de todo mundo",
+   "categoria": "identidade",
+   "layout": 1,
+   "contexto": "Avenida com fios e palmeiras banhada pela luz alaranjada do fim de tarde",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-22-c2",
+   "cena": {
+    "id": "trailer2-015",
+    "video_origem": "trailer2",
+    "inicio": 117.1,
+    "fim": 124.57,
+    "descricao": "Picape parada numa rua escura sob a luz de um poste",
+    "tags": [
+     "carro",
+     "noite",
+     "rua"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Mais 58 noites e o jogo é nosso",
+   "frase_base": "Mais {N} noites e o jogo é nosso",
+   "categoria": "contagem",
+   "layout": 2,
+   "contexto": "Picape parada numa rua escura sob a luz de um poste",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-22-c3",
+   "cena": {
+    "id": "trailer2-018",
+    "video_origem": "trailer2",
+    "inicio": 141.83,
+    "fim": 148.23,
+    "descricao": "Perseguição noturna na cidade, com faíscas e neon rosa",
+    "tags": [
+     "policia",
+     "carro",
+     "noite",
+     "cidade",
+     "perseguicao"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Vice City é duas vezes o tamanho de Los Santos",
+   "frase_base": "Vice City é duas vezes o tamanho de Los Santos",
+   "categoria": "fato",
+   "layout": 3,
+   "contexto": "Perseguição noturna na cidade, com faíscas e neon rosa",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-22-c4",
+   "cena": {
+    "id": "trailer2-014",
+    "video_origem": "trailer2",
+    "inicio": 106.73,
+    "fim": 117.1,
+    "descricao": "Mulher com o braço para fora da janela de um carro em movimento",
+    "tags": [
+     "carro",
+     "personagem",
+     "cidade",
+     "dia"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "58 dias para Vice City",
+   "frase_base": "{N} dias para Vice City",
+   "categoria": "contagem",
+   "layout": 1,
+   "contexto": "Mulher com o braço para fora da janela de um carro em movimento",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-22-c5",
+   "cena": {
+    "id": "trailer2-004",
+    "video_origem": "trailer2",
+    "inicio": 30.83,
+    "fim": 38.37,
+    "descricao": "Direção em primeira pessoa numa via expressa, com a cidade ao fundo",
+    "tags": [
+     "carro",
+     "direcao",
+     "cidade",
+     "dia"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Rumo a Vice City: um post por vez",
+   "frase_base": "Rumo a Vice City: um post por vez",
+   "categoria": "identidade",
+   "layout": 2,
+   "contexto": "Direção em primeira pessoa numa via expressa, com a cidade ao fundo",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  }
+ ],
+ "stories": [
+  {
+   "oferta": ""
+  }
+ ],
+ "oferta_yt_longo": "",
+ "oferta_yt_short": ""
+}

@@ -1,0 +1,531 @@
+{
+ "data": "2026-09-24",
+ "handle": "rumoavicecity",
+ "dias_para_lancamento": 56,
+ "gerado_em": "2026-09-22T12:40:24+00:00",
+ "shorts": [
+  {
+   "id": "F112",
+   "formato": "A",
+   "gancho": "O jogo sai numa quinta-feira",
+   "narracao": "19 de novembro de 2026 cai numa quinta-feira. A Rockstar escolheu o mesmo dia da semana de lançamentos anteriores. No Brasil, quem fez o pré-download vai poder jogar assim que a liberação acontecer, provavelmente à meia-noite do horário local.",
+   "fonte": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "cena": "galeria: Vice City à noite",
+   "tags": [
+    "lancamento",
+    "contagem"
+   ]
+  },
+  {
+   "id": "F029",
+   "formato": "B",
+   "gancho": "A capa foi revelada em junho",
+   "narracao": "A Rockstar revelou a arte de capa de GTA 6 em 18 de junho de 2026, uma semana antes da pré-venda. A capa segue a tradição da série, com os personagens em quadros, e traz Jason e Lucia como centro da composição.",
+   "fonte": "https://www.rockstargames.com/newswire",
+   "cena": "galeria: capa do jogo",
+   "tags": [
+    "capa",
+    "data"
+   ]
+  },
+  {
+   "id": "F040",
+   "formato": "B",
+   "gancho": "Vice City é um estado inteiro agora",
+   "narracao": "GTA 6 se passa em Leonida, um estado inspirado na Flórida. Vice City é a maior cidade, mas o mapa inclui pântanos, portos, um parque de montanha e um arquipélago. O site oficial chama Vice City de o lado mais escuro do lugar mais ensolarado da América.",
+   "fonte": "https://www.rockstargames.com/VI",
+   "cena": "galeria: Vice City postal",
+   "tags": [
+    "lugar",
+    "leonida",
+    "vice-city"
+   ]
+  }
+ ],
+ "longo": {
+  "formato": "tudo",
+  "fatos": [
+   {
+    "id": "F010",
+    "formato": "B",
+    "gancho": "O primeiro trailer tem só 91 segundos",
+    "narracao": "O Trailer 1 de GTA 6 saiu em 4 de dezembro de 2023 e dura um minuto e trinta e um segundos. Foi a primeira confirmação de Vice City e da protagonista Lucia. A Rockstar publicou no YouTube um dia antes do previsto, depois de um vazamento.",
+    "fonte": "https://www.rockstargames.com/newswire/article/8978kok9385a82/grand-theft-auto-vi-watch-trailer-1-now",
+    "cena": "trailer1@0:05",
+    "tags": [
+     "trailer1",
+     "data"
+    ]
+   },
+   {
+    "id": "F017",
+    "formato": "B",
+    "gancho": "26 minutos de gameplay numa plataforma de filmes",
+    "narracao": "Em 27 de agosto de 2026 a Rockstar lançou Grand Theft Auto VI: An Extended Look. São 26 minutos de gameplay capturado no PS5. Estreou na Netflix às 15 horas de Nova York e foi para o YouTube no mesmo dia, às 21 horas.",
+    "fonte": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
+    "cena": "extended@0:00",
+    "tags": [
+     "extended",
+     "data"
+    ]
+   },
+   {
+    "id": "F106",
+    "formato": "C",
+    "gancho": "Os itens da Ultimate chegam capítulo a capítulo",
+    "narracao": "O conteúdo da Ultimate Edition de GTA 6 não vem todo de uma vez. Lojas, garagem e veículos se liberam ao longo dos capítulos da história de Jason e Lucia. A Rockstar descreve como uma coleção costurada por toda a campanha.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "ultimate",
+     "capitulos"
+    ]
+   },
+   {
+    "id": "F120",
+    "formato": "A",
+    "gancho": "A galeria oficial tem 99 fotos",
+    "narracao": "O site da Rockstar disponibiliza 99 screenshots oficiais de GTA 6 para download, mais 51 da Ultimate Edition e 12 do Vintage Vice City Pack. As 29 mais recentes entraram em 31 de agosto de 2026, depois do Extended Look.",
+    "fonte": "https://www.rockstargames.com/VI/media/screenshots",
+    "cena": "galeria: Ocean Beach",
+    "tags": [
+     "galeria",
+     "numeros"
+    ]
+   },
+   {
+    "id": "F011",
+    "formato": "B",
+    "gancho": "93 milhões de views em um dia",
+    "narracao": "O Trailer 1 de GTA 6 foi visto 93 milhões de vezes nas primeiras 24 horas no YouTube. Virou o vídeo não musical mais visto em um dia na história da plataforma, batendo o recorde do MrBeast, que era de 59,4 milhões.",
+    "fonte": "https://blog.youtube/culture-and-trends/grand-theft-auto-breaks-record/",
+    "cena": "trailer1@0:20",
+    "tags": [
+     "trailer1",
+     "recorde"
+    ]
+   },
+   {
+    "id": "F012",
+    "formato": "B",
+    "gancho": "A música do trailer é uma declaração",
+    "narracao": "O Trailer 1 usa Love Is a Long Road, de Tom Petty. O chefe da Rockstar disse que o jogo ainda não estava totalmente formado quando o trailer saiu, mas que a música era a declaração de intenções do que GTA 6 iria ser.",
+    "fonte": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-wasnt-fully-formed-when-trailer-1-released-rockstar-boss-says-but-the-tom-petty-song-it-used-was-a-mission-statement-of-where-it-was-going/",
+    "cena": "trailer1@0:00",
+    "tags": [
+     "trailer1",
+     "musica"
+    ]
+   },
+   {
+    "id": "F013",
+    "formato": "B",
+    "gancho": "O trailer começa numa prisão",
+    "narracao": "O Trailer 1 abre com Lucia numa sala de entrevista da prisão, ouvindo que precisa de sorte. Termina com ela e o parceiro reafirmando a confiança um no outro. Toda a história de GTA 6 cabe nesses dois momentos.",
+    "fonte": "https://www.digitaltrends.com/gaming/5-details-in-grand-theft-auto-6-trailer/",
+    "cena": "trailer1@0:08",
+    "tags": [
+     "trailer1",
+     "lucia"
+    ]
+   },
+   {
+    "id": "F014",
+    "formato": "B",
+    "gancho": "O segundo trailer quebrou todos os recordes",
+    "narracao": "O Trailer 2 saiu em 6 de maio de 2025 e dura dois minutos e quarenta e seis segundos. Somou 475 milhões de views em 24 horas em todas as plataformas. A Rockstar chamou de maior estreia de vídeo de todos os tempos.",
+    "fonte": "https://www.thegamer.com/grand-theft-auto-gta-6-trailer-475-million-views-first-24-hours/",
+    "cena": "trailer2@0:10",
+    "tags": [
+     "trailer2",
+     "recorde"
+    ]
+   },
+   {
+    "id": "F015",
+    "formato": "B",
+    "gancho": "Jason apareceu de verdade só no Trailer 2",
+    "narracao": "O Trailer 2 foi a apresentação oficial de Jason Duval e de Lucia Caminos como dupla de protagonistas. Saiu junto com o site oficial e com setenta screenshots que nomearam personagens, bairros de Vice City e as regiões do estado de Leonida.",
+    "fonte": "https://www.pcquest.com/gaming/gta-6-trailer-2-and-seventy-new-screenshots-breakdown-new-characters-locations-and-story-9043829",
+    "cena": "trailer2@0:30",
+    "tags": [
+     "trailer2",
+     "jason",
+     "lucia"
+    ]
+   },
+   {
+    "id": "F016",
+    "formato": "B",
+    "gancho": "A música do Trailer 2 é de 1986",
+    "narracao": "O Trailer 2 de GTA 6 toca Hot Together, das Pointer Sisters, lançada em 1986. A escolha combina com o clima de Vice City, que sempre foi a homenagem da série aos anos oitenta de Miami, agora numa versão dos dias de hoje.",
+    "fonte": "https://www.techradar.com/gaming/new-grand-theft-auto-6-trailer-shows-off-vice-city-and-the-games-partners-in-crime-jason-and-lucia-and-it-looks-absolutely-incredible",
+    "cena": "trailer2@0:00",
+    "tags": [
+     "trailer2",
+     "musica"
+    ]
+   },
+   {
+    "id": "F018",
+    "formato": "B",
+    "gancho": "Número um na Netflix em 87 países",
+    "narracao": "O Extended Look de GTA 6 teve 31,1 milhões de views na Netflix em quatro dias e foi o título mais visto da semana. Ficou em primeiro lugar em 87 dos 93 países que a plataforma mede. No YouTube passou de 17 milhões só no canal da Rockstar.",
+    "fonte": "https://variety.com/2026/tv/news/gta-6-netflix-extended-look-views-1236848409/",
+    "cena": "extended@0:30",
+    "tags": [
+     "extended",
+     "recorde"
+    ]
+   },
+   {
+    "id": "F019",
+    "formato": "B",
+    "gancho": "Segundo trailer de jogo mais visto do YouTube",
+    "narracao": "O Trailer 1 de GTA 6 se tornou o segundo trailer de jogo mais visto da história do YouTube. A conta só considera o canal da Rockstar. Somando as reproduções em outros canais e redes, os números do jogo são ainda maiores.",
+    "fonte": "https://www.notebookcheck.net/GTA-6-becomes-second-most-popular-game-trailer-on-YouTube.794414.0.html",
+    "cena": "trailer1@1:00",
+    "tags": [
+     "trailer1",
+     "recorde"
+    ]
+   },
+   {
+    "id": "F047",
+    "formato": "B",
+    "gancho": "O bar no topo do prédio",
+    "narracao": "Aos dez minutos e cinquenta segundos do Extended Look aparece o Effluvia, um bar de cobertura no centro de Vice City. É um dos lugares sociais que o jogo usa para missões e para encontros entre Jason e Lucia.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@10:50",
+    "tags": [
+     "lugar",
+     "effluvia",
+     "extended"
+    ]
+   },
+   {
+    "id": "F057",
+    "formato": "B",
+    "gancho": "Lucia tem cor, Jason tem outra",
+    "narracao": "Fãs notaram que Lucia aparece associada ao rosa e Jason ao azul nos dois trailers, nas roupas, nas luzes e até nos controles DualSense, que usam a mesma dupla de cores. É a paleta de Vice City desde 2002.",
+    "fonte": "https://gamerant.com/gta-6-jason-lucia-colors-blue-pink/",
+    "cena": "galeria: Jason e Lucia",
+    "tags": [
+     "curiosidade",
+     "cores"
+    ]
+   },
+   {
+    "id": "F067",
+    "formato": "B",
+    "gancho": "A história é dividida em capítulos",
+    "narracao": "A campanha de GTA 6 é construída em capítulos, como em Red Dead Redemption 2. A Rockstar apagou de propósito a fronteira entre missão de história e atividade de mundo aberto, para o jogador explorar Leonida em vez de correr para o próximo objetivo.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "extended@1:00",
+    "tags": [
+     "mecanica",
+     "capitulos",
+     "historia"
+    ]
+   },
+   {
+    "id": "F089",
+    "formato": "B",
+    "gancho": "O Lifeinvader ainda existe",
+    "narracao": "Aos 18 minutos e 24 segundos do Extended Look aparece um feed de transmissão ao vivo do Lifeinvader, a rede social fictícia da série desde GTA 5. Ela agora transmite eventos ao vivo com comentários na tela.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@18:24",
+    "tags": [
+     "curiosidade",
+     "lifeinvader"
+    ]
+   },
+   {
+    "id": "F090",
+    "formato": "B",
+    "gancho": "Um sanduíche de 30 mil calorias",
+    "narracao": "A propaganda fictícia do Prairie Sandwich em GTA 6 anuncia cerca de 30 mil calorias. Outro anúncio é do remédio Angstipan. A cerveja Pißwasser, clássica da série, também está de volta. É a sátira que a Rockstar faz desde os anos 2000.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@21:00",
+    "tags": [
+     "curiosidade",
+     "satira"
+    ]
+   },
+   {
+    "id": "F109",
+    "formato": "C",
+    "gancho": "GTA 6 não custa 100 dólares",
+    "narracao": "Antes do anúncio, analistas previam GTA 6 a 100 dólares. A Rockstar fixou a Standard em 79,99 dólares e a Ultimate em 99,99. Uma pesquisa com jogadores brasileiros mostrou que um terço acharia 100 dólares um preço justo.",
+    "fonte": "https://www.notebookcheck.net/100-would-be-a-fair-GTA-6-price-according-to-a-third-of-Brazilian-gamers-surveyed.1097974.0.html",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "preco",
+     "curiosidade"
+    ]
+   },
+   {
+    "id": "F113",
+    "formato": "A",
+    "gancho": "Três trailers em três anos",
+    "narracao": "Entre o Trailer 1, em dezembro de 2023, e o Extended Look, em agosto de 2026, a Rockstar mostrou GTA 6 em público três vezes. Menos de 31 minutos de vídeo oficial em quase três anos. Cada segundo foi analisado quadro a quadro pelos fãs.",
+    "fonte": "https://gta6info.com/pages/trailers.html",
+    "cena": "trailer2@2:30",
+    "tags": [
+     "trailers",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F114",
+    "formato": "A",
+    "gancho": "O Extended Look mostrou 25 minutos a mais",
+    "narracao": "Os dois trailers de GTA 6 somam quatro minutos e dezessete segundos. O Extended Look sozinho tem 26 minutos. Em um dia, a Rockstar mostrou seis vezes mais gameplay do que em todo o período anterior de divulgação.",
+    "fonte": "https://www.vice.com/en/article/gta-6-extended-look-runtime-26-minutes/",
+    "cena": "extended@0:00",
+    "tags": [
+     "extended",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F115",
+    "formato": "A",
+    "gancho": "O Trailer 3 nunca chegou, e não faz falta",
+    "narracao": "A Rockstar não lançou um Trailer 3 de GTA 6. No lugar dele veio o Extended Look, de 26 minutos. Um trailer de lançamento perto de 19 de novembro continua provável, porque a empresa sempre fez isso, mas nada foi anunciado.",
+    "fonte": "https://gta6info.com/pages/trailers.html",
+    "cena": "extended@0:30",
+    "tags": [
+     "trailers",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F118",
+    "formato": "A",
+    "gancho": "A Netflix foi a escolha para o Extended Look",
+    "narracao": "Pela primeira vez a Rockstar estreou um vídeo de GTA numa plataforma de streaming antes do YouTube. O Extended Look ficou seis horas exclusivo na Netflix em 27 de agosto de 2026, antes de ir para o canal oficial.",
+    "fonte": "https://www.gamesradar.com/how-to-watch-the-gta-6-extended-look-netflix/",
+    "cena": "extended@0:10",
+    "tags": [
+     "extended",
+     "netflix"
+    ]
+   },
+   {
+    "id": "F119",
+    "formato": "A",
+    "gancho": "A Netflix mede view de um jeito diferente",
+    "narracao": "Os 31,1 milhões de views do Extended Look na Netflix são horas assistidas divididas pela duração de 26 minutos. No YouTube, uma view conta assim que o vídeo começa. Os números das duas plataformas não se somam.",
+    "fonte": "https://www.tweaktown.com/news/113394/gta-vi-extended-look-had-31-1-million-views-on-netflix-another-17-million-on-youtube/index.html",
+    "cena": "extended@0:20",
+    "tags": [
+     "extended",
+     "numeros"
+    ]
+   },
+   {
+    "id": "F121",
+    "formato": "A",
+    "gancho": "A capa mudou de ideia sobre o mapa",
+    "narracao": "A arte oficial de GTA 6 inclui cartões-postais de Vice City, Leonida Keys e Port Gellhorn, além de uma versão do logo sem fundo. A Rockstar liberou os arquivos como papéis de parede oficiais na galeria do site.",
+    "fonte": "https://www.gtabase.com/gta-6/artworks/",
+    "cena": "galeria: Vice City postal",
+    "tags": [
+     "galeria",
+     "arte"
+    ]
+   },
+   {
+    "id": "F131",
+    "formato": "B",
+    "gancho": "Chihuahua é personagem",
+    "narracao": "A lista de detalhes escondidos do Extended Look cita um chihuahua entre os animais de Leonida. Javalis e veados são caçados no parque, e jacarés vivem nos pântanos de Grassrivers. A fauna reage ao jogador como em Red Dead 2.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@24:30",
+    "tags": [
+     "curiosidade",
+     "animais"
+    ]
+   },
+   {
+    "id": "F132",
+    "formato": "B",
+    "gancho": "Um conversível vermelho aos 18 minutos",
+    "narracao": "Aos 18 minutos e 41 segundos do Extended Look aparece um conversível vermelho em perseguição por Vice City. O carro também está no Trailer 2, na cena noturna da avenida. É um dos veículos mais repetidos na divulgação.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@18:41",
+    "tags": [
+     "veiculos",
+     "extended"
+    ]
+   },
+   {
+    "id": "F140",
+    "formato": "B",
+    "gancho": "A TV do esconderijo tem propaganda",
+    "narracao": "No esconderijo de GTA 6 dá para assistir TV e trocar de canal, com programas e anúncios fictícios. É onde aparecem propagandas como a do Prairie Sandwich e a do Angstipan. A sátira da Rockstar continua dentro de casa.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@20:15",
+    "tags": [
+     "curiosidade",
+     "tv"
+    ]
+   }
+  ],
+  "cena": "trailer1@0:05",
+  "titulo": "Tudo o que os trailers de GTA 6 mostraram, cena por cena — faltam 56 dias",
+  "thumb_titulo": "FALTAM\n56 DIAS",
+  "thumb_sub": "O primeiro trailer tem só 91 segundos",
+  "descricao_busca": "Os fatos confirmados sobre GTA 6, um de cada vez, com a fonte de cada um. Sem rumor sem fonte e sem vazamento.",
+  "tags_extra": [
+   "gta 6 tudo o que sabemos",
+   "gta 6 fatos",
+   "gta 6 data de lançamento",
+   "gta 6 novidades",
+   "gta 6 trailers"
+  ],
+  "minutos_estimados": 8.7
+ },
+ "cartoes": [
+  {
+   "id": "2026-09-24-c1",
+   "cena": {
+    "id": "trailer2-012",
+    "video_origem": "trailer2",
+    "inicio": 92.0,
+    "fim": 98.47,
+    "descricao": "Mulher de vestido dourado subindo uma escada em ambiente escuro",
+    "tags": [
+     "festa",
+     "noite",
+     "personagem"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "A página certa para quem está contando os dias",
+   "frase_base": "A página certa para quem está contando os dias",
+   "categoria": "identidade",
+   "layout": 1,
+   "contexto": "Mulher de vestido dourado subindo uma escada em ambiente escuro",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-24-c2",
+   "cena": {
+    "id": "trailer2-007",
+    "video_origem": "trailer2",
+    "inicio": 51.87,
+    "fim": 60.57,
+    "descricao": "Balcão de atendimento com aviso na parede e dois personagens",
+    "tags": [
+     "personagem",
+     "interior"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Faltam 56 dias para GTA 6",
+   "frase_base": "Faltam {N} dias para GTA 6",
+   "categoria": "contagem",
+   "layout": 2,
+   "contexto": "Balcão de atendimento com aviso na parede e dois personagens",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-24-c3",
+   "cena": {
+    "id": "trailer1-010",
+    "video_origem": "trailer1",
+    "inicio": 66.67,
+    "fim": 72.83,
+    "descricao": "Dupla mascarada dentro de uma loja de conveniência",
+    "tags": [
+     "assalto",
+     "policia",
+     "personagem",
+     "loja"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "A polícia precisa de uma testemunha para te caçar",
+   "frase_base": "A polícia precisa de uma testemunha para te caçar",
+   "categoria": "fato",
+   "layout": 3,
+   "contexto": "Dupla mascarada dentro de uma loja de conveniência",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-24-c4",
+   "cena": {
+    "id": "trailer2-011",
+    "video_origem": "trailer2",
+    "inicio": 86.0,
+    "fim": 92.0,
+    "descricao": "Lucia e Jason parados dentro de uma cozinha simples",
+    "tags": [
+     "jason",
+     "lucia",
+     "personagem",
+     "dupla",
+     "interior"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "56 dias. Pré-venda aberta.",
+   "frase_base": "{N} dias. Pré-venda aberta.",
+   "categoria": "contagem",
+   "layout": 1,
+   "contexto": "Lucia e Jason parados dentro de uma cozinha simples",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-24-c5",
+   "cena": {
+    "id": "trailer2-006",
+    "video_origem": "trailer2",
+    "inicio": 45.27,
+    "fim": 51.87,
+    "descricao": "Volante em primeira pessoa dentro de um carro, à noite",
+    "tags": [
+     "carro",
+     "direcao",
+     "noite"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Se você espera GTA 6, este é o seu lugar",
+   "frase_base": "Se você espera GTA 6, este é o seu lugar",
+   "categoria": "identidade",
+   "layout": 2,
+   "contexto": "Volante em primeira pessoa dentro de um carro, à noite",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  }
+ ],
+ "stories": [
+  {
+   "oferta": ""
+  }
+ ],
+ "oferta_yt_longo": "",
+ "oferta_yt_short": ""
+}
