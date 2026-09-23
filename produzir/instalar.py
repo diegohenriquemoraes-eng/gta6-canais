@@ -232,10 +232,72 @@ def instalar_instagram(do_clipboard: bool = True) -> None:
     print("\nO Instagram publica sozinho a partir da próxima execução.")
 
 
+def instalar_tiktok(do_clipboard: bool = True) -> None:
+    """Chave do Zernio → secret, e liga o espelho do TikTok no config.
+
+    O Zernio é a ponte porque a Content Posting API do TikTok só publica
+    público depois de auditoria do app. A chave sai do painel em API Keys;
+    como toda credencial desta casa, ela vai da área de transferência direto
+    para o secret — sem passar por chat, por log ou pela tela.
+    """
+    passo(1, "Chave da API do Zernio")
+    chave = _do_clipboard() if do_clipboard else ""
+    if chave and (len(chave) < 20 or " " in chave):
+        print("  a área de transferência não tem cara de chave; vou pedir.")
+        chave = ""
+    if chave:
+        print(f"  peguei uma chave da área de transferência "
+              f"({len(chave)} caracteres). Não vou mostrá-la.")
+    else:
+        print("  Cole a chave do painel do Zernio (menu → API Keys).")
+        chave = getpass.getpass("  chave: ").strip()
+    if not chave:
+        raise SystemExit("Nada colado; nada foi enviado.")
+
+    passo(2, "Conferindo a chave e a conta conectada")
+    import requests
+    try:
+        r = requests.get("https://api.zernio.com/v1/accounts", timeout=60,
+                         headers={"Authorization": f"Bearer {chave}"})
+        j = r.json() if r.headers.get("content-type", "").startswith(
+            "application/json") else {}
+    except Exception as exc:
+        raise SystemExit(f"Não consegui falar com o Zernio: {exc}")
+    if r.status_code >= 400:
+        raise SystemExit(f"O Zernio recusou a chave (HTTP {r.status_code}): "
+                         f"{str(j)[:200]}")
+    contas = j.get("data", j if isinstance(j, list) else [])
+    nomes = [c.get("username") or c.get("name") or c.get("id")
+             for c in contas] if isinstance(contas, list) else []
+    print(f"  contas conectadas: {', '.join(str(n) for n in nomes) or '(none)'}")
+    if not any("rumoavicecity" in str(n).lower() for n in nomes):
+        print("  ⚠ @rumoavicecity não aparece na lista. Conecte-a em "
+              "New Connection → TikTok antes de ligar o espelho.")
+
+    passo(3, "Enviando o secret")
+    r = _rodar(["gh", "secret", "set", "ZERNIO_KEY_GTA", "-R", REPO,
+                "--body", chave], capture_output=True, text=True)
+    print(f"  secret ZERNIO_KEY_GTA "
+          f"{'enviado' if r.returncode == 0 else '! ' + r.stderr[:120]}")
+
+    passo(4, "Ligando tiktok.ativo no config")
+    cfg_path = RAIZ / "publicador" / "config.json"
+    cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+    cfg.setdefault("tiktok", {})["ativo"] = True
+    cfg_path.write_text(json.dumps(cfg, ensure_ascii=False, indent=1) + "\n",
+                        encoding="utf-8")
+    print("  tiktok.ativo: true — falta commitar e dar push")
+
+    passo(5, "Conferindo")
+    _rodar([sys.executable, "produzir/conferir_instalacao.py"])
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         description="Instala o que vem depois de criar a conta e o canal")
-    ap.add_argument("alvo", choices=["youtube", "analytics", "instagram"],
+    ap.add_argument("alvo",
+                    choices=["youtube", "analytics", "instagram",
+                             "tiktok"],
                     nargs="?", default="youtube")
     ap.add_argument("--pular-marca", action="store_true")
     ap.add_argument("--sem-clipboard", action="store_true",
@@ -245,6 +307,8 @@ def main() -> None:
         instalar_youtube(a.pular_marca)
     elif a.alvo == "analytics":
         instalar_analytics()
+    elif a.alvo == "tiktok":
+        instalar_tiktok(not a.sem_clipboard)
     else:
         instalar_instagram(not a.sem_clipboard)
 
