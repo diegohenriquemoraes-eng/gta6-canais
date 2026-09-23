@@ -112,8 +112,12 @@ Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
   Meta exige que ela tenha *conta de desenvolvedor do Facebook* — e
   `@rumoavicecity` é conta de Instagram pura ("O formulário não pode ser
   salvo"). Daí o app próprio.
-  ⚠ **O token está exposto no histórico da conversa de 22/09** (foi colado em
-  texto puro no chat). Regerar pela Meta quando der — regerar invalida o antigo.
+  ⚠ **O token exposto no chat de 22/09 foi morto em 23/09.** Lição: gerar um
+  token novo na Meta **não** invalida o anterior — cada um é independente e
+  vive 60 dias. O que invalida é revogar o app em **Instagram → Configurações
+  → Apps e sites → Remover**, que derruba todos os tokens dele; depois o
+  "Gerar token" do painel reautoriza e emite outro. O botão "Remover" do painel
+  da Meta não faz isso: ele só tira a conta da lista de testadores.
 - ~~TikTok~~ — **pronto e no ar.** Conta própria no Zernio
   (`gta6diegomoraes@`), `ZERNIO_KEY_GTA` no repo, `tiktok.ativo: true` e
   `conta_id` travado no config. ⚠ O teto grátis do Zernio é de **2 contas POR

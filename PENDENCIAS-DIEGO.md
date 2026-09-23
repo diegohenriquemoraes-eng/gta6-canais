@@ -50,6 +50,11 @@ pendência.
 - ⚠ A chave que você colou no chat (`sk_e5152bb…`) foi **trocada e apagada** em
   23/09: criei outra pela própria API do Zernio (`POST /api-keys`), troquei o
   secret, validei no runner e apaguei a antiga — ela devolve 401 agora.
+- ⚠ **O token do Instagram exposto no chat também foi morto**, em 23/09. Gerar
+  um token novo na Meta NÃO invalida o anterior; o que invalida é revogar o app
+  em **Instagram → Configurações → Apps e sites → Remover**. Feito isso, o
+  "Gerar token" do painel reautoriza e emite outro. Validado publicando o
+  cartão c4 do dia no runner.
 - Primeiro vídeo: https://www.tiktok.com/@rumoavicecity/video/7688738476300258566
 
 **Instagram @rumoavicecity — NO AR, publicando sozinho** 🟢
@@ -81,17 +86,7 @@ pendência.
   `https://s.shopee.com.br/9KiFc9wYfG`
   (chaveiro mini capa de PS5 GTA 6, Sub_id `igbio`).
 
-### 2. Regerar o token do Instagram (~2 min)
-
-O token de acesso foi colado em texto puro no chat de 22/09 e está no histórico
-da conversa. Ele funciona, e nada indica vazamento — mas o certo é gerar outro
-na Meta (o novo invalida o antigo) e rodar de novo:
-
-```bash
-python produzir/instalar.py instagram
-```
-
-### 3. Opcional
+### 2. Opcional
 
 - **Analytics** (mede hora contável): `python produzir/instalar.py analytics`
 - **Notícias com resumo de verdade**:
