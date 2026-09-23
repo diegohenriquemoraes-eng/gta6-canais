@@ -1,59 +1,67 @@
 {
-  "espera_short_s": 900,
-  "espera_longo_s": 2400,
-  "canais": {
-    "gta": {
-      "ativo": true,
-      "titulo_canal": "Rumo a Vice City · GTA 6",
-      "handle": "rumoavicecity",
-      "channel_id": "UCUJdsMoY_H4hLlvckVjCcEg",
-      "fila": "fila",
-      "hora_longo_utc": 21,
-      "longos_por_dia": 1,
-      "shorts_por_dia": 3,
-      "hora_short_utc": 10,
-      "gap_shorts_min": 180,
-      "lancamento": "2026-11-19",
-      "fase_pos_lancamento": {
-        "shorts": [
-          "E",
-          "E",
-          "C"
-        ],
-        "longos": [
-          "guia"
-        ]
-      },
-      "max_short_s": 25.0,
-      "oferta_longo": "",
-      "oferta_short": "",
-      "bio": "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas do que a Rockstar já mostrou.",
-      "_nota_gap": "gap_shorts_min 180, não 300: medido contra as execuções que o cron do GitHub entrega de verdade (~6/dia, intervalos de 2 a 7 h). Com 300 o 2º e o 3º Short caíam fora do dia — o defeito de 02/09/2026 no canal ES, em forma de config.",
-      "_nota_bio": "A bio antiga vendia a pré-venda do jogo e o controle oficial. Nenhum dos dois existe na Shopee (medido em 22/09/2026, ver conteudo/ofertas.json): o que há é quadro, capa de PS5 e camiseta. A bio passou a falar só do conteúdo, e a oferta vai no link.",
-      "_nota_conta": "Canal criado em 22/09/2026 na conta gta6diegomoraes@gmail.com. ⚠ Neste Chrome essa conta é **authuser=4** — todo link do Studio precisa do parâmetro, senão cai na conta diegohenriquemoraes@gmail.com, que tem os outros canais da casa. Studio: studio.youtube.com/channel/UCUJdsMoY_H4hLlvckVjCcEg/editing/profile?authuser=4"
-    }
-  },
-  "instagram": {
-    "ativo": true,
-    "nome": "Rumo a Vice City",
-    "handle": "rumoavicecity",
-    "cartoes_por_dia": 5,
-    "hora_cartao_utc": 11,
-    "gap_cartoes_min": 150,
-    "stories_por_dia": 1,
-    "hora_story_utc": 23,
-    "regra_frase_dias": 7,
-    "repo_midia": "diegohenriquemoraes-eng/gta6-canais",
-    "release_tag": "cartoes",
-    "_nota_cartoes": "5/dia dentro dos 4-6 do PLANO.md §3. O teto real é o acervo de cenas: a regra é uma frase por cena a cada 7 dias, então 5/dia exige 35 cenas aptas. Os trailers 1 e 2 sozinhos dão 28 (257 s de material a 6-12 s por cena) — por isso a galeria oficial virou fonte de cartão em 22/09/2026 (`produzir/cenas_da_galeria.py`, 162 fotos com assunto declarado no nome do arquivo). Com ela são ~190 aptas.",
-    "id_conta": "28020439320985313",
-    "_nota_conta": "Conta @rumoavicecity (gta6diegomoraes@gmail.com), profissional de CRIADOR (MEDIA_CREATOR). ⚠ O IG_USER_ID que a Graph API usa é **28020439320985313** — NÃO é o 17841426213747371 que o painel da Meta mostra na tabela de tokens. Trocar os dois é o erro clássico e faz a publicação falhar sem explicação. O id certo sai de graph.instagram.com/me. ⚠ Reaproveitar o app de outro canal NÃO funciona: para adicionar a conta como testadora, a Meta exige que ela tenha conta de desenvolvedor do Facebook, e conta de Instagram pura não tem. Por isso o app próprio 3300084843713046 ('Rumo a Vice City'), ligado ao portfólio 'Diego Moraes' (verificado).",
-    "app_meta": "3300084843713046"
-  },
-  "tiktok": {
-    "ativo": false,
-    "via": "zernio",
-    "atraso_min": 30,
-    "nota": "Espelha os cartões do Instagram. A API oficial do TikTok só publica público depois de auditoria e robô de navegador é proibido — por isso Zernio (2 contas grátis, app auditado). Ver PENDENCIAS-DIEGO.md."
+ "espera_short_s": 900,
+ "espera_longo_s": 2400,
+ "canais": {
+  "gta": {
+   "ativo": true,
+   "titulo_canal": "Rumo a Vice City · GTA 6",
+   "handle": "rumoavicecity",
+   "channel_id": "UCUJdsMoY_H4hLlvckVjCcEg",
+   "fila": "fila",
+   "hora_longo_utc": 21,
+   "longos_por_dia": 1,
+   "shorts_por_dia": 3,
+   "hora_short_utc": 10,
+   "gap_shorts_min": 180,
+   "lancamento": "2026-11-19",
+   "fase_pos_lancamento": {
+    "shorts": [
+     "E",
+     "E",
+     "C"
+    ],
+    "longos": [
+     "guia"
+    ]
+   },
+   "max_short_s": 25.0,
+   "oferta_longo": "",
+   "oferta_short": "",
+   "bio": "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas do que a Rockstar já mostrou.",
+   "_nota_gap": "gap_shorts_min 180, não 300: medido contra as execuções que o cron do GitHub entrega de verdade (~6/dia, intervalos de 2 a 7 h). Com 300 o 2º e o 3º Short caíam fora do dia — o defeito de 02/09/2026 no canal ES, em forma de config.",
+   "_nota_bio": "A bio antiga vendia a pré-venda do jogo e o controle oficial. Nenhum dos dois existe na Shopee (medido em 22/09/2026, ver conteudo/ofertas.json): o que há é quadro, capa de PS5 e camiseta. A bio passou a falar só do conteúdo, e a oferta vai no link.",
+   "_nota_conta": "Canal criado em 22/09/2026 na conta gta6diegomoraes@gmail.com. ⚠ Neste Chrome essa conta é **authuser=4** — todo link do Studio precisa do parâmetro, senão cai na conta diegohenriquemoraes@gmail.com, que tem os outros canais da casa. Studio: studio.youtube.com/channel/UCUJdsMoY_H4hLlvckVjCcEg/editing/profile?authuser=4"
   }
+ },
+ "instagram": {
+  "ativo": true,
+  "nome": "Rumo a Vice City",
+  "handle": "rumoavicecity",
+  "cartoes_por_dia": 5,
+  "hora_cartao_utc": 11,
+  "gap_cartoes_min": 150,
+  "stories_por_dia": 1,
+  "hora_story_utc": 23,
+  "regra_frase_dias": 7,
+  "repo_midia": "diegohenriquemoraes-eng/gta6-canais",
+  "release_tag": "cartoes",
+  "_nota_cartoes": "5/dia dentro dos 4-6 do PLANO.md §3. O teto real é o acervo de cenas: a regra é uma frase por cena a cada 7 dias, então 5/dia exige 35 cenas aptas. Os trailers 1 e 2 sozinhos dão 28 (257 s de material a 6-12 s por cena) — por isso a galeria oficial virou fonte de cartão em 22/09/2026 (`produzir/cenas_da_galeria.py`, 162 fotos com assunto declarado no nome do arquivo). Com ela são ~190 aptas.",
+  "id_conta": "28020439320985313",
+  "_nota_conta": "Conta @rumoavicecity (gta6diegomoraes@gmail.com), profissional de CRIADOR (MEDIA_CREATOR). ⚠ O IG_USER_ID que a Graph API usa é **28020439320985313** — NÃO é o 17841426213747371 que o painel da Meta mostra na tabela de tokens. Trocar os dois é o erro clássico e faz a publicação falhar sem explicação. O id certo sai de graph.instagram.com/me. ⚠ Reaproveitar o app de outro canal NÃO funciona: para adicionar a conta como testadora, a Meta exige que ela tenha conta de desenvolvedor do Facebook, e conta de Instagram pura não tem. Por isso o app próprio 3300084843713046 ('Rumo a Vice City'), ligado ao portfólio 'Diego Moraes' (verificado).",
+  "app_meta": "3300084843713046"
+ },
+ "tiktok": {
+  "ativo": true,
+  "via": "zernio",
+  "conta_id": "6ab3e1cf8d284ffb21351f2a",
+  "conta": "rumoavicecity",
+  "espelhos_por_dia": 3,
+  "atraso_min": 30,
+  "hashtags_fixas": [
+   "gta6",
+   "gtavi",
+   "vicecity"
+  ],
+  "nota": "Espelha os cartões do Instagram (mesmo MP4, já hospedado). A API oficial do TikTok só publica público depois de auditoria e robô de navegador é proibido — por isso Zernio, que tem app auditado. A chave é ZERNIO_KEY_GTA e a conta do Zernio é a do projeto (gta6diegomoraes@), porque o teto grátis de 2 contas é POR CONTA do Zernio, não por perfil."
+ }
 }

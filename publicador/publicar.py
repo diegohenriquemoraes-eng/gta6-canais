@@ -311,7 +311,8 @@ def main() -> None:
                     help="Renderiza em saida/ sem publicar (dispensa token)")
     ap.add_argument("--forcar-tipo",
                     choices=["short", "longo", "cartao", "story"])
-    ap.add_argument("--rede", choices=["youtube", "instagram"], default=None)
+    ap.add_argument("--rede", choices=["youtube", "instagram", "tiktok"],
+                    default=None)
     args = ap.parse_args()
 
     config = carregar(CONFIG, None)
@@ -353,6 +354,15 @@ def main() -> None:
             except BaseException as exc:
                 log(f"INSTAGRAM FALHOU ({exc!r}).")
                 falhas.append("instagram")
+        if args.rede in (None, "tiktok"):
+            try:
+                _rodar_tiktok(config, state, pacote, args)
+            except KeyboardInterrupt:
+                raise
+            except BaseException as exc:
+                # O espelho NUNCA derruba o dia: ele republica o que já está no
+                # ar em outra rede, então falhar aqui não perde conteúdo.
+                log(f"TIKTOK FALHOU ({exc!r}); seguindo.")
     finally:
         LOCK.unlink(missing_ok=True)
 
@@ -449,6 +459,29 @@ def _rodar_instagram(config, state, agora, pasta_pacote, pacote, args) -> None:
     instagram.rodar(tipo, ig_cfg, state, er, pacote, pasta_pacote,
                     render_apenas=args.render_apenas, gravar=lambda: gravar(
                         STATE, state))
+
+
+def _rodar_tiktok(config, state, pacote, args) -> None:
+    """Espelha no TikTok um cartão que já saiu no Instagram.
+
+    Roda DEPOIS do Instagram de propósito: o espelho reaproveita o MP4 que o
+    cartão já hospedou, então não existe nada para espelhar antes de o cartão
+    ir ao ar. E é o último da fila porque é o único item que, falhando, não
+    perde conteúdo nenhum — o vídeo continua publicado nas outras redes.
+    """
+    tt_cfg = config.get("tiktok", {})
+    if not tt_cfg.get("ativo"):
+        return
+    er_ig = estado_rede(state, "instagram")
+    et = estado_rede(state, "tiktok")
+
+    from publicador import instagram, tiktok
+    ig_cfg = config.get("instagram", {})
+    por_id = {c["id"]: c for c in pacote.get("cartoes", [])}
+    legendas = {i: instagram.legenda_do_cartao(c, ig_cfg)
+                for i, c in por_id.items()}
+    tiktok.rodar(tt_cfg, er_ig, et, legendas,
+                 gravar=lambda: gravar(STATE, state), dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

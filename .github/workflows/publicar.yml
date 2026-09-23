@@ -19,7 +19,7 @@ on:
         type: boolean
         default: false
       rede:
-        description: "youtube, instagram ou vazio (as duas)"
+        description: "youtube, instagram, tiktok ou vazio (todas)"
         default: ""
       forcar_tipo:
         description: "short, longo, cartao ou story"
@@ -114,6 +114,7 @@ jobs:
         env:
           IG_USER_ID_GTA: ${{ secrets.IG_USER_ID_GTA }}
           IG_TOKEN_GTA: ${{ secrets.IG_TOKEN_GTA }}
+          ZERNIO_KEY_GTA: ${{ secrets.ZERNIO_KEY_GTA }}
           GH_TOKEN: ${{ github.token }}
         run: |
           args=""
