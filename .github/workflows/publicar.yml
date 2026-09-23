@@ -24,6 +24,13 @@ on:
       forcar_tipo:
         description: "short, longo, cartao ou story"
         default: ""
+      render_apenas:
+        # Ensaio: renderiza no runner e NAO sobe nada. Custa minuto de runner
+        # (ilimitado, repo publico) e ZERO cota da API. E como se descobre que
+        # o longo estoura o teto do job antes de a hora dele chegar.
+        description: "Renderiza e nao publica (nao gasta cota)"
+        type: boolean
+        default: false
 
 concurrency:
   group: publicar-gta6
@@ -113,6 +120,7 @@ jobs:
           [ "${{ inputs.dry_run }}" = "true" ] && args="$args --dry-run"
           [ -n "${{ inputs.rede }}" ] && args="$args --rede ${{ inputs.rede }}"
           [ -n "${{ inputs.forcar_tipo }}" ] && args="$args --forcar-tipo ${{ inputs.forcar_tipo }}"
+          [ "${{ inputs.render_apenas }}" = "true" ] && args="$args --render-apenas"
           python publicador/publicar.py $args
 
       - name: Guardar estado (memoria entre execucoes)
