@@ -45,6 +45,20 @@ class TestConfig(unittest.TestCase):
                 self.assertTrue((RAIZ / c.get("fila", "fila")).is_dir(),
                                 "fila ausente")
 
+    def test_o_cartao_e_hospedado_no_proprio_repo(self):
+        """O GITHUB_TOKEN do Actions só escreve no repositório que o executa.
+
+        Medido em 23/09/2026: o cartão renderizou no runner e morreu em
+        `gh release create cartoes -R .../gta6-media` com exit 1 — o token do
+        Actions não tem escrita em OUTRO repo. Ler de lá é livre (é público, e
+        é de lá que vem o acervo); ESCREVER exige que o destino seja este repo.
+        Apontar `repo_midia` para fora só voltaria a funcionar com um PAT
+        guardado como secret, o que é segredo a mais por nada: o repo é público
+        e asset de Release não entra no clone.
+        """
+        self.assertEqual(self.cfg["instagram"]["repo_midia"],
+                         "diegohenriquemoraes-eng/gta6-canais")
+
     def test_a_data_do_lancamento_bate_em_todo_lugar(self):
         for nome, c in self.cfg["canais"].items():
             with self.subTest(canal=nome):

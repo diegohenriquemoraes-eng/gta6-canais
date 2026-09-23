@@ -57,6 +57,17 @@ parâmetro os links do console e do Studio caem na conta dos outros canais da ca
   galeria oficial), não por sigilo. O runner os reconstrói com
   `produzir/baixar_oficial.py` e cache de Actions.
 - `saida/` é gitignorado: é onde o render trabalha.
-- O repo de mídia do Instagram (`gta6-media`) precisa ser **público** — asset de
-  Release privado exige token para baixar, e o Instagram devolve `status: ERROR`
-  sem explicar.
+- **Os dois repos de mídia, e por que são dois papéis diferentes.** O asset de
+  Release tem de ser **público**: privado exige token para baixar e o Instagram
+  devolve `status: ERROR` sem explicar. Só que o `GITHUB_TOKEN` do Actions
+  **escreve apenas no repositório que o executa** — em 23/09/2026 o cartão
+  renderizou no runner e morreu em `gh release create -R .../gta6-media` com
+  exit 1. Daí a divisão:
+  - **ler** de `gta6-media`, tag `acervo`: é o acervo oficial de 110 MB que eu
+    subo do PC (`produzir/subir_acervo.py`) e o runner só baixa. Download
+    público não pede token nenhum.
+  - **escrever** em `gta6-canais` (este repo), tag `cartoes`: é o MP4 do dia
+    que a Graph API precisa alcançar. Vai no próprio repo porque é o único em
+    que o token do runner tem escrita — e asset de Release não entra no clone,
+    então não incha o Git. Um PAT guardado como secret resolveria também, e
+    seria segredo a mais por nada.
