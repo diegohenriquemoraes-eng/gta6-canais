@@ -138,6 +138,38 @@ Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
    tela o que está de pé e o que falta, com o comando de cada pendência.
 4. Fase 0 fecha em **30/09** com o 1º post no ar.
 
+## Decisões de 23/09/2026 (rodada "estude o plano")
+
+- **Longo diário fica** (o plano se contradizia: a §5 dimensiona a cota para 1
+  longo/dia, a fase 1 dizia "a cada 2-3 dias"). Decisão do Diego: diário —
+  longo é o que gera hora de exibição.
+- **Vitrine própria com 4 produtos e UM link só**, em toda bio e em todo vídeo.
+  O painel de afiliados da Shopee Brasil **não tem vitrine** (conferido: o menu
+  vai de "Oferta de produto" a "Link personalizado"), então ela mora no GitHub
+  Pages que já estava no ar para o OAuth:
+  `diegohenriquemoraes-eng.github.io/gta6-canais/loja.html`. Os 4 saíram por
+  retorno esperado COM variedade de intenção — chaveiro (o mais comprado),
+  quadro de 3 peças (o que mais paga), camiseta (o campeão de volume do tema) e
+  capa de PS5 (30 % de comissão). `produzir/gerar_loja.py` gera a página a
+  partir de `conteudo/ofertas.json`; trocar produto virou um commit, em vez de
+  uma volta por quatro bios — duas das quais só o celular edita.
+  ⚠ **Sem foto do produto**, de propósito: a foto do anúncio é do vendedor.
+  ⚠ O `?de=<origem>` preserva o Sub_id: mesmo destino, rastreio separado. Sem
+  isso o relatório da Shopee diria "vendeu", nunca "vendeu pela bio do TikTok".
+- **O benchmark do nicho finalmente rodou** (250 vídeos pela Data API,
+  `benchmark/RESUMO.md`) e mudou o vocabulário do canal: `gta 6 curiosidades`
+  tem mediana de **933 mil** views e `gta 6 contagem regressiva`, **18 mil** —
+  e "Faltam N dias para GTA 6" era a cauda de todo título do formato A.
+  Título e tags trocados no mesmo dia, com o canal na primeira semana: mudar
+  depois cairia no meio da janela de medição de 15/10.
+- **A notícia do Newswire passou a virar Short sem LLM.** `noticia_do_dia` já
+  exigia `rotulo == "oficial"`, que só o Newswire da Rockstar produz — ali o
+  texto é o comunicado da própria Rockstar, e repetir a primeira frase dele é
+  citação, não boato. Barrar por falta de chave de LLM significava perder a
+  notícia oficial justamente às vésperas de 19/11. **A `ANTHROPIC_API_KEY`
+  nunca foi o gargalo do formato C**: nos dias medidos o Newswire não publicou
+  nada e as notícias eram todas de imprensa, que não vira Short com ou sem LLM.
+
 ## Decisões que não se reabrem
 
 - ViceScale não se assina: a mecânica está replicada no motor da casa.
