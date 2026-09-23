@@ -22,5 +22,29 @@
         "n": 0
       }
     }
+  },
+  "redes": {
+    "instagram": {
+      "publicados": [
+        {
+          "id": "2026-09-23-c1",
+          "media_id": "18209930776368705",
+          "cena": "trailer2-013",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-09-23-c1.mp4",
+          "em": "2026-09-23T02:24:22+00:00"
+        }
+      ],
+      "ultimo": "2026-09-23T02:24:22+00:00",
+      "dia": {
+        "data": "2026-09-23",
+        "n": 1
+      },
+      "story_dia": {
+        "data": "",
+        "n": 0
+      }
+    }
   }
 }
