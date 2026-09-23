@@ -70,13 +70,31 @@ pendência.
   `https://s.shopee.com.br/9KiFc9wYfG`
   (chaveiro mini capa de PS5 GTA 6, Sub_id `igbio`).
 
-### 2. TikTok + Zernio (~15 min)
+### 2. TikTok + Zernio (~10 min)
 
-1. `tiktok.com/signup` — conta **business** (libera link na bio sem mínimo de
-   seguidores), usuário `@rumoavicecity`, e-mail `gta6diegomoraes@gmail.com`.
-2. No Zernio (já logado), conecte essa conta.
-3. `gh secret set ZERNIO_KEY_GTA -R diegohenriquemoraes-eng/gta6-canais`
-4. Em `publicador/config.json`, mude `tiktok.ativo` para `true`.
+A conta **@rumoavicecity já existe no TikTok** e está logada neste Chrome
+(zerada: 0 seguidores, 0 vídeos, sem foto). O que falta é a ponte do Zernio.
+
+⚠ **Medido em 23/09**: a sua conta do Zernio (`diegohenriquemoraes@…`) está no
+**teto do plano grátis — 2 contas**, e as duas são do @vendanaobra (TikTok e
+Pinterest). Perfil novo **não** resolve: tentar a terceira conexão devolve
+*"Add a payment method to connect more than 2 accounts"*. A tabela de preços
+confirma: 2 contas grátis sem cartão, e daí em diante US$ 6/mês por conta.
+Publicação é **ilimitada** nas duas — o limite é de contas conectadas, não de
+posts, então conta nova mantém o custo zero.
+
+O caminho é **uma segunda conta no Zernio**, com o e-mail do projeto:
+
+1. **Janela anônima** no Chrome (`Ctrl+Shift+N`) — na janela normal a sessão
+   logada redireciona `zernio.com/signup` direto para o painel antigo.
+2. `zernio.com` → criar conta com **`gta6diegomoraes@gmail.com`**.
+3. No painel: **New Connection** → **TikTok** → autorizar com `@rumoavicecity`.
+4. Menu lateral → **API Keys** → criar/copiar a chave, e me avisar. Eu subo o
+   secret e ligo o `tiktok.ativo`:
+
+```bash
+gh secret set ZERNIO_KEY_GTA -R diegohenriquemoraes-eng/gta6-canais
+```
 
 ### 3. Regerar o token do Instagram (~2 min)
 
