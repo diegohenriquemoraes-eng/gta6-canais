@@ -39,6 +39,18 @@ gh secret set YT_CLIENT_SECRET_GTA < credenciais/gta/client_secret.json
 ⚠ O app OAuth tem de estar **EM PRODUÇÃO** na tela de consentimento. Em modo de
 teste o refresh token morre em 7 dias e o canal emudece sem avisar.
 
+**Resolvido em 22/09/2026 — o app está EM PRODUÇÃO.** O console só libera
+"Publicar app" depois que a página de *Branding* tem página inicial, política de
+privacidade e termos de serviço, e só aceita URLs de um domínio **pré-registrado**
+em "Domínios autorizados". A saída, sem depender de servidor nem de DNS, foi o
+**GitHub Pages do próprio repo**: as três páginas estão em `docs/`, no ar em
+`https://diegohenriquemoraes-eng.github.io/gta6-canais/`, e o domínio autorizado
+é `diegohenriquemoraes-eng.github.io`.
+
+Dados do projeto: Cloud `ageless-fire-509501-r8` (nome "My Project 63358"), conta
+`gta6diegomoraes@gmail.com` — que neste Chrome é **authuser=4**; sem esse
+parâmetro os links do console e do Studio caem na conta dos outros canais da casa.
+
 ## Onde mais existe segredo
 
 - `marca/oficial/` e `marca/cc/` são gitignorados por TAMANHO (432 MB de
