@@ -156,7 +156,18 @@ Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
   ⚠ **Sem foto do produto**, de propósito: a foto do anúncio é do vendedor.
   ⚠ O `?de=<origem>` preserva o Sub_id: mesmo destino, rastreio separado. Sem
   isso o relatório da Shopee diria "vendeu", nunca "vendeu pela bio do TikTok".
-- **O benchmark do nicho finalmente rodou** (250 vídeos pela Data API,
+- **O benchmark do nicho fechou nas duas redes** (`benchmark/LEITURA.md`):
+  250 vídeos do YouTube pela Data API e 3 páginas de Instagram pelo Chrome
+  logado. ⚠ A análise mora em `LEITURA.md` porque `RESUMO.md` é **regravado
+  por inteiro** a cada `--resumo` — a primeira versão da leitura foi escrita lá
+  e a rodada seguinte a apagou. No Instagram as views saem da aba **Reels**,
+  lidas da grade: a API interna devolve **429** em três chamadas seguidas.
+  As páginas BR do nicho (~28 mil seguidores) fazem 3.700-4.700 views de
+  mediana, o que mostra a régua de 15/10 (≥ 2.000) bem calibrada — mas as duas
+  vivem de **meme e vazamento**, e nós apostamos em fato com fonte. Se a régua
+  falhar, a pergunta não é "mudamos o gancho?", é **"fato com fonte tem público
+  neste nicho?"**.
+- **O benchmark do YouTube mudou o vocabulário do canal** (250 vídeos pela Data API,
   `benchmark/RESUMO.md`) e mudou o vocabulário do canal: `gta 6 curiosidades`
   tem mediana de **933 mil** views e `gta 6 contagem regressiva`, **18 mil** —
   e "Faltam N dias para GTA 6" era a cauda de todo título do formato A.
