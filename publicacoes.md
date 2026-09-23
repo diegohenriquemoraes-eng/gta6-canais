@@ -14,3 +14,11 @@
 - Item: short-2 — F017
 - Duração: 23.1s
 - Publicado em: 2026-09-23T11:55:19+00:00
+
+## foY11Xh_2cw — A classificação indicativa está no site | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/foY11Xh_2cw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F024
+- Duração: 19.6s
+- Publicado em: 2026-09-23T17:21:09+00:00

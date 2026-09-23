@@ -17,13 +17,21 @@
           "video_id": "q-sR949s4us",
           "titulo": "26 minutos de gameplay numa plataforma de filmes | GTA 6 #shorts",
           "em": "2026-09-23T11:55:19+00:00"
+        },
+        {
+          "pacote": "2026-09-23",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "foY11Xh_2cw",
+          "titulo": "A classificação indicativa está no site | GTA 6 curiosidades #shorts",
+          "em": "2026-09-23T17:21:09+00:00"
         }
       ],
-      "ultimo_short": "2026-09-23T11:55:19+00:00",
+      "ultimo_short": "2026-09-23T17:21:09+00:00",
       "ultimo_longo": null,
       "shorts_dia": {
         "data": "2026-09-23",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "",
@@ -51,12 +59,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-09-23-c2.mp4",
           "em": "2026-09-23T13:04:13+00:00"
+        },
+        {
+          "id": "2026-09-23-c3",
+          "media_id": "18010166549767662",
+          "cena": "trailer2-011",
+          "frase": "O romance entre Jason e Lucia é opcional",
+          "layout": 3,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-09-23-c3.mp4",
+          "em": "2026-09-23T17:21:09+00:00"
         }
       ],
-      "ultimo": "2026-09-23T13:04:13+00:00",
+      "ultimo": "2026-09-23T17:21:09+00:00",
       "dia": {
         "data": "2026-09-23",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "",
