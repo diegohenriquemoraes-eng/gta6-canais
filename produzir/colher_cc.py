@@ -28,7 +28,7 @@ import argparse
 import json
 import subprocess
 import sys
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -52,10 +52,21 @@ def gravar_registro(reg: dict) -> None:
                         encoding="utf-8")
 
 
-def buscar(consulta: str, quantos: int) -> list[dict]:
+def buscar(consulta: str, quantos: int, ignorar_data: bool = False
+           ) -> list[dict]:
+    """Gameplay CC BY publicado DEPOIS do lançamento — nunca vazamento.
+
+    ⚠ `publishedAfter` no futuro derruba a chamada com 400 "invalid argument"
+    (medido em 23/09/2026, no primeiro ensaio do formato E). O corte é o
+    lançamento, mas num ensaio antes dele isso é uma data futura — daí o
+    `min(...)`. Em produção a trava continua inteira: é o `main` que decide.
+    """
     from nucleo import youtube_api
     yt = youtube_api.servico(RAIZ / "credenciais" / "gta")
-    depois = datetime.combine(canal.LANCAMENTO, datetime.min.time(),
+    corte = canal.LANCAMENTO
+    if ignorar_data:
+        corte = min(corte, date.today() - timedelta(days=30))
+    depois = datetime.combine(corte, datetime.min.time(),
                               tzinfo=timezone.utc).isoformat(
                                   timespec="seconds").replace("+00:00", "Z")
     r = yt.search().list(part="id", q=consulta, type="video",
@@ -118,7 +129,8 @@ def main() -> None:
         return
 
     reg = carregar_registro()
-    novos = [i for i in buscar(a.consulta, a.quantos) if i["id"] not in reg]
+    novos = [i for i in buscar(a.consulta, a.quantos, a.ignorar_data)
+             if i["id"] not in reg]
     print(f"{len(novos)} vídeos CC BY novos")
     lista = C.carregar()
     for item in novos:

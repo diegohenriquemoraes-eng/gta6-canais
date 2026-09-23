@@ -117,15 +117,25 @@ def _rotulo(item: dict) -> str:
 def _sem_llm(item: dict) -> dict:
     """Resumo de emergência: o próprio título e a primeira frase da descrição.
 
-    Existe para o pipeline não depender de LLM nenhum. A `nota` fica em 6 —
-    abaixo do corte de 7 do reabastecedor —, ou seja: sem LLM a notícia NÃO
-    vira Short sozinha. É de propósito: publicar resumo não conferido sobre
+    Existe para o pipeline não depender de LLM nenhum, e a nota fica em 6 —
+    abaixo do corte de 7 do reabastecedor. Publicar resumo não conferido sobre
     lançamento de jogo é o caminho mais curto para o canal virar fonte de
-    boato.
+    boato, então imprensa e rumor ficam gravados mas NÃO viram Short.
+
+    ⚠ **O Newswire é a exceção, desde 23/09/2026.** `noticia_do_dia` já exige
+    `rotulo == "oficial"`, que só o Newswire da Rockstar produz — e ali o texto
+    é o comunicado da própria Rockstar. Repetir a primeira frase de um
+    comunicado oficial não é boato; é citação. Barrar isso por falta de LLM
+    significava perder a notícia oficial no dia em que ela viesse, que é
+    justamente o que rende às vésperas de 19/11. Medido nos dois dias
+    coletados: o Newswire não publicou nada e as quatro notícias eram IGN e
+    GameSpot — ou seja, a chave de LLM nunca foi o gargalo do formato C.
     """
+    oficial = _rotulo(item) == "oficial"
     frase = (item["texto"].split(". ")[0] or item["titulo"])[:260]
     return {**item, "gancho": item["titulo"][:70], "resumo": frase,
-            "nota": 6, "rotulo": _rotulo(item), "por": "sem-llm"}
+            "nota": 7 if oficial else 6, "rotulo": _rotulo(item),
+            "por": "sem-llm"}
 
 
 def _com_llm(itens: list[dict]) -> list[dict]:
