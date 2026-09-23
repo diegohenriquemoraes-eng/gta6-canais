@@ -49,6 +49,11 @@ sys.stdout.reconfigure(encoding="utf-8")
 BENCH = RAIZ / "conteudo" / "benchmark.json"
 PASTA = RAIZ / "benchmark"
 RESUMO = PASTA / "RESUMO.md"
+# ⚠ `RESUMO.md` é REGRAVADO por inteiro a cada `--resumo`. A análise do
+# que os números mandam fazer mora em `benchmark/LEITURA.md`, que este
+# script nunca toca — em 23/09/2026 ela foi escrita no RESUMO e a rodada
+# seguinte a apagou.
+LEITURA = PASTA / "LEITURA.md"
 
 
 def _dur_iso(txt: str) -> int:
@@ -196,7 +201,10 @@ def resumo() -> str:
     dados = json.loads(BENCH.read_text(encoding="utf-8"))
     linhas = ["# RESUMO do benchmark — o que rende no nicho de GTA 6", "",
               "Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui "
-              "foi baixado para reuso**: são metadados públicos.", ""]
+              "foi baixado para reuso**: são metadados públicos.", "",
+              "⚠ Este arquivo é REGRAVADO por inteiro a cada rodada. A análise "
+              "do que os números mandam fazer está em "
+              "[`LEITURA.md`](LEITURA.md), que o script não toca.", ""]
     for bloco in dados:
         vs = bloco["videos"]
         if not vs:
@@ -264,6 +272,8 @@ def main() -> None:
               f"{statistics.median(v['views'] for v in vs):,.0f} views")
     RESUMO.write_text(resumo(), encoding="utf-8")
     print(f"resumo em {RESUMO}")
+    if LEITURA.exists():
+        print(f"a leitura (não regravada) está em {LEITURA}")
 
 
 if __name__ == "__main__":

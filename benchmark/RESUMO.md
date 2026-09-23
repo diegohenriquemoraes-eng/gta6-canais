@@ -2,6 +2,8 @@
 
 Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para reuso**: são metadados públicos.
 
+⚠ Este arquivo é REGRAVADO por inteiro a cada rodada. A análise do que os números mandam fazer está em [`LEITURA.md`](LEITURA.md), que o script não toca.
+
 ## yt · gta 6 (2026-09-23, 50 itens)
 
 - mediana de views: 3,834,251
