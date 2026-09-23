@@ -6,7 +6,7 @@
       "ativo": true,
       "titulo_canal": "Rumo a Vice City · GTA 6",
       "handle": "rumoavicecity",
-      "channel_id": "",
+      "channel_id": "UCUJdsMoY_H4hLlvckVjCcEg",
       "fila": "fila",
       "hora_longo_utc": 21,
       "longos_por_dia": 1,
@@ -29,7 +29,8 @@
       "oferta_short": "",
       "bio": "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas do que a Rockstar já mostrou.",
       "_nota_gap": "gap_shorts_min 180, não 300: medido contra as execuções que o cron do GitHub entrega de verdade (~6/dia, intervalos de 2 a 7 h). Com 300 o 2º e o 3º Short caíam fora do dia — o defeito de 02/09/2026 no canal ES, em forma de config.",
-      "_nota_bio": "A bio antiga vendia a pré-venda do jogo e o controle oficial. Nenhum dos dois existe na Shopee (medido em 22/09/2026, ver conteudo/ofertas.json): o que há é quadro, capa de PS5 e camiseta. A bio passou a falar só do conteúdo, e a oferta vai no link."
+      "_nota_bio": "A bio antiga vendia a pré-venda do jogo e o controle oficial. Nenhum dos dois existe na Shopee (medido em 22/09/2026, ver conteudo/ofertas.json): o que há é quadro, capa de PS5 e camiseta. A bio passou a falar só do conteúdo, e a oferta vai no link.",
+      "_nota_conta": "Canal criado em 22/09/2026 na conta gta6diegomoraes@gmail.com. ⚠ Neste Chrome essa conta é **authuser=4** — todo link do Studio precisa do parâmetro, senão cai na conta diegohenriquemoraes@gmail.com, que tem os outros canais da casa. Studio: studio.youtube.com/channel/UCUJdsMoY_H4hLlvckVjCcEg/editing/profile?authuser=4"
     }
   },
   "instagram": {
