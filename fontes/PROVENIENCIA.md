@@ -25,7 +25,7 @@ Rodapé obrigatório em todo vídeo que usa este material:
 
 ## 2. Galeria oficial (screenshots e artworks)
 
-Origem: https://www.rockstargames.com/VI/media — **2 imagens** em disco.
+Origem: https://www.rockstargames.com/VI/media — **308 imagens** em disco.
 
 ## 3. Gameplay em Creative Commons (formatos E e F, pós-19/11/2026)
 

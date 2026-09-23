@@ -67,12 +67,28 @@ ACERVO_URL = ("https://github.com/diegohenriquemoraes-eng/gta6-media/"
               "releases/download/acervo/acervo-oficial.tar")
 
 
+def ja_em_disco() -> tuple[int, int]:
+    videos = len([p for p in OFICIAL.glob("*.mp4")
+                  if p.stat().st_size > 1_000_000]) if OFICIAL.is_dir() else 0
+    fotos = len([p for p in GALERIA.iterdir()
+                 if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")]
+                ) if GALERIA.is_dir() else 0
+    return videos, fotos
+
+
 def baixar_do_release() -> bool:
     """Puxa o acervo empacotado. False = não deu, tenta o caminho original."""
     import tarfile
     import tempfile
 
     import requests
+    # Cache quente do Actions: o material já está aqui. Sem esta saída, cada
+    # uma das ~48 execuções diárias rebaixaria os 110 MB à toa.
+    videos, fotos = ja_em_disco()
+    if videos and fotos:
+        print(f"acervo: cache quente — {videos} vídeos e {fotos} imagens "
+              f"já em disco")
+        return True
     OFICIAL.mkdir(parents=True, exist_ok=True)
     try:
         print(f"acervo: baixando {ACERVO_URL.rsplit('/', 1)[-1]}")
