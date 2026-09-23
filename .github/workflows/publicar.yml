@@ -65,13 +65,22 @@ jobs:
           key: oficial-v1-${{ hashFiles('produzir/baixar_oficial.py') }}
 
       - name: Baixar material oficial (trailers + galeria)
-        # `marca/oficial/` e gitignorado (432 MB de galeria + trailers): o repo
-        # e publico e isso incharia o Git para sempre. Em cache quente nao baixa
-        # nada. O "An Extended Look" tem RESTRICAO DE IDADE no YouTube e nao
-        # baixa no runner (o yt-dlp exige cookies de conta logada) - por isso
-        # este passo nao pode derrubar a publicacao.
+        # `marca/oficial/` e gitignorado: o repo e publico e isso incharia o
+        # Git para sempre. O runner NAO consegue baixar do YouTube (o yt-dlp
+        # leva "Sign in to confirm you're not a bot" em IP de datacenter), e a
+        # galeria nao sai por script. Por isso o script busca primeiro o acervo
+        # empacotado no Release do repo de midia (110 MB, galeria ja reduzida a
+        # 1080 px). Em cache quente nao baixa nada.
         run: python produzir/baixar_oficial.py
         continue-on-error: true
+
+      - name: Conferir que ha material para o cartao
+        # Sem arquivo local o Short cai no gradiente, mas o CARTAO do Instagram
+        # FALHA (precisa do clipe/foto de verdade). Melhor saber aqui.
+        run: |
+          v=$(ls marca/oficial/*.mp4 2>/dev/null | wc -l)
+          g=$(ls marca/oficial/galeria 2>/dev/null | wc -l)
+          echo "material no runner: $v videos, $g imagens"
 
       - name: Restaurar credenciais
         env:

@@ -52,6 +52,49 @@ FORMATO = "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/b[height<=1080]/b"
 
 GALERIA_PAGINA = "https://www.rockstargames.com/VI/media"
 
+# O runner do Actions NÃO consegue baixar do YouTube: o yt-dlp leva
+# "Sign in to confirm you're not a bot" em IP de datacenter (medido em
+# 23/09/2026), e o Extended Look ainda tem restrição de idade. A galeria também
+# não sai por script (a página monta por JavaScript). Sem material, o Short cai
+# no gradiente — mas o CARTÃO do Instagram simplesmente falha, porque precisa do
+# arquivo de verdade.
+#
+# Por isso o acervo é hospedado onde o runner alcança: um Release do repo
+# público de mídia, com a galeria já reduzida a 1080 px (o render não usa mais
+# que isso). `produzir/subir_acervo.py` monta e sobe; aqui ele é a PRIMEIRA
+# tentativa, e o caminho original vira reserva para quando rodar no PC.
+ACERVO_URL = ("https://github.com/diegohenriquemoraes-eng/gta6-media/"
+              "releases/download/acervo/acervo-oficial.tar")
+
+
+def baixar_do_release() -> bool:
+    """Puxa o acervo empacotado. False = não deu, tenta o caminho original."""
+    import tarfile
+    import tempfile
+
+    import requests
+    OFICIAL.mkdir(parents=True, exist_ok=True)
+    try:
+        print(f"acervo: baixando {ACERVO_URL.rsplit('/', 1)[-1]}")
+        with requests.get(ACERVO_URL, stream=True, timeout=600) as r:
+            if r.status_code != 200:
+                print(f"! acervo indisponível (HTTP {r.status_code})")
+                return False
+            with tempfile.NamedTemporaryFile(suffix=".tar", delete=False) as tmp:
+                for pedaco in r.iter_content(chunk_size=1 << 20):
+                    tmp.write(pedaco)
+                caminho = Path(tmp.name)
+        with tarfile.open(caminho) as tar:
+            tar.extractall(OFICIAL)
+        caminho.unlink(missing_ok=True)
+        videos = [p.name for p in OFICIAL.glob("*.mp4")]
+        fotos = len(list(GALERIA.iterdir())) if GALERIA.is_dir() else 0
+        print(f"acervo: {len(videos)} vídeos e {fotos} imagens em disco")
+        return bool(videos or fotos)
+    except Exception as exc:
+        print(f"! acervo falhou ({exc})")
+        return False
+
 
 def baixar_video(chave: str, forcar: bool = False) -> Path | None:
     vid, titulo, quando = VIDEOS[chave]
@@ -174,6 +217,16 @@ def main() -> None:
     ap.add_argument("--so-video", choices=list(VIDEOS))
     ap.add_argument("--sem-galeria", action="store_true")
     a = ap.parse_args()
+
+    # 1ª tentativa: o acervo empacotado (é o que funciona no runner)
+    if not a.forcar and not a.so_video and baixar_do_release():
+        baixados = {c: (OFICIAL / f"{c}.mp4") for c in VIDEOS
+                    if (OFICIAL / f"{c}.mp4").exists()}
+        n = len(list(GALERIA.iterdir())) if GALERIA.is_dir() else 0
+        escrever_proveniencia(baixados, n)
+        print(json.dumps({"origem": "release", "videos": list(baixados),
+                          "galeria": n}, ensure_ascii=False))
+        return
 
     alvos = [a.so_video] if a.so_video else list(VIDEOS)
     baixados = {c: baixar_video(c, a.forcar) for c in alvos}
