@@ -73,24 +73,29 @@ def main() -> None:
     cid, titulo = youtube_api.canal_do_token(yt)
     print(f"canal: {titulo} ({cid})")
 
+    # ⚠ `channels.update(part=brandingSettings)` é SUBSTITUIÇÃO, não merge:
+    # mandar só o campo que mudou devolve 400 "Required" (medido em
+    # 23/09/2026, ao trocar a bio pela vitrine). Tem de ler o que está lá,
+    # mesclar e reenviar o objeto inteiro — e num update só, senão o segundo
+    # apaga o que o primeiro gravou.
+    atual = yt.channels().list(part="brandingSettings", id=cid
+                               ).execute()["items"][0]["brandingSettings"]
+    branding = dict(atual)
+    branding["channel"] = {**atual.get("channel", {}),
+                           "description": texto,
+                           "keywords": KEYWORDS,
+                           "defaultLanguage": canal.BCP47}
+
     if BANNER.exists():
         r = yt.channelBanners().insert(
             media_body=MediaFileUpload(str(BANNER), mimetype="image/png")
         ).execute()
-        yt.channels().update(part="brandingSettings", body={
-            "id": cid,
-            "brandingSettings": {"image": {"bannerExternalUrl": r["url"]}},
-        }).execute()
-        print("banner aplicado")
+        branding["image"] = {**atual.get("image", {}),
+                             "bannerExternalUrl": r["url"]}
+        print("banner enviado")
 
     yt.channels().update(part="brandingSettings", body={
-        "id": cid,
-        "brandingSettings": {"channel": {
-            "description": texto,
-            "keywords": KEYWORDS,
-            "defaultLanguage": canal.BCP47,
-        }},
-    }).execute()
+        "id": cid, "brandingSettings": branding}).execute()
     print("bio, keywords e idioma aplicados")
     print("\nFalta pelo Studio (não tem API): nome do canal, handle, avatar, "
           "trailer para não inscritos e a seção Links.")

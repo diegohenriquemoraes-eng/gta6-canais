@@ -27,7 +27,7 @@
    "max_short_s": 25.0,
    "oferta_longo": "",
    "oferta_short": "",
-   "bio": "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas do que a Rockstar já mostrou, com a fonte de cada um.\n\nOs acessórios que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=yt_bio\n\nLinks de afiliado da Shopee: você paga o mesmo preço e ajuda o canal.\nCanal sem vínculo com a Rockstar Games ou a Take-Two Interactive.",
+   "bio": "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas do que a Rockstar já mostrou, com a fonte de cada um.\nCanal sem vínculo com a Rockstar Games ou a Take-Two Interactive.",
    "_nota_gap": "gap_shorts_min 180, não 300: medido contra as execuções que o cron do GitHub entrega de verdade (~6/dia, intervalos de 2 a 7 h). Com 300 o 2º e o 3º Short caíam fora do dia — o defeito de 02/09/2026 no canal ES, em forma de config.",
    "_nota_bio": "Um link só, a vitrine (docs/loja.html), com ?de=yt_bio. Decisão do Diego em 23/09/2026: o mesmo link em toda bio e em todo vídeo. Trocar de produto é um commit em gerar_loja.py, não uma volta em quatro bios.",
    "_nota_conta": "Canal criado em 22/09/2026 na conta gta6diegomoraes@gmail.com. ⚠ Neste Chrome essa conta é **authuser=4** — todo link do Studio precisa do parâmetro, senão cai na conta diegohenriquemoraes@gmail.com, que tem os outros canais da casa. Studio: studio.youtube.com/channel/UCUJdsMoY_H4hLlvckVjCcEg/editing/profile?authuser=4"
