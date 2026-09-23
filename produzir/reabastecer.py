@@ -72,10 +72,14 @@ TEMAS_LONGO = [
       "dualsense", "brasil", "idiomas"], "A DATA\nE O PREÇO"),
     ("producao", "GTA 6 por dentro: produção, gráficos, música e os números",
      ["producao", "graficos", "design", "arte", "musica", "album", "numeros",
-      "recorde", "take-two", "roupas", "app", "redes"], "POR\nDENTRO"),
+      "recorde", "take-two", "roupas", "app", "redes", "animacao", "visual", "cores",
+      "hud", "camera", "snapmatic", "vendas", "pesquisa",
+      "duracao", "memoria", "rdr2", "referencia", "netflix",
+      "online", "protagonistas"], "POR\nDENTRO"),
     ("trailers", "Tudo o que os trailers de GTA 6 mostraram, cena por cena",
      ["trailer1", "trailer2", "trailers", "extended", "galeria", "curiosidade",
-      "capitulos"], "CENA A\nCENA"),
+      "capitulos", "capa", "sinopse", "evento", "classificacao",
+      "dupla", "casal", "romance", "lista"], "CENA A\nCENA"),
 ]
 
 

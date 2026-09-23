@@ -213,6 +213,15 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
   afiliados, tudo funciona** — a lista de produtos sai de
   `/api/v3/offer/product/list` (preço, vendas e as três taxas de comissão) e o
   Link personalizado gera até 5 links por vez com Sub_id.
+- ⚠ **Tema estreito encurta o longo sem avisar.** O ensaio no runner (23/09,
+  entrada `render_apenas`) saiu com **9,85 min** contra o alvo de 18: o tema do
+  dia não tinha fatos suficientes, e `fatos_para_alvo` simplesmente acaba a
+  lista. Medidos os 6 temas contra os 218 fatos, `producao` rendia 12,3 min e
+  `trailers` 10,4 — os dois deixavam de fora fatos que são deles por assunto,
+  só porque a tag não constava da lista. Com as tags alargadas: 15,6 e 14,0, e
+  os fatos que nenhum tema alcançava caíram de 5 para 1. **O render do longo no
+  runner leva 6 min 16 s** (2 núcleos, 30,7 MB), contra o teto de 110 do job —
+  a folga é enorme e não é ela que limita a duração.
 - ⚠ **Não reescrever conteúdo que já passou por conferência sem abrir a fonte.**
   Em 23/09 li sete das dez frases de `fato` dos cartões como vindas do
   vazamento de 2022 e as troquei — inclusive *"o romance entre Jason e Lucia é
