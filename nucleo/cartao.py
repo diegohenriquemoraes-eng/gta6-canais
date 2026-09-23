@@ -11,9 +11,9 @@ Três layouts, como no original (VICESCALE.md §2):
 
 | layout | cabeçalho | vídeo | frase | rodapé |
 |---|---|---|---|---|
-| 1 "Twitter" | avatar + nome + selo + @handle, y 96 | 1080×608 em y 700 | 64 px, y 340 | crédito |
-| 2 "meme" | — | 1080×608 em y 660 | 72 px, y 180 | avatar + nome, y 1650 |
-| 3 "dividido" | — | 1080×608 em y 130 + foto oficial 1080×608 em y 1060 | faixa em y 800 | avatar + nome, y 1712 |
+| 1 "Twitter" | avatar + nome + selo + @handle, y 80 | 1080×1000 em y 620 | 62 px, y 300 | crédito |
+| 2 "meme" | — | 1080×1000 em y 600 | 70 px, y 250 | avatar + nome, y 1700 |
+| 3 "dividido" | — | 1080×560 em y 250 + foto oficial 1080×560 em y 1120 | faixa em y 900 | avatar + nome, y 1760 |
 
 ⚠ **A zona de vídeo é 1080×608, não 1080×1350.** O desenho original supunha
 uma fonte vertical; os trailers são 16:9, e `crop` para 1350 px de altura
@@ -81,16 +81,33 @@ def _fonte() -> str:
     return (canal.FONTES_DIR / "Montserrat-Bold.ttf").as_posix().replace(":", "\\:")
 
 
-H_VIDEO = 608             # 1080×608 = 16:9, a forma nativa dos trailers
+# ⚠ **Refeito em 23/09/2026, olhando o grid publicado.** Com a faixa de 608 px
+# o cartão saía com o bloco inteiro no terço superior e **450 px de nada** entre
+# o vídeo e o rodapé. Dois estragos, os dois visíveis na página:
+#
+# 1. no GRID do perfil o Instagram mostra um recorte central (≈4:5), e a frase,
+#    que estava em y 340, caía fora ou pela metade — foi o que o Diego viu;
+# 2. o vazio inferior fazia o post parecer arte quebrada, e não composição.
+#
+# A correção não é encher a tela com o clipe: recortar 16:9 para 9:16 come 68 %
+# da largura e mata o enquadramento — foi a lição de 22/09 e ela continua
+# valendo. O que muda é que a faixa **cresce de 608 para 1000 px** (corta 33 % das
+# laterais) e o conjunto frase+vídeo passa a ser **centrado na tela**,
+# com a sobra dividida em cima e embaixo. Assim o recorte do grid pega o fim da
+# frase e o vídeo inteiro, que é o que a página do nicho mostra.
+H_VIDEO = 1000
+H_VIDEO_DIVIDIDO = 560    # o layout 3 tem DOIS blocos; 2×760 não cabe
 
 # Geometria por layout. `y_nome` é onde entram avatar, nome, selo e @handle.
+# `h_video` é a altura da faixa daquele layout.
 GEOMETRIA = {
-    1: {"y_video": 700, "y_frase": 340, "corpo": 64, "y_nome": 120,
-        "y_avatar": 96, "rodape_y": H - 70},
-    2: {"y_video": 660, "y_frase": 180, "corpo": 72, "y_nome": 1670,
-        "y_avatar": 1646, "rodape_y": H - 70},
-    3: {"y_video": 130, "y_frase": 800, "corpo": 60, "y_nome": 1712,
-        "y_avatar": 1688, "rodape_y": H - 48, "y_foto": 1060},
+    1: {"y_video": 620, "y_frase": 300, "corpo": 62, "y_nome": 104,
+        "y_avatar": 80, "rodape_y": H - 70, "h_video": H_VIDEO},
+    2: {"y_video": 600, "y_frase": 250, "corpo": 70, "y_nome": 1700,
+        "y_avatar": 1676, "rodape_y": H - 70, "h_video": H_VIDEO},
+    3: {"y_video": 250, "y_frase": 900, "corpo": 58, "y_nome": 1760,
+        "y_avatar": 1736, "rodape_y": H - 44, "y_foto": 1120,
+        "h_video": H_VIDEO_DIVIDIDO},
 }
 
 
@@ -116,6 +133,7 @@ def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
     `trim`, e o áudio vem da trilha procedural, não do clipe.
     """
     g = GEOMETRIA[layout]
+    hv = g["h_video"]
     fonte = _fonte()
     dur = fim - inicio
     if estatico:
@@ -124,7 +142,7 @@ def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
         entrada_v = (f"[0:v]fps={FPS},scale={W * 2}:-2,"
                      f"zoompan=z='min(1.06,1+0.06*on/{int(dur * FPS)})':"
                      f"x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d=1:"
-                     f"s={W}x{H_VIDEO * 2}:fps={FPS}[src]")
+                     f"s={W}x{hv * 2}:fps={FPS}[src]")
     else:
         entrada_v = (f"[0:v]trim={inicio:.2f}:{fim:.2f},setpts=PTS-STARTPTS,"
                      f"fps={FPS}[src]")
@@ -135,14 +153,22 @@ def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
         (f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,"
          f"crop={W}:{H},scale=108:192,boxblur=8:2,"
          f"scale={W}:{H}:flags=bicubic,"
-         f"eq=brightness=-0.16:contrast=1.05:saturation=1.20,setsar=1[bg]"),
+         f"eq=brightness=-0.08:contrast=1.08:saturation=1.30,setsar=1[bg]"),
         # primeiro plano: caixa FIXA de 1080x608, preenchida por cover-crop.
         # `dx` desloca o recorte na horizontal (o "deslocamento H" do
         # ViceScale); `zoom` aproxima antes do corte.
-        (f"[b]scale={int(W * zoom)}:{int(H_VIDEO * zoom)}:"
+        (f"[b]scale={int(W * zoom)}:{int(hv * zoom)}:"
          f"force_original_aspect_ratio=increase,"
-         f"crop={W}:{H_VIDEO}:(iw-ow)/2+{dx}:(ih-oh)/2,setsar=1[fg]"),
-        f"[bg][fg]overlay=(W-w)/2:{g['y_video']}[v0]",
+         f"crop={W}:{hv}:(iw-ow)/2+{dx}:(ih-oh)/2,setsar=1[fg]"),
+        f"[bg][fg]overlay=(W-w)/2:{g['y_video']}[v0i]",
+        # ⚠ MOLDURA (23/09/2026). Em cena noturna — metade do acervo — o fundo
+        # borrado e a faixa de vídeo ficam os dois pretos, e o cartão parece
+        # uma tela vazia com uma legenda. A linha fina na cor do canal é o que
+        # diz onde o vídeo começa e acaba. Custa um filtro e resolve no olho.
+        (f"[v0i]drawbox=x=0:y={g['y_video'] - 3}:w={W}:h=3:"
+         f"color=0x35E0FF@0.75:t=fill,"
+         f"drawbox=x=0:y={g['y_video'] + hv}:w={W}:h=3:"
+         f"color=0xFF3EA5@0.75:t=fill[v0]"),
     ]
     ultimo = "v0"
     entrada = 1
@@ -153,9 +179,9 @@ def filtergraph(layout: int, inicio: float, fim: float, n_linhas: int,
         entrada += 1
     if tem_foto and layout == 3:
         # a foto oficial entra na mesma caixa 1080×608 do vídeo
-        partes.append(f"[{entrada}:v]scale={W}:{H_VIDEO}:"
+        partes.append(f"[{entrada}:v]scale={W}:{hv}:"
                       f"force_original_aspect_ratio=increase,"
-                      f"crop={W}:{H_VIDEO}[foto]")
+                      f"crop={W}:{hv}[foto]")
         partes.append(f"[{ultimo}][foto]overlay=0:{g['y_foto']}[v{entrada}]")
         ultimo = f"v{entrada}"
         entrada += 1
