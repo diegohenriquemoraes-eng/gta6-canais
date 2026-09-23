@@ -253,3 +253,42 @@ class TestFrasesDeFato(unittest.TestCase):
                     f"próximo: {fid}, {len(comuns)} de {len(palavras)} "
                     f"palavras: {sorted(comuns)}). Escreva o fato com fonte "
                     f"em conteudo/fatos/ antes de virar frase de cartão.")
+
+
+class TestCenasDescartadas(unittest.TestCase):
+    """Cena sem descrição fica fora do cartão — e tem de dizer POR QUÊ.
+
+    `cenas.aptas_para_cartao` exige descrição, então uma cena vazia já está
+    fora. O risco é o contrário: alguém (eu, daqui a um mês) olhar a lista,
+    ver três cenas "incompletas" e descrevê-las para "fechar o passo 3". Duas
+    delas NÃO podem ir ao ar — uma é a vinheta da Rockstar em tela preta, e a
+    outra é a cartela final do Trailer 2, que estampa a data ANTIGA
+    (26 de maio de 2026). Publicar a segunda é anunciar uma data que não vale
+    mais. O campo `nao_usar` é o recado; este teste é o que o torna obrigatório.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        d = json.loads((RAIZ / "conteudo" / "cenas.json")
+                       .read_text(encoding="utf-8"))
+        cls.cenas = d if isinstance(d, list) else d["cenas"]
+
+    def test_cena_sem_descricao_diz_por_que(self):
+        for c in self.cenas:
+            if (c.get("descricao") or "").strip():
+                continue
+            with self.subTest(cena=c["id"]):
+                self.assertTrue(
+                    (c.get("nao_usar") or "").strip(),
+                    f"{c['id']} não tem descrição nem `nao_usar`: ou descreva, "
+                    f"ou diga por que ela nunca deve ir ao ar.")
+
+    def test_cena_marcada_nao_usar_continua_sem_descricao(self):
+        """Descrever uma cena `nao_usar` a coloca de volta no cartão."""
+        for c in self.cenas:
+            if c.get("nao_usar"):
+                with self.subTest(cena=c["id"]):
+                    self.assertFalse(
+                        (c.get("descricao") or "").strip(),
+                        f"{c['id']} é `nao_usar` ({c['nao_usar']}) mas ganhou "
+                        f"descrição — isso a devolve para aptas_para_cartao.")

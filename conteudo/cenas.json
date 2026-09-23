@@ -161,8 +161,16 @@
   "video_origem": "trailer1",
   "inicio": 72.83,
   "fim": 84.83,
-  "descricao": "",
-  "tags": [],
+  "descricao": "Jason e Lucia assaltando uma loja de conveniência, armados e com lenços cobrindo o rosto",
+  "tags": [
+   "jason",
+   "lucia",
+   "dupla",
+   "assalto",
+   "armas",
+   "loja",
+   "dia"
+  ],
   "licenca": "rockstar_oficial",
   "credito": "",
   "no_runner": false
@@ -176,7 +184,8 @@
   "tags": [],
   "licenca": "rockstar_oficial",
   "credito": "",
-  "no_runner": false
+  "no_runner": false,
+  "nao_usar": "vinheta de abertura — logo da Rockstar em tela preta, sem imagem de jogo"
  },
  {
   "id": "trailer2-002",
@@ -469,7 +478,8 @@
   "tags": [],
   "licenca": "rockstar_oficial",
   "credito": "",
-  "no_runner": false
+  "no_runner": false,
+  "nao_usar": "cartela final do Trailer 2, com a data ANTIGA (26 de maio de 2026). Publicar isto seria anunciar uma data que não vale mais."
  },
  {
   "id": "galeria-ambrosia-01",
