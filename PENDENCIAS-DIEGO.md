@@ -30,6 +30,17 @@ pendência.
 - **36 links de afiliado gerados** (6 produtos × 6 origens), cada um com
   Sub_id próprio. Já entram nas descrições, nos Shorts e no story.
 
+**YouTube — NO AR, publicando sozinho** 🟢
+- Canal **Rumo a Vice City** `@rumoavicecity` (`UCUJdsMoY_H4hLlvckVjCcEg`), na
+  conta `gta6diegomoraes@gmail.com` (⚠ **authuser=4** neste Chrome).
+- Projeto Cloud próprio, Data API v3 + Analytics ativas, token e secrets no ar,
+  banner/bio/keywords aplicados por API.
+- **App OAuth EM PRODUÇÃO** — o token não expira mais em 7 dias. Para liberar a
+  publicação, escrevi as páginas de política e termos e as pus no ar por
+  **GitHub Pages** (`diegohenriquemoraes-eng.github.io/gta6-canais/`), que virou
+  o domínio autorizado. Sem servidor, sem DNS, sem custo.
+- Primeiro vídeo no ar: https://youtu.be/evMAZGzD5fY
+
 **Instagram @rumoavicecity — quase pronto**
 - Conta profissional de **Criador** (categoria *Gaming video creator*).
 - **Foto de perfil** aplicada (o avatar do projeto).
@@ -40,96 +51,61 @@ pendência.
 
 ## O que falta — na ordem
 
-### 1. Instagram: o token (5 min) — é o mais perto de ficar pronto
+### 1. Instagram: criar o app próprio da Meta (~5 min)
 
-A aba já está na tela certa:
-`developers.facebook.com/apps/1717198369563451` → **Configuração da API com
-login do Instagram** (o app "Palavra Viva Reels", reaproveitado; ele já serve
-`vendanaobra` e `psicologiafria.br`).
+⚠ **Reaproveitar o app do `psicologia-fria` não funciona.** Para adicionar a
+`@rumoavicecity` como testadora, a Meta exige que ela tenha *conta de
+desenvolvedor do Facebook* — e ela é conta de Instagram pura. Daí o
+"O formulário não pode ser salvo".
 
-1. No passo **2. Gerar tokens de acesso**, clique em **Adicionar conta**.
-   Abre um popup do Instagram — **é aí que a automação não entra**: autorize
-   com a conta `@rumoavicecity`.
-2. Depois que ela aparecer na lista, clique em **Gerar token** e copie.
-3. No terminal:
+O caminho certo é um app próprio, onde a conta entra pelo fluxo de **login do
+Instagram** (como o `psicologiafria.br` faz no app dele):
+
+1. `developers.facebook.com/apps/creation` — já deixei nome (**Rumo a Vice
+   City**) e e-mail preenchidos. Você **aceita os termos de plataforma** (é o
+   passo que eu não faço no seu lugar) e conclui a criação.
+2. No app novo: **Casos de uso → API do Instagram → Configuração da API com
+   login do Instagram**.
+3. **Adicionar conta** → autorize com `@rumoavicecity` → **Gerar token** →
+   copiar.
+4. No terminal:
 
 ```bash
 python produzir/instalar.py instagram
 ```
 
-Ele pede o token **sem ecoar na tela**, descobre o `IG_USER_ID` sozinho em
-`graph.instagram.com/me` (é o id que a API usa, não o número do painel — trocar
-os dois é erro clássico) e sobe os dois secrets. **Daí o Instagram publica
-sozinho.**
+Ele lê o token **direto da área de transferência**, descobre o `IG_USER_ID`
+sozinho e sobe os dois secrets. **Daí o Instagram publica 5 cartões + 1 story
+por dia.**
 
 ### 2. Instagram: duas coisas que só o APP do celular faz
 
 - **Nome de exibição**: ainda está "Diego Moraes" → mudar para
-  **Rumo a Vice City**. Tentei pelo web e o campo resiste à automação; como o
-  Instagram só permite **2 trocas de nome em 14 dias**, não insisti às cegas.
-- **Link da bio**: a própria tela do Instagram web avisa — *"Somente é possível
-  editar o link no celular"*. Cole lá o link do **produto foco**:
+  **Rumo a Vice City**. O campo resiste à automação e o Instagram só permite
+  **2 trocas em 14 dias**, então não insisti às cegas.
+- **Link da bio**: a própria tela do Instagram web avisa que *"somente é
+  possível editar o link no celular"*. Cole lá o link do **produto foco**:
   `https://s.shopee.com.br/9KiFc9wYfG`
   (chaveiro mini capa de PS5 GTA 6, Sub_id `igbio`).
 
-### 3. YouTube: canal na conta nova (20 min)
+### 3. TikTok + Zernio (~15 min)
 
-Logado em `gta6diegomoraes@gmail.com`:
-
-1. **Criar o canal** — youtube.com/create_channel. Nome **Rumo a Vice City**,
-   handle **@rumoavicecity**. Suba `marca/avatar.png` e `marca/banner.png`.
-2. **Verificação por telefone** — youtube.com/verify_phone_number (libera capa
-   personalizada; sem ela o longo fica com um retângulo preto).
-3. **Projeto Cloud próprio** — console.cloud.google.com/projectcreate, nome
-   `gta6-canais`:
-   - ativar **YouTube Data API v3** e **YouTube Analytics API**;
-   - tela de consentimento OAuth → Externo → **PUBLICAR o app**
-     (⚠ em "Em teste" o refresh token morre em 7 dias e o canal emudece);
-   - Credenciais → ID do cliente OAuth → **App para computador** → baixar o JSON
-     e **deixar na pasta Downloads**.
-4. No terminal, **um comando só**:
-
-```bash
-python produzir/instalar.py youtube
-```
-
-Ele acha o JSON sozinho, abre a tela de consentimento (você escolhe o canal e
-clica em Permitir — o único clique que não dá para automatizar), grava o token,
-**lê o channel_id e põe no config**, sobe os dois secrets, aplica banner, bio,
-keywords e idioma, e roda o conferidor.
-
-Opcional, para medir hora contável:
-```bash
-python produzir/instalar.py analytics
-```
-
-### 4. TikTok + Zernio (15 min)
-
-Você já deslogou do TikTok para criar a conta nova.
-
-1. tiktok.com/signup — conta **business** (libera link na bio sem mínimo de
-   seguidores), usuário **@rumoavicecity**, e-mail `gta6diegomoraes@gmail.com`.
-2. No Zernio (já logado), conecte essa conta do TikTok.
-3. Copie a chave de API e:
-
-```bash
-gh secret set ZERNIO_KEY_GTA -R diegohenriquemoraes-eng/gta6-canais
-```
-
+1. `tiktok.com/signup` — conta **business** (libera link na bio sem mínimo de
+   seguidores), usuário `@rumoavicecity`, e-mail `gta6diegomoraes@gmail.com`.
+2. No Zernio (já logado), conecte essa conta.
+3. `gh secret set ZERNIO_KEY_GTA -R diegohenriquemoraes-eng/gta6-canais`
 4. Em `publicador/config.json`, mude `tiktok.ativo` para `true`.
 
-### 5. Opcional — notícias com resumo de verdade
+### 4. Opcional
 
-```bash
-gh secret set ANTHROPIC_API_KEY -R diegohenriquemoraes-eng/gta6-canais
-```
-
-Sem ela, o resumo de emergência entra com nota 6 — abaixo do corte de 7 — e a
-notícia **não vira Short sozinha**. É de propósito: publicar resumo não
-conferido sobre lançamento de jogo é o caminho curto para o canal virar fonte
-de boato.
-
----
+- **Analytics** (mede hora contável): `python produzir/instalar.py analytics`
+- **Notícias com resumo de verdade**:
+  `gh secret set ANTHROPIC_API_KEY -R diegohenriquemoraes-eng/gta6-canais`.
+  Sem ela o resumo de emergência entra com nota 6 — abaixo do corte — e a
+  notícia **não vira Short sozinha**, de propósito.
+- **Verificação por telefone** do canal (`youtube.com/verify_phone_number?authuser=4`):
+  libera capa personalizada. Sem ela o vídeo longo fica com um retângulo preto
+  no lugar da miniatura. O Short não é afetado.
 
 ## O que mudou no plano (leia, muda a expectativa de dinheiro)
 

@@ -47,6 +47,20 @@ testes` → **81 casos verdes**, sem rede, em ~5 s.
 Render no PC do Diego: Short ~40 s, cartão 28-40 s, longo ~15 min. O runner do
 Actions tem 2 núcleos e o job do Publicar tem teto de 110 min — cabe.
 
+## 🟢 NO AR desde 23/09/2026 — o canal publica sozinho
+
+**YouTube `@rumoavicecity` (`UCUJdsMoY_H4hLlvckVjCcEg`) está publicando.**
+Primeiro vídeo: https://youtu.be/evMAZGzD5fY — renderizado e publicado
+inteiramente no runner do GitHub, sem PC ligado.
+
+- Conta Google **`gta6diegomoraes@gmail.com`** — ⚠ neste Chrome ela é
+  **`authuser=4`**; sem esse parâmetro os links do console e do Studio caem na
+  conta que tem os outros canais da casa.
+- Projeto Cloud `ageless-fire-509501-r8`, Data API v3 + Analytics API ativas.
+- **App OAuth EM PRODUÇÃO** — o token não expira mais (ver a armadilha abaixo).
+- Secrets `YT_CLIENT_SECRET_GTA` e `YT_TOKEN_GTA` no repo; banner, bio,
+  keywords e idioma aplicados por API.
+
 ## Feito em 22/09, tarde (rodada "faça você")
 
 - Repo `gta6-canais` e `gta6-media` **públicos**; 7 workflows ativos; a suíte
@@ -76,13 +90,15 @@ isso que `test_config` exige.
 Nada disso é código faltando — é conta que só o Diego pode criar.
 Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
 
-- YouTube: `YT_CLIENT_SECRET_GTA`, `YT_TOKEN_GTA` (+ `YT_TOKEN_ANALYTICS_GTA`).
-  O canal ainda não existe — depende de o Diego criá-lo em
-  `gta6diegomoraes@gmail.com`. Depois é `python produzir/instalar.py youtube`.
-- Instagram: `IG_USER_ID_GTA`, `IG_TOKEN_GTA`. A conta já existe e já é
-  profissional; falta **autorizá-la no app da Meta** (o popup de consentimento
-  é o único ponto em que a automação não entra) e rodar
-  `python produzir/instalar.py instagram`.
+- ~~YouTube~~ — **pronto e no ar.** Falta só `YT_TOKEN_ANALYTICS_GTA`
+  (opcional: `python produzir/instalar.py analytics`), que mede hora contável.
+- Instagram: `IG_USER_ID_GTA`, `IG_TOKEN_GTA`. A conta existe, é profissional,
+  tem foto e bio. ⚠ **Reaproveitar o app da Meta do `psicologia-fria` NÃO
+  funciona**: para adicionar a conta como testadora, a Meta exige que ela
+  tenha *conta de desenvolvedor do Facebook* — e `@rumoavicecity` é conta de
+  Instagram pura ("O formulário não pode ser salvo"). O caminho é **app
+  próprio da Meta**, onde a conta entra pelo fluxo de login do Instagram.
+  Criar o app exige aceitar os termos de plataforma — passo do Diego.
 - TikTok: `ZERNIO_KEY_GTA` (e `tiktok.ativo: true`). Zernio já logado.
 - Notícias: `ANTHROPIC_API_KEY` (sem ele o resumo de emergência entra com nota 6
   e a notícia **não** vira Short sozinha — de propósito)
@@ -151,6 +167,23 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
 - ⚠ **A galeria oficial não sai por script simples** (`rockstargames.com/VI/media`
   monta por JavaScript). Saiu pelo Chrome: as 308 URLs estão em
   `marca/oficial/galeria-urls.txt` e o downloader do `baixar_oficial.py` as usa.
+- ⚠ **App OAuth em "Testando" mata o canal em 7 dias**, e publicar não é um
+  clique: o console só libera "Publicar app" quando a página de *Branding* tem
+  página inicial, política de privacidade e termos, e só aceita URLs de um
+  domínio **pré-registrado** em "Domínios autorizados". Resolvido em 22/09 sem
+  depender de servidor nem DNS: as três páginas estão em `docs/`, publicadas
+  por **GitHub Pages** em `diegohenriquemoraes-eng.github.io/gta6-canais/`, e
+  esse é o domínio autorizado. O app está **Em produção**.
+- ⚠ **`git add` de caminho inexistente derruba o passo do workflow** (exit 128).
+  Aconteceu no primeiro Short publicado de verdade: o vídeo subiu e o estado
+  NÃO foi commitado, porque `publicacoes-ig.md` ainda não existia — e sem
+  estado a execução seguinte recontaria o dia. Os 4 workflows agora filtram os
+  caminhos existentes antes do `git add`.
+- ⚠ **O runner não baixa os trailers**: o YouTube devolve "Sign in to confirm
+  you're not a bot" para o yt-dlp em IP de datacenter. Na prática o Short sai
+  assim mesmo — `cenas.fundo_para_fato` cai na galeria oficial, que vem do
+  cache de Actions. Não é bloqueio, mas é o motivo de o passo "Baixar material
+  oficial" aparecer sempre com erro no log (`continue-on-error: true`).
 - ⚠ **Foto clara de GTA come o texto do longo.** O fundo do longo herdou o
   escurecimento do motor bíblico (-0,34), pensado para foto noturna; com
   screenshot de praia ao meio-dia o cabeçalho ciano sumia no céu. Agora há duas
