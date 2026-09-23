@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loja — Rumo a Vice City</title>
+<meta name="description" content="Os acessórios de GTA 6 que a gente indica: chaveiro, quadro, camiseta e capa de PS5.">
+<meta name="robots" content="noindex">
+<style>
+  :root{
+    --fundo:#0B0716; --cartao:#150D27; --borda:#2A1B45;
+    --rosa:#FF3EA5; --ciano:#35E0FF; --texto:#F4F1F7; --fraco:#B3AAC2;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--fundo); color:var(--texto);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background-image:
+      radial-gradient(60% 40% at 15% 0%, rgba(255,62,165,.18), transparent 70%),
+      radial-gradient(50% 35% at 90% 5%, rgba(53,224,255,.14), transparent 70%);
+    background-repeat:no-repeat;
+  }
+  .env{max-width:560px;margin:0 auto;padding:40px 18px 64px}
+  header{text-align:center;margin-bottom:28px}
+  .marca{
+    font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--ciano);font-weight:700;margin:0 0 10px;
+  }
+  h1{font-size:1.55rem;line-height:1.2;margin:0 0 8px;letter-spacing:-.02em}
+  .sub{color:var(--fraco);font-size:.95rem;margin:0}
+  .conta{
+    display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
+    background:rgba(53,224,255,.1);border:1px solid rgba(53,224,255,.3);
+    color:var(--ciano);font-size:.82rem;font-weight:600;
+  }
+  ul{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+  li{
+    background:var(--cartao);border:1px solid var(--borda);border-radius:16px;
+    padding:18px 18px 16px;position:relative;overflow:hidden;
+  }
+  li::before{
+    content:"";position:absolute;inset:0 auto 0 0;width:4px;
+    background:linear-gradient(180deg,var(--rosa),var(--ciano));
+  }
+  .tag{
+    font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--rosa);font-weight:700;margin:0 0 6px;
+  }
+  .nome{font-size:1.05rem;font-weight:600;margin:0 0 10px;line-height:1.35}
+  .linha{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .preco{font-size:1.25rem;font-weight:700;letter-spacing:-.02em}
+  .preco small{font-size:.8rem;font-weight:500;color:var(--fraco);display:block}
+  a.btn{
+    background:linear-gradient(135deg,var(--rosa),#C02BFF);color:#fff;
+    text-decoration:none;font-weight:700;font-size:.92rem;
+    padding:11px 18px;border-radius:999px;white-space:nowrap;
+    box-shadow:0 6px 18px rgba(255,62,165,.25);
+  }
+  a.btn:active{transform:translateY(1px)}
+  footer{
+    margin-top:30px;padding-top:20px;border-top:1px solid var(--borda);
+    color:#7E7291;font-size:.82rem;text-align:center;
+  }
+  footer a{color:var(--fraco)}
+  @media (max-width:380px){
+    .linha{flex-direction:column;align-items:stretch;gap:10px}
+    a.btn{text-align:center}
+  }
+</style>
+</head>
+<body>
+<div class="env">
+  <header>
+    <p class="marca">Rumo a Vice City</p>
+    <h1>O que a gente usa esperando GTA&nbsp;6</h1>
+    <p class="sub">Quatro coisas baratas para a espera passar mais rápido.</p>
+    <span class="conta" id="conta">19 de novembro de 2026</span>
+  </header>
+
+  <ul id="lista"></ul>
+
+  <footer>
+    <p>Links de afiliado da Shopee: você paga o mesmo preço e ajuda o canal.
+       Preços e estoque mudam na Shopee — o valor aqui é o do dia da conferência.</p>
+    <p>Canal sem vínculo com a Rockstar Games ou a Take-Two Interactive.<br>
+       <a href="./">Sobre</a> · <a href="./privacidade.html">Privacidade</a></p>
+  </footer>
+</div>
+
+<script>
+// Os links vêm de conteudo/ofertas.json, publicados aqui por
+// produzir/gerar_loja.py — nunca escritos à mão, para a vitrine não
+// descolar do que o pipeline usa nas descrições.
+const PRODUTOS = [
+ {
+  "tag": "o mais comprado",
+  "nome": "Chaveiro Mini Capa de Jogo PS5 — GTA 6",
+  "preco": 13.99,
+  "links": {
+   "yt_largo": "https://s.shopee.com.br/AAHMbepj3b",
+   "yt_short": "https://s.shopee.com.br/3B7cGnpdlT",
+   "yt_bio": "https://s.shopee.com.br/5AsgeUH1Dp",
+   "ig_bio": "https://s.shopee.com.br/9KiFc9wYfG",
+   "ig_story": "https://s.shopee.com.br/2BF54zsVBb",
+   "tt_bio": "https://s.shopee.com.br/9fL60mugAh"
+  }
+ },
+ {
+  "tag": "o que decora",
+  "nome": "Quadro GTA 6 Grand Theft Auto VI 3 Peças Decorativo",
+  "preco": 27.96,
+  "links": {
+   "yt_largo": "https://s.shopee.com.br/LnQs4U0A8",
+   "yt_short": "https://s.shopee.com.br/6q0uc2VBOP",
+   "yt_bio": "https://s.shopee.com.br/gQHGj0zAk",
+   "ig_bio": "https://s.shopee.com.br/1137fMYRT0",
+   "ig_story": "https://s.shopee.com.br/50ZGQjRg8l",
+   "tt_bio": "https://s.shopee.com.br/40gjEuzsZW"
+  }
+ },
+ {
+  "tag": "para vestir",
+  "nome": "Camiseta GTA 6 / Grand Theft Auto",
+  "preco": 33.75,
+  "links": {
+   "yt_largo": "https://s.shopee.com.br/W6r4NTMpB",
+   "yt_short": "https://s.shopee.com.br/70KKoLUY3S",
+   "yt_bio": "https://s.shopee.com.br/qjhT20Lpn",
+   "ig_bio": "https://s.shopee.com.br/1BMXrfXo83",
+   "ig_story": "https://s.shopee.com.br/6L4e1BMbR2",
+   "tt_bio": "https://s.shopee.com.br/4B09RDzFEZ"
+  }
+ },
+ {
+  "tag": "para o console",
+  "nome": "Capa GTA VI para PS5 (pro/slim/fat)",
+  "preco": 14.9,
+  "links": {
+   "yt_largo": "https://s.shopee.com.br/1AaTSVGq6",
+   "yt_short": "https://s.shopee.com.br/7Adl0eTuiV",
+   "yt_bio": "https://s.shopee.com.br/9fL5zGSiuW",
+   "ig_bio": "https://s.shopee.com.br/1AaTWcFUq",
+   "ig_story": "https://s.shopee.com.br/6VO4DULy65",
+   "tt_bio": "https://s.shopee.com.br/50ZGQkw4Xk"
+  }
+ }
+];
+
+// De onde veio o clique: ?de=igbio, ytbio, ttbio, ytshort, ytlargo, igstory.
+// Cada origem tem um link próprio com o Sub_id da Shopee — é o mesmo destino,
+// muda só o rastreador. Sem isso não dá para saber qual bio converteu.
+const ORIGENS = ["ig_bio","yt_bio","tt_bio","yt_short","yt_largo","ig_story"];
+const pedido = (new URLSearchParams(location.search).get("de") || "").toLowerCase();
+const origem = ORIGENS.find(o => o.replace("_","") === pedido.replace("_","")) || "ig_bio";
+
+const brl = v => v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+
+document.getElementById("lista").innerHTML = PRODUTOS.map(p => `
+  <li>
+    <p class="tag">${p.tag}</p>
+    <p class="nome">${p.nome}</p>
+    <div class="linha">
+      <span class="preco">${brl(p.preco)}<small>na Shopee</small></span>
+      <a class="btn" href="${p.links[origem] || p.links.ig_bio}"
+         target="_blank" rel="nofollow sponsored noopener">Ver na Shopee</a>
+    </div>
+  </li>`).join("");
+
+// Contagem regressiva: o mesmo gancho dos vídeos, aqui embaixo do título.
+(function(){
+  const lanc = new Date("2026-11-19T00:00:00-03:00");
+  const dias = Math.ceil((lanc - new Date()) / 86400000);
+  const el = document.getElementById("conta");
+  el.textContent = dias > 1 ? `Faltam ${dias} dias para GTA 6`
+                 : dias === 1 ? "Falta 1 dia para GTA 6"
+                 : dias === 0 ? "GTA 6 chega hoje" : "GTA 6 já está aí";
+})();
+</script>
+</body>
+</html>

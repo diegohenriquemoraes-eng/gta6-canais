@@ -27,9 +27,9 @@
    "max_short_s": 25.0,
    "oferta_longo": "",
    "oferta_short": "",
-   "bio": "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas do que a Rockstar já mostrou.",
+   "bio": "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas do que a Rockstar já mostrou, com a fonte de cada um.\n\nOs acessórios que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=yt_bio\n\nLinks de afiliado da Shopee: você paga o mesmo preço e ajuda o canal.\nCanal sem vínculo com a Rockstar Games ou a Take-Two Interactive.",
    "_nota_gap": "gap_shorts_min 180, não 300: medido contra as execuções que o cron do GitHub entrega de verdade (~6/dia, intervalos de 2 a 7 h). Com 300 o 2º e o 3º Short caíam fora do dia — o defeito de 02/09/2026 no canal ES, em forma de config.",
-   "_nota_bio": "A bio antiga vendia a pré-venda do jogo e o controle oficial. Nenhum dos dois existe na Shopee (medido em 22/09/2026, ver conteudo/ofertas.json): o que há é quadro, capa de PS5 e camiseta. A bio passou a falar só do conteúdo, e a oferta vai no link.",
+   "_nota_bio": "Um link só, a vitrine (docs/loja.html), com ?de=yt_bio. Decisão do Diego em 23/09/2026: o mesmo link em toda bio e em todo vídeo. Trocar de produto é um commit em gerar_loja.py, não uma volta em quatro bios.",
    "_nota_conta": "Canal criado em 22/09/2026 na conta gta6diegomoraes@gmail.com. ⚠ Neste Chrome essa conta é **authuser=4** — todo link do Studio precisa do parâmetro, senão cai na conta diegohenriquemoraes@gmail.com, que tem os outros canais da casa. Studio: studio.youtube.com/channel/UCUJdsMoY_H4hLlvckVjCcEg/editing/profile?authuser=4"
   }
  },
@@ -48,7 +48,8 @@
   "_nota_cartoes": "5/dia dentro dos 4-6 do PLANO.md §3. O teto real é o acervo de cenas: a regra é uma frase por cena a cada 7 dias, então 5/dia exige 35 cenas aptas. Os trailers 1 e 2 sozinhos dão 28 (257 s de material a 6-12 s por cena) — por isso a galeria oficial virou fonte de cartão em 22/09/2026 (`produzir/cenas_da_galeria.py`, 162 fotos com assunto declarado no nome do arquivo). Com ela são ~190 aptas.",
   "id_conta": "28020439320985313",
   "_nota_conta": "Conta @rumoavicecity (gta6diegomoraes@gmail.com), profissional de CRIADOR (MEDIA_CREATOR). ⚠ O IG_USER_ID que a Graph API usa é **28020439320985313** — NÃO é o 17841426213747371 que o painel da Meta mostra na tabela de tokens. Trocar os dois é o erro clássico e faz a publicação falhar sem explicação. O id certo sai de graph.instagram.com/me. ⚠ Reaproveitar o app de outro canal NÃO funciona: para adicionar a conta como testadora, a Meta exige que ela tenha conta de desenvolvedor do Facebook, e conta de Instagram pura não tem. Por isso o app próprio 3300084843713046 ('Rumo a Vice City'), ligado ao portfólio 'Diego Moraes' (verificado).",
-  "app_meta": "3300084843713046"
+  "app_meta": "3300084843713046",
+  "bio_link": "https://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=ig_bio"
  },
  "tiktok": {
   "ativo": true,
@@ -62,6 +63,7 @@
    "gtavi",
    "vicecity"
   ],
-  "nota": "Espelha os cartões do Instagram (mesmo MP4, já hospedado). A API oficial do TikTok só publica público depois de auditoria e robô de navegador é proibido — por isso Zernio, que tem app auditado. A chave é ZERNIO_KEY_GTA e a conta do Zernio é a do projeto (gta6diegomoraes@), porque o teto grátis de 2 contas é POR CONTA do Zernio, não por perfil."
+  "nota": "Espelha os cartões do Instagram (mesmo MP4, já hospedado). A API oficial do TikTok só publica público depois de auditoria e robô de navegador é proibido — por isso Zernio, que tem app auditado. A chave é ZERNIO_KEY_GTA e a conta do Zernio é a do projeto (gta6diegomoraes@), porque o teto grátis de 2 contas é POR CONTA do Zernio, não por perfil.",
+  "bio_link": "https://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=tt_bio"
  }
 }

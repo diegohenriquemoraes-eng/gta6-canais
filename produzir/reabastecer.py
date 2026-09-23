@@ -152,21 +152,21 @@ def oferta_do_dia(origem: str, quando: date) -> str:
         if vig.get("de") and date.fromisoformat(vig["de"]) > quando:
             continue
         validos.append(o)
-    validos.sort(key=lambda o: o.get("prioridade", 99))
-    linhas = []
-    # UMA oferta por descrição, não duas (decisão do Diego, 22/09/2026): com
-    # duas, nenhuma converte e o Sub_id não diz qual produto falhou — diz só a
-    # rede. Foco é o que torna a régua de 05/12 legível.
-    for o in validos[:1]:
-        link = o.get("links", {}).get(origem, "")
-        if not link:
-            continue
-        linhas.append(f"🛒 {o['produto']} — {o['loja']}\n{link}")
-    if not linhas:
+    if not validos:
         return ""
-    return ("\n".join(linhas)
-            + "\n\nLinks de afiliado da Shopee: comprando por eles você paga o "
-              "mesmo preço e ajuda o canal.")
+    # UM LINK SÓ, em toda bio e em todo vídeo (decisão do Diego, 23/09/2026):
+    # a vitrine com 4 produtos. Antes ia o link direto de UM produto, e trocar
+    # de produto obrigaria a mexer em quatro bios — duas delas só pelo celular.
+    # Com a vitrine, trocar vira um commit e o link publicado nunca envelhece.
+    # O `?de=` preserva o rastreio: a página escolhe o link daquela origem, que
+    # é o mesmo destino com Sub_id diferente.
+    vit = itens.get("_VITRINE", {}) if isinstance(itens, dict) else {}
+    url = vit.get("url")
+    if not url:
+        return ""
+    return (f"🛒 Os acessórios de GTA 6 que a gente indica:\n{url}?de={origem}"
+            "\n\nLinks de afiliado da Shopee: comprando por eles você paga o "
+            "mesmo preço e ajuda o canal.")
 
 
 def montar_pacote(quando: date, fatos: list[dict], uso: dict, cfg: dict,
