@@ -2,32 +2,6 @@
 
 Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para reuso**: são metadados públicos.
 
-## O que isto muda (leitura de 23/09/2026)
-
-**O termo é "curiosidades", não "fatos" nem "contagem regressiva".** A mediana
-de `gta 6 curiosidades` é **933.336** views; a de `gta 6 contagem regressiva`,
-**18.258**; a de `gta 6 fatos`, **16.878**. Cinquenta vezes de diferença entre
-a palavra que a massa digita e o jargão que estávamos usando — e "Faltam N
-dias para GTA 6" era a cauda de TODO título do formato A.
-
-Aplicado no mesmo dia (`nucleo/fabrica._titulo_short` e `canal.CONFIG["tags"]`),
-com o canal ainda na primeira semana: mudar depois cairia no meio da janela de
-medição de 15/10, e a regra da casa é não mexer em duas variáveis dentro de uma
-janela.
-
-**Dentro da contagem, o mais curto vence.** Em `gta 6 contagem regressiva`:
-0-10 s rende 32.651 (mediana), 10-20 s rende 14.612 e 20-30 s rende 7.174. O
-nosso teto é 25 s. Isto NÃO foi mexido: a duração é a variável da próxima
-janela, depois de 15/10, para a medição não ficar ilegível.
-
-**O topo do nicho é material oficial.** O vídeo mais visto em três das quatro
-buscas é o próprio "An Extended Look" da Rockstar (28,8 mi). Não é competição:
-é o teto do interesse, e ele passa por nós também — o canal usa o mesmo
-material de divulgação.
-
-**Há gameplay em Creative Commons circulando** (14 dos 50 em uma das buscas).
-É o insumo do formato E, que liga em 19/11.
-
 ## yt · gta 6 (2026-09-23, 50 itens)
 
 - mediana de views: 3,834,251
@@ -78,4 +52,22 @@ material de divulgação.
 - 60-∞ s: 14 itens, mediana 48,788
 - **14 com licença Creative Commons** (esses sim podem virar arquivo, com crédito)
 - mais visto: 2,558,876 — “GTA 6, o NOVO TRAILER, Extended Look Oficial”
+
+## ig · gta6.only (2026-09-23, 36 itens)
+
+- mediana de views: 51,100
+- 0-10 s: 36 itens, mediana 51,100
+- mais visto: 2,600,000 — “”
+
+## ig · gta6_brasil_ (2026-09-23, 30 itens)
+
+- mediana de views: 3,728
+- 0-10 s: 30 itens, mediana 3,728
+- mais visto: 20,900 — “”
+
+## ig · gta6clube (2026-09-23, 30 itens)
+
+- mediana de views: 4,706
+- 0-10 s: 30 itens, mediana 4,706
+- mais visto: 15,900 — “”
 
