@@ -1,0 +1,272 @@
+[
+ {
+  "id": "F191",
+  "formato": "B",
+  "gancho": "O dono do pedaço tem gravadora própria",
+  "narracao": "Boobie Ike é um figurão de Vice City com império em imóveis, boate e estúdio de gravação. No jogo ele acaba de abrir uma gravadora, a Only Raw Records. Jason e Lucia aparecem trabalhando para ele já nas primeiras cenas mostradas.",
+  "fonte": "https://www.rockstargames.com/VI",
+  "cena": "galeria: boobie-ike",
+  "tags": ["personagem", "npc", "vice-city"]
+ },
+ {
+  "id": "F192",
+  "formato": "B",
+  "gancho": "Ele largou o crime para virar empresário musical",
+  "narracao": "Dre'Quan Priest é um gângster que quer virar magnata da música em Vice City. Está na Only Raw Records ao lado de Boobie Ike, caçando o próximo hit para subir de patamar. Jason e Lucia são amigos dele.",
+  "fonte": "https://www.rockstargames.com/VI",
+  "cena": "galeria: drequan-priest",
+  "tags": ["personagem", "npc", "vice-city"]
+ },
+ {
+  "id": "F193",
+  "formato": "B",
+  "gancho": "A dupla que viralizou e quer repetir a dose",
+  "narracao": "Real Dimez são Bae-Luxe e Roxy, duas cantoras que emplacaram um sucesso viral e agora trabalham com a Only Raw Records tentando repetir o feito. A música é parte grande do mundo de GTA 6, e não só a trilha sonora.",
+  "fonte": "https://www.rockstargames.com/VI",
+  "cena": "galeria: real-dimez",
+  "tags": ["personagem", "npc", "musica"]
+ },
+ {
+  "id": "F194",
+  "formato": "B",
+  "gancho": "O assaltante de banco está montando equipe",
+  "narracao": "Raul Bautista é um ladrão de banco experiente atrás de gente nova para o próximo golpe. No Extended Look, ele toma o carro que Jason e Lucia entregam, a polícia vem atrás, e depois da perseguição os dois entram para a quadrilha.",
+  "fonte": "https://www.rockstargames.com/VI",
+  "cena": "galeria: raul-bautista",
+  "tags": ["personagem", "npc", "historia"]
+ },
+ {
+  "id": "F195",
+  "formato": "B",
+  "gancho": "Um dos personagens vive de teoria da conspiração",
+  "narracao": "Cal Hampton é um dos nomes apresentados pela Rockstar no elenco de GTA 6, ao lado de Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista e Brian Heder. Todos foram revelados na página oficial do jogo antes do lançamento.",
+  "fonte": "https://www.gtabase.com/gta-6/characters/",
+  "cena": "galeria: cal-hampton",
+  "tags": ["personagem", "npc"]
+ },
+ {
+  "id": "F196",
+  "formato": "B",
+  "gancho": "Seis personagens de apoio já têm nome e rosto",
+  "narracao": "Além de Jason e Lucia, a Rockstar já apresentou Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista, Cal Hampton e Brian Heder. É elenco de apoio revelado antes do jogo sair, coisa que a série nunca tinha feito com tanta antecedência.",
+  "fonte": "https://www.gtabase.com/gta-6/characters/",
+  "cena": "galeria: brian-heder",
+  "tags": ["personagem", "npc", "producao"]
+ },
+ {
+  "id": "F197",
+  "formato": "B",
+  "gancho": "O estado se chama Leonida, não Vice City",
+  "narracao": "Vice City é a cidade, mas o mapa inteiro de GTA 6 é o estado de Leonida, a versão da Rockstar para a Flórida. São seis regiões confirmadas, e a cidade é só uma delas — o resto é praia, pântano, porto e montanha.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: vice-city",
+  "tags": ["mapa", "lugar", "vice-city"]
+ },
+ {
+  "id": "F198",
+  "formato": "B",
+  "gancho": "O sul do mapa é um arquipélago",
+  "narracao": "Leonida Keys é a versão de GTA 6 para os Cayos da Flórida: ilhas ao sul, praias, barcos e rotas de contrabando. É a região que explica a presença de jet ski, mergulho e pesca entre as atividades mostradas pela Rockstar.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: leonida-keys",
+  "tags": ["mapa", "lugar", "leonida-keys"]
+ },
+ {
+  "id": "F199",
+  "formato": "B",
+  "gancho": "Tem um pântano gigante dentro do mapa",
+  "narracao": "Grassrivers é a resposta de GTA 6 aos Everglades: brejo subtropical enorme no sul de Leonida, com rios lentos, ciprestes e comunidades rurais isoladas. É o tipo de lugar onde some gente, carro e corpo — e cobre boa parte do mapa.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: grassrivers",
+  "tags": ["mapa", "lugar", "grassrivers"]
+ },
+ {
+  "id": "F200",
+  "formato": "B",
+  "gancho": "Uma cidade portuária decadente no golfo",
+  "narracao": "Port Gellhorn é a cidade portuária industrial de Leonida, na costa do golfo, com aparência decadente e crime por baixo. É o contraponto sujo ao brilho de Vice City, e uma das seis regiões confirmadas pela Rockstar.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: port-gellhorn",
+  "tags": ["mapa", "lugar", "port-gellhorn"]
+ },
+ {
+  "id": "F201",
+  "formato": "B",
+  "gancho": "Existe um parque nacional inteiro no norte",
+  "narracao": "Mount Kalaga National Park é a região montanhosa e florestada do norte de Leonida, feita para exploração fora de estrada. Num mapa famoso por praia e neon, é a parte que a Rockstar reservou para quem gosta de sair do asfalto.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: mount-kalaga-national-park",
+  "tags": ["mapa", "lugar", "mount-kalaga"]
+ },
+ {
+  "id": "F202",
+  "formato": "B",
+  "gancho": "Ambrosia é a sexta região confirmada",
+  "narracao": "Ambrosia fecha a lista de regiões confirmadas de Leonida, ao lado de Vice City, Leonida Keys, Grassrivers, Port Gellhorn e Mount Kalaga. A Rockstar divulgou uma série de imagens de cada uma antes do lançamento, e elas são material oficial.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: ambrosia",
+  "tags": ["mapa", "lugar", "ambrosia"]
+ },
+ {
+  "id": "F203",
+  "formato": "C",
+  "gancho": "O jogo padrão custa oitenta dólares",
+  "narracao": "A Rockstar confirmou GTA 6 a oitenta dólares na edição padrão e cem na Ultimate. É o preço mais alto já pedido por um jogo da série na estreia, e virou assunto muito antes de qualquer imagem nova aparecer.",
+  "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+  "cena": "galeria: official-cover-art",
+  "tags": ["economia", "edicoes", "lancamento"]
+ },
+ {
+  "id": "F204",
+  "formato": "C",
+  "gancho": "A Ultimate traz um supercarro dos anos noventa",
+  "narracao": "O Grotti Cheetah noventa e cinco é o carro de destaque da Ultimate Edition de GTA 6: esportivo de meados dos anos noventa, com pintura retrô futurista. Só vem na edição de cem dólares, e não é vendido separado até agora.",
+  "fonte": "https://rockstarintel.com/gta-6-pre-order-bonus-and-ultimate-edition-details-announced/",
+  "cena": "galeria: ultimate-edition-grotti-cheetah",
+  "tags": ["economia", "edicoes", "carros"]
+ },
+ {
+  "id": "F205",
+  "formato": "C",
+  "gancho": "Quem reservar ganha um carro de 1955",
+  "narracao": "O Vintage Vice City Pack é o bônus de pré-venda de GTA 6, nas duas edições. Traz um Vapid Stanier cinquenta e cinco, roupas exclusivas e um padrão vintage de arma. É o que a Rockstar usa para puxar reserva antes de dezenove de novembro.",
+  "fonte": "https://rockstarintel.com/gta-6-pre-order-bonus-and-ultimate-edition-details-announced/",
+  "cena": "galeria: vintage-vice-city-pack",
+  "tags": ["economia", "edicoes", "carros"]
+ },
+ {
+  "id": "F206",
+  "formato": "C",
+  "gancho": "A Ultimate abre duas oficinas fechadas",
+  "narracao": "A Ultimate Edition de GTA 6 destrava duas oficinas de personalização que ficam fechadas para quem comprou a edição padrão. Junto vêm roupas e tatuagens exclusivas para Jason e Lucia, e dois veículos de esconderijo para Jason.",
+  "fonte": "https://rockstarintel.com/gta-6-pre-order-bonus-and-ultimate-edition-details-announced/",
+  "cena": "galeria: ultimate-edition-rideout-customs",
+  "tags": ["economia", "edicoes", "carros"]
+ },
+ {
+  "id": "F207",
+  "formato": "C",
+  "gancho": "Jason ganha uma moto e um caiaque",
+  "narracao": "Entre os itens da Ultimate Edition de GTA 6 estão dois veículos de esconderijo para Jason: a moto Dinka Enduro e um caiaque Crest. Num mapa cheio de brejo e canal, o caiaque é menos piada do que parece.",
+  "fonte": "https://rockstarintel.com/gta-6-pre-order-bonus-and-ultimate-edition-details-announced/",
+  "cena": "galeria: ultimate-edition-safehouse-vehicles",
+  "tags": ["economia", "edicoes", "veiculos", "jason"]
+ },
+ {
+  "id": "F208",
+  "formato": "C",
+  "gancho": "Tem um revólver com cabo de palmeira gravada",
+  "narracao": "A Ultimate Edition de GTA 6 traz versões dele e dela de um revólver com estilo clássico de Vice City, vindo da Vercetti Estate: cabo com palmeira gravada, detalhes em relevo e mira de alto desempenho. É referência direta ao Vice City de 2002.",
+  "fonte": "https://rockstarintel.com/gta-6-pre-order-bonus-and-ultimate-edition-details-announced/",
+  "cena": "galeria: ultimate-edition-hawk-and-little-morgan-revolvers",
+  "tags": ["economia", "edicoes", "armas"]
+ },
+ {
+  "id": "F209",
+  "formato": "A",
+  "gancho": "O jogo atrasou dezoito meses do plano original",
+  "narracao": "GTA 6 chega cerca de dezoito meses depois da janela que a própria Take-Two tinha traçado: o anúncio inicial mirava 2025 e a data escorregou duas vezes até dezenove de novembro de 2026. O presidente da empresa reafirmou essa data.",
+  "fonte": "https://www.gamersegames.com.br/2026/05/18/gta-6-chegara-18-meses-depois-da-data-original-confirma-ceo-da-take-two/",
+  "cena": "galeria: official-cover-art",
+  "tags": ["lancamento", "data", "producao"]
+ },
+ {
+  "id": "F210",
+  "formato": "B",
+  "gancho": "A Only Raw Records liga quase todo mundo",
+  "narracao": "Boobie Ike abriu a gravadora, Dre'Quan Priest trabalha nela e as Real Dimez gravam lá. A Only Raw Records é o fio que costura boa parte do elenco de apoio de GTA 6 mostrado até agora, e coloca a música no centro da história.",
+  "fonte": "https://www.rockstargames.com/VI",
+  "cena": "galeria: drequan-priest",
+  "tags": ["personagem", "npc", "historia", "musica"]
+ },
+ {
+  "id": "F211",
+  "formato": "B",
+  "gancho": "A primeira missão mostrada é entrega de carro",
+  "narracao": "No Extended Look, Jason e Lucia entregam um carro a Raul Bautista. Ele toma o veículo, a polícia aparece, vem perseguição e tiroteio — e no fim os dois são aceitos na quadrilha. É assim que a dupla entra no mundo dos assaltos.",
+  "fonte": "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI:_An_Extended_Look",
+  "cena": "galeria: jason-and-lucia-robbery",
+  "tags": ["historia", "jason", "lucia", "policia"]
+ },
+ {
+  "id": "F212",
+  "formato": "B",
+  "gancho": "A dupla começa buscando droga num prédio",
+  "narracao": "Uma das cenas do Extended Look põe Jason e Lucia num prédio de apartamentos de uma área pobre de Vice City, buscando droga a mando de Boobie Ike. É o tipo de serviço de base que abre a escalada da dupla dentro do jogo.",
+  "fonte": "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI:_An_Extended_Look",
+  "cena": "galeria: jason-and-lucia-motel",
+  "tags": ["historia", "jason", "lucia", "vice-city"]
+ },
+ {
+  "id": "F213",
+  "formato": "B",
+  "gancho": "Os dois moram num motel no começo",
+  "narracao": "As imagens oficiais de GTA 6 mostram Jason e Lucia num motel, e a Rockstar já confirmou que o esconderijo muda conforme os capítulos avançam. Começar num motel barato e subir na vida é o arco clássico da série, agora dividido entre dois.",
+  "fonte": "https://www.rockstargames.com/VI",
+  "cena": "galeria: jason-and-lucia-motel",
+  "tags": ["historia", "jason", "lucia", "capitulos"]
+ },
+ {
+  "id": "F214",
+  "formato": "B",
+  "gancho": "É a primeira dupla jogável da série",
+  "narracao": "GTA 6 é o primeiro Grand Theft Auto com dois protagonistas que formam um casal, Jason Duval e Lucia Caminos. GTA 5 teve três protagonistas, mas independentes — aqui a relação entre os dois é parte da mecânica e do final.",
+  "fonte": "https://www.rockstargames.com/VI",
+  "cena": "galeria: jason-and-lucia-beach",
+  "tags": ["personagem", "jason", "lucia", "dupla", "historia-serie"]
+ },
+ {
+  "id": "F215",
+  "formato": "B",
+  "gancho": "Lucia é a primeira protagonista mulher da série principal",
+  "narracao": "Lucia Caminos é a primeira mulher a protagonizar um Grand Theft Auto numerado. A série tinha vinte e cinco anos e nunca havia colocado uma mulher no papel principal da campanha, o que fez de Lucia o nome mais comentado do primeiro trailer.",
+  "fonte": "https://www.rockstargames.com/VI",
+  "cena": "galeria: lucia-caminos",
+  "tags": ["personagem", "lucia", "historia-serie"]
+ },
+ {
+  "id": "F216",
+  "formato": "B",
+  "gancho": "A praia é o cartão-postal do jogo",
+  "narracao": "Vice City é a leitura da Rockstar para a Miami de hoje, e a praia aparece em quase toda imagem oficial de GTA 6. O contraste é proposital: o neon e a areia de um lado, o pântano de Grassrivers e o porto decadente do outro.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: vice-city",
+  "tags": ["lugar", "vice-city", "mapa"]
+ },
+ {
+  "id": "F217",
+  "formato": "C",
+  "gancho": "A capa oficial já está circulando",
+  "narracao": "A arte de capa de GTA 6 foi publicada pela Rockstar junto com a abertura das reservas. É a imagem que vai na caixa e nas lojas digitais, e a primeira peça oficial que trata o jogo como produto à venda, não mais como promessa.",
+  "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+  "cena": "galeria: official-cover-art",
+  "tags": ["lancamento", "edicoes", "producao"]
+ },
+ {
+  "id": "F218",
+  "formato": "B",
+  "gancho": "Cada região ganhou seu próprio cartão-postal",
+  "narracao": "A Rockstar publicou artes em formato de cartão-postal para Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga. É material oficial de divulgação, e serve de mapa visual do estado antes de qualquer um pisar nele.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: ambrosia-postcard",
+  "tags": ["mapa", "lugar", "producao"]
+ },
+ {
+  "id": "F219",
+  "formato": "B",
+  "gancho": "O pântano é o lugar de esconder o que sobrou",
+  "narracao": "Grassrivers tem rios lentos, ciprestes e comunidades isoladas espalhadas por uma área enorme no sul de Leonida. Num jogo em que a polícia identifica seu carro e sua roupa, um brejo desse tamanho deixa de ser paisagem e vira ferramenta.",
+  "fonte": "https://www.gtabase.com/gta-6/map/",
+  "cena": "galeria: grassrivers",
+  "tags": ["mapa", "lugar", "grassrivers", "policia"]
+ },
+ {
+  "id": "F220",
+  "formato": "C",
+  "gancho": "Duas edições, e a diferença são vinte dólares",
+  "narracao": "GTA 6 sai em duas edições: a padrão por oitenta dólares e a Ultimate por cem. Os vinte de diferença compram o Grotti Cheetah, duas oficinas, roupas e tatuagens exclusivas, o revólver da Vercetti Estate e dois veículos de esconderijo.",
+  "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+  "cena": "galeria: ultimate-edition",
+  "tags": ["economia", "edicoes"]
+ }
+]

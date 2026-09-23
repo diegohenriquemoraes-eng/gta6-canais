@@ -6,7 +6,10 @@
   "narracao": "O nível de procurado em GTA 6 leva em conta a sua roupa, a sua aparência e o veículo que você está usando. Trocar de roupa e abandonar o carro deixou de ser detalhe: virou parte de como se escapa da polícia.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: vice-city",
-  "tags": ["mecanica", "policia"]
+  "tags": [
+   "mecanica",
+   "policia"
+  ]
  },
  {
   "id": "F152",
@@ -15,7 +18,11 @@
   "narracao": "Como a polícia identifica o veículo usado no crime, o Extended Look mostra que pode ser preciso incendiar o carro comprometido para cortar a ligação com você. É uma solução suja, e é exatamente o tipo de escolha que o jogo passa a cobrar.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "trailer2@2:30",
-  "tags": ["mecanica", "policia", "carros"]
+  "tags": [
+   "mecanica",
+   "policia",
+   "carros"
+  ]
  },
  {
   "id": "F153",
@@ -24,7 +31,11 @@
   "narracao": "O porta-malas dos carros em GTA 6 funciona de verdade: guarda armas, roupas e outros itens. Também serve de esconderijo para uma pessoa, e chega a ser usado para transportar alguém. É espaço de jogo, não cenário.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: vice-city",
-  "tags": ["mecanica", "carros", "veiculos"]
+  "tags": [
+   "mecanica",
+   "carros",
+   "veiculos"
+  ]
  },
  {
   "id": "F154",
@@ -33,7 +44,12 @@
   "narracao": "Cada protagonista pode ter vários carros pessoais em GTA 6, com porta-malas funcional em cada um. A frota deixa de ser um carro qualquer roubado na rua e passa a ser patrimônio do personagem, com o que você deixou guardado dentro.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: jason-and-lucia",
-  "tags": ["mecanica", "carros", "jason", "lucia"]
+  "tags": [
+   "mecanica",
+   "carros",
+   "jason",
+   "lucia"
+  ]
  },
  {
   "id": "F155",
@@ -42,7 +58,11 @@
   "narracao": "GTA 6 tem sistema de combustível: o tanque esvazia e o carro para. Para abastecer no posto, é preciso segurar o botão por cerca de dez segundos. É uma pausa deliberada no ritmo, coisa que a série nunca tinha pedido do jogador.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: vice-city",
-  "tags": ["mecanica", "carros", "veiculos"]
+  "tags": [
+   "mecanica",
+   "carros",
+   "veiculos"
+  ]
  },
  {
   "id": "F156",
@@ -51,7 +71,12 @@
   "narracao": "Em GTA 6 dá para alternar entre Jason e Lucia a qualquer momento. Em uma das cenas mostradas, os dois se comunicam por mensagem enquanto estão separados — a dupla continua existindo mesmo quando você só controla um deles.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: jason-and-lucia",
-  "tags": ["mecanica", "jason", "lucia", "dupla"]
+  "tags": [
+   "mecanica",
+   "jason",
+   "lucia",
+   "dupla"
+  ]
  },
  {
   "id": "F157",
@@ -60,16 +85,25 @@
   "narracao": "Segundo a Rockstar, a força da relação entre Jason e Lucia influencia tanto o rumo da história quanto o final de GTA 6. É a primeira vez que a série amarra o desfecho ao vínculo entre os protagonistas, e não apenas às missões cumpridas.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: jason-and-lucia",
-  "tags": ["historia", "jason", "lucia", "dupla"]
+  "tags": [
+   "historia",
+   "jason",
+   "lucia",
+   "dupla"
+  ]
  },
  {
   "id": "F158",
   "formato": "B",
-  "gancho": "A história é dividida em capítulos",
-  "narracao": "GTA 6 organiza a campanha em capítulos. Ao longo deles, Jason e Lucia trocam de esconderijo, num esquema parecido com o dos acampamentos de Red Dead Redemption 2. A base do jogador muda de lugar conforme a história avança.",
-  "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
-  "cena": "galeria: jason-and-lucia",
-  "tags": ["historia", "capitulos", "jason", "lucia"]
+  "gancho": "A primeira jogabilidade de verdade",
+  "narracao": "O Extended Look foi a primeira vez que a Rockstar mostrou GTA 6 sendo jogado, com mira, cobertura, roda de armas e nível de procurado na tela. Os dois trailers anteriores eram sequências montadas, sem nada disso aparecer.",
+  "fonte": "https://vgtimes.com/gaming-news/165687-netflix-lists-grand-theft-auto-6-extended-look-at-26-minutes.html",
+  "cena": "galeria: an-extended-look",
+  "tags": [
+   "trailers",
+   "extended",
+   "mecanica"
+  ]
  },
  {
   "id": "F159",
@@ -78,7 +112,12 @@
   "narracao": "Vice City e o interior ao redor somam cerca de onze vezes a área urbana de GTA 5. Só a cidade já é o dobro de Los Santos. O estado de Leonida foi feito para ser atravessado, não apenas para servir de fundo.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: vice-city",
-  "tags": ["mapa", "tamanho", "lugar", "vice-city"]
+  "tags": [
+   "mapa",
+   "tamanho",
+   "lugar",
+   "vice-city"
+  ]
  },
  {
   "id": "F160",
@@ -87,7 +126,11 @@
   "narracao": "A Rockstar diz que GTA 6 tem um mundo feito para ser explorado sem marcadores no mapa, do jeito de Red Dead Redemption 2. A promessa é que a recompensa de sair andando à toa seja grande o suficiente para valer a pena.",
   "fonte": "https://vgtimes.com/gaming-news/165687-netflix-lists-grand-theft-auto-6-extended-look-at-26-minutes.html",
   "cena": "galeria: grassrivers",
-  "tags": ["mapa", "lugar", "atividade"]
+  "tags": [
+   "mapa",
+   "lugar",
+   "atividade"
+  ]
  },
  {
   "id": "F161",
@@ -96,7 +139,12 @@
   "narracao": "Em GTA 6, a comida altera o peso de Jason e de Lucia, e os exercícios mudam a musculatura. O corpo do personagem passa a registrar o que você fez com ele ao longo da campanha, e não só o que a roupa mostra.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: jason-duval",
-  "tags": ["mecanica", "corpo", "jason", "lucia"]
+  "tags": [
+   "mecanica",
+   "corpo",
+   "jason",
+   "lucia"
+  ]
  },
  {
   "id": "F162",
@@ -105,7 +153,11 @@
   "narracao": "Longos períodos sem dormir deixam marcas no rosto e no corpo dos personagens de GTA 6. É o mesmo princípio da comida e do exercício: o estado físico é acumulado e aparece na tela, sem precisar de menu para ser lembrado.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: lucia-caminos",
-  "tags": ["mecanica", "corpo", "personagem"]
+  "tags": [
+   "mecanica",
+   "corpo",
+   "personagem"
+  ]
  },
  {
   "id": "F163",
@@ -114,7 +166,12 @@
   "narracao": "O Extended Look mostra Jason se protegendo atrás de paredes antes de atirar, num tiroteio dentro de um arranha-céu. O sistema de cobertura lembra o de jogos feitos só para tiro, e é uma reforma clara em relação a GTA 5.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "trailer2@1:45",
-  "tags": ["mecanica", "combate", "armas", "jason"]
+  "tags": [
+   "mecanica",
+   "combate",
+   "armas",
+   "jason"
+  ]
  },
  {
   "id": "F164",
@@ -123,7 +180,11 @@
   "narracao": "GTA 6 tem uma mecânica que desacelera o tempo para dar tiros precisos. É o velho recurso da série, refeito para o sistema de cobertura novo, e apareceu em cena de tiroteio no Extended Look apresentado pela Rockstar.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "trailer2@1:45",
-  "tags": ["mecanica", "combate", "armas"]
+  "tags": [
+   "mecanica",
+   "combate",
+   "armas"
+  ]
  },
  {
   "id": "F165",
@@ -132,7 +193,11 @@
   "narracao": "O Extended Look mostrou corrida tradicional em circuito de asfalto fechado e permanente, algo inédito em Grand Theft Auto. Não é a corrida de rua improvisada de sempre: é pista fechada, com traçado próprio e largada.",
   "fonte": "https://www.redbull.com/int-en/racing-in-gta-6-explained",
   "cena": "galeria: vice-city",
-  "tags": ["atividade", "carros", "veiculos"]
+  "tags": [
+   "atividade",
+   "carros",
+   "veiculos"
+  ]
  },
  {
   "id": "F166",
@@ -141,7 +206,11 @@
   "narracao": "Uma das cenas mostra Lucia disputando um circuito de trilha de moto, ao lado de outros pilotos, com muitos saltos e tempo no ar. É outro tipo de corrida dentro do mesmo jogo, longe do asfalto e dos carros de rua.",
   "fonte": "https://www.redbull.com/int-en/racing-in-gta-6-explained",
   "cena": "galeria: lucia-caminos",
-  "tags": ["atividade", "veiculos", "lucia"]
+  "tags": [
+   "atividade",
+   "veiculos",
+   "lucia"
+  ]
  },
  {
   "id": "F167",
@@ -150,7 +219,11 @@
   "narracao": "O Extended Look mostra natação, mergulho, jet ski e pesca entre as atividades de GTA 6. A água deixa de ser limite do mapa e vira lugar de jogo, o que faz sentido num estado inteiro cercado por mar e pântano.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: leonida-keys",
-  "tags": ["atividade", "lugar", "transporte"]
+  "tags": [
+   "atividade",
+   "lugar",
+   "transporte"
+  ]
  },
  {
   "id": "F168",
@@ -159,7 +232,10 @@
   "narracao": "Entre as atividades mostradas no Extended Look estão basquete de rua e mini golfe. São passatempos que existem fora da missão, para ocupar o mundo entre um capítulo e outro da história de Jason e Lucia.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: vice-city",
-  "tags": ["atividade", "lugar"]
+  "tags": [
+   "atividade",
+   "lugar"
+  ]
  },
  {
   "id": "F169",
@@ -168,7 +244,10 @@
   "narracao": "O Extended Look mostra salto de arranha-céu entre as atividades livres de GTA 6, ao lado de corrida de rua e de moto. É o tipo de brincadeira que o jogador inventa sozinho, e que a Rockstar decidiu mostrar na apresentação.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: vice-city",
-  "tags": ["atividade", "lugar"]
+  "tags": [
+   "atividade",
+   "lugar"
+  ]
  },
  {
   "id": "F170",
@@ -177,7 +256,11 @@
   "narracao": "Em GTA 6 o cachorro não serve só para receber carinho: dá para treiná-lo. E o que você faz com ele conta para o karma do personagem, um sistema que acompanha o comportamento do jogador dentro do mundo.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: grassrivers",
-  "tags": ["mecanica", "animais", "atividade"]
+  "tags": [
+   "mecanica",
+   "animais",
+   "atividade"
+  ]
  },
  {
   "id": "F171",
@@ -186,7 +269,11 @@
   "narracao": "A jogabilidade mostrada no Extended Look roda a trinta quadros por segundo. É o esperado para console nesta geração, mas vale saber de antemão por quem contava com sessenta quadros no PlayStation 5 ou no Xbox Series.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: vice-city",
-  "tags": ["graficos", "plataformas", "numeros"]
+  "tags": [
+   "graficos",
+   "plataformas",
+   "numeros"
+  ]
  },
  {
   "id": "F172",
@@ -195,7 +282,10 @@
   "narracao": "A Rockstar afirmou que a parte para um jogador de GTA 6 sai sem microtransações. É uma decisão que contraria o caminho do GTA Online, e foi anunciada junto com o Extended Look de agosto de 2026.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: jason-and-lucia",
-  "tags": ["economia", "producao"]
+  "tags": [
+   "economia",
+   "producao"
+  ]
  },
  {
   "id": "F173",
@@ -204,7 +294,10 @@
   "narracao": "Junto com o Extended Look, a Rockstar afirmou que nenhuma inteligência artificial generativa foi usada no desenvolvimento de GTA 6. A declaração vem num momento em que o uso de IA virou assunto quente na indústria de jogos.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: vice-city",
-  "tags": ["producao", "numeros"]
+  "tags": [
+   "producao",
+   "numeros"
+  ]
  },
  {
   "id": "F174",
@@ -213,7 +306,11 @@
   "narracao": "A direção em GTA 6 aparece bem mais dinâmica do que a de GTA 5, com curvas mais fechadas e freadas bruscas. Quem passou anos dirigindo em Los Santos vai precisar reaprender o peso do carro em Vice City.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "trailer2@0:55",
-  "tags": ["mecanica", "carros", "veiculos"]
+  "tags": [
+   "mecanica",
+   "carros",
+   "veiculos"
+  ]
  },
  {
   "id": "F175",
@@ -222,7 +319,11 @@
   "narracao": "O Extended Look de GTA 6 estreou em vinte e sete de agosto de 2026, primeiro na Netflix. Só cerca de seis horas depois foi ao canal da Rockstar no YouTube e ao site oficial do jogo. Foi a maior apresentação que o estúdio já fez.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: vice-city",
-  "tags": ["trailers", "extended", "producao"]
+  "tags": [
+   "trailers",
+   "extended",
+   "producao"
+  ]
  },
  {
   "id": "F176",
@@ -231,7 +332,11 @@
   "narracao": "O Extended Look tem cerca de vinte e seis minutos e é o olhar mais longo que a Rockstar já deu sobre GTA 6. Antes dele, tudo o que existia eram dois trailers somando pouco mais de quatro minutos de imagem.",
   "fonte": "https://vgtimes.com/gaming-news/165687-netflix-lists-grand-theft-auto-6-extended-look-at-26-minutes.html",
   "cena": "galeria: vice-city",
-  "tags": ["trailers", "extended", "numeros"]
+  "tags": [
+   "trailers",
+   "extended",
+   "numeros"
+  ]
  },
  {
   "id": "F177",
@@ -240,16 +345,11 @@
   "narracao": "O Extended Look mostrou a nova roda de seleção de armas e itens de GTA 6, apresentada junto com o sistema de seis estrelas de procurado. É por ela que o jogador troca de arma no meio da ação, sem sair da cena.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "trailer2@1:45",
-  "tags": ["mecanica", "armas", "combate"]
- },
- {
-  "id": "F178",
-  "formato": "C",
-  "gancho": "Ainda não há versão para computador",
-  "narracao": "GTA 6 chega em dezenove de novembro de 2026 para PlayStation 5 e Xbox Series X e S. A versão para computador não foi anunciada. Em GTA 5, o PC levou quase dois anos para receber o jogo depois dos consoles.",
-  "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
-  "cena": "galeria: vice-city",
-  "tags": ["lancamento", "plataformas", "pc", "data"]
+  "tags": [
+   "mecanica",
+   "armas",
+   "combate"
+  ]
  },
  {
   "id": "F179",
@@ -258,7 +358,11 @@
   "narracao": "Jason e Lucia trocam de esconderijo ao longo dos capítulos de GTA 6. O lugar onde você guarda as coisas e recomeça o dia não é fixo: acompanha o ponto da história em que a dupla está, como os acampamentos de Red Dead.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: jason-and-lucia",
-  "tags": ["historia", "capitulos", "lugar"]
+  "tags": [
+   "historia",
+   "capitulos",
+   "lugar"
+  ]
  },
  {
   "id": "F180",
@@ -267,7 +371,10 @@
   "narracao": "As seis estrelas de procurado voltaram em GTA 6, mas com uma diferença: a polícia cruza vários sinais antes de reagir, incluindo roupa, aparência e veículo. Escapar deixou de ser só correr mais rápido que a viatura.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "trailer2@2:30",
-  "tags": ["mecanica", "policia"]
+  "tags": [
+   "mecanica",
+   "policia"
+  ]
  },
  {
   "id": "F181",
@@ -276,7 +383,11 @@
   "narracao": "Como a polícia de GTA 6 identifica armas e roupas, o porta-malas funcional vira esconderijo prático: dá para guardar o que comprometeria você antes de passar por uma blitz. É espaço de jogo ligado ao sistema de procurado.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: vice-city",
-  "tags": ["mecanica", "policia", "carros"]
+  "tags": [
+   "mecanica",
+   "policia",
+   "carros"
+  ]
  },
  {
   "id": "F182",
@@ -285,7 +396,11 @@
   "narracao": "Comer engorda e treinar ganha músculo em GTA 6: as duas coisas mexem no mesmo personagem, em direções opostas. É um sistema de manutenção que a série já tentou em San Andreas e volta agora com muito mais detalhe visual.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: jason-duval",
-  "tags": ["mecanica", "corpo", "atividade"]
+  "tags": [
+   "mecanica",
+   "corpo",
+   "atividade"
+  ]
  },
  {
   "id": "F183",
@@ -294,7 +409,11 @@
   "narracao": "Num estado cercado por mar, pântano e canais, GTA 6 abre o mergulho como atividade. A água aparece no Extended Look junto com natação, jet ski e pesca — quatro maneiras diferentes de usar a mesma parte do mapa.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: leonida-keys",
-  "tags": ["atividade", "lugar", "mapa"]
+  "tags": [
+   "atividade",
+   "lugar",
+   "mapa"
+  ]
  },
  {
   "id": "F184",
@@ -303,7 +422,10 @@
   "narracao": "O Extended Look mostrou mini golfe como passatempo em GTA 6, ao lado de basquete de rua e pesca. São atividades que existem para o jogador ocupar o mundo fora da missão, e sugerem um mapa feito para se morar, não só atravessar.",
   "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
   "cena": "galeria: port-gellhorn",
-  "tags": ["atividade", "lugar"]
+  "tags": [
+   "atividade",
+   "lugar"
+  ]
  },
  {
   "id": "F185",
@@ -312,7 +434,11 @@
   "narracao": "GTA 6 traz um sistema de karma que registra o comportamento do jogador, inclusive o cuidado com o cachorro. O jogo passa a ter memória das suas escolhas fora das missões, e não apenas do que a história mandou fazer.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: jason-and-lucia",
-  "tags": ["mecanica", "perfil-criminal", "npc"]
+  "tags": [
+   "mecanica",
+   "perfil-criminal",
+   "npc"
+  ]
  },
  {
   "id": "F186",
@@ -321,7 +447,11 @@
   "narracao": "Abastecer em GTA 6 exige segurar o botão por cerca de dez segundos no posto. Parece pouco, mas é o tipo de detalhe que muda o ritmo: a fuga precisa contar com o tanque, e o posto vira ponto do mapa que importa.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: vice-city",
-  "tags": ["mecanica", "carros", "lugar"]
+  "tags": [
+   "mecanica",
+   "carros",
+   "lugar"
+  ]
  },
  {
   "id": "F187",
@@ -330,7 +460,12 @@
   "narracao": "Numa cena do Extended Look, Jason e Lucia trocam mensagens enquanto estão em lugares diferentes. Como dá para alternar entre os dois a qualquer momento, o parceiro continua existindo e agindo mesmo fora da sua tela.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: jason-and-lucia",
-  "tags": ["mecanica", "jason", "lucia", "dupla"]
+  "tags": [
+   "mecanica",
+   "jason",
+   "lucia",
+   "dupla"
+  ]
  },
  {
   "id": "F188",
@@ -339,16 +474,11 @@
   "narracao": "Vice City sozinha tem o dobro do tamanho de Los Santos. Somando o interior de Leonida, o conjunto chega a cerca de onze vezes a área urbana de GTA 5 — e é por isso que a Rockstar fala em explorar sem marcador no mapa.",
   "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
   "cena": "galeria: mount-kalaga",
-  "tags": ["mapa", "tamanho", "lugar"]
- },
- {
-  "id": "F189",
-  "formato": "A",
-  "gancho": "O jogo mais esperado tem dia e hora",
-  "narracao": "GTA 6 chega em dezenove de novembro de 2026 para PlayStation 5 e Xbox Series X e S. A data foi confirmada pela Rockstar depois de dois adiamentos, e não mudou desde o Extended Look apresentado em agosto.",
-  "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
-  "cena": "galeria: vice-city",
-  "tags": ["lancamento", "data", "contagem"]
+  "tags": [
+   "mapa",
+   "tamanho",
+   "lugar"
+  ]
  },
  {
   "id": "F190",
@@ -357,6 +487,11 @@
   "narracao": "GTA 5 saiu em 2013 e GTA 6 chega em dezenove de novembro de 2026: treze anos de intervalo, o maior da história da série. Nesse tempo, GTA 5 passou de duzentos e trinta milhões de unidades vendidas.",
   "fonte": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-first-6",
   "cena": "galeria: vice-city",
-  "tags": ["lancamento", "historia-serie", "contagem", "numeros"]
+  "tags": [
+   "lancamento",
+   "historia-serie",
+   "contagem",
+   "numeros"
+  ]
  }
 ]
