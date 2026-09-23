@@ -118,8 +118,10 @@ Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
   (`gta6diegomoraes@`), `ZERNIO_KEY_GTA` no repo, `tiktok.ativo: true` e
   `conta_id` travado no config. ⚠ O teto grátis do Zernio é de **2 contas POR
   CONTA do Zernio** — perfil novo dentro da mesma conta NÃO abre vaga (a
-  terceira conexão pede cartão, US$ 6/mês). A chave também foi colada em texto
-  puro no chat: vale gerar outra em **API Keys** e apagar a antiga.
+  terceira conexão pede cartão, US$ 6/mês). A chave colada no chat foi
+  **trocada e apagada** no mesmo dia: o Zernio tem `GET/POST/DELETE /api-keys`,
+  então a rotação inteira saiu por API — criar, trocar o secret, validar no
+  runner, apagar a antiga (que devolve 401 agora).
 - Notícias: `ANTHROPIC_API_KEY` (sem ele o resumo de emergência entra com nota 6
   e a notícia **não** vira Short sozinha — de propósito)
 - Shopee: **fechada**, nada a fazer.

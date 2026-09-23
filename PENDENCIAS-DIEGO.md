@@ -47,6 +47,9 @@ pendência.
   Perfil novo dentro da mesma conta não abre vaga.
 - `publicador/tiktok.py` republica o cartão do Instagram (mesmo MP4 já
   hospedado), 3/dia, 30 min depois do Instagram.
+- ⚠ A chave que você colou no chat (`sk_e5152bb…`) foi **trocada e apagada** em
+  23/09: criei outra pela própria API do Zernio (`POST /api-keys`), troquei o
+  secret, validei no runner e apaguei a antiga — ela devolve 401 agora.
 - Primeiro vídeo: https://www.tiktok.com/@rumoavicecity/video/7688738476300258566
 
 **Instagram @rumoavicecity — NO AR, publicando sozinho** 🟢
@@ -78,16 +81,7 @@ pendência.
   `https://s.shopee.com.br/9KiFc9wYfG`
   (chaveiro mini capa de PS5 GTA 6, Sub_id `igbio`).
 
-### 2. Trocar a chave do Zernio (~2 min)
-
-A chave `sk_e5152bb…` foi colada em texto puro no chat e está no histórico da
-conversa. Está funcionando e o TikTok já publicou com ela, mas o certo é:
-
-1. Zernio → menu lateral → **API Keys** → criar uma nova (botão de copiar).
-2. `python produzir/instalar.py tiktok` (lê da área de transferência).
-3. Voltar ao painel e **apagar a antiga**.
-
-### 3. Regerar o token do Instagram (~2 min)
+### 2. Regerar o token do Instagram (~2 min)
 
 O token de acesso foi colado em texto puro no chat de 22/09 e está no histórico
 da conversa. Ele funciona, e nada indica vazamento — mas o certo é gerar outro
@@ -97,7 +91,7 @@ na Meta (o novo invalida o antigo) e rodar de novo:
 python produzir/instalar.py instagram
 ```
 
-### 4. Opcional
+### 3. Opcional
 
 - **Analytics** (mede hora contável): `python produzir/instalar.py analytics`
 - **Notícias com resumo de verdade**:
