@@ -170,6 +170,26 @@ Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
   nunca foi o gargalo do formato C**: nos dias medidos o Newswire não publicou
   nada e as notícias eram todas de imprensa, que não vira Short com ou sem LLM.
 
+## Ensaio do formato E (gameplay CC BY) — 23/09/2026
+
+O caminho que liga SOZINHO em 19/11 nunca tinha sido rodado. Foi ensaiado
+agora, com `colher_cc.py --ignorar-data`, e **funciona**: Short de 18,4 s com
+vídeo de verdade, gancho no frame zero, legenda sincronizada e o rodapé
+trocado de "Material oficial © Rockstar Games" para **"Gameplay: <canal> · CC
+BY"**. A descrição leva o crédito e o link do original.
+
+Dois achados do ensaio:
+
+- ⚠ **`publishedAfter` no futuro derruba a busca com 400 "invalid argument".**
+  O corte é a data do lançamento, que HOJE é futura — ou seja, qualquer ensaio
+  antes de 19/11 quebrava. `buscar()` agora recua o corte quando
+  `--ignorar-data`; em produção a trava segue inteira.
+- ⚠ **Tudo o que o ensaio colheu foi APAGADO de propósito.** Os três vídeos
+  que a busca por "gta 6 gameplay" devolveu não são gameplay de GTA 6 — o jogo
+  não saiu. Eram 156 cenas que teriam entrado na fila de cartão como se
+  fossem. É exatamente o que a trava de data evita, e por isso ela só se
+  ignora em ensaio, nunca em produção.
+
 ## Decisões que não se reabrem
 
 - ViceScale não se assina: a mecânica está replicada no motor da casa.
