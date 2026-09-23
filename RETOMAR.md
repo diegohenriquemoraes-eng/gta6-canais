@@ -213,18 +213,20 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
   afiliados, tudo funciona** — a lista de produtos sai de
   `/api/v3/offer/product/list` (preço, vendas e as três taxas de comissão) e o
   Link personalizado gera até 5 links por vez com Sub_id.
-- ⚠ **7 das 10 frases de "fato" dos cartões vinham do VAZAMENTO de 2022**, e
-  uma era falsa: *"o romance entre Jason e Lucia é opcional"* — a Rockstar diz
-  que a FORÇA dessa relação muda a história e o final. Três cartões com ela já
-  estavam na fila. Frase de cartão é queimada no pixel e, ao contrário do fato,
-  **não tem campo `fonte`** — ninguém a auditava. As dez foram reescritas a
-  partir de fatos do poço, a fila foi corrigida sem tocar no que já publicou, e
-  `test_poco` ganhou duas travas: a frase de `fato` tem de espelhar UM fato do
-  poço (≥ 2 palavras e ≥ 60 % de cobertura, contra um fato só — contra o poço
-  inteiro o vocabulário é largo demais) e uma lista de termos proibidos
-  (`testemunha`, `opcional`, `animacoes`, `clonador`, `80 horas`,
-  `perfil criminal`), porque peneira de vocabulário não pega frase que fala do
-  assunto certo e afirma o contrário.
+- ⚠ **Não reescrever conteúdo que já passou por conferência sem abrir a fonte.**
+  Em 23/09 li sete das dez frases de `fato` dos cartões como vindas do
+  vazamento de 2022 e as troquei — inclusive *"o romance entre Jason e Lucia é
+  opcional"*, que julguei falsa. **Estava errado**: Rob Nelson (Rockstar North)
+  disse que o romance é inteiramente opcional, e o Perfil Criminal, as 600 mil
+  animações de NPC, as ~80 horas e o sistema de testemunhas são cobertura
+  confirmada do Extended Look — cada fato do poço trazia a fonte, e bastava
+  abrir. As dez voltaram (com 8 frases novas junto, que dão folga na trava de
+  7 dias) e a fila foi restaurada; nenhum cartão errado chegou a ir ao ar. O
+  que ficou do episódio é útil: frase de cartão **não tem campo `fonte`** e
+  ninguém a auditava, então `test_poco` agora exige que toda frase de `fato`
+  espelhe UM fato do poço (≥ 2 palavras e ≥ 50 % de cobertura, contra um fato
+  só — contra o poço inteiro o vocabulário é largo demais e qualquer frase
+  passa).
 - ⚠ **Instagram: o link da bio e o nome de exibição só saem pelo APP do
   celular.** A própria tela do web avisa sobre o link; o campo do nome resiste
   à automação e o Instagram só permite 2 trocas em 14 dias, então não se
