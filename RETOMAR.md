@@ -213,6 +213,18 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
   afiliados, tudo funciona** — a lista de produtos sai de
   `/api/v3/offer/product/list` (preço, vendas e as três taxas de comissão) e o
   Link personalizado gera até 5 links por vez com Sub_id.
+- ⚠ **7 das 10 frases de "fato" dos cartões vinham do VAZAMENTO de 2022**, e
+  uma era falsa: *"o romance entre Jason e Lucia é opcional"* — a Rockstar diz
+  que a FORÇA dessa relação muda a história e o final. Três cartões com ela já
+  estavam na fila. Frase de cartão é queimada no pixel e, ao contrário do fato,
+  **não tem campo `fonte`** — ninguém a auditava. As dez foram reescritas a
+  partir de fatos do poço, a fila foi corrigida sem tocar no que já publicou, e
+  `test_poco` ganhou duas travas: a frase de `fato` tem de espelhar UM fato do
+  poço (≥ 2 palavras e ≥ 60 % de cobertura, contra um fato só — contra o poço
+  inteiro o vocabulário é largo demais) e uma lista de termos proibidos
+  (`testemunha`, `opcional`, `animacoes`, `clonador`, `80 horas`,
+  `perfil criminal`), porque peneira de vocabulário não pega frase que fala do
+  assunto certo e afirma o contrário.
 - ⚠ **Instagram: o link da bio e o nome de exibição só saem pelo APP do
   celular.** A própria tela do web avisa sobre o link; o campo do nome resiste
   à automação e o Instagram só permite 2 trocas em 14 dias, então não se
