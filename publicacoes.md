@@ -22,3 +22,11 @@
 - Item: short-3 — F024
 - Duração: 19.6s
 - Publicado em: 2026-09-23T17:21:09+00:00
+
+## UveGOBYz1jE — GTA 6 por dentro: produção, gráficos, música e os números — faltam 57 dias
+
+- URL: https://youtu.be/UveGOBYz1jE
+- Canal: Rumo a Vice City · GTA 6
+- Item: longo — F009, F120, F126, F130, F011, F012
+- Duração: 590.9s
+- Publicado em: 2026-09-23T21:14:53+00:00
