@@ -15,7 +15,7 @@ já foram executados** — não repetir nenhum dos dois.
 ## O que está pronto e testado (22/09/2026)
 
 **O motor inteiro roda local, ponta a ponta.** `python -m unittest discover -s
-testes` → **81 casos verdes**, sem rede, em ~5 s.
+testes` → **84 casos verdes**, sem rede, em ~4 s.
 
 | peça | estado |
 |---|---|
@@ -27,6 +27,7 @@ testes` → **81 casos verdes**, sem rede, em ~5 s.
 | `produzir/cenas_da_galeria.py` | +162 fotos oficiais viram cena → **190 cenas aptas** |
 | `produzir/escalar.py` | cena × frase → fila, com as 5 regras de repetição |
 | `produzir/reabastecer.py` | pacotes de hoje+2, longo temático rotativo |
+| `conteudo/fatos/` | **218 fatos** com fonte, gancho e cena — 6 arquivos; cobre até ~01/12 a 3 Shorts/dia |
 | `produzir/noticias.py` | formato C (Newswire + IGN + GameSpot), teto de 8 chamadas/dia |
 | `produzir/ranquear_perfil.py` | o "Vice Scrap": YouTube, Instagram (Chrome) e TikTok |
 | `produzir/colher_cc.py` | gameplay CC BY, com trava de data em 19/11 |
@@ -47,11 +48,17 @@ testes` → **81 casos verdes**, sem rede, em ~5 s.
 Render no PC do Diego: Short ~40 s, cartão 28-40 s, longo ~15 min. O runner do
 Actions tem 2 núcleos e o job do Publicar tem teto de 110 min — cabe.
 
-## 🟢 NO AR desde 23/09/2026 — o canal publica sozinho
+## 🟢 NO AR desde 23/09/2026 — as DUAS redes publicam sozinhas
 
-**YouTube `@rumoavicecity` (`UCUJdsMoY_H4hLlvckVjCcEg`) está publicando.**
-Primeiro vídeo: https://youtu.be/evMAZGzD5fY — renderizado e publicado
-inteiramente no runner do GitHub, sem PC ligado.
+**YouTube `@rumoavicecity` (`UCUJdsMoY_H4hLlvckVjCcEg`).** Primeiro vídeo:
+https://youtu.be/evMAZGzD5fY — renderizado e publicado inteiramente no runner
+do GitHub, sem PC ligado.
+
+**Instagram `@rumoavicecity`.** Primeiro Reel:
+https://www.instagram.com/reel/18209930776368705/ — cartão do formato G,
+layout 1, renderizado no runner a partir do acervo oficial e publicado pela
+Graph API. Ponta a ponta: render → asset de Release → container → publicação →
+estado commitado.
 
 - Conta Google **`gta6diegomoraes@gmail.com`** — ⚠ neste Chrome ela é
   **`authuser=4`**; sem esse parâmetro os links do console e do Studio caem na
@@ -92,13 +99,14 @@ Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
 
 - ~~YouTube~~ — **pronto e no ar.** Falta só `YT_TOKEN_ANALYTICS_GTA`
   (opcional: `python produzir/instalar.py analytics`), que mede hora contável.
-- Instagram: `IG_USER_ID_GTA`, `IG_TOKEN_GTA`. A conta existe, é profissional,
-  tem foto e bio. ⚠ **Reaproveitar o app da Meta do `psicologia-fria` NÃO
-  funciona**: para adicionar a conta como testadora, a Meta exige que ela
-  tenha *conta de desenvolvedor do Facebook* — e `@rumoavicecity` é conta de
-  Instagram pura ("O formulário não pode ser salvo"). O caminho é **app
-  próprio da Meta**, onde a conta entra pelo fluxo de login do Instagram.
-  Criar o app exige aceitar os termos de plataforma — passo do Diego.
+- ~~Instagram~~ — **pronto e no ar.** App próprio da Meta `3300084843713046`,
+  secrets `IG_USER_ID_GTA` e `IG_TOKEN_GTA` no repo. ⚠ **Reaproveitar o app do
+  `psicologia-fria` NÃO funcionou**: para adicionar a conta como testadora, a
+  Meta exige que ela tenha *conta de desenvolvedor do Facebook* — e
+  `@rumoavicecity` é conta de Instagram pura ("O formulário não pode ser
+  salvo"). Daí o app próprio.
+  ⚠ **O token está exposto no histórico da conversa de 22/09** (foi colado em
+  texto puro no chat). Regerar pela Meta quando der — regerar invalida o antigo.
 - TikTok: `ZERNIO_KEY_GTA` (e `tiktok.ativo: true`). Zernio já logado.
 - Notícias: `ANTHROPIC_API_KEY` (sem ele o resumo de emergência entra com nota 6
   e a notícia **não** vira Short sozinha — de propósito)
@@ -180,10 +188,21 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
   estado a execução seguinte recontaria o dia. Os 4 workflows agora filtram os
   caminhos existentes antes do `git add`.
 - ⚠ **O runner não baixa os trailers**: o YouTube devolve "Sign in to confirm
-  you're not a bot" para o yt-dlp em IP de datacenter. Na prática o Short sai
-  assim mesmo — `cenas.fundo_para_fato` cai na galeria oficial, que vem do
-  cache de Actions. Não é bloqueio, mas é o motivo de o passo "Baixar material
-  oficial" aparecer sempre com erro no log (`continue-on-error: true`).
+  you're not a bot" para o yt-dlp em IP de datacenter. O Short sobrevivia
+  (cai no gradiente), mas **o CARTÃO do Instagram simplesmente falhava** — ele
+  precisa do arquivo de verdade (`origem de trailer2-013 ausente`). Resolvido
+  em 23/09: `produzir/subir_acervo.py` empacota trailers + galeria **reduzida a
+  1080 px** (487 MB → **110 MB**; o render nunca usa mais que 1080 de largura)
+  e sobe para o Release `acervo` do repo de mídia. `baixar_oficial.py` agora
+  tenta o Release PRIMEIRO e só cai no yt-dlp quando roda no PC. O runner passou
+  a ver 2 vídeos e 308 imagens.
+- ⚠ **O `GITHUB_TOKEN` do Actions escreve APENAS no repo que o executa.** O
+  cartão renderizou no runner e morreu em
+  `gh release create cartoes -R .../gta6-media` com exit 1. Ler de outro repo
+  público é livre (é assim que o acervo chega); escrever, não. Por isso
+  `instagram.repo_midia` aponta para **este** repo — asset de Release não entra
+  no clone, então não incha o Git, e um PAT em secret seria segredo a mais por
+  nada. `test_config` trava isso.
 - ⚠ **Foto clara de GTA come o texto do longo.** O fundo do longo herdou o
   escurecimento do motor bíblico (-0,34), pensado para foto noturna; com
   screenshot de praia ao meio-dia o cabeçalho ciano sumia no céu. Agora há duas
@@ -206,7 +225,7 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
 | 30/09 | 1º post no ar nas duas redes | não abre a fase 1 |
 | 15/10 | YT mediana 7 d ≥ 1.000 views/Short · IG ≥ 2.000/Reel | trocar UMA variável por semana: gancho → layout → voz |
 | 01/11 | ≥ 300 inscritos no YT | desliga o longo, fica só Short |
-| **~08/11** | **o poço de 150 fatos seca a 3 Shorts/dia** | escrever fatos novos antes disso (o vigia avisa abaixo de 9 livres) |
+| ~~08/11~~ **01/12** | o poço foi a **218 fatos** em 23/09 e agora passa do lançamento com 12 dias de folga | o vigia avisa abaixo de 9 livres |
 | 05/12 | 1º clique/venda no `src=` da Shopee | troca a oferta principal (jogo → DualSense → camiseta) |
 | 31/12 | sem venda | 1 post/dia por rede, ativo dormente |
 
