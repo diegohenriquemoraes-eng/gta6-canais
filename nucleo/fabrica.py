@@ -204,13 +204,33 @@ def montar_short(pacote: dict, idx: int, outdir: Path, url_longo: str = "",
 
 
 def _titulo_short(fato: dict, dias: int) -> str:
-    """Título ≤ 100 chars. O gancho é a promessa; a contagem ancora a busca."""
+    """Título ≤ 100 chars: o gancho é a promessa, a cauda ancora a busca.
+
+    ⚠ A cauda mudou em 23/09/2026, com o benchmark na mão
+    (`benchmark/RESUMO.md`, 250 vídeos do nicho pela Data API):
+
+    | consulta | mediana de views |
+    |---|---|
+    | gta 6 curiosidades | 933.336 |
+    | gta 6 detalhes trailer | 543.358 |
+    | gta 6 contagem regressiva | **18.258** |
+    | gta 6 fatos | **16.878** |
+
+    Ou seja: a cauda que estávamos usando em TODO Short do formato A —
+    "Faltam N dias para GTA 6" — é o termo de PIOR retorno do nicho, 50 vezes
+    abaixo de "curiosidades". A contagem continua no corpo do vídeo (é a
+    identidade do canal), mas quem ancora a busca no título passa a ser
+    "curiosidades". Trocado antes de o canal completar uma semana, de
+    propósito: mudar depois cairia no meio da janela de medição de 15/10.
+    """
     base = fato.get("titulo") or fato["gancho"]
     if fato.get("formato") == "A" and dias > 0:
-        titulo = f"{base} | Faltam {dias} dias para GTA 6 #shorts"
+        cauda = f" | GTA 6 curiosidades — faltam {dias} dias #shorts"
     else:
-        titulo = f"{base} | GTA 6 #shorts"
-    return titulo[:100]
+        cauda = " | GTA 6 curiosidades #shorts"
+    if len(base) + len(cauda) > 100:
+        base = base[:100 - len(cauda) - 1].rstrip() + "…"
+    return (base + cauda)[:100]
 
 
 def _estimar_min(fatos: list[dict]) -> float:

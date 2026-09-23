@@ -55,10 +55,16 @@ CONFIG = {
     "rotulo_completo": "Vídeo completo",
     "rotulo_repeticao": "de novo",
     "fonte_texto": "Fontes oficiais da Rockstar Games e imprensa especializada",
+    # Medido no benchmark de 23/09/2026 (`benchmark/RESUMO.md`): no YouTube,
+    # "gta 6 curiosidades" tem mediana de 933 mil views e "gta 6 fatos", 17
+    # mil — 55×. "Curiosidade" é o termo que a massa digita; "fato" é o nosso
+    # jargão interno. A tag entrou antes de o canal ter um mês, de propósito:
+    # trocar depois cairia no meio da janela de medição.
     "tags": [
-        "gta 6", "gta vi", "grand theft auto vi", "gta 6 brasil",
-        "gta 6 lançamento", "vice city", "jason e lucia", "leonida",
-        "gta 6 trailer", "gta 6 notícias", "rockstar games", "gta6",
+        "gta 6", "gta vi", "grand theft auto vi", "gta 6 curiosidades",
+        "curiosidades gta 6", "gta 6 brasil", "gta 6 lançamento",
+        "vice city", "jason e lucia", "leonida", "gta 6 trailer",
+        "gta 6 detalhes", "gta 6 notícias", "rockstar games", "gta6",
     ],
     "hashtags": "#GTA6 #GTAVI #ViceCity",
     "ctas": [
