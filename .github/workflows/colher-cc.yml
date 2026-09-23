@@ -35,8 +35,13 @@ jobs:
       - name: Guardar as cenas colhidas
         if: always()
         run: |
-          alvos="conteudo/cenas.json conteudo/cc_colhidos.json fontes/PROVENIENCIA.md"
-          if [ -n "$(git status --porcelain $alvos)" ]; then
+          # só os caminhos que EXISTEM: `git add` de arquivo ausente
+          # devolve exit 128 e derruba o passo (ver publicar.yml)
+          alvos=""
+          for f in conteudo/cenas.json conteudo/cc_colhidos.json fontes/PROVENIENCIA.md; do
+            [ -e "$f" ] && alvos="$alvos $f"
+          done
+          if [ -n "$alvos" ] && [ -n "$(git status --porcelain $alvos)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add $alvos

@@ -48,8 +48,13 @@ jobs:
         if: always()
         run: |
           rm -rf credenciais
-          alvos="conteudo/desempenho_historico.json conteudo/benchmark.json benchmark/RESUMO.md"
-          if [ -n "$(git status --porcelain $alvos)" ]; then
+          # só os caminhos que EXISTEM: `git add` de arquivo ausente
+          # devolve exit 128 e derruba o passo (ver publicar.yml)
+          alvos=""
+          for f in conteudo/desempenho_historico.json conteudo/benchmark.json benchmark/RESUMO.md; do
+            [ -e "$f" ] && alvos="$alvos $f"
+          done
+          if [ -n "$alvos" ] && [ -n "$(git status --porcelain $alvos)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add $alvos

@@ -110,8 +110,16 @@ jobs:
         if: always()
         run: |
           rm -rf credenciais
-          alvos="publicador/state.json publicador/playlists.json publicacoes.md publicacoes-ig.md fila"
-          if [ -n "$(git status --porcelain $alvos)" ]; then
+          # Só os caminhos que EXISTEM: `git add` de um arquivo ausente falha
+          # com exit 128 e derruba o passo — foi o que aconteceu no primeiro
+          # Short publicado de verdade (23/09/2026): o vídeo subiu, mas o
+          # estado não foi commitado porque `publicacoes-ig.md` ainda não
+          # existia. Sem o estado salvo, a execução seguinte recontaria o dia.
+          alvos=""
+          for f in publicador/state.json publicador/playlists.json                    publicacoes.md publicacoes-ig.md fila; do
+            [ -e "$f" ] && alvos="$alvos $f"
+          done
+          if [ -n "$alvos" ] && [ -n "$(git status --porcelain $alvos)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add $alvos
