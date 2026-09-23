@@ -15,7 +15,7 @@ já foram executados** — não repetir nenhum dos dois.
 ## O que está pronto e testado (22/09/2026)
 
 **O motor inteiro roda local, ponta a ponta.** `python -m unittest discover -s
-testes` → **84 casos verdes**, sem rede, em ~4 s.
+testes` → **98 casos verdes**, sem rede, em ~5 s.
 
 | peça | estado |
 |---|---|
@@ -35,6 +35,7 @@ testes` → **84 casos verdes**, sem rede, em ~4 s.
 | `produzir/medir_desempenho.py` · `realinhar_publicados.py` · `aplicar_marca.py` | prontos, esperando token |
 | `produzir/conferir_instalacao.py` | confere repo, secrets, config, token, ofertas, cenas e fila; diz o comando de cada pendência |
 | `marca/` | avatar, banner, selo, paleta — procedurais, sem nada da Rockstar |
+| `publicador/tiktok.py` | espelho do cartão pelo Zernio: teto/dia, atraso, conta travada, 207 tratado como fila |
 | 7 workflows | publicar (2 crons/h), reabastecer (6 h), testes (todo push), vigia (2×/dia), medir, realinhar, colher-cc |
 
 **Renderizado e conferido no olho:**
@@ -48,7 +49,7 @@ testes` → **84 casos verdes**, sem rede, em ~4 s.
 Render no PC do Diego: Short ~40 s, cartão 28-40 s, longo ~15 min. O runner do
 Actions tem 2 núcleos e o job do Publicar tem teto de 110 min — cabe.
 
-## 🟢 NO AR desde 23/09/2026 — as DUAS redes publicam sozinhas
+## 🟢 NO AR desde 23/09/2026 — as TRÊS redes publicam sozinhas
 
 **YouTube `@rumoavicecity` (`UCUJdsMoY_H4hLlvckVjCcEg`).** Primeiro vídeo:
 https://youtu.be/evMAZGzD5fY — renderizado e publicado inteiramente no runner
@@ -59,6 +60,12 @@ https://www.instagram.com/reel/18209930776368705/ — cartão do formato G,
 layout 1, renderizado no runner a partir do acervo oficial e publicado pela
 Graph API. Ponta a ponta: render → asset de Release → container → publicação →
 estado commitado.
+
+**TikTok `@rumoavicecity`.** Primeiro vídeo:
+https://www.tiktok.com/@rumoavicecity/video/7688738476300258566 — espelho do
+cartão do Instagram pelo Zernio (`publicador/tiktok.py`), com teto de 3/dia e
+atraso de 30 min. Não renderiza nada: republica o MESMO MP4 que o cartão já
+hospedou no Release.
 
 - Conta Google **`gta6diegomoraes@gmail.com`** — ⚠ neste Chrome ela é
   **`authuser=4`**; sem esse parâmetro os links do console e do Studio caem na
@@ -107,7 +114,12 @@ Passo a passo em **`PENDENCIAS-DIEGO.md`** (~2 h, uma vez).
   salvo"). Daí o app próprio.
   ⚠ **O token está exposto no histórico da conversa de 22/09** (foi colado em
   texto puro no chat). Regerar pela Meta quando der — regerar invalida o antigo.
-- TikTok: `ZERNIO_KEY_GTA` (e `tiktok.ativo: true`). Zernio já logado.
+- ~~TikTok~~ — **pronto e no ar.** Conta própria no Zernio
+  (`gta6diegomoraes@`), `ZERNIO_KEY_GTA` no repo, `tiktok.ativo: true` e
+  `conta_id` travado no config. ⚠ O teto grátis do Zernio é de **2 contas POR
+  CONTA do Zernio** — perfil novo dentro da mesma conta NÃO abre vaga (a
+  terceira conexão pede cartão, US$ 6/mês). A chave também foi colada em texto
+  puro no chat: vale gerar outra em **API Keys** e apagar a antiga.
 - Notícias: `ANTHROPIC_API_KEY` (sem ele o resumo de emergência entra com nota 6
   e a notícia **não** vira Short sozinha — de propósito)
 - Shopee: **fechada**, nada a fazer.
