@@ -1,7 +1,7 @@
 # PENDÊNCIAS DO DIEGO — só login e criação de conta
 
-Atualizado em 22/09/2026, depois da rodada em que fiz tudo o que não exige as
-suas credenciais. Depois de cada passo, rode:
+Atualizado em 23/09/2026, de madrugada. **As duas redes já publicam sozinhas** —
+o que sobrou aqui é TikTok e dois campos do Instagram que só o celular edita. Depois de cada passo, rode:
 
 ```bash
 python produzir/conferir_instalacao.py
@@ -19,7 +19,7 @@ pendência.
   o render diário passa disso na 1ª semana). Auditado antes: nenhum token,
   chave ou credencial no código nem no histórico.
 - Repositório de mídia `gta6-media` **público** criado.
-- 7 workflows ativos; a suíte de **83 testes** passa no runner do GitHub.
+- 7 workflows ativos; a suíte de **84 testes** passa no runner do GitHub.
 
 **Conteúdo**
 - Material oficial baixado (trailers 1 e 2 + **306 imagens** da galeria),
@@ -41,44 +41,26 @@ pendência.
   o domínio autorizado. Sem servidor, sem DNS, sem custo.
 - Primeiro vídeo no ar: https://youtu.be/evMAZGzD5fY
 
-**Instagram @rumoavicecity — quase pronto**
-- Conta profissional de **Criador** (categoria *Gaming video creator*).
-- **Foto de perfil** aplicada (o avatar do projeto).
-- **Bio** no ar: "Tudo sobre GTA 6, todo dia, até 19 de novembro. Fatos e cenas
-  do que a Rockstar já mostrou. Quadro, capa e camiseta no link 👇"
+**Instagram @rumoavicecity — NO AR, publicando sozinho** 🟢
+- Conta profissional de **Criador** (categoria *Gaming video creator*), com
+  foto de perfil e bio aplicadas.
+- App próprio da Meta (`3300084843713046`), secrets `IG_USER_ID_GTA` e
+  `IG_TOKEN_GTA` no repo.
+- Primeiro Reel no ar: https://www.instagram.com/reel/18209930776368705/
+
+**Poço de fatos ampliado (23/09)**
+- De 150 para **218 fatos**, todos com fonte verificável: o Extended Look
+  inteiro (mecânicas, polícia, corpo, corridas, atividades), o elenco de apoio
+  (Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista, Cal Hampton, Brian
+  Heder), as seis regiões de Leonida e as edições/pré-venda.
+- A 3 Shorts/dia o poço agora **passa do lançamento** (seca ~01/12, o jogo sai
+  19/11). Antes secava em 08/11 e o canal ficaria mudo justamente no pico.
 
 ---
 
 ## O que falta — na ordem
 
-### 1. Instagram: criar o app próprio da Meta (~5 min)
-
-⚠ **Reaproveitar o app do `psicologia-fria` não funciona.** Para adicionar a
-`@rumoavicecity` como testadora, a Meta exige que ela tenha *conta de
-desenvolvedor do Facebook* — e ela é conta de Instagram pura. Daí o
-"O formulário não pode ser salvo".
-
-O caminho certo é um app próprio, onde a conta entra pelo fluxo de **login do
-Instagram** (como o `psicologiafria.br` faz no app dele):
-
-1. `developers.facebook.com/apps/creation` — já deixei nome (**Rumo a Vice
-   City**) e e-mail preenchidos. Você **aceita os termos de plataforma** (é o
-   passo que eu não faço no seu lugar) e conclui a criação.
-2. No app novo: **Casos de uso → API do Instagram → Configuração da API com
-   login do Instagram**.
-3. **Adicionar conta** → autorize com `@rumoavicecity` → **Gerar token** →
-   copiar.
-4. No terminal:
-
-```bash
-python produzir/instalar.py instagram
-```
-
-Ele lê o token **direto da área de transferência**, descobre o `IG_USER_ID`
-sozinho e sobe os dois secrets. **Daí o Instagram publica 5 cartões + 1 story
-por dia.**
-
-### 2. Instagram: duas coisas que só o APP do celular faz
+### 1. Instagram: duas coisas que só o APP do celular faz
 
 - **Nome de exibição**: ainda está "Diego Moraes" → mudar para
   **Rumo a Vice City**. O campo resiste à automação e o Instagram só permite
@@ -88,13 +70,23 @@ por dia.**
   `https://s.shopee.com.br/9KiFc9wYfG`
   (chaveiro mini capa de PS5 GTA 6, Sub_id `igbio`).
 
-### 3. TikTok + Zernio (~15 min)
+### 2. TikTok + Zernio (~15 min)
 
 1. `tiktok.com/signup` — conta **business** (libera link na bio sem mínimo de
    seguidores), usuário `@rumoavicecity`, e-mail `gta6diegomoraes@gmail.com`.
 2. No Zernio (já logado), conecte essa conta.
 3. `gh secret set ZERNIO_KEY_GTA -R diegohenriquemoraes-eng/gta6-canais`
 4. Em `publicador/config.json`, mude `tiktok.ativo` para `true`.
+
+### 3. Regerar o token do Instagram (~2 min)
+
+O token de acesso foi colado em texto puro no chat de 22/09 e está no histórico
+da conversa. Ele funciona, e nada indica vazamento — mas o certo é gerar outro
+na Meta (o novo invalida o antigo) e rodar de novo:
+
+```bash
+python produzir/instalar.py instagram
+```
 
 ### 4. Opcional
 
@@ -155,7 +147,7 @@ encurtada o encurtador descarta. Os Sub_ids são `ytlargo`, `ytshort`, `ytbio`,
 
 | issue | o que significa | o que fazer |
 |---|---|---|
-| *Poço de fatos quase seco* | menos de 9 fatos livres | escrever fatos novos em `conteudo/fatos/`. A 3 Shorts/dia os 150 cobrem até ~08/11 — e o lançamento é 19/11 |
+| *Poço de fatos quase seco* | menos de 9 fatos livres | escrever fatos novos em `conteudo/fatos/`. A 3 Shorts/dia os **218** cobrem até ~01/12 — o lançamento é 19/11, então já passa dele |
 | *publicou menos que a config* | a esteira entregou menos do que devia | olhar o workflow Publicar em Actions |
 | *Fila sem pacote para amanhã* | o Reabastecer falhou | rodar à mão em Actions |
 | *Licença mudou em `<videoId>`* | um gameplay CC BY deixou de ser CC | tirar as cenas `cc:<id>` de `conteudo/cenas.json` |
