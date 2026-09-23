@@ -236,7 +236,18 @@ via Zernio). E estas, novas, todas medidas em 22/09/2026:
 - ⚠ **`scdet` com limiar 0,35 não acha corte nenhum.** Achou 1 corte no Trailer 1
   inteiro e zero no Trailer 2, e o resultado eram "cenas" de 12 s fatiadas no
   relógio. Com 0,10 (o padrão do filtro) os cortes reais aparecem: 43 e 54.
-- ⚠ **A zona de vídeo do cartão é 1080×608, não 1080×1350.** O desenho original
+- ⚠ **A faixa de 608 px estava errada na prática, e só o grid publicado
+  mostrou** (23/09/2026, o Diego olhando a página). Três estragos de uma vez:
+  no GRID do perfil o Instagram mostra um recorte CENTRAL, e a frase — que
+  ficava em y 340 — caía fora ou pela metade; sobravam **450 px de nada** entre
+  o vídeo e o rodapé, o que faz o post parecer arte quebrada; e em cena noturna
+  (metade do acervo) o fundo borrado e a faixa ficavam os dois pretos, sem
+  fronteira visível. A correção: faixa de **1000 px** (corta 33 % das laterais,
+  contra 68 % de um crop 9:16 — este continua proibido, a lição abaixo vale),
+  bloco frase+vídeo **centrado na tela** e uma **linha de 3 px** ciano em cima e
+  rosa embaixo delimitando o vídeo. `dx` e `zoom` estavam em 0/1.0: o
+  "deslocamento" que se via era a composição alta, não o recorte.
+- ⚠ **A zona de vídeo do cartão NÃO pode virar 1080×1350 nem 9:16.** O desenho original
   supunha fonte vertical; os trailers são 16:9 e recortar para 1350 px exigiria
   ampliar 2,2×. O primeiro render saiu com tarja preta de 700 px e, no layout 3,
   a frase por cima da foto.
