@@ -38,3 +38,11 @@
 - Item: short-1 — F112
 - Duração: 23.9s
 - Publicado em: 2026-09-24T10:18:13+00:00
+
+## 8JJ3dqk5UnA — A capa foi revelada em junho | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/8JJ3dqk5UnA
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F029
+- Duração: 18.7s
+- Publicado em: 2026-09-24T15:20:59+00:00
