@@ -33,13 +33,21 @@
           "video_id": "UveGOBYz1jE",
           "titulo": "GTA 6 por dentro: produção, gráficos, música e os números — faltam 57 dias",
           "em": "2026-09-23T21:14:53+00:00"
+        },
+        {
+          "pacote": "2026-09-24",
+          "item": "short-1",
+          "formato": "A",
+          "video_id": "4Pv3fnHmKfI",
+          "titulo": "O jogo sai numa quinta-feira | GTA 6 curiosidades — faltam 56 dias #shorts",
+          "em": "2026-09-24T10:18:13+00:00"
         }
       ],
-      "ultimo_short": "2026-09-23T17:21:09+00:00",
+      "ultimo_short": "2026-09-24T10:18:13+00:00",
       "ultimo_longo": "2026-09-23T21:14:53+00:00",
       "shorts_dia": {
-        "data": "2026-09-23",
-        "n": 3
+        "data": "2026-09-24",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-23",

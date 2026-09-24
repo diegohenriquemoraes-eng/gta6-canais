@@ -30,3 +30,11 @@
 - Item: longo — F009, F120, F126, F130, F011, F012
 - Duração: 590.9s
 - Publicado em: 2026-09-23T21:14:53+00:00
+
+## 4Pv3fnHmKfI — O jogo sai numa quinta-feira | GTA 6 curiosidades — faltam 56 dias #shorts
+
+- URL: https://youtu.be/4Pv3fnHmKfI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F112
+- Duração: 23.9s
+- Publicado em: 2026-09-24T10:18:13+00:00
