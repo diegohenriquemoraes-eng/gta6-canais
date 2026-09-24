@@ -46,3 +46,11 @@
 - Item: short-2 — F029
 - Duração: 18.7s
 - Publicado em: 2026-09-24T15:20:59+00:00
+
+## JPZlZYUApq4 — Vice City é um estado inteiro agora | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/JPZlZYUApq4
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F040
+- Duração: 21.5s
+- Publicado em: 2026-09-24T19:22:42+00:00
