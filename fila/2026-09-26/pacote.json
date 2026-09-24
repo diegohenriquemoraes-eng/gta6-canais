@@ -1,0 +1,883 @@
+{
+ "data": "2026-09-26",
+ "handle": "rumoavicecity",
+ "dias_para_lancamento": 54,
+ "gerado_em": "2026-09-24T04:37:11+00:00",
+ "shorts": [
+  {
+   "id": "F120",
+   "formato": "A",
+   "gancho": "A galeria oficial tem 99 fotos",
+   "narracao": "O site da Rockstar disponibiliza 99 screenshots oficiais de GTA 6 para download, mais 51 da Ultimate Edition e 12 do Vintage Vice City Pack. As 29 mais recentes entraram em 31 de agosto de 2026, depois do Extended Look.",
+   "fonte": "https://www.rockstargames.com/VI/media/screenshots",
+   "cena": "galeria: Ocean Beach",
+   "tags": [
+    "galeria",
+    "numeros"
+   ]
+  },
+  {
+   "id": "F191",
+   "formato": "B",
+   "gancho": "O dono do pedaço tem gravadora própria",
+   "narracao": "Boobie Ike é um figurão de Vice City com império em imóveis, boate e estúdio de gravação. No jogo ele acaba de abrir uma gravadora, a Only Raw Records. Jason e Lucia aparecem trabalhando para ele já nas primeiras cenas mostradas.",
+   "fonte": "https://www.rockstargames.com/VI",
+   "cena": "galeria: boobie-ike",
+   "tags": [
+    "personagem",
+    "npc",
+    "vice-city"
+   ]
+  },
+  {
+   "id": "F192",
+   "formato": "B",
+   "gancho": "Ele largou o crime para virar empresário musical",
+   "narracao": "Dre'Quan Priest é um gângster que quer virar magnata da música em Vice City. Está na Only Raw Records ao lado de Boobie Ike, caçando o próximo hit para subir de patamar. Jason e Lucia são amigos dele.",
+   "fonte": "https://www.rockstargames.com/VI",
+   "cena": "galeria: drequan-priest",
+   "tags": [
+    "personagem",
+    "npc",
+    "vice-city"
+   ]
+  }
+ ],
+ "longo": {
+  "formato": "tudo",
+  "fatos": [
+   {
+    "id": "F040",
+    "formato": "B",
+    "gancho": "Vice City é um estado inteiro agora",
+    "narracao": "GTA 6 se passa em Leonida, um estado inspirado na Flórida. Vice City é a maior cidade, mas o mapa inclui pântanos, portos, um parque de montanha e um arquipélago. O site oficial chama Vice City de o lado mais escuro do lugar mais ensolarado da América.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: Vice City postal",
+    "tags": [
+     "lugar",
+     "leonida",
+     "vice-city"
+    ]
+   },
+   {
+    "id": "F191",
+    "formato": "B",
+    "gancho": "O dono do pedaço tem gravadora própria",
+    "narracao": "Boobie Ike é um figurão de Vice City com império em imóveis, boate e estúdio de gravação. No jogo ele acaba de abrir uma gravadora, a Only Raw Records. Jason e Lucia aparecem trabalhando para ele já nas primeiras cenas mostradas.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: boobie-ike",
+    "tags": [
+     "personagem",
+     "npc",
+     "vice-city"
+    ]
+   },
+   {
+    "id": "F192",
+    "formato": "B",
+    "gancho": "Ele largou o crime para virar empresário musical",
+    "narracao": "Dre'Quan Priest é um gângster que quer virar magnata da música em Vice City. Está na Only Raw Records ao lado de Boobie Ike, caçando o próximo hit para subir de patamar. Jason e Lucia são amigos dele.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: drequan-priest",
+    "tags": [
+     "personagem",
+     "npc",
+     "vice-city"
+    ]
+   },
+   {
+    "id": "F041",
+    "formato": "B",
+    "gancho": "Os bairros de Vice City já têm nome",
+    "narracao": "As setenta screenshots do Trailer 2 nomearam bairros de Vice City: Ocean Beach, Little Cuba, o porto VC Port, Downtown, Southside e o aeroporto internacional. Cada um corresponde a uma área real de Miami reinterpretada pela Rockstar.",
+    "fonte": "https://redreactions.com/articles/gta6-trailer-2-breakdown/",
+    "cena": "galeria: Ocean Beach",
+    "tags": [
+     "lugar",
+     "vice-city",
+     "bairros"
+    ]
+   },
+   {
+    "id": "F042",
+    "formato": "B",
+    "gancho": "Um arquipélago de contrabandistas",
+    "narracao": "Leonida Keys é a cadeia de ilhas ao sul de Vice City, inspirada nas Florida Keys. É o território de Brian Heder e dos traficantes que usam barcos. A galeria oficial tem um cartão-postal só das Keys.",
+    "fonte": "https://www.gtabase.com/gta-6/artworks/",
+    "cena": "galeria: Leonida Keys postal",
+    "tags": [
+     "lugar",
+     "keys"
+    ]
+   },
+   {
+    "id": "F043",
+    "formato": "B",
+    "gancho": "O pântano tem jacaré e tem gente",
+    "narracao": "Grassrivers é a região de pântano de Leonida, inspirada nos Everglades. Aparece no Trailer 2 com aerobarcos, jacarés e casas sobre a água. É uma das regiões que afastam GTA 6 da ideia de jogo só de cidade.",
+    "fonte": "https://redreactions.com/articles/gta6-trailer-2-breakdown/",
+    "cena": "trailer2@1:05",
+    "tags": [
+     "lugar",
+     "grassrivers"
+    ]
+   },
+   {
+    "id": "F044",
+    "formato": "B",
+    "gancho": "Uma cidade turística que parou no tempo",
+    "narracao": "Port Gellhorn é uma cidade portuária de Leonida que viveu dias melhores como destino turístico. Tem cartão-postal próprio na galeria oficial. É o tipo de lugar que a série usa para mostrar o lado decadente do estado.",
+    "fonte": "https://www.gtabase.com/gta-6/artworks/",
+    "cena": "galeria: Port Gellhorn postal",
+    "tags": [
+     "lugar",
+     "port-gellhorn"
+    ]
+   },
+   {
+    "id": "F045",
+    "formato": "B",
+    "gancho": "Um vilarejo de usina de açúcar",
+    "narracao": "Ambrosia é uma pequena cidade do interior de Leonida ligada a uma refinaria de açúcar. Aparece no Trailer 2 e nas screenshots. Representa o interior rural e estranho do estado, longe do neon de Vice City.",
+    "fonte": "https://redreactions.com/articles/gta6-trailer-2-breakdown/",
+    "cena": "trailer2@1:10",
+    "tags": [
+     "lugar",
+     "ambrosia"
+    ]
+   },
+   {
+    "id": "F046",
+    "formato": "B",
+    "gancho": "Tem parque nacional para caçar e escalar",
+    "narracao": "Mount Kalaga National Park é a região de mata e montanha de Leonida. Aparece nas screenshots com trilhas, caça e salto de penhasco. O Extended Look mostrou caça de javalis e veados como atividade do jogo.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "galeria: Mount Kalaga",
+    "tags": [
+     "lugar",
+     "kalaga",
+     "natureza"
+    ]
+   },
+   {
+    "id": "F047",
+    "formato": "B",
+    "gancho": "O bar no topo do prédio",
+    "narracao": "Aos dez minutos e cinquenta segundos do Extended Look aparece o Effluvia, um bar de cobertura no centro de Vice City. É um dos lugares sociais que o jogo usa para missões e para encontros entre Jason e Lucia.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@10:50",
+    "tags": [
+     "lugar",
+     "effluvia",
+     "extended"
+    ]
+   },
+   {
+    "id": "F048",
+    "formato": "B",
+    "gancho": "Sua primeira garagem fica perto da praia",
+    "narracao": "A garagem Shore Court, perto de Ocean Beach, vem no Vintage Vice City Pack. Tem armário de armas e um lugar seguro para guardar mercadoria roubada. É a base de operações de quem faz a pré-venda.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "lugar",
+     "garagem",
+     "bonus"
+    ]
+   },
+   {
+    "id": "F049",
+    "formato": "B",
+    "gancho": "A garagem da Ultimate fica em Watson Bay",
+    "narracao": "A Ultimate Edition inclui a garagem Paradise, em Watson Bay. É onde ficam os seis veículos exclusivos da edição, como o Grotti Cheetah 95 e a lancha Shitzu Squalo. Watson Bay é mais uma área nomeada de Vice City.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Ultimate Edition",
+    "tags": [
+     "lugar",
+     "watson-bay",
+     "ultimate"
+    ]
+   },
+   {
+    "id": "F050",
+    "formato": "B",
+    "gancho": "Vice City é duas vezes Los Santos",
+    "narracao": "Segundo a cobertura do Extended Look, Vice City tem cerca de duas vezes o tamanho de Los Santos, a cidade de GTA 5. O mapa inteiro de GTA 6 teria três vezes a área jogável de Red Dead Redemption 2.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "galeria: Vice City aérea",
+    "tags": [
+     "mapa",
+     "tamanho"
+    ]
+   },
+   {
+    "id": "F058",
+    "formato": "B",
+    "gancho": "Um retorno a Vice City depois de 24 anos",
+    "narracao": "GTA Vice City saiu em 2002 e se passava em 1986. GTA 6 volta à mesma cidade, agora nos dias de hoje. O Vintage Vice City Pack faz a ponte, com uma padronagem de arma inspirada em Tommy Vercetti, o protagonista de 2002.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "historia-serie",
+     "vice-city"
+    ]
+   },
+   {
+    "id": "F083",
+    "formato": "B",
+    "gancho": "Supino aos 25 minutos",
+    "narracao": "Aos 25 minutos e 38 segundos do Extended Look, Jason faz supino. O levantamento de peso é uma das atividades que mudam o corpo do personagem. Em GTA San Andreas, de 2004, a academia funcionava parecido.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@25:38",
+    "tags": [
+     "atividade",
+     "academia"
+    ]
+   },
+   {
+    "id": "F084",
+    "formato": "B",
+    "gancho": "Luta livre com finalização",
+    "narracao": "Aos nove minutos e 21 segundos do Extended Look aparece um ringue de luta livre num quintal, com finalizações no estilo dos shows de wrestling. A mesma cena do ringue já estava no Trailer 2.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@9:21",
+    "tags": [
+     "atividade",
+     "luta"
+    ]
+   },
+   {
+    "id": "F085",
+    "formato": "B",
+    "gancho": "Pesca voltou de Red Dead 2",
+    "narracao": "GTA 6 tem pesca, mostrada aos 25 minutos e 52 segundos do Extended Look. É uma herança direta de Red Dead Redemption 2. Junto com caça, mergulho e caiaque, faz parte do lado tranquilo de Leonida.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@25:52",
+    "tags": [
+     "atividade",
+     "pesca"
+    ]
+   },
+   {
+    "id": "F086",
+    "formato": "B",
+    "gancho": "Mais de vinte atividades fora das missões",
+    "narracao": "O Extended Look de GTA 6 listou basquete, sinuca, musculação, natação, mergulho, caiaque, pesca, caça, base jump, paraquedas, tiro ao alvo, corrida de carro, motocross, jet ski, aerobarco, patinete elétrico, minigolfe e visita ao zoológico.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@24:00",
+    "tags": [
+     "atividade",
+     "lista"
+    ]
+   },
+   {
+    "id": "F087",
+    "formato": "B",
+    "gancho": "Tem Uber em Vice City",
+    "narracao": "Ryde Me é o serviço de carona por aplicativo de GTA 6. Permite viajar pelo mapa sem dirigir. É a versão da Rockstar para os apps de transporte, e faz parte da sátira do jogo à vida conectada.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@19:00",
+    "tags": [
+     "mecanica",
+     "app",
+     "transporte"
+    ]
+   },
+   {
+    "id": "F091",
+    "formato": "B",
+    "gancho": "O mapa agora é em 3D",
+    "narracao": "Aos oito minutos do Extended Look aparece o novo mapa com prédios em três dimensões na interface. É a primeira vez que a série mostra a cidade assim no HUD, em vez do mapa plano de GTA 5.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@8:00",
+    "tags": [
+     "mecanica",
+     "mapa",
+     "hud"
+    ]
+   },
+   {
+    "id": "F099",
+    "formato": "B",
+    "gancho": "Tem zoológico em Leonida",
+    "narracao": "Visitar o zoológico é uma das atividades listadas de GTA 6. O jogo também permite estudar animais, com novas espécies rastreadas, e caçar javalis e veados em Mount Kalaga. A fauna faz parte do mundo, não é enfeite.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@24:30",
+    "tags": [
+     "atividade",
+     "animais"
+    ]
+   },
+   {
+    "id": "F124",
+    "formato": "A",
+    "gancho": "Preço fechado, tamanho em aberto",
+    "narracao": "A Rockstar não divulgou o tamanho da instalação de GTA 6 até setembro de 2026. Com pré-download em 12 de novembro, a informação deve sair perto dessa data. Red Dead Redemption 2 ocupava cerca de 150 gigabytes.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "tamanho",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F131",
+    "formato": "B",
+    "gancho": "Chihuahua é personagem",
+    "narracao": "A lista de detalhes escondidos do Extended Look cita um chihuahua entre os animais de Leonida. Javalis e veados são caçados no parque, e jacarés vivem nos pântanos de Grassrivers. A fauna reage ao jogador como em Red Dead 2.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@24:30",
+    "tags": [
+     "curiosidade",
+     "animais"
+    ]
+   },
+   {
+    "id": "F133",
+    "formato": "B",
+    "gancho": "Corrida de stock car e motocross",
+    "narracao": "GTA 6 tem corridas de stock car e corridas de motocross como atividades do mundo aberto. As duas apareceram no Extended Look. É a resposta da Rockstar ao pedido antigo dos fãs por esportes a motor de verdade dentro do jogo.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@23:00",
+    "tags": [
+     "atividade",
+     "corrida"
+    ]
+   },
+   {
+    "id": "F134",
+    "formato": "B",
+    "gancho": "Mergulho com cilindro",
+    "narracao": "O mergulho com cilindro está entre as atividades de GTA 6, junto com caiaque e jet ski. A exploração aquática ganha peso porque Leonida é cercada de mar, e as Keys e o porto de Vice City fazem parte do mapa.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@24:00",
+    "tags": [
+     "atividade",
+     "mar"
+    ]
+   },
+   {
+    "id": "F135",
+    "formato": "B",
+    "gancho": "Base jump e paraquedas voltaram",
+    "narracao": "Base jump e paraquedismo estão de volta em GTA 6, como em GTA 5. Com prédios de Vice City e os penhascos de Mount Kalaga, o mapa foi desenhado para ter pontos de salto no centro e na natureza.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@23:30",
+    "tags": [
+     "atividade",
+     "salto"
+    ]
+   },
+   {
+    "id": "F136",
+    "formato": "B",
+    "gancho": "Patinete elétrico em Ocean Beach",
+    "narracao": "GTA 6 tem patinetes elétricos como meio de transporte. Eles aparecem nas cenas de Ocean Beach, o bairro de praia de Vice City. É um dos detalhes que datam o jogo nos dias de hoje, longe dos anos oitenta do Vice City original.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "galeria: Ocean Beach",
+    "tags": [
+     "atividade",
+     "transporte"
+    ]
+   },
+   {
+    "id": "F137",
+    "formato": "B",
+    "gancho": "Minigolfe é atividade oficial",
+    "narracao": "O Extended Look listou minigolfe entre as atividades de GTA 6. Junto com sinuca e basquete, faz parte dos passatempos que Jason e Lucia podem fazer juntos, e que contam para a relação entre os dois.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@11:30",
+    "tags": [
+     "atividade",
+     "casal"
+    ]
+   },
+   {
+    "id": "F139",
+    "formato": "B",
+    "gancho": "A boate de Boobie se chama Jack of Hearts",
+    "narracao": "A boate de Boobie Ike em Vice City se chama Jack of Hearts. Ele também tem imóveis e um estúdio de gravação, onde a dupla Real Dimez e Dre'Quan Priest tentam fazer carreira. O submundo e a música dividem o mesmo prédio.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "trailer2@1:20",
+    "tags": [
+     "lugar",
+     "boate",
+     "boobie"
+    ]
+   },
+   {
+    "id": "F159",
+    "formato": "B",
+    "gancho": "O mapa é onze vezes a cidade de GTA 5",
+    "narracao": "Vice City e o interior ao redor somam cerca de onze vezes a área urbana de GTA 5. Só a cidade já é o dobro de Los Santos. O estado de Leonida foi feito para ser atravessado, não apenas para servir de fundo.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "mapa",
+     "tamanho",
+     "lugar",
+     "vice-city"
+    ]
+   },
+   {
+    "id": "F160",
+    "formato": "B",
+    "gancho": "Um mundo para explorar sem marcador",
+    "narracao": "A Rockstar diz que GTA 6 tem um mundo feito para ser explorado sem marcadores no mapa, do jeito de Red Dead Redemption 2. A promessa é que a recompensa de sair andando à toa seja grande o suficiente para valer a pena.",
+    "fonte": "https://vgtimes.com/gaming-news/165687-netflix-lists-grand-theft-auto-6-extended-look-at-26-minutes.html",
+    "cena": "galeria: grassrivers",
+    "tags": [
+     "mapa",
+     "lugar",
+     "atividade"
+    ]
+   },
+   {
+    "id": "F165",
+    "formato": "B",
+    "gancho": "A série terá corrida em autódromo",
+    "narracao": "O Extended Look mostrou corrida tradicional em circuito de asfalto fechado e permanente, algo inédito em Grand Theft Auto. Não é a corrida de rua improvisada de sempre: é pista fechada, com traçado próprio e largada.",
+    "fonte": "https://www.redbull.com/int-en/racing-in-gta-6-explained",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "atividade",
+     "carros",
+     "veiculos"
+    ]
+   },
+   {
+    "id": "F166",
+    "formato": "B",
+    "gancho": "Lucia corre de moto na terra",
+    "narracao": "Uma das cenas mostra Lucia disputando um circuito de trilha de moto, ao lado de outros pilotos, com muitos saltos e tempo no ar. É outro tipo de corrida dentro do mesmo jogo, longe do asfalto e dos carros de rua.",
+    "fonte": "https://www.redbull.com/int-en/racing-in-gta-6-explained",
+    "cena": "galeria: lucia-caminos",
+    "tags": [
+     "atividade",
+     "veiculos",
+     "lucia"
+    ]
+   },
+   {
+    "id": "F167",
+    "formato": "B",
+    "gancho": "Dá para nadar, mergulhar e pescar",
+    "narracao": "O Extended Look mostra natação, mergulho, jet ski e pesca entre as atividades de GTA 6. A água deixa de ser limite do mapa e vira lugar de jogo, o que faz sentido num estado inteiro cercado por mar e pântano.",
+    "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
+    "cena": "galeria: leonida-keys",
+    "tags": [
+     "atividade",
+     "lugar",
+     "transporte"
+    ]
+   },
+   {
+    "id": "F168",
+    "formato": "B",
+    "gancho": "Tem basquete de rua no jogo",
+    "narracao": "Entre as atividades mostradas no Extended Look estão basquete de rua e mini golfe. São passatempos que existem fora da missão, para ocupar o mundo entre um capítulo e outro da história de Jason e Lucia.",
+    "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "atividade",
+     "lugar"
+    ]
+   },
+   {
+    "id": "F169",
+    "formato": "B",
+    "gancho": "Você pode pular de um arranha-céu",
+    "narracao": "O Extended Look mostra salto de arranha-céu entre as atividades livres de GTA 6, ao lado de corrida de rua e de moto. É o tipo de brincadeira que o jogador inventa sozinho, e que a Rockstar decidiu mostrar na apresentação.",
+    "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "atividade",
+     "lugar"
+    ]
+   },
+   {
+    "id": "F170",
+    "formato": "B",
+    "gancho": "O cachorro pode ser treinado",
+    "narracao": "Em GTA 6 o cachorro não serve só para receber carinho: dá para treiná-lo. E o que você faz com ele conta para o karma do personagem, um sistema que acompanha o comportamento do jogador dentro do mundo.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "galeria: grassrivers",
+    "tags": [
+     "mecanica",
+     "animais",
+     "atividade"
+    ]
+   },
+   {
+    "id": "F179",
+    "formato": "B",
+    "gancho": "O esconderijo muda conforme a história anda",
+    "narracao": "Jason e Lucia trocam de esconderijo ao longo dos capítulos de GTA 6. O lugar onde você guarda as coisas e recomeça o dia não é fixo: acompanha o ponto da história em que a dupla está, como os acampamentos de Red Dead.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "galeria: jason-and-lucia",
+    "tags": [
+     "historia",
+     "capitulos",
+     "lugar"
+    ]
+   },
+   {
+    "id": "F182",
+    "formato": "B",
+    "gancho": "Academia e comida disputam o mesmo corpo",
+    "narracao": "Comer engorda e treinar ganha músculo em GTA 6: as duas coisas mexem no mesmo personagem, em direções opostas. É um sistema de manutenção que a série já tentou em San Andreas e volta agora com muito mais detalhe visual.",
+    "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
+    "cena": "galeria: jason-duval",
+    "tags": [
+     "mecanica",
+     "corpo",
+     "atividade"
+    ]
+   },
+   {
+    "id": "F183",
+    "formato": "B",
+    "gancho": "Mergulho com a água do mapa inteiro",
+    "narracao": "Num estado cercado por mar, pântano e canais, GTA 6 abre o mergulho como atividade. A água aparece no Extended Look junto com natação, jet ski e pesca — quatro maneiras diferentes de usar a mesma parte do mapa.",
+    "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
+    "cena": "galeria: leonida-keys",
+    "tags": [
+     "atividade",
+     "lugar",
+     "mapa"
+    ]
+   },
+   {
+    "id": "F184",
+    "formato": "B",
+    "gancho": "Mini golfe entre um assalto e outro",
+    "narracao": "O Extended Look mostrou mini golfe como passatempo em GTA 6, ao lado de basquete de rua e pesca. São atividades que existem para o jogador ocupar o mundo fora da missão, e sugerem um mapa feito para se morar, não só atravessar.",
+    "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
+    "cena": "galeria: port-gellhorn",
+    "tags": [
+     "atividade",
+     "lugar"
+    ]
+   },
+   {
+    "id": "F186",
+    "formato": "B",
+    "gancho": "Dez segundos segurando o botão para abastecer",
+    "narracao": "Abastecer em GTA 6 exige segurar o botão por cerca de dez segundos no posto. Parece pouco, mas é o tipo de detalhe que muda o ritmo: a fuga precisa contar com o tanque, e o posto vira ponto do mapa que importa.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "mecanica",
+     "carros",
+     "lugar"
+    ]
+   },
+   {
+    "id": "F188",
+    "formato": "B",
+    "gancho": "A cidade é o dobro, o estado é muito mais",
+    "narracao": "Vice City sozinha tem o dobro do tamanho de Los Santos. Somando o interior de Leonida, o conjunto chega a cerca de onze vezes a área urbana de GTA 5 — e é por isso que a Rockstar fala em explorar sem marcador no mapa.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "galeria: mount-kalaga",
+    "tags": [
+     "mapa",
+     "tamanho",
+     "lugar"
+    ]
+   },
+   {
+    "id": "F197",
+    "formato": "B",
+    "gancho": "O estado se chama Leonida, não Vice City",
+    "narracao": "Vice City é a cidade, mas o mapa inteiro de GTA 6 é o estado de Leonida, a versão da Rockstar para a Flórida. São seis regiões confirmadas, e a cidade é só uma delas — o resto é praia, pântano, porto e montanha.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "mapa",
+     "lugar",
+     "vice-city"
+    ]
+   },
+   {
+    "id": "F198",
+    "formato": "B",
+    "gancho": "O sul do mapa é um arquipélago",
+    "narracao": "Leonida Keys é a versão de GTA 6 para os Cayos da Flórida: ilhas ao sul, praias, barcos e rotas de contrabando. É a região que explica a presença de jet ski, mergulho e pesca entre as atividades mostradas pela Rockstar.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: leonida-keys",
+    "tags": [
+     "mapa",
+     "lugar",
+     "leonida-keys"
+    ]
+   },
+   {
+    "id": "F199",
+    "formato": "B",
+    "gancho": "Tem um pântano gigante dentro do mapa",
+    "narracao": "Grassrivers é a resposta de GTA 6 aos Everglades: brejo subtropical enorme no sul de Leonida, com rios lentos, ciprestes e comunidades rurais isoladas. É o tipo de lugar onde some gente, carro e corpo — e cobre boa parte do mapa.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: grassrivers",
+    "tags": [
+     "mapa",
+     "lugar",
+     "grassrivers"
+    ]
+   },
+   {
+    "id": "F200",
+    "formato": "B",
+    "gancho": "Uma cidade portuária decadente no golfo",
+    "narracao": "Port Gellhorn é a cidade portuária industrial de Leonida, na costa do golfo, com aparência decadente e crime por baixo. É o contraponto sujo ao brilho de Vice City, e uma das seis regiões confirmadas pela Rockstar.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: port-gellhorn",
+    "tags": [
+     "mapa",
+     "lugar",
+     "port-gellhorn"
+    ]
+   },
+   {
+    "id": "F201",
+    "formato": "B",
+    "gancho": "Existe um parque nacional inteiro no norte",
+    "narracao": "Mount Kalaga National Park é a região montanhosa e florestada do norte de Leonida, feita para exploração fora de estrada. Num mapa famoso por praia e neon, é a parte que a Rockstar reservou para quem gosta de sair do asfalto.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: mount-kalaga-national-park",
+    "tags": [
+     "mapa",
+     "lugar",
+     "mount-kalaga"
+    ]
+   },
+   {
+    "id": "F202",
+    "formato": "B",
+    "gancho": "Ambrosia é a sexta região confirmada",
+    "narracao": "Ambrosia fecha a lista de regiões confirmadas de Leonida, ao lado de Vice City, Leonida Keys, Grassrivers, Port Gellhorn e Mount Kalaga. A Rockstar divulgou uma série de imagens de cada uma antes do lançamento, e elas são material oficial.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: ambrosia",
+    "tags": [
+     "mapa",
+     "lugar",
+     "ambrosia"
+    ]
+   },
+   {
+    "id": "F212",
+    "formato": "B",
+    "gancho": "A dupla começa buscando droga num prédio",
+    "narracao": "Uma das cenas do Extended Look põe Jason e Lucia num prédio de apartamentos de uma área pobre de Vice City, buscando droga a mando de Boobie Ike. É o tipo de serviço de base que abre a escalada da dupla dentro do jogo.",
+    "fonte": "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI:_An_Extended_Look",
+    "cena": "galeria: jason-and-lucia-motel",
+    "tags": [
+     "historia",
+     "jason",
+     "lucia",
+     "vice-city"
+    ]
+   },
+   {
+    "id": "F216",
+    "formato": "B",
+    "gancho": "A praia é o cartão-postal do jogo",
+    "narracao": "Vice City é a leitura da Rockstar para a Miami de hoje, e a praia aparece em quase toda imagem oficial de GTA 6. O contraste é proposital: o neon e a areia de um lado, o pântano de Grassrivers e o porto decadente do outro.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "lugar",
+     "vice-city",
+     "mapa"
+    ]
+   },
+   {
+    "id": "F218",
+    "formato": "B",
+    "gancho": "Cada região ganhou seu próprio cartão-postal",
+    "narracao": "A Rockstar publicou artes em formato de cartão-postal para Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga. É material oficial de divulgação, e serve de mapa visual do estado antes de qualquer um pisar nele.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: ambrosia-postcard",
+    "tags": [
+     "mapa",
+     "lugar",
+     "producao"
+    ]
+   },
+   {
+    "id": "F219",
+    "formato": "B",
+    "gancho": "O pântano é o lugar de esconder o que sobrou",
+    "narracao": "Grassrivers tem rios lentos, ciprestes e comunidades isoladas espalhadas por uma área enorme no sul de Leonida. Num jogo em que a polícia identifica seu carro e sua roupa, um brejo desse tamanho deixa de ser paisagem e vira ferramenta.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: grassrivers",
+    "tags": [
+     "mapa",
+     "lugar",
+     "grassrivers",
+     "policia"
+    ]
+   }
+  ],
+  "cena": "galeria: Vice City postal",
+  "titulo": "O mapa de GTA 6: Vice City, Leonida e tudo o que já foi mostrado — faltam 54 dias",
+  "thumb_titulo": "FALTAM\n54 DIAS",
+  "thumb_sub": "Vice City é um estado inteiro agora",
+  "descricao_busca": "Os fatos confirmados sobre GTA 6, um de cada vez, com a fonte de cada um. Sem rumor sem fonte e sem vazamento.",
+  "tags_extra": [
+   "gta 6 tudo o que sabemos",
+   "gta 6 fatos",
+   "gta 6 data de lançamento",
+   "gta 6 novidades",
+   "gta 6 mapa"
+  ],
+  "minutos_estimados": 16.5
+ },
+ "cartoes": [
+  {
+   "id": "2026-09-26-c1",
+   "cena": {
+    "id": "trailer1-001",
+    "video_origem": "trailer1",
+    "inicio": 0.0,
+    "fim": 6.53,
+    "descricao": "Rodovia elevada de Vice City ao pôr do sol, com trânsito e palmeiras",
+    "tags": [
+     "cidade",
+     "estrada",
+     "por-do-sol",
+     "vice-city"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "frase_base": "Aqui a gente vive Vice City antes de todo mundo",
+   "categoria": "identidade",
+   "layout": 1,
+   "contexto": "Rodovia elevada de Vice City ao pôr do sol, com trânsito e palmeiras",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-26-c2",
+   "cena": {
+    "id": "galeria-vice-city-10",
+    "video_origem": "galeria",
+    "arquivo": "vice-city-10.jpg",
+    "inicio": 0.0,
+    "fim": 8.0,
+    "descricao": "Vice City em imagem oficial da Rockstar",
+    "tags": [
+     "cidade",
+     "vice-city",
+     "mapa",
+     "lugar"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Vice City abre em 54 dias",
+   "frase_base": "Vice City abre em {N} dias",
+   "categoria": "contagem",
+   "layout": 2,
+   "contexto": "Vice City em imagem oficial da Rockstar",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-26-c3",
+   "cena": {
+    "id": "trailer1-011",
+    "video_origem": "trailer1",
+    "inicio": 72.83,
+    "fim": 84.83,
+    "descricao": "Jason e Lucia assaltando uma loja de conveniência, armados e com lenços cobrindo o rosto",
+    "tags": [
+     "jason",
+     "lucia",
+     "dupla",
+     "assalto",
+     "armas",
+     "loja",
+     "dia"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "frase_base": "O romance entre Jason e Lucia é opcional",
+   "categoria": "fato",
+   "layout": 3,
+   "contexto": "Jason e Lucia assaltando uma loja de conveniência, armados e com lenços cobrindo o rosto",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-26-c4",
+   "cena": {
+    "id": "trailer2-006",
+    "video_origem": "trailer2",
+    "inicio": 45.27,
+    "fim": 51.87,
+    "descricao": "Volante em primeira pessoa dentro de um carro, à noite",
+    "tags": [
+     "carro",
+     "direcao",
+     "noite"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Mais 54 noites e o jogo é nosso",
+   "frase_base": "Mais {N} noites e o jogo é nosso",
+   "categoria": "contagem",
+   "layout": 1,
+   "contexto": "Volante em primeira pessoa dentro de um carro, à noite",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-26-c5",
+   "cena": {
+    "id": "galeria-vice-city-09",
+    "video_origem": "galeria",
+    "arquivo": "vice-city-09.jpg",
+    "inicio": 0.0,
+    "fim": 8.0,
+    "descricao": "Vice City em imagem oficial da Rockstar",
+    "tags": [
+     "cidade",
+     "vice-city",
+     "mapa",
+     "lugar"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Rumo a Vice City: um post por vez",
+   "frase_base": "Rumo a Vice City: um post por vez",
+   "categoria": "identidade",
+   "layout": 2,
+   "contexto": "Vice City em imagem oficial da Rockstar",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  }
+ ],
+ "stories": [
+  {
+   "oferta": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=ig_story\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal."
+  }
+ ],
+ "oferta_yt_longo": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=yt_largo\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal.",
+ "oferta_yt_short": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=yt_short\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal."
+}

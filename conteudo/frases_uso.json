@@ -19,16 +19,21 @@
   "galeria-port-gellhorn-06": "2026-09-25",
   "trailer2-008": "2026-09-25",
   "trailer1-003": "2026-09-25",
-  "galeria-vice-city-11": "2026-09-25"
+  "galeria-vice-city-11": "2026-09-25",
+  "trailer1-001": "2026-09-26",
+  "galeria-vice-city-10": "2026-09-26",
+  "trailer1-011": "2026-09-26",
+  "trailer2-006": "2026-09-26",
+  "galeria-vice-city-09": "2026-09-26"
  },
  "frases": {
-  "Aqui a gente vive Vice City antes de todo mundo": "2026-09-25",
-  "Mais {N} noites e o jogo é nosso": "2026-09-24",
-  "O romance entre Jason e Lucia é opcional": "2026-09-25",
+  "Aqui a gente vive Vice City antes de todo mundo": "2026-09-26",
+  "Mais {N} noites e o jogo é nosso": "2026-09-26",
+  "O romance entre Jason e Lucia é opcional": "2026-09-26",
   "{N} dias para Vice City": "2026-09-24",
-  "Rumo a Vice City: um post por vez": "2026-09-25",
+  "Rumo a Vice City: um post por vez": "2026-09-26",
   "{N} dias para conhecer Leonida de verdade": "2026-09-25",
-  "Vice City abre em {N} dias": "2026-09-23",
+  "Vice City abre em {N} dias": "2026-09-26",
   "Faltam {N} dias para conhecer Leonida": "2026-09-25"
  },
  "pares": [
@@ -131,6 +136,31 @@
    "cena": "galeria-vice-city-11",
    "frase": "Rumo a Vice City: um post por vez",
    "em": "2026-09-25"
+  },
+  {
+   "cena": "trailer1-001",
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "em": "2026-09-26"
+  },
+  {
+   "cena": "galeria-vice-city-10",
+   "frase": "Vice City abre em {N} dias",
+   "em": "2026-09-26"
+  },
+  {
+   "cena": "trailer1-011",
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "em": "2026-09-26"
+  },
+  {
+   "cena": "trailer2-006",
+   "frase": "Mais {N} noites e o jogo é nosso",
+   "em": "2026-09-26"
+  },
+  {
+   "cena": "galeria-vice-city-09",
+   "frase": "Rumo a Vice City: um post por vez",
+   "em": "2026-09-26"
   }
  ]
 }
