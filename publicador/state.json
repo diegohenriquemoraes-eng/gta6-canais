@@ -57,16 +57,24 @@
           "video_id": "JPZlZYUApq4",
           "titulo": "Vice City é um estado inteiro agora | GTA 6 curiosidades #shorts",
           "em": "2026-09-24T19:22:42+00:00"
+        },
+        {
+          "pacote": "2026-09-24",
+          "item": "longo",
+          "formato": "tudo",
+          "video_id": "Fn7roMt0bwY",
+          "titulo": "Tudo o que os trailers de GTA 6 mostraram, cena por cena — faltam 56 dias",
+          "em": "2026-09-24T22:42:49+00:00"
         }
       ],
       "ultimo_short": "2026-09-24T19:22:42+00:00",
-      "ultimo_longo": "2026-09-23T21:14:53+00:00",
+      "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-09-24",
         "n": 3
       },
       "longos_dia": {
-        "data": "2026-09-23",
+        "data": "2026-09-24",
         "n": 1
       }
     }
@@ -136,12 +144,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-09-24-c2.mp4",
           "em": "2026-09-24T19:22:42+00:00"
+        },
+        {
+          "id": "2026-09-24-c3",
+          "media_id": "17918157453245160",
+          "cena": "galeria-jason-and-lucia-12",
+          "frase": "O romance entre Jason e Lucia é opcional",
+          "layout": 3,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-09-24-c3.mp4",
+          "em": "2026-09-24T22:42:49+00:00"
         }
       ],
-      "ultimo": "2026-09-24T19:22:42+00:00",
+      "ultimo": "2026-09-24T22:42:49+00:00",
       "dia": {
         "data": "2026-09-24",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "",

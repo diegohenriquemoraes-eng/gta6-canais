@@ -54,3 +54,11 @@
 - Item: short-3 — F040
 - Duração: 21.5s
 - Publicado em: 2026-09-24T19:22:42+00:00
+
+## Fn7roMt0bwY — Tudo o que os trailers de GTA 6 mostraram, cena por cena — faltam 56 dias
+
+- URL: https://youtu.be/Fn7roMt0bwY
+- Canal: Rumo a Vice City · GTA 6
+- Item: longo — F010, F017, F106, F120, F011, F012
+- Duração: 613.8s
+- Publicado em: 2026-09-24T22:42:49+00:00
