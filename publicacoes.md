@@ -62,3 +62,11 @@
 - Item: longo — F010, F017, F106, F120, F011, F012
 - Duração: 613.8s
 - Publicado em: 2026-09-24T22:42:49+00:00
+
+## hNmMYFT_SnA — Faltam menos de dois meses | GTA 6 curiosidades — faltam 55 dias #shorts
+
+- URL: https://youtu.be/hNmMYFT_SnA
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F116
+- Duração: 22.8s
+- Publicado em: 2026-09-25T10:39:54+00:00

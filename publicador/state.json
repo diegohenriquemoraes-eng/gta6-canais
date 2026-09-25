@@ -65,13 +65,21 @@
           "video_id": "Fn7roMt0bwY",
           "titulo": "Tudo o que os trailers de GTA 6 mostraram, cena por cena — faltam 56 dias",
           "em": "2026-09-24T22:42:49+00:00"
+        },
+        {
+          "pacote": "2026-09-25",
+          "item": "short-1",
+          "formato": "A",
+          "video_id": "hNmMYFT_SnA",
+          "titulo": "Faltam menos de dois meses | GTA 6 curiosidades — faltam 55 dias #shorts",
+          "em": "2026-09-25T10:39:54+00:00"
         }
       ],
-      "ultimo_short": "2026-09-24T19:22:42+00:00",
+      "ultimo_short": "2026-09-25T10:39:54+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-09-24",
-        "n": 3
+        "data": "2026-09-25",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
