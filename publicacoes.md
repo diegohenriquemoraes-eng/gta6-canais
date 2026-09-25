@@ -78,3 +78,11 @@
 - Item: short-2 — F145
 - Duração: 19.6s
 - Publicado em: 2026-09-25T14:01:32+00:00
+
+## 5LUKGTZjlBE — As cartas estão marcadas contra eles | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/5LUKGTZjlBE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F146
+- Duração: 16.7s
+- Publicado em: 2026-09-25T18:48:04+00:00
