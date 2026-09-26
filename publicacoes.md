@@ -94,3 +94,11 @@
 - Item: short-1 — F120
 - Duração: 25.5s
 - Publicado em: 2026-09-26T10:23:36+00:00
+
+## I5S9TVhkARU — O dono do pedaço tem gravadora própria | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/I5S9TVhkARU
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F191
+- Duração: 19.3s
+- Publicado em: 2026-09-26T14:48:39+00:00
