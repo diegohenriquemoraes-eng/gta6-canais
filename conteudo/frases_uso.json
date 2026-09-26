@@ -29,18 +29,25 @@
   "trailer1-007": "2026-09-27",
   "galeria-jason-and-lucia-11": "2026-09-27",
   "trailer2-016": "2026-09-27",
-  "galeria-vice-city-07": "2026-09-27"
+  "galeria-vice-city-07": "2026-09-27",
+  "galeria-vice-city-06": "2026-09-28",
+  "trailer2-009": "2026-09-28",
+  "galeria-jason-and-lucia-10": "2026-09-28",
+  "trailer2-007": "2026-09-28",
+  "galeria-vice-city-05": "2026-09-28"
  },
  "frases": {
-  "Aqui a gente vive Vice City antes de todo mundo": "2026-09-27",
+  "Aqui a gente vive Vice City antes de todo mundo": "2026-09-28",
   "Mais {N} noites e o jogo é nosso": "2026-09-27",
-  "O romance entre Jason e Lucia é opcional": "2026-09-27",
+  "O romance entre Jason e Lucia é opcional": "2026-09-28",
   "{N} dias para Vice City": "2026-09-24",
-  "Rumo a Vice City: um post por vez": "2026-09-27",
+  "Rumo a Vice City: um post por vez": "2026-09-28",
   "{N} dias para conhecer Leonida de verdade": "2026-09-25",
   "Vice City abre em {N} dias": "2026-09-26",
   "Faltam {N} dias para conhecer Leonida": "2026-09-25",
-  "Faltam {N} dias para GTA 6": "2026-09-27"
+  "Faltam {N} dias para GTA 6": "2026-09-27",
+  "{N} dias. Pré-venda aberta.": "2026-09-28",
+  "GTA 6 em {N} dias: você está pronto?": "2026-09-28"
  },
  "pares": [
   {
@@ -192,6 +199,31 @@
    "cena": "galeria-vice-city-07",
    "frase": "Rumo a Vice City: um post por vez",
    "em": "2026-09-27"
+  },
+  {
+   "cena": "galeria-vice-city-06",
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "em": "2026-09-28"
+  },
+  {
+   "cena": "trailer2-009",
+   "frase": "{N} dias. Pré-venda aberta.",
+   "em": "2026-09-28"
+  },
+  {
+   "cena": "galeria-jason-and-lucia-10",
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "em": "2026-09-28"
+  },
+  {
+   "cena": "trailer2-007",
+   "frase": "GTA 6 em {N} dias: você está pronto?",
+   "em": "2026-09-28"
+  },
+  {
+   "cena": "galeria-vice-city-05",
+   "frase": "Rumo a Vice City: um post por vez",
+   "em": "2026-09-28"
   }
  ]
 }
