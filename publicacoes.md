@@ -102,3 +102,11 @@
 - Item: short-2 — F191
 - Duração: 19.3s
 - Publicado em: 2026-09-26T14:48:39+00:00
+
+## rbGqFZORgG0 — Ele largou o crime para virar empresário musical | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/rbGqFZORgG0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F192
+- Duração: 17.7s
+- Publicado em: 2026-09-26T18:07:58+00:00
