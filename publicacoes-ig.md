@@ -76,3 +76,9 @@
 - https://www.instagram.com/reel/18057100169580507/
 - cena: `galeria-vice-city-10` · layout 2
 - 2026-09-26T17:18:56+00:00
+
+## 18118915097057891 — O romance entre Jason e Lucia é opcional
+
+- https://www.instagram.com/reel/18118915097057891/
+- cena: `trailer1-011` · layout 3
+- 2026-09-26T20:00:35+00:00
