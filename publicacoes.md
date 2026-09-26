@@ -86,3 +86,11 @@
 - Item: short-3 — F146
 - Duração: 16.7s
 - Publicado em: 2026-09-25T18:48:04+00:00
+
+## 1DjPguhgd9s — A galeria oficial tem 99 fotos | GTA 6 curiosidades — faltam 54 dias #shorts
+
+- URL: https://youtu.be/1DjPguhgd9s
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F120
+- Duração: 25.5s
+- Publicado em: 2026-09-26T10:23:36+00:00
