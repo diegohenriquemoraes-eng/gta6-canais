@@ -118,3 +118,11 @@
 - Item: short-1 — F122
 - Duração: 25.4s
 - Publicado em: 2026-09-27T14:10:46+00:00
+
+## Xe06uSN9kfQ — A dupla que viralizou e quer repetir a dose | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Xe06uSN9kfQ
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F193
+- Duração: 18.7s
+- Publicado em: 2026-09-27T18:34:49+00:00
