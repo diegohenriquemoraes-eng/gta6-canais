@@ -126,3 +126,11 @@
 - Item: short-2 — F193
 - Duração: 18.7s
 - Publicado em: 2026-09-27T18:34:49+00:00
+
+## othSrIJwuLg — O assaltante de banco está montando equipe | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/othSrIJwuLg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F194
+- Duração: 18.5s
+- Publicado em: 2026-09-27T22:00:18+00:00
