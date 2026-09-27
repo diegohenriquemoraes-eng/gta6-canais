@@ -4,16 +4,6 @@ Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para 
 
 ⚠ Este arquivo é REGRAVADO por inteiro a cada rodada. A análise do que os números mandam fazer está em [`LEITURA.md`](LEITURA.md), que o script não toca.
 
-## yt · gta 6 (2026-09-23, 50 itens)
-
-- mediana de views: 3,834,251
-- 0-10 s: 2 itens, mediana 5,027,287
-- 10-20 s: 5 itens, mediana 8,643,532
-- 20-30 s: 3 itens, mediana 4,512,008
-- 30-60 s: 7 itens, mediana 2,957,853
-- 60-∞ s: 33 itens, mediana 3,521,036
-- mais visto: 28,854,800 — “Grand Theft Auto VI: An Extended Look”
-
 ## yt · gta 6 curiosidades (2026-09-23, 50 itens)
 
 - mediana de views: 933,336
@@ -72,4 +62,23 @@ Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para 
 - mediana de views: 4,706
 - 0-10 s: 30 itens, mediana 4,706
 - mais visto: 15,900 — “”
+
+## yt · gta 6 (2026-09-27, 50 itens)
+
+- mediana de views: 2,669,761
+- 0-10 s: 1 itens, mediana 2,776,760
+- 10-20 s: 8 itens, mediana 5,616,318
+- 20-30 s: 3 itens, mediana 4,512,984
+- 30-60 s: 11 itens, mediana 2,451,298
+- 60-∞ s: 27 itens, mediana 2,191,388
+- **1 com licença Creative Commons** (esses sim podem virar arquivo, com crédito)
+- mais visto: 22,486,605 — “Zelda Vs GTA 6: Water Comparison💀🤦‍♂️”
+
+## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-09-27, 14 itens)
+
+- mediana de views: 40
+- 10-20 s: 3 itens, mediana 94
+- 20-30 s: 9 itens, mediana 50
+- 60-∞ s: 2 itens, mediana 3
+- mais visto: 703 — “Faltam menos de dois meses | GTA 6 curiosidades — faltam 55 dias #shorts”
 
