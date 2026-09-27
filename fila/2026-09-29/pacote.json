@@ -1,0 +1,833 @@
+{
+ "data": "2026-09-29",
+ "handle": "rumoavicecity",
+ "dias_para_lancamento": 51,
+ "gerado_em": "2026-09-27T05:10:48+00:00",
+ "shorts": [
+  {
+   "id": "F126",
+   "formato": "A",
+   "gancho": "34 faixas feitas para o jogo",
+   "narracao": "O álbum oficial de GTA 6 tem 34 faixas originais, feitas para o mundo de Vice City e Leonida, com artistas de vários gêneros. Está em pré-save nos serviços de streaming. Vinil e CD são de edição limitada.",
+   "fonte": "https://www.rockstargames.com/newswire/article/7599a881942544/announcing-grand-theft-auto-vi-the-album-coming-november-19",
+   "cena": "galeria: Real Dimez",
+   "tags": [
+    "album",
+    "contagem"
+   ]
+  },
+  {
+   "id": "F214",
+   "formato": "B",
+   "gancho": "É a primeira dupla jogável da série",
+   "narracao": "GTA 6 é o primeiro Grand Theft Auto com dois protagonistas que formam um casal, Jason Duval e Lucia Caminos. GTA 5 teve três protagonistas, mas independentes — aqui a relação entre os dois é parte da mecânica e do final.",
+   "fonte": "https://www.rockstargames.com/VI",
+   "cena": "galeria: jason-and-lucia-beach",
+   "tags": [
+    "personagem",
+    "jason",
+    "lucia",
+    "dupla",
+    "historia-serie"
+   ]
+  },
+  {
+   "id": "F215",
+   "formato": "B",
+   "gancho": "Lucia é a primeira protagonista mulher da série principal",
+   "narracao": "Lucia Caminos é a primeira mulher a protagonizar um Grand Theft Auto numerado. A série tinha vinte e cinco anos e nunca havia colocado uma mulher no papel principal da campanha, o que fez de Lucia o nome mais comentado do primeiro trailer.",
+   "fonte": "https://www.rockstargames.com/VI",
+   "cena": "galeria: lucia-caminos",
+   "tags": [
+    "personagem",
+    "lucia",
+    "historia-serie"
+   ]
+  }
+ ],
+ "longo": {
+  "formato": "tudo",
+  "fatos": [
+   {
+    "id": "F009",
+    "formato": "C",
+    "gancho": "Tem álbum oficial saindo no mesmo dia",
+    "narracao": "Em 17 de setembro de 2026 a Rockstar anunciou Grand Theft Auto VI: The Album, feito com a Atlantic Records. São 34 faixas originais, lançamento em 19 de novembro junto com o jogo, com vinil e CD de edição limitada em pré-venda.",
+    "fonte": "https://www.rockstargames.com/newswire/article/7599a881942544/announcing-grand-theft-auto-vi-the-album-coming-november-19",
+    "cena": "galeria: Real Dimez",
+    "tags": [
+     "album",
+     "musica",
+     "noticia"
+    ]
+   },
+   {
+    "id": "F120",
+    "formato": "A",
+    "gancho": "A galeria oficial tem 99 fotos",
+    "narracao": "O site da Rockstar disponibiliza 99 screenshots oficiais de GTA 6 para download, mais 51 da Ultimate Edition e 12 do Vintage Vice City Pack. As 29 mais recentes entraram em 31 de agosto de 2026, depois do Extended Look.",
+    "fonte": "https://www.rockstargames.com/VI/media/screenshots",
+    "cena": "galeria: Ocean Beach",
+    "tags": [
+     "galeria",
+     "numeros"
+    ]
+   },
+   {
+    "id": "F126",
+    "formato": "A",
+    "gancho": "34 faixas feitas para o jogo",
+    "narracao": "O álbum oficial de GTA 6 tem 34 faixas originais, feitas para o mundo de Vice City e Leonida, com artistas de vários gêneros. Está em pré-save nos serviços de streaming. Vinil e CD são de edição limitada.",
+    "fonte": "https://www.rockstargames.com/newswire/article/7599a881942544/announcing-grand-theft-auto-vi-the-album-coming-november-19",
+    "cena": "galeria: Real Dimez",
+    "tags": [
+     "album",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F130",
+    "formato": "A",
+    "gancho": "O adiamento fez a Take-Two subir na bolsa",
+    "narracao": "Quando a Rockstar adiou GTA 6 para novembro de 2026, a Take-Two, dona da empresa, manteve a projeção de receita e disse que o tempo extra era para polimento. O mercado reagiu bem: a data final passou a ser tratada como definitiva.",
+    "fonte": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+    "cena": "galeria: logo GTA VI",
+    "tags": [
+     "adiamento",
+     "take-two"
+    ]
+   },
+   {
+    "id": "F145",
+    "formato": "B",
+    "gancho": "Dois protagonistas, quatro mãos",
+    "narracao": "GTA 6 é o primeiro jogo da série com uma dupla de protagonistas jogáveis de forma equivalente. GTA 5 tinha três, mas separados. Aqui Jason e Lucia dividem missões, carros, esconderijo e a própria história de amor.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: Jason e Lucia",
+    "tags": [
+     "protagonistas"
+    ]
+   },
+   {
+    "id": "F193",
+    "formato": "B",
+    "gancho": "A dupla que viralizou e quer repetir a dose",
+    "narracao": "Real Dimez são Bae-Luxe e Roxy, duas cantoras que emplacaram um sucesso viral e agora trabalham com a Only Raw Records tentando repetir o feito. A música é parte grande do mundo de GTA 6, e não só a trilha sonora.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: real-dimez",
+    "tags": [
+     "personagem",
+     "npc",
+     "musica"
+    ]
+   },
+   {
+    "id": "F210",
+    "formato": "B",
+    "gancho": "A Only Raw Records liga quase todo mundo",
+    "narracao": "Boobie Ike abriu a gravadora, Dre'Quan Priest trabalha nela e as Real Dimez gravam lá. A Only Raw Records é o fio que costura boa parte do elenco de apoio de GTA 6 mostrado até agora, e coloca a música no centro da história.",
+    "fonte": "https://www.rockstargames.com/VI",
+    "cena": "galeria: drequan-priest",
+    "tags": [
+     "personagem",
+     "npc",
+     "historia",
+     "musica"
+    ]
+   },
+   {
+    "id": "F011",
+    "formato": "B",
+    "gancho": "93 milhões de views em um dia",
+    "narracao": "O Trailer 1 de GTA 6 foi visto 93 milhões de vezes nas primeiras 24 horas no YouTube. Virou o vídeo não musical mais visto em um dia na história da plataforma, batendo o recorde do MrBeast, que era de 59,4 milhões.",
+    "fonte": "https://blog.youtube/culture-and-trends/grand-theft-auto-breaks-record/",
+    "cena": "trailer1@0:20",
+    "tags": [
+     "trailer1",
+     "recorde"
+    ]
+   },
+   {
+    "id": "F012",
+    "formato": "B",
+    "gancho": "A música do trailer é uma declaração",
+    "narracao": "O Trailer 1 usa Love Is a Long Road, de Tom Petty. O chefe da Rockstar disse que o jogo ainda não estava totalmente formado quando o trailer saiu, mas que a música era a declaração de intenções do que GTA 6 iria ser.",
+    "fonte": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-wasnt-fully-formed-when-trailer-1-released-rockstar-boss-says-but-the-tom-petty-song-it-used-was-a-mission-statement-of-where-it-was-going/",
+    "cena": "trailer1@0:00",
+    "tags": [
+     "trailer1",
+     "musica"
+    ]
+   },
+   {
+    "id": "F014",
+    "formato": "B",
+    "gancho": "O segundo trailer quebrou todos os recordes",
+    "narracao": "O Trailer 2 saiu em 6 de maio de 2025 e dura dois minutos e quarenta e seis segundos. Somou 475 milhões de views em 24 horas em todas as plataformas. A Rockstar chamou de maior estreia de vídeo de todos os tempos.",
+    "fonte": "https://www.thegamer.com/grand-theft-auto-gta-6-trailer-475-million-views-first-24-hours/",
+    "cena": "trailer2@0:10",
+    "tags": [
+     "trailer2",
+     "recorde"
+    ]
+   },
+   {
+    "id": "F016",
+    "formato": "B",
+    "gancho": "A música do Trailer 2 é de 1986",
+    "narracao": "O Trailer 2 de GTA 6 toca Hot Together, das Pointer Sisters, lançada em 1986. A escolha combina com o clima de Vice City, que sempre foi a homenagem da série aos anos oitenta de Miami, agora numa versão dos dias de hoje.",
+    "fonte": "https://www.techradar.com/gaming/new-grand-theft-auto-6-trailer-shows-off-vice-city-and-the-games-partners-in-crime-jason-and-lucia-and-it-looks-absolutely-incredible",
+    "cena": "trailer2@0:00",
+    "tags": [
+     "trailer2",
+     "musica"
+    ]
+   },
+   {
+    "id": "F018",
+    "formato": "B",
+    "gancho": "Número um na Netflix em 87 países",
+    "narracao": "O Extended Look de GTA 6 teve 31,1 milhões de views na Netflix em quatro dias e foi o título mais visto da semana. Ficou em primeiro lugar em 87 dos 93 países que a plataforma mede. No YouTube passou de 17 milhões só no canal da Rockstar.",
+    "fonte": "https://variety.com/2026/tv/news/gta-6-netflix-extended-look-views-1236848409/",
+    "cena": "extended@0:30",
+    "tags": [
+     "extended",
+     "recorde"
+    ]
+   },
+   {
+    "id": "F019",
+    "formato": "B",
+    "gancho": "Segundo trailer de jogo mais visto do YouTube",
+    "narracao": "O Trailer 1 de GTA 6 se tornou o segundo trailer de jogo mais visto da história do YouTube. A conta só considera o canal da Rockstar. Somando as reproduções em outros canais e redes, os números do jogo são ainda maiores.",
+    "fonte": "https://www.notebookcheck.net/GTA-6-becomes-second-most-popular-game-trailer-on-YouTube.794414.0.html",
+    "cena": "trailer1@1:00",
+    "tags": [
+     "trailer1",
+     "recorde"
+    ]
+   },
+   {
+    "id": "F026",
+    "formato": "C",
+    "gancho": "Dois controles, dia e noite",
+    "narracao": "A Sony fez dois DualSense de GTA 6. O branco representa Vice City de dia, com areia clara e céu pastel. O preto representa a vida noturna da cidade. Os dois têm acabamento que muda de cor, palmeiras gravadas, botões rosa e o logo no touchpad.",
+    "fonte": "https://www.techtimes.com/articles/326481/20260903/sony-reveals-gta-6-dualsense-controllers-black-edition-playstation-direct-exclusive.htm",
+    "cena": "galeria: DualSense GTA VI",
+    "tags": [
+     "dualsense",
+     "design"
+    ]
+   },
+   {
+    "id": "F051",
+    "formato": "B",
+    "gancho": "Mais de 600 mil animações",
+    "narracao": "GTA 6 tem mais de 600 mil animações, contra 55 mil em GTA 5 e 300 mil em Red Dead Redemption 2. É o que explica o movimento mais natural dos personagens que chamou a atenção no Extended Look.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@3:00",
+    "tags": [
+     "producao",
+     "animacao"
+    ]
+   },
+   {
+    "id": "F052",
+    "formato": "B",
+    "gancho": "80 horas para terminar",
+    "narracao": "Uma passagem completa por GTA 6, com a história principal e alguns objetivos opcionais, deve levar cerca de 80 horas, segundo a cobertura do Extended Look. É mais do que o dobro do tempo médio da campanha de GTA 5.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "galeria: Jason e Lucia",
+    "tags": [
+     "duracao"
+    ]
+   },
+   {
+    "id": "F053",
+    "formato": "B",
+    "gancho": "Mais de 50 grafiteiros de verdade",
+    "narracao": "Mais de cinquenta artistas de rua reais contribuíram com murais para as paredes de Vice City e Leonida. A Rockstar também entrevistou ex-criminosos, policiais, promotores de festa e vendedores de armas durante a pesquisa para o jogo.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "galeria: Little Cuba",
+    "tags": [
+     "producao",
+     "arte"
+    ]
+   },
+   {
+    "id": "F054",
+    "formato": "B",
+    "gancho": "Pilotos de corrida ajustaram os carros",
+    "narracao": "A equipe responsável pela física dos veículos de GTA 6 inclui pilotos de corrida de verdade. A Rockstar também passou anos visitando Miami e a região ao redor para reconstruir a atmosfera da Flórida em Leonida.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@18:41",
+    "tags": [
+     "producao",
+     "veiculos"
+    ]
+   },
+   {
+    "id": "F055",
+    "formato": "B",
+    "gancho": "A pele dos personagens tem imperfeições",
+    "narracao": "O Extended Look mostra detalhes de pele e até celulite nos personagens. As ruas têm multidões densas e os interiores estão cheios de objetos pessoais e superfícies gastas. É o nível de detalhe que a Rockstar usou para justificar os adiamentos.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@2:00",
+    "tags": [
+     "graficos"
+    ]
+   },
+   {
+    "id": "F056",
+    "formato": "B",
+    "gancho": "Michael de GTA 5 deixou herança",
+    "narracao": "A mira em câmera lenta do Extended Look lembra a habilidade especial de Michael De Santa em GTA 5. Em GTA 6, a mira destaca pontos vermelhos, letais, e pontos amarelos, que apenas incapacitam. O jogador escolhe o resultado.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@25:07",
+    "tags": [
+     "mecanica",
+     "combate",
+     "referencia"
+    ]
+   },
+   {
+    "id": "F057",
+    "formato": "B",
+    "gancho": "Lucia tem cor, Jason tem outra",
+    "narracao": "Fãs notaram que Lucia aparece associada ao rosa e Jason ao azul nos dois trailers, nas roupas, nas luzes e até nos controles DualSense, que usam a mesma dupla de cores. É a paleta de Vice City desde 2002.",
+    "fonte": "https://gamerant.com/gta-6-jason-lucia-colors-blue-pink/",
+    "cena": "galeria: Jason e Lucia",
+    "tags": [
+     "curiosidade",
+     "cores"
+    ]
+   },
+   {
+    "id": "F059",
+    "formato": "B",
+    "gancho": "Jason e Lucia não postam selfie",
+    "narracao": "O Snapmatic, a câmera do jogo, está de volta. Mas Jason e Lucia não publicam fotos próprias nas redes do jogo. A explicação é de história: eles evitam deixar rastro digital, porque são criminosos procurados.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@18:24",
+    "tags": [
+     "mecanica",
+     "snapmatic",
+     "redes"
+    ]
+   },
+   {
+    "id": "F064",
+    "formato": "B",
+    "gancho": "A polícia tem memória",
+    "narracao": "A polícia de GTA 6 lembra informações ligadas a crimes anteriores. Um carro visto num assalto pode ser reconhecido depois. É diferente de GTA 5, onde o nível de procurado sumia e a história recomeçava do zero.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@14:30",
+    "tags": [
+     "mecanica",
+     "policia",
+     "memoria"
+    ]
+   },
+   {
+    "id": "F066",
+    "formato": "B",
+    "gancho": "É como a honra de Red Dead 2",
+    "narracao": "O Perfil Criminal de GTA 6 funciona parecido com o sistema de honra de Red Dead Redemption 2, mas promete mais nuance. O jogo considera as circunstâncias de cada ação, não só o ato em si.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "extended@15:10",
+    "tags": [
+     "mecanica",
+     "perfil-criminal",
+     "rdr2"
+    ]
+   },
+   {
+    "id": "F072",
+    "formato": "B",
+    "gancho": "Tem um app que avalia o carro",
+    "narracao": "O aplicativo WAINK, no celular do jogo, escaneia um veículo estacionado e mostra o valor, o custo de registro, se está trancado, se tem alarme e se tem rastreador. É como um leilão de carros usados, só que para ladrões.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@6:30",
+    "tags": [
+     "mecanica",
+     "carros",
+     "app"
+    ]
+   },
+   {
+    "id": "F079",
+    "formato": "B",
+    "gancho": "O desafio do porta-malas",
+    "narracao": "Uma das cenas aleatórias do Extended Look é o Trunk Challenge, uma mulher pendurada no porta-malas de um carro em movimento, transmitido ao vivo com comentários de espectadores na tela. É a sátira da Rockstar às redes sociais.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@18:24",
+    "tags": [
+     "mecanica",
+     "evento",
+     "redes"
+    ]
+   },
+   {
+    "id": "F081",
+    "formato": "B",
+    "gancho": "O porta-malas é seu armário",
+    "narracao": "Em GTA 6, o porta-malas dos veículos guarda armas e roupas reservas. É a solução para trocar de visual no meio de uma fuga sem voltar ao esconderijo. Em casa, dá para cortar ou raspar cabelo e barba.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@20:30",
+    "tags": [
+     "mecanica",
+     "roupas"
+    ]
+   },
+   {
+    "id": "F087",
+    "formato": "B",
+    "gancho": "Tem Uber em Vice City",
+    "narracao": "Ryde Me é o serviço de carona por aplicativo de GTA 6. Permite viajar pelo mapa sem dirigir. É a versão da Rockstar para os apps de transporte, e faz parte da sátira do jogo à vida conectada.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@19:00",
+    "tags": [
+     "mecanica",
+     "app",
+     "transporte"
+    ]
+   },
+   {
+    "id": "F088",
+    "formato": "B",
+    "gancho": "As redes sociais estão em todo lugar",
+    "narracao": "As redes sociais têm papel muito mais visível em GTA 6 do que em GTA 5. Influenciadores e vídeos virais aparecem por toda Leonida. O celular está presente o tempo todo no gameplay e nas cenas.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@18:24",
+    "tags": [
+     "mecanica",
+     "redes"
+    ]
+   },
+   {
+    "id": "F091",
+    "formato": "B",
+    "gancho": "O mapa agora é em 3D",
+    "narracao": "Aos oito minutos do Extended Look aparece o novo mapa com prédios em três dimensões na interface. É a primeira vez que a série mostra a cidade assim no HUD, em vez do mapa plano de GTA 5.",
+    "fonte": "https://www.engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/",
+    "cena": "extended@8:00",
+    "tags": [
+     "mecanica",
+     "mapa",
+     "hud"
+    ]
+   },
+   {
+    "id": "F100",
+    "formato": "B",
+    "gancho": "Barbearia muda o visual de verdade",
+    "narracao": "Em GTA 6, lojas diferentes vendem roupas e opções de personalização diferentes. Barbearias e salões permitem cortes completamente novos. Em casa só dá para aparar ou raspar. A aparência entra no romance e na fuga da polícia.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@20:45",
+    "tags": [
+     "mecanica",
+     "visual"
+    ]
+   },
+   {
+    "id": "F102",
+    "formato": "C",
+    "gancho": "Um terno pastel e um vestido vermelho",
+    "narracao": "As roupas do Vintage Vice City Pack são um terno pastel para Jason e um vestido vermelho para Lucia, com penteados de época. É a homenagem direta ao visual dos anos oitenta de GTA Vice City, de 2002.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: Vintage Vice City",
+    "tags": [
+     "bonus",
+     "roupas"
+    ]
+   },
+   {
+    "id": "F110",
+    "formato": "C",
+    "gancho": "GTA 5 passou de 230 milhões de cópias",
+    "narracao": "Antes de GTA 6 chegar, GTA 5 já tinha vendido mais de duzentos e trinta milhões de unidades no mundo inteiro. O número é da própria Take-Two, no balanço do primeiro trimestre do ano fiscal de 2027, publicado em agosto de 2026.",
+    "fonte": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-first-6",
+    "cena": "galeria: logo GTA VI",
+    "tags": [
+     "numeros",
+     "vendas",
+     "take-two"
+    ]
+   },
+   {
+    "id": "F117",
+    "formato": "A",
+    "gancho": "GTA Online vai ter novidade, mas não agora",
+    "narracao": "A Rockstar ainda não detalhou o GTA Online de GTA 6. O foco de toda a divulgação até setembro de 2026 foi a história de Jason e Lucia. O modo online de GTA 5 seguiu recebendo atualizações por treze anos.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "galeria: Vice City aérea",
+    "tags": [
+     "online",
+     "contagem"
+    ]
+   },
+   {
+    "id": "F118",
+    "formato": "A",
+    "gancho": "A Netflix foi a escolha para o Extended Look",
+    "narracao": "Pela primeira vez a Rockstar estreou um vídeo de GTA numa plataforma de streaming antes do YouTube. O Extended Look ficou seis horas exclusivo na Netflix em 27 de agosto de 2026, antes de ir para o canal oficial.",
+    "fonte": "https://www.gamesradar.com/how-to-watch-the-gta-6-extended-look-netflix/",
+    "cena": "extended@0:10",
+    "tags": [
+     "extended",
+     "netflix"
+    ]
+   },
+   {
+    "id": "F119",
+    "formato": "A",
+    "gancho": "A Netflix mede view de um jeito diferente",
+    "narracao": "Os 31,1 milhões de views do Extended Look na Netflix são horas assistidas divididas pela duração de 26 minutos. No YouTube, uma view conta assim que o vídeo começa. Os números das duas plataformas não se somam.",
+    "fonte": "https://www.tweaktown.com/news/113394/gta-vi-extended-look-had-31-1-million-views-on-netflix-another-17-million-on-youtube/index.html",
+    "cena": "extended@0:20",
+    "tags": [
+     "extended",
+     "numeros"
+    ]
+   },
+   {
+    "id": "F121",
+    "formato": "A",
+    "gancho": "A capa mudou de ideia sobre o mapa",
+    "narracao": "A arte oficial de GTA 6 inclui cartões-postais de Vice City, Leonida Keys e Port Gellhorn, além de uma versão do logo sem fundo. A Rockstar liberou os arquivos como papéis de parede oficiais na galeria do site.",
+    "fonte": "https://www.gtabase.com/gta-6/artworks/",
+    "cena": "galeria: Vice City postal",
+    "tags": [
+     "galeria",
+     "arte"
+    ]
+   },
+   {
+    "id": "F127",
+    "formato": "A",
+    "gancho": "As Keys também estão no controle",
+    "narracao": "As palmeiras gravadas nos DualSense de GTA 6 vêm da identidade visual de Leonida Keys e de Ocean Beach. O rosa dos botões é o rosa de Lucia, e o gradiente que muda de cor imita o neon de Vice City à noite.",
+    "fonte": "https://www.techtimes.com/articles/326481/20260903/sony-reveals-gta-6-dualsense-controllers-black-edition-playstation-direct-exclusive.htm",
+    "cena": "galeria: DualSense GTA VI",
+    "tags": [
+     "dualsense",
+     "design"
+    ]
+   },
+   {
+    "id": "F129",
+    "formato": "A",
+    "gancho": "Um terço dos brasileiros pagaria 100 dólares",
+    "narracao": "Uma pesquisa com jogadores brasileiros mostrou que cerca de um terço consideraria 100 dólares um preço justo para GTA 6. A maioria disse estar disposta a pagar entre 500 e 600 reais. O preço oficial ficou abaixo disso.",
+    "fonte": "https://www.notebookcheck.net/100-would-be-a-fair-GTA-6-price-according-to-a-third-of-Brazilian-gamers-surveyed.1097974.0.html",
+    "cena": "galeria: capa do jogo",
+    "tags": [
+     "preco",
+     "brasil",
+     "pesquisa"
+    ]
+   },
+   {
+    "id": "F143",
+    "formato": "B",
+    "gancho": "A câmera é de cinema",
+    "narracao": "Iluminação, reflexos, profundidade de campo e movimentos de câmera cinematográficos aparecem o tempo todo no Extended Look. As cenas vão do sol forte da Flórida e das áreas alagadas ao neon noturno de Vice City.",
+    "fonte": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+    "cena": "extended@4:00",
+    "tags": [
+     "graficos",
+     "camera"
+    ]
+   },
+   {
+    "id": "F171",
+    "formato": "B",
+    "gancho": "O jogo roda a trinta quadros por segundo",
+    "narracao": "A jogabilidade mostrada no Extended Look roda a trinta quadros por segundo. É o esperado para console nesta geração, mas vale saber de antemão por quem contava com sessenta quadros no PlayStation 5 ou no Xbox Series.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "graficos",
+     "plataformas",
+     "numeros"
+    ]
+   },
+   {
+    "id": "F172",
+    "formato": "C",
+    "gancho": "A campanha não terá microtransação",
+    "narracao": "A Rockstar afirmou que a parte para um jogador de GTA 6 sai sem microtransações. É uma decisão que contraria o caminho do GTA Online, e foi anunciada junto com o Extended Look de agosto de 2026.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "galeria: jason-and-lucia",
+    "tags": [
+     "economia",
+     "producao"
+    ]
+   },
+   {
+    "id": "F173",
+    "formato": "C",
+    "gancho": "A Rockstar diz que não usou IA generativa",
+    "narracao": "Junto com o Extended Look, a Rockstar afirmou que nenhuma inteligência artificial generativa foi usada no desenvolvimento de GTA 6. A declaração vem num momento em que o uso de IA virou assunto quente na indústria de jogos.",
+    "fonte": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "producao",
+     "numeros"
+    ]
+   },
+   {
+    "id": "F175",
+    "formato": "C",
+    "gancho": "A apresentação estreou na Netflix",
+    "narracao": "O Extended Look de GTA 6 estreou em vinte e sete de agosto de 2026, primeiro na Netflix. Só cerca de seis horas depois foi ao canal da Rockstar no YouTube e ao site oficial do jogo. Foi a maior apresentação que o estúdio já fez.",
+    "fonte": "https://www.eurogamer.pt/gta-6-netflix-tudo-o-que-foi-anunciado",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "trailers",
+     "extended",
+     "producao"
+    ]
+   },
+   {
+    "id": "F176",
+    "formato": "C",
+    "gancho": "Vinte e seis minutos de jogo mostrado",
+    "narracao": "O Extended Look tem cerca de vinte e seis minutos e é o olhar mais longo que a Rockstar já deu sobre GTA 6. Antes dele, tudo o que existia eram dois trailers somando pouco mais de quatro minutos de imagem.",
+    "fonte": "https://vgtimes.com/gaming-news/165687-netflix-lists-grand-theft-auto-6-extended-look-at-26-minutes.html",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "trailers",
+     "extended",
+     "numeros"
+    ]
+   },
+   {
+    "id": "F190",
+    "formato": "A",
+    "gancho": "Treze anos entre um jogo e outro",
+    "narracao": "GTA 5 saiu em 2013 e GTA 6 chega em dezenove de novembro de 2026: treze anos de intervalo, o maior da história da série. Nesse tempo, GTA 5 passou de duzentos e trinta milhões de unidades vendidas.",
+    "fonte": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-first-6",
+    "cena": "galeria: vice-city",
+    "tags": [
+     "lancamento",
+     "historia-serie",
+     "contagem",
+     "numeros"
+    ]
+   },
+   {
+    "id": "F196",
+    "formato": "B",
+    "gancho": "Seis personagens de apoio já têm nome e rosto",
+    "narracao": "Além de Jason e Lucia, a Rockstar já apresentou Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista, Cal Hampton e Brian Heder. É elenco de apoio revelado antes do jogo sair, coisa que a série nunca tinha feito com tanta antecedência.",
+    "fonte": "https://www.gtabase.com/gta-6/characters/",
+    "cena": "galeria: brian-heder",
+    "tags": [
+     "personagem",
+     "npc",
+     "producao"
+    ]
+   },
+   {
+    "id": "F209",
+    "formato": "A",
+    "gancho": "O jogo atrasou dezoito meses do plano original",
+    "narracao": "GTA 6 chega cerca de dezoito meses depois da janela que a própria Take-Two tinha traçado: o anúncio inicial mirava 2025 e a data escorregou duas vezes até dezenove de novembro de 2026. O presidente da empresa reafirmou essa data.",
+    "fonte": "https://www.gamersegames.com.br/2026/05/18/gta-6-chegara-18-meses-depois-da-data-original-confirma-ceo-da-take-two/",
+    "cena": "galeria: official-cover-art",
+    "tags": [
+     "lancamento",
+     "data",
+     "producao"
+    ]
+   },
+   {
+    "id": "F217",
+    "formato": "C",
+    "gancho": "A capa oficial já está circulando",
+    "narracao": "A arte de capa de GTA 6 foi publicada pela Rockstar junto com a abertura das reservas. É a imagem que vai na caixa e nas lojas digitais, e a primeira peça oficial que trata o jogo como produto à venda, não mais como promessa.",
+    "fonte": "https://www.gtabase.com/articles/gta-6/gta-6-editions-guide-pre-order-bonus-special-editions-content",
+    "cena": "galeria: official-cover-art",
+    "tags": [
+     "lancamento",
+     "edicoes",
+     "producao"
+    ]
+   },
+   {
+    "id": "F218",
+    "formato": "B",
+    "gancho": "Cada região ganhou seu próprio cartão-postal",
+    "narracao": "A Rockstar publicou artes em formato de cartão-postal para Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga. É material oficial de divulgação, e serve de mapa visual do estado antes de qualquer um pisar nele.",
+    "fonte": "https://www.gtabase.com/gta-6/map/",
+    "cena": "galeria: ambrosia-postcard",
+    "tags": [
+     "mapa",
+     "lugar",
+     "producao"
+    ]
+   }
+  ],
+  "cena": "galeria: Real Dimez",
+  "titulo": "GTA 6 por dentro: produção, gráficos, música e os números — faltam 51 dias",
+  "thumb_titulo": "FALTAM\n51 DIAS",
+  "thumb_sub": "Tem álbum oficial saindo no mesmo dia",
+  "descricao_busca": "Os fatos confirmados sobre GTA 6, um de cada vez, com a fonte de cada um. Sem rumor sem fonte e sem vazamento.",
+  "tags_extra": [
+   "gta 6 tudo o que sabemos",
+   "gta 6 fatos",
+   "gta 6 data de lançamento",
+   "gta 6 novidades",
+   "gta 6 producao"
+  ],
+  "minutos_estimados": 15.6
+ },
+ "cartoes": [
+  {
+   "id": "2026-09-29-c1",
+   "cena": {
+    "id": "trailer2-019",
+    "video_origem": "trailer2",
+    "inicio": 148.23,
+    "fim": 160.23,
+    "descricao": "Avenida com fios e palmeiras banhada pela luz alaranjada do fim de tarde",
+    "tags": [
+     "cidade",
+     "por-do-sol",
+     "rua",
+     "vice-city"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "frase_base": "Aqui a gente vive Vice City antes de todo mundo",
+   "categoria": "identidade",
+   "layout": 1,
+   "contexto": "Avenida com fios e palmeiras banhada pela luz alaranjada do fim de tarde",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-29-c2",
+   "cena": {
+    "id": "trailer2-014",
+    "video_origem": "trailer2",
+    "inicio": 106.73,
+    "fim": 117.1,
+    "descricao": "Mulher com o braço para fora da janela de um carro em movimento",
+    "tags": [
+     "carro",
+     "personagem",
+     "cidade",
+     "dia"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "51 dias para Vice City",
+   "frase_base": "{N} dias para Vice City",
+   "categoria": "contagem",
+   "layout": 2,
+   "contexto": "Mulher com o braço para fora da janela de um carro em movimento",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-29-c3",
+   "cena": {
+    "id": "galeria-jason-and-lucia-13",
+    "video_origem": "galeria",
+    "arquivo": "jason-and-lucia-13.jpg",
+    "inicio": 0.0,
+    "fim": 8.0,
+    "descricao": "Jason e Lucia juntos, em imagem oficial da Rockstar",
+    "tags": [
+     "jason",
+     "lucia",
+     "dupla",
+     "personagem"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "frase_base": "O romance entre Jason e Lucia é opcional",
+   "categoria": "fato",
+   "layout": 3,
+   "contexto": "Jason e Lucia juntos, em imagem oficial da Rockstar",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-29-c4",
+   "cena": {
+    "id": "trailer2-018",
+    "video_origem": "trailer2",
+    "inicio": 141.83,
+    "fim": 148.23,
+    "descricao": "Perseguição noturna na cidade, com faíscas e neon rosa",
+    "tags": [
+     "policia",
+     "carro",
+     "noite",
+     "cidade",
+     "perseguicao"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Vice City abre em 51 dias",
+   "frase_base": "Vice City abre em {N} dias",
+   "categoria": "contagem",
+   "layout": 1,
+   "contexto": "Perseguição noturna na cidade, com faíscas e neon rosa",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  },
+  {
+   "id": "2026-09-29-c5",
+   "cena": {
+    "id": "galeria-vice-city-04",
+    "video_origem": "galeria",
+    "arquivo": "vice-city-04.jpg",
+    "inicio": 0.0,
+    "fim": 8.0,
+    "descricao": "Vice City em imagem oficial da Rockstar",
+    "tags": [
+     "cidade",
+     "vice-city",
+     "mapa",
+     "lugar"
+    ],
+    "licenca": "rockstar_oficial",
+    "credito": "",
+    "no_runner": false
+   },
+   "frase": "Rumo a Vice City: um post por vez",
+   "frase_base": "Rumo a Vice City: um post por vez",
+   "categoria": "identidade",
+   "layout": 2,
+   "contexto": "Vice City em imagem oficial da Rockstar",
+   "fonte": "rockstargames.com/VI",
+   "zoom": 1.0,
+   "dx": 0
+  }
+ ],
+ "stories": [
+  {
+   "oferta": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=ig_story\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal."
+  }
+ ],
+ "oferta_yt_longo": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=yt_largo\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal.",
+ "oferta_yt_short": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=yt_short\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal."
+}
