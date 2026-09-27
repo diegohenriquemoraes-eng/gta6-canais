@@ -281,9 +281,16 @@
         "n": 5
       },
       "story_dia": {
-        "data": "",
-        "n": 0
-      }
+        "data": "2026-09-27",
+        "n": 1
+      },
+      "stories": [
+        {
+          "story_id": "17903348001567665",
+          "oferta": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=ig_story\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal.",
+          "em": "2026-09-27T00:11:27+00:00"
+        }
+      ]
     },
     "tiktok": {
       "publicados": [
@@ -370,12 +377,19 @@
           "url": null,
           "estado": "published",
           "em": "2026-09-26T14:48:39+00:00"
+        },
+        {
+          "cartao": "2026-09-26-c2",
+          "post_id": "6ab85f55eabc5255a16402a5",
+          "url": null,
+          "estado": "published",
+          "em": "2026-09-27T00:12:04+00:00"
         }
       ],
-      "ultimo": "2026-09-26T14:48:39+00:00",
+      "ultimo": "2026-09-27T00:12:04+00:00",
       "dia": {
-        "data": "2026-09-26",
-        "n": 3
+        "data": "2026-09-27",
+        "n": 1
       },
       "story_dia": {
         "data": "",
