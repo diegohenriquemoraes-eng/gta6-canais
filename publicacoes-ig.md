@@ -118,3 +118,9 @@
 - https://www.instagram.com/reel/18114762623063091/
 - cena: `galeria-vice-city-06` · layout 1
 - 2026-09-28T14:37:52+00:00
+
+## 18370185214241148 — 52 dias. Pré-venda aberta.
+
+- https://www.instagram.com/reel/18370185214241148/
+- cena: `trailer2-009` · layout 2
+- 2026-09-28T20:53:59+00:00

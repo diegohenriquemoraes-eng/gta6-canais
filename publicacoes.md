@@ -142,3 +142,11 @@
 - Item: short-1 — F123
 - Duração: 21.6s
 - Publicado em: 2026-09-28T14:37:52+00:00
+
+## Ixk86wRmcnA — A Only Raw Records liga quase todo mundo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Ixk86wRmcnA
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F210
+- Duração: 18.3s
+- Publicado em: 2026-09-28T20:53:59+00:00
