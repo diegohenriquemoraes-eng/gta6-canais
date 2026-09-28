@@ -150,3 +150,11 @@
 - Item: short-2 — F210
 - Duração: 18.3s
 - Publicado em: 2026-09-28T20:53:59+00:00
+
+## MYeWPe4_cPk — Os dois moram num motel no começo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/MYeWPe4_cPk
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F213
+- Duração: 19.2s
+- Publicado em: 2026-09-28T22:28:51+00:00
