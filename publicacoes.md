@@ -134,3 +134,11 @@
 - Item: short-3 — F194
 - Duração: 18.5s
 - Publicado em: 2026-09-27T22:00:18+00:00
+
+## dfXh-loAQoU — O jogo roda no Xbox Series S | GTA 6 curiosidades — faltam 52 dias #shorts
+
+- URL: https://youtu.be/dfXh-loAQoU
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F123
+- Duração: 21.6s
+- Publicado em: 2026-09-28T14:37:52+00:00
