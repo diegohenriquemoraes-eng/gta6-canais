@@ -148,3 +148,9 @@
 - https://www.instagram.com/reel/18197801389385312/
 - cena: `galeria-jason-and-lucia-13` · layout 3
 - 2026-09-29T18:57:42+00:00
+
+## 17939154576363737 — Vice City abre em 51 dias
+
+- https://www.instagram.com/reel/17939154576363737/
+- cena: `trailer2-018` · layout 1
+- 2026-09-29T20:56:45+00:00
