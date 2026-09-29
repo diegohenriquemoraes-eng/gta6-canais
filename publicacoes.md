@@ -166,3 +166,11 @@
 - Item: short-1 — F126
 - Duração: 22.1s
 - Publicado em: 2026-09-29T13:29:07+00:00
+
+## G1kPUz-rHtM — É a primeira dupla jogável da série | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/G1kPUz-rHtM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F214
+- Duração: 19.3s
+- Publicado em: 2026-09-29T18:57:42+00:00
