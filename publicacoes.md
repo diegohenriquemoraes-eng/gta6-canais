@@ -174,3 +174,11 @@
 - Item: short-2 — F214
 - Duração: 19.3s
 - Publicado em: 2026-09-29T18:57:42+00:00
+
+## 4yVr1VYccDU — Lucia é a primeira protagonista mulher da série principal | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/4yVr1VYccDU
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F215
+- Duração: 19.3s
+- Publicado em: 2026-09-29T23:00:57+00:00
