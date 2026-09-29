@@ -158,3 +158,11 @@
 - Item: short-3 — F213
 - Duração: 19.2s
 - Publicado em: 2026-09-28T22:28:51+00:00
+
+## k0dONKtkY2o — 34 faixas feitas para o jogo | GTA 6 curiosidades — faltam 51 dias #shorts
+
+- URL: https://youtu.be/k0dONKtkY2o
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F126
+- Duração: 22.1s
+- Publicado em: 2026-09-29T13:29:07+00:00

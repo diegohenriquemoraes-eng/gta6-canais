@@ -130,3 +130,9 @@
 - https://www.instagram.com/reel/18490012729110365/
 - cena: `galeria-jason-and-lucia-10` · layout 3
 - 2026-09-28T22:28:51+00:00
+
+## 17982661353108739 — Aqui a gente vive Vice City antes de todo mundo
+
+- https://www.instagram.com/reel/17982661353108739/
+- cena: `trailer2-019` · layout 1
+- 2026-09-29T13:29:07+00:00
