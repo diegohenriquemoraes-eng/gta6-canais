@@ -190,3 +190,11 @@
 - Item: short-1 — F130
 - Duração: 18.2s
 - Publicado em: 2026-09-30T14:01:18+00:00
+
+## DnymigIRXXc — Treze idiomas, e o português está na lista | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/DnymigIRXXc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F008
+- Duração: 20.2s
+- Publicado em: 2026-09-30T19:32:58+00:00
