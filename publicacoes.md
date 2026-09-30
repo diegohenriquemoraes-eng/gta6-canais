@@ -182,3 +182,11 @@
 - Item: short-3 — F215
 - Duração: 19.3s
 - Publicado em: 2026-09-29T23:00:57+00:00
+
+## i0JqYeh36Bk — O adiamento fez a Take-Two subir na bolsa | GTA 6 curiosidades — faltam 50 dias #shorts
+
+- URL: https://youtu.be/i0JqYeh36Bk
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F130
+- Duração: 18.2s
+- Publicado em: 2026-09-30T14:01:18+00:00
