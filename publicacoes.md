@@ -198,3 +198,11 @@
 - Item: short-2 — F008
 - Duração: 20.2s
 - Publicado em: 2026-09-30T19:32:58+00:00
+
+## TsGrzrl0ZLs — 93 milhões de views em um dia | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/TsGrzrl0ZLs
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F011
+- Duração: 20.6s
+- Publicado em: 2026-09-30T23:29:30+00:00
