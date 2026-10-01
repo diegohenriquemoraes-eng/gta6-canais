@@ -206,3 +206,11 @@
 - Item: short-3 — F011
 - Duração: 20.6s
 - Publicado em: 2026-09-30T23:29:30+00:00
+
+## G4WqXchgjDk — Você vai poder baixar antes do lançamento | GTA 6 curiosidades — faltam 49 dias #shorts
+
+- URL: https://youtu.be/G4WqXchgjDk
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F002
+- Duração: 21.9s
+- Publicado em: 2026-10-01T13:39:36+00:00
