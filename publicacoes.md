@@ -222,3 +222,11 @@
 - Item: short-2 — F012
 - Duração: 18.3s
 - Publicado em: 2026-10-01T16:45:50+00:00
+
+## ib1hxssWkw0 — O trailer começa numa prisão | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/ib1hxssWkw0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F013
+- Duração: 17.3s
+- Publicado em: 2026-10-01T21:39:48+00:00
