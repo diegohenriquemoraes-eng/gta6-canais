@@ -214,3 +214,11 @@
 - Item: short-1 — F002
 - Duração: 21.9s
 - Publicado em: 2026-10-01T13:39:36+00:00
+
+## 5WDxVXaisCc — A música do trailer é uma declaração | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/5WDxVXaisCc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F012
+- Duração: 18.3s
+- Publicado em: 2026-10-01T16:45:50+00:00
