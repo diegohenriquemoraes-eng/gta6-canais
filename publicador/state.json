@@ -771,12 +771,19 @@
           "url": null,
           "estado": "published",
           "em": "2026-10-02T00:00:00+00:00"
+        },
+        {
+          "cartao": "2026-09-30-c2",
+          "post_id": "6abf042c8eca6e7f1c64b006",
+          "url": null,
+          "estado": "published",
+          "em": "2026-10-02T01:08:53+00:00"
         }
       ],
-      "ultimo": "2026-10-02T00:00:00+00:00",
+      "ultimo": "2026-10-02T01:08:53+00:00",
       "dia": {
         "data": "2026-10-02",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "",
