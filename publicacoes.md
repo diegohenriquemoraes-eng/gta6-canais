@@ -230,3 +230,11 @@
 - Item: short-3 — F013
 - Duração: 17.3s
 - Publicado em: 2026-10-01T21:39:48+00:00
+
+## sgPxd4EnFoo — PC fica de fora no lançamento | GTA 6 curiosidades — faltam 48 dias #shorts
+
+- URL: https://youtu.be/sgPxd4EnFoo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F005
+- Duração: 22.8s
+- Publicado em: 2026-10-02T12:57:54+00:00
