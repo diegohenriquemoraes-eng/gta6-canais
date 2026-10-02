@@ -238,3 +238,11 @@
 - Item: short-1 — F005
 - Duração: 22.8s
 - Publicado em: 2026-10-02T12:57:54+00:00
+
+## Tw4HsoLryHw — O segundo trailer quebrou todos os recordes | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Tw4HsoLryHw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F014
+- Duração: 21.3s
+- Publicado em: 2026-10-02T18:35:48+00:00
