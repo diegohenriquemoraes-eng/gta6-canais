@@ -254,3 +254,11 @@
 - Item: short-3 — F015
 - Duração: 20.2s
 - Publicado em: 2026-10-02T23:18:49+00:00
+
+## KuoETS8kzMw — Um mês de GTA+ vem de brinde | GTA 6 curiosidades — faltam 47 dias #shorts
+
+- URL: https://youtu.be/KuoETS8kzMw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F020
+- Duração: 21.2s
+- Publicado em: 2026-10-03T13:35:19+00:00
