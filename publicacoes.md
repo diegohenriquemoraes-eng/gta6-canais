@@ -262,3 +262,11 @@
 - Item: short-1 — F020
 - Duração: 21.2s
 - Publicado em: 2026-10-03T13:35:19+00:00
+
+## jMgEf4RooOg — A música do Trailer 2 é de 1986 | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/jMgEf4RooOg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F016
+- Duração: 21.2s
+- Publicado em: 2026-10-03T17:46:58+00:00
