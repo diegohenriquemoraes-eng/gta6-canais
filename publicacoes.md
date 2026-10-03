@@ -270,3 +270,11 @@
 - Item: short-2 — F016
 - Duração: 21.2s
 - Publicado em: 2026-10-03T17:46:58+00:00
+
+## 1vq2cJ_TPbQ — Número um na Netflix em 87 países | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/1vq2cJ_TPbQ
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F018
+- Duração: 22.7s
+- Publicado em: 2026-10-03T21:51:46+00:00
