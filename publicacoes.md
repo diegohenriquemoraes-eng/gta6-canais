@@ -278,3 +278,11 @@
 - Item: short-3 — F018
 - Duração: 22.7s
 - Publicado em: 2026-10-03T21:51:46+00:00
+
+## s_h3TOW-ijI — Há uma janela de sete dias para o bônus | GTA 6 curiosidades — faltam 46 dias #shorts
+
+- URL: https://youtu.be/s_h3TOW-ijI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F030
+- Duração: 18.4s
+- Publicado em: 2026-10-04T14:55:16+00:00
