@@ -256,3 +256,9 @@
 - https://www.instagram.com/reel/17870227215645979/
 - cena: `galeria-vice-city-10` · layout 1
 - 2026-10-04T14:55:16+00:00
+
+## 17981153727084700 — Mais 46 noites e o jogo é nosso
+
+- https://www.instagram.com/reel/17981153727084700/
+- cena: `trailer2-006` · layout 2
+- 2026-10-04T18:43:39+00:00

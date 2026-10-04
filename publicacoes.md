@@ -286,3 +286,11 @@
 - Item: short-1 — F030
 - Duração: 18.4s
 - Publicado em: 2026-10-04T14:55:16+00:00
+
+## sKCKhlAwGOI — Segundo trailer de jogo mais visto do YouTube | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/sKCKhlAwGOI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F019
+- Duração: 18.7s
+- Publicado em: 2026-10-04T18:43:39+00:00
