@@ -294,3 +294,11 @@
 - Item: short-2 — F019
 - Duração: 18.7s
 - Publicado em: 2026-10-04T18:43:39+00:00
+
+## cNT480omIQw — Jason só queria uma vida fácil | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/cNT480omIQw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F031
+- Duração: 19.5s
+- Publicado em: 2026-10-04T22:18:14+00:00
