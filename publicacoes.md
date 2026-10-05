@@ -310,3 +310,11 @@
 - Item: short-1 — F111
 - Duração: 19.5s
 - Publicado em: 2026-10-05T16:16:47+00:00
+
+## t7diwcGVtog — Lucia aprendeu a brigar antes de andar | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/t7diwcGVtog
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F032
+- Duração: 18.3s
+- Publicado em: 2026-10-05T23:02:41+00:00
