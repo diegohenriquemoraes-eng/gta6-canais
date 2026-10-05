@@ -302,3 +302,11 @@
 - Item: short-3 — F031
 - Duração: 19.5s
 - Publicado em: 2026-10-04T22:18:14+00:00
+
+## yl1O35OjLdc — Você está do lado certo da história | GTA 6 curiosidades — faltam 45 dias #shorts
+
+- URL: https://youtu.be/yl1O35OjLdc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F111
+- Duração: 19.5s
+- Publicado em: 2026-10-05T16:16:47+00:00
