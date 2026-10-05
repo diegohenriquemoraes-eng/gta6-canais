@@ -318,3 +318,11 @@
 - Item: short-2 — F032
 - Duração: 18.3s
 - Publicado em: 2026-10-05T23:02:41+00:00
+
+## lRjYNJtoANM — O amigo que espiona a Guarda Costeira | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/lRjYNJtoANM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F033
+- Duração: 18.0s
+- Publicado em: 2026-10-05T23:17:50+00:00

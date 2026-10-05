@@ -321,13 +321,21 @@
           "video_id": "t7diwcGVtog",
           "titulo": "Lucia aprendeu a brigar antes de andar | GTA 6 curiosidades #shorts",
           "em": "2026-10-05T23:02:41+00:00"
+        },
+        {
+          "pacote": "2026-10-05",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "lRjYNJtoANM",
+          "titulo": "O amigo que espiona a Guarda Costeira | GTA 6 curiosidades #shorts",
+          "em": "2026-10-05T23:17:50+00:00"
         }
       ],
-      "ultimo_short": "2026-10-05T23:02:41+00:00",
+      "ultimo_short": "2026-10-05T23:17:50+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-05",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",
