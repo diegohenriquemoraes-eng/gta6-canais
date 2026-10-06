@@ -326,3 +326,11 @@
 - Item: short-3 — F033
 - Duração: 18.0s
 - Publicado em: 2026-10-05T23:17:50+00:00
+
+## Vs-g2ayLibA — Três trailers em três anos | GTA 6 curiosidades — faltam 44 dias #shorts
+
+- URL: https://youtu.be/Vs-g2ayLibA
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F113
+- Duração: 22.1s
+- Publicado em: 2026-10-06T10:37:11+00:00
