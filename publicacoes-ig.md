@@ -280,3 +280,9 @@
 - https://www.instagram.com/reel/18130625320760015/
 - cena: `trailer1-007` · layout 2
 - 2026-10-05T23:02:41+00:00
+
+## 18105087571984858 — Aqui a gente vive Vice City antes de todo mundo
+
+- https://www.instagram.com/reel/18105087571984858/
+- cena: `trailer2-019` · layout 1
+- 2026-10-06T16:20:43+00:00

@@ -334,3 +334,11 @@
 - Item: short-1 — F113
 - Duração: 22.1s
 - Publicado em: 2026-10-06T10:37:11+00:00
+
+## zpTuJZuDD8U — O empresário de Vice City | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/zpTuJZuDD8U
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F034
+- Duração: 17.7s
+- Publicado em: 2026-10-06T16:20:43+00:00
