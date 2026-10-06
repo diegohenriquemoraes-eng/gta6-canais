@@ -342,3 +342,11 @@
 - Item: short-2 — F034
 - Duração: 17.7s
 - Publicado em: 2026-10-06T16:20:43+00:00
+
+## Z34KiSQVcb8 — Ele queria a música, não o crime | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Z34KiSQVcb8
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F035
+- Duração: 16.5s
+- Publicado em: 2026-10-06T21:34:27+00:00
