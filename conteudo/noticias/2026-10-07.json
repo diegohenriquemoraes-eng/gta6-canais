@@ -1,11 +1,22 @@
 [
  {
   "fonte": "IGN",
-  "titulo": "Xbox Reportedly Secures Exclusive Cloud Streaming Rights to GTA 6, Could Make Game Playable on PC at Launch",
+  "titulo": "[UPDATE] Xbox Denies GTA 6 Streaming Exclusivity Report",
   "url": "https://www.ign.com/articles/xbox-reportedly-secures-exclusive-cloud-streaming-rights-to-gta-6-could-make-game-playable-on-pc-at-launch",
   "texto": "\"While the excitement for GTA VI and Xbox is great to see, it has also led to some misreporting,\" states Xbox Chief Strategy Officer Matthew Ball.",
-  "gancho": "Xbox Reportedly Secures Exclusive Cloud Streaming Rights to GTA 6, Cou",
+  "gancho": "[UPDATE] Xbox Denies GTA 6 Streaming Exclusivity Report",
   "resumo": "\"While the excitement for GTA VI and Xbox is great to see, it has also led to some misreporting,\" states Xbox Chief Strategy Officer Matthew Ball.",
+  "nota": 6,
+  "rotulo": "imprensa",
+  "por": "sem-llm"
+ },
+ {
+  "fonte": "GameSpot",
+  "titulo": "GTA 6 Will Not Stream To PC Through Xbox, Despite Earlier Report",
+  "url": "https://www.gamespot.com/articles/gta-6-will-not-stream-to-pc-through-xbox-despite-earlier-report/",
+  "texto": "PC players hoping to find a way to play GTA 6 when it launches on consoles next month must be feeling pretty disappointed, as Microsoft has clarified that Grand Theft Auto 6 will not be available to stream to PC via Xbox Cloud Gaming. The news follows an earlier report claiming Xbox had secured exclusive streaming rights to Rockstar's highly anticipated game. The clarification came from Xbox chief strategy officer Matthew Ball, who addressed The Verge 's report. Ball said the excitement surrounding GTA 6 and Xbox had resulted in some inaccurate reporting. His full statement read, \"While the excitement for GTA 6 and Xbox is great to see, it has also led to some misreporting. We are looking forward to launching GTA 6 on Xbox November 19, though the game will not be streaming exclusively or to PC.\" That means, sadly for PC players, that you shouldn't expect to fire up Xbox Cloud Gaming on N",
+  "gancho": "GTA 6 Will Not Stream To PC Through Xbox, Despite Earlier Report",
+  "resumo": "PC players hoping to find a way to play GTA 6 when it launches on consoles next month must be feeling pretty disappointed, as Microsoft has clarified that Grand Theft Auto 6 will not be available to stream to PC via Xbox Cloud Gaming",
   "nota": 6,
   "rotulo": "imprensa",
   "por": "sem-llm"
