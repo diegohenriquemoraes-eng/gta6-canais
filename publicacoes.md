@@ -350,3 +350,11 @@
 - Item: short-3 — F035
 - Duração: 16.5s
 - Publicado em: 2026-10-06T21:34:27+00:00
+
+## 3kf9Sooblsc — O Extended Look mostrou 25 minutos a mais | GTA 6 curiosidades — faltam 43 dias #shorts
+
+- URL: https://youtu.be/3kf9Sooblsc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F114
+- Duração: 23.3s
+- Publicado em: 2026-10-07T14:50:01+00:00

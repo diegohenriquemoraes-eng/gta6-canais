@@ -353,13 +353,21 @@
           "video_id": "Z34KiSQVcb8",
           "titulo": "Ele queria a música, não o crime | GTA 6 curiosidades #shorts",
           "em": "2026-10-06T21:34:27+00:00"
+        },
+        {
+          "pacote": "2026-10-07",
+          "item": "short-1",
+          "formato": "A",
+          "video_id": "3kf9Sooblsc",
+          "titulo": "O Extended Look mostrou 25 minutos a mais | GTA 6 curiosidades — faltam 43 dias #shorts",
+          "em": "2026-10-07T14:50:01+00:00"
         }
       ],
-      "ultimo_short": "2026-10-06T21:34:27+00:00",
+      "ultimo_short": "2026-10-07T14:50:01+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-06",
-        "n": 3
+        "data": "2026-10-07",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -810,12 +818,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-06-c2.mp4",
           "em": "2026-10-06T21:34:27+00:00"
+        },
+        {
+          "id": "2026-10-07-c1",
+          "media_id": "18116601052818928",
+          "cena": "trailer2-013",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-07-c1.mp4",
+          "em": "2026-10-07T14:50:01+00:00"
         }
       ],
-      "ultimo": "2026-10-06T21:34:27+00:00",
+      "ultimo": "2026-10-07T14:50:01+00:00",
       "dia": {
-        "data": "2026-10-06",
-        "n": 2
+        "data": "2026-10-07",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-09-27",
