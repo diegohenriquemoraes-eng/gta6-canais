@@ -298,3 +298,9 @@
 - https://www.instagram.com/reel/18116601052818928/
 - cena: `trailer2-013` · layout 1
 - 2026-10-07T14:50:01+00:00
+
+## 18119820202948150 — 43 dias para conhecer Leonida de verdade
+
+- https://www.instagram.com/reel/18119820202948150/
+- cena: `trailer2-017` · layout 2
+- 2026-10-07T17:09:21+00:00
