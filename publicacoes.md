@@ -358,3 +358,11 @@
 - Item: short-1 — F114
 - Duração: 23.3s
 - Publicado em: 2026-10-07T14:50:01+00:00
+
+## I9v3QbVv59A — O ladrão de banco que recruta talentos | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/I9v3QbVv59A
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F036
+- Duração: 18.7s
+- Publicado em: 2026-10-07T22:20:39+00:00
