@@ -316,3 +316,9 @@
 - https://www.instagram.com/reel/17946074376347932/
 - cena: `trailer2-004` · layout 1
 - 2026-10-08T14:08:13+00:00
+
+## 17935647420392643 — Mais 42 noites e o jogo é nosso
+
+- https://www.instagram.com/reel/17935647420392643/
+- cena: `trailer2-015` · layout 2
+- 2026-10-08T16:41:19+00:00
