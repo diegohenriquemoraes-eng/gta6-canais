@@ -366,3 +366,11 @@
 - Item: short-2 — F036
 - Duração: 18.7s
 - Publicado em: 2026-10-07T22:20:39+00:00
+
+## fmxZ5F4_mCE — O Trailer 3 nunca chegou, e não faz falta | GTA 6 curiosidades — faltam 42 dias #shorts
+
+- URL: https://youtu.be/fmxZ5F4_mCE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F115
+- Duração: 16.0s
+- Publicado em: 2026-10-08T14:08:13+00:00
