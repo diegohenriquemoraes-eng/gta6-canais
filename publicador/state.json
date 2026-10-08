@@ -377,13 +377,21 @@
           "video_id": "fmxZ5F4_mCE",
           "titulo": "O Trailer 3 nunca chegou, e não faz falta | GTA 6 curiosidades — faltam 42 dias #shorts",
           "em": "2026-10-08T14:08:13+00:00"
+        },
+        {
+          "pacote": "2026-10-08",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "Hy9EnSQFH3I",
+          "titulo": "A dupla de rap que não pisca | GTA 6 curiosidades #shorts",
+          "em": "2026-10-08T20:18:10+00:00"
         }
       ],
-      "ultimo_short": "2026-10-08T14:08:13+00:00",
+      "ultimo_short": "2026-10-08T20:18:10+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-08",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -879,12 +887,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-08-c2.mp4",
           "em": "2026-10-08T16:41:19+00:00"
+        },
+        {
+          "id": "2026-10-08-c3",
+          "media_id": "18084844235701396",
+          "cena": "galeria-jason-and-lucia-12",
+          "frase": "O romance entre Jason e Lucia é opcional",
+          "layout": 3,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-08-c3.mp4",
+          "em": "2026-10-08T20:18:10+00:00"
         }
       ],
-      "ultimo": "2026-10-08T16:41:19+00:00",
+      "ultimo": "2026-10-08T20:18:10+00:00",
       "dia": {
         "data": "2026-10-08",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "2026-09-27",

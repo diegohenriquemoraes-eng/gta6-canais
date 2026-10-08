@@ -374,3 +374,11 @@
 - Item: short-1 — F115
 - Duração: 16.0s
 - Publicado em: 2026-10-08T14:08:13+00:00
+
+## Hy9EnSQFH3I — A dupla de rap que não pisca | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Hy9EnSQFH3I
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F038
+- Duração: 17.4s
+- Publicado em: 2026-10-08T20:18:10+00:00
