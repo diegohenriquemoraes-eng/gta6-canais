@@ -382,3 +382,11 @@
 - Item: short-2 — F038
 - Duração: 17.4s
 - Publicado em: 2026-10-08T20:18:10+00:00
+
+## 8dY5bLAz5Js — Um vendedor de carros clássicos com missão própria | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/8dY5bLAz5Js
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F039
+- Duração: 18.4s
+- Publicado em: 2026-10-08T22:30:14+00:00
