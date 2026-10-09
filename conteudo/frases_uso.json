@@ -21,14 +21,14 @@
   "trailer1-003": "2026-10-09",
   "galeria-vice-city-11": "2026-10-09",
   "trailer1-001": "2026-10-10",
-  "galeria-vice-city-10": "2026-10-04",
+  "galeria-vice-city-10": "2026-10-11",
   "trailer1-011": "2026-10-10",
-  "trailer2-006": "2026-10-04",
-  "galeria-vice-city-09": "2026-10-04",
+  "trailer2-006": "2026-10-11",
+  "galeria-vice-city-09": "2026-10-11",
   "galeria-vice-city-08": "2026-10-05",
   "trailer1-007": "2026-10-05",
-  "galeria-jason-and-lucia-11": "2026-10-04",
-  "trailer2-016": "2026-10-04",
+  "galeria-jason-and-lucia-11": "2026-10-11",
+  "trailer2-016": "2026-10-11",
   "galeria-vice-city-07": "2026-10-05",
   "galeria-vice-city-06": "2026-10-06",
   "trailer2-009": "2026-10-05",
@@ -40,11 +40,11 @@
   "galeria-vice-city-03": "2026-10-02"
  },
  "frases": {
-  "Aqui a gente vive Vice City antes de todo mundo": "2026-10-10",
-  "Mais {N} noites e o jogo é nosso": "2026-10-10",
-  "O romance entre Jason e Lucia é opcional": "2026-10-10",
+  "Aqui a gente vive Vice City antes de todo mundo": "2026-10-11",
+  "Mais {N} noites e o jogo é nosso": "2026-10-11",
+  "O romance entre Jason e Lucia é opcional": "2026-10-11",
   "{N} dias para Vice City": "2026-10-08",
-  "Rumo a Vice City: um post por vez": "2026-10-10",
+  "Rumo a Vice City: um post por vez": "2026-10-11",
   "{N} dias para conhecer Leonida de verdade": "2026-10-09",
   "Vice City abre em {N} dias": "2026-10-09",
   "Faltam {N} dias para conhecer Leonida": "2026-10-10",
@@ -52,7 +52,8 @@
   "{N} dias. Pré-venda aberta.": "2026-09-28",
   "GTA 6 em {N} dias: você está pronto?": "2026-09-28",
   "Contagem: {N} dias para 19 de novembro": "2026-10-04",
-  "Pré-download em 12/11, jogo em 19/11, faltam {N}": "2026-10-05"
+  "Pré-download em 12/11, jogo em 19/11, faltam {N}": "2026-10-05",
+  "{N} dias e a espera de 13 anos acaba": "2026-10-11"
  },
  "pares": [
   {
@@ -529,6 +530,31 @@
    "cena": "trailer1-001",
    "frase": "Rumo a Vice City: um post por vez",
    "em": "2026-10-10"
+  },
+  {
+   "cena": "galeria-vice-city-10",
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "em": "2026-10-11"
+  },
+  {
+   "cena": "trailer2-006",
+   "frase": "Mais {N} noites e o jogo é nosso",
+   "em": "2026-10-11"
+  },
+  {
+   "cena": "galeria-jason-and-lucia-11",
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "em": "2026-10-11"
+  },
+  {
+   "cena": "trailer2-016",
+   "frase": "{N} dias e a espera de 13 anos acaba",
+   "em": "2026-10-11"
+  },
+  {
+   "cena": "galeria-vice-city-09",
+   "frase": "Rumo a Vice City: um post por vez",
+   "em": "2026-10-11"
   }
  ]
 }
