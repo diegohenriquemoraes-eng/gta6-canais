@@ -398,3 +398,11 @@
 - Item: short-1 — F117
 - Duração: 23.5s
 - Publicado em: 2026-10-09T13:56:09+00:00
+
+## cOg0BBZXBps — Os bairros de Vice City já têm nome | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/cOg0BBZXBps
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F041
+- Duração: 20.0s
+- Publicado em: 2026-10-09T19:07:27+00:00
