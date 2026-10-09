@@ -406,3 +406,11 @@
 - Item: short-2 — F041
 - Duração: 20.0s
 - Publicado em: 2026-10-09T19:07:27+00:00
+
+## kljg0lM1zR0 — Um arquipélago de contrabandistas | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/kljg0lM1zR0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F042
+- Duração: 17.6s
+- Publicado em: 2026-10-09T21:21:16+00:00
