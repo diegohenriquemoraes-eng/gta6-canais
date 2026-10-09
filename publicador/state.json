@@ -973,12 +973,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-09-c4.mp4",
           "em": "2026-10-09T21:21:16+00:00"
+        },
+        {
+          "id": "2026-10-09-c5",
+          "media_id": "18097610075435064",
+          "cena": "galeria-vice-city-05",
+          "frase": "Rumo a Vice City: um post por vez",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-09-c5.mp4",
+          "em": "2026-10-09T23:49:01+00:00"
         }
       ],
-      "ultimo": "2026-10-09T21:21:16+00:00",
+      "ultimo": "2026-10-09T23:49:01+00:00",
       "dia": {
         "data": "2026-10-09",
-        "n": 4
+        "n": 5
       },
       "story_dia": {
         "data": "2026-09-27",
