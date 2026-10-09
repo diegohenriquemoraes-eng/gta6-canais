@@ -390,3 +390,11 @@
 - Item: short-3 — F039
 - Duração: 18.4s
 - Publicado em: 2026-10-08T22:30:14+00:00
+
+## GEXJryouaNo — GTA Online vai ter novidade, mas não agora | GTA 6 curiosidades — faltam 41 dias #shorts
+
+- URL: https://youtu.be/GEXJryouaNo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F117
+- Duração: 23.5s
+- Publicado em: 2026-10-09T13:56:09+00:00
