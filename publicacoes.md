@@ -422,3 +422,11 @@
 - Item: short-1 — F118
 - Duração: 22.3s
 - Publicado em: 2026-10-10T13:55:24+00:00
+
+## ZcvCVB3RQ4Q — O pântano tem jacaré e tem gente | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/ZcvCVB3RQ4Q
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F043
+- Duração: 18.8s
+- Publicado em: 2026-10-10T18:46:18+00:00
