@@ -414,3 +414,11 @@
 - Item: short-3 — F042
 - Duração: 17.6s
 - Publicado em: 2026-10-09T21:21:16+00:00
+
+## p43LEHtsSVY — A Netflix foi a escolha para o Extended Look | GTA 6 curiosidades — faltam 40 dias #shorts
+
+- URL: https://youtu.be/p43LEHtsSVY
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F118
+- Duração: 22.3s
+- Publicado em: 2026-10-10T13:55:24+00:00
