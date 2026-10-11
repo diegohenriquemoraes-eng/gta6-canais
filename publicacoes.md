@@ -446,3 +446,11 @@
 - Item: short-1 — F119
 - Duração: 23.1s
 - Publicado em: 2026-10-11T14:27:54+00:00
+
+## Xgw4TuZcqrk — Um vilarejo de usina de açúcar | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Xgw4TuZcqrk
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F045
+- Duração: 17.8s
+- Publicado em: 2026-10-11T19:16:00+00:00
