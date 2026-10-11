@@ -454,3 +454,11 @@
 - Item: short-2 — F045
 - Duração: 17.8s
 - Publicado em: 2026-10-11T19:16:00+00:00
+
+## H0KkKAFnV6Q — Tem parque nacional para caçar e escalar | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/H0KkKAFnV6Q
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F046
+- Duração: 4.4s
+- Publicado em: 2026-10-11T23:31:42+00:00
