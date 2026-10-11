@@ -438,3 +438,11 @@
 - Item: short-3 — F044
 - Duração: 17.6s
 - Publicado em: 2026-10-10T23:00:37+00:00
+
+## Vu2GsBq34ck — A Netflix mede view de um jeito diferente | GTA 6 curiosidades — faltam 39 dias #shorts
+
+- URL: https://youtu.be/Vu2GsBq34ck
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F119
+- Duração: 23.1s
+- Publicado em: 2026-10-11T14:27:54+00:00
