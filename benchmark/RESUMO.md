@@ -63,20 +63,20 @@ Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para 
 - 0-10 s: 30 itens, mediana 4,706
 - mais visto: 15,900 — “”
 
-## yt · gta 6 (2026-10-04, 50 itens)
+## yt · gta 6 (2026-10-11, 50 itens)
 
-- mediana de views: 2,037,560
-- 10-20 s: 7 itens, mediana 4,698,495
-- 20-30 s: 6 itens, mediana 1,785,192
-- 30-60 s: 7 itens, mediana 1,488,622
-- 60-∞ s: 30 itens, mediana 2,003,270
-- mais visto: 24,750,806 — “Zelda Vs GTA 6: Water Comparison💀🤦‍♂️”
+- mediana de views: 1,754,922
+- 0-10 s: 1 itens, mediana 1,840,206
+- 10-20 s: 5 itens, mediana 3,318,835
+- 20-30 s: 3 itens, mediana 1,130,023
+- 30-60 s: 7 itens, mediana 1,366,025
+- 60-∞ s: 34 itens, mediana 1,907,942
+- mais visto: 24,824,905 — “GTA 6 - Ep. 12 x Halo x Cyberpunk”
 
-## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-10-04, 35 itens)
+## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-10-11, 50 itens)
 
-- mediana de views: 119
-- 10-20 s: 9 itens, mediana 119
-- 20-30 s: 24 itens, mediana 123
-- 60-∞ s: 2 itens, mediana 7
-- mais visto: 736 — “O assaltante de banco está montando equipe | GTA 6 curiosidades #shorts”
+- mediana de views: 142
+- 10-20 s: 22 itens, mediana 127
+- 20-30 s: 28 itens, mediana 148
+- mais visto: 758 — “A música do Trailer 2 é de 1986 | GTA 6 curiosidades #shorts”
 
