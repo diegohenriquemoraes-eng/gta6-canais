@@ -470,3 +470,11 @@
 - Item: short-1 — F124
 - Duração: 23.3s
 - Publicado em: 2026-10-13T16:32:16+00:00
+
+## xoH0cy_mUa0 — A garagem da Ultimate fica em Watson Bay | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/xoH0cy_mUa0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F049
+- Duração: 19.4s
+- Publicado em: 2026-10-13T19:25:25+00:00
