@@ -478,3 +478,11 @@
 - Item: short-2 — F049
 - Duração: 19.4s
 - Publicado em: 2026-10-13T19:25:25+00:00
+
+## nGbTZG_HAGM — Vice City é duas vezes Los Santos | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/nGbTZG_HAGM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F050
+- Duração: 17.9s
+- Publicado em: 2026-10-13T21:53:48+00:00
