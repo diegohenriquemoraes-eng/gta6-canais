@@ -462,3 +462,11 @@
 - Item: short-3 — F046
 - Duração: 4.4s
 - Publicado em: 2026-10-11T23:31:42+00:00
+
+## Tf5TwGzpk8U — Preço fechado, tamanho em aberto | GTA 6 curiosidades — faltam 37 dias #shorts
+
+- URL: https://youtu.be/Tf5TwGzpk8U
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F124
+- Duração: 23.3s
+- Publicado em: 2026-10-13T16:32:16+00:00
