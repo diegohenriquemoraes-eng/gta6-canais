@@ -497,13 +497,21 @@
           "video_id": "Sl6shILRmq4",
           "titulo": "Pré-venda física com código na caixa | GTA 6 curiosidades — faltam 36 dias #shorts",
           "em": "2026-10-14T10:43:40+00:00"
+        },
+        {
+          "pacote": "2026-10-14",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "cJfLxojN5i0",
+          "titulo": "Mais de 600 mil animações | GTA 6 curiosidades #shorts",
+          "em": "2026-10-14T13:55:16+00:00"
         }
       ],
-      "ultimo_short": "2026-10-14T10:43:40+00:00",
+      "ultimo_short": "2026-10-14T13:55:16+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-14",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -1188,12 +1196,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-13-c5.mp4",
           "em": "2026-10-13T23:35:29+00:00"
+        },
+        {
+          "id": "2026-10-14-c1",
+          "media_id": "18193657339391939",
+          "cena": "trailer2-013",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-14-c1.mp4",
+          "em": "2026-10-14T13:55:16+00:00"
         }
       ],
-      "ultimo": "2026-10-13T23:35:29+00:00",
+      "ultimo": "2026-10-14T13:55:16+00:00",
       "dia": {
-        "data": "2026-10-13",
-        "n": 5
+        "data": "2026-10-14",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-09-27",

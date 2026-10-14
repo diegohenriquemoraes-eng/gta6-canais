@@ -494,3 +494,11 @@
 - Item: short-1 — F125
 - Duração: 21.8s
 - Publicado em: 2026-10-14T10:43:40+00:00
+
+## cJfLxojN5i0 — Mais de 600 mil animações | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/cJfLxojN5i0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F051
+- Duração: 18.5s
+- Publicado em: 2026-10-14T13:55:16+00:00
