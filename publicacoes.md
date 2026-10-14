@@ -502,3 +502,11 @@
 - Item: short-2 — F051
 - Duração: 18.5s
 - Publicado em: 2026-10-14T13:55:16+00:00
+
+## kFkEcAI-3jg — 80 horas para terminar | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/kFkEcAI-3jg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F052
+- Duração: 17.8s
+- Publicado em: 2026-10-14T18:47:31+00:00
