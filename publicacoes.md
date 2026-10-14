@@ -486,3 +486,11 @@
 - Item: short-3 — F050
 - Duração: 17.9s
 - Publicado em: 2026-10-13T21:53:48+00:00
+
+## Sl6shILRmq4 — Pré-venda física com código na caixa | GTA 6 curiosidades — faltam 36 dias #shorts
+
+- URL: https://youtu.be/Sl6shILRmq4
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F125
+- Duração: 21.8s
+- Publicado em: 2026-10-14T10:43:40+00:00
