@@ -518,3 +518,11 @@
 - Item: short-1 — F127
 - Duração: 20.4s
 - Publicado em: 2026-10-15T11:52:06+00:00
+
+## x_kCpJGGCpI — Mais de 50 grafiteiros de verdade | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/x_kCpJGGCpI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F053
+- Duração: 19.0s
+- Publicado em: 2026-10-15T17:15:32+00:00

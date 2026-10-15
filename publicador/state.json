@@ -521,13 +521,21 @@
           "video_id": "Jon29S3mCks",
           "titulo": "As Keys também estão no controle | GTA 6 curiosidades — faltam 35 dias #shorts",
           "em": "2026-10-15T11:52:06+00:00"
+        },
+        {
+          "pacote": "2026-10-15",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "x_kCpJGGCpI",
+          "titulo": "Mais de 50 grafiteiros de verdade | GTA 6 curiosidades #shorts",
+          "em": "2026-10-15T17:15:32+00:00"
         }
       ],
-      "ultimo_short": "2026-10-15T11:52:06+00:00",
+      "ultimo_short": "2026-10-15T17:15:32+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-15",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -1248,12 +1256,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-15-c1.mp4",
           "em": "2026-10-15T11:52:06+00:00"
+        },
+        {
+          "id": "2026-10-15-c2",
+          "media_id": "18644973151004659",
+          "cena": "trailer2-015",
+          "frase": "Mais 35 noites e o jogo é nosso",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-15-c2.mp4",
+          "em": "2026-10-15T17:15:32+00:00"
         }
       ],
-      "ultimo": "2026-10-15T11:52:06+00:00",
+      "ultimo": "2026-10-15T17:15:32+00:00",
       "dia": {
         "data": "2026-10-15",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "2026-09-27",
