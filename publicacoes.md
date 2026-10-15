@@ -526,3 +526,11 @@
 - Item: short-2 — F053
 - Duração: 19.0s
 - Publicado em: 2026-10-15T17:15:32+00:00
+
+## yKDuTjzU8Ik — Pilotos de corrida ajustaram os carros | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/yKDuTjzU8Ik
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F054
+- Duração: 17.7s
+- Publicado em: 2026-10-15T20:27:52+00:00
