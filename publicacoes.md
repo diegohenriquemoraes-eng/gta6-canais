@@ -510,3 +510,11 @@
 - Item: short-3 — F052
 - Duração: 17.8s
 - Publicado em: 2026-10-14T18:47:31+00:00
+
+## Jon29S3mCks — As Keys também estão no controle | GTA 6 curiosidades — faltam 35 dias #shorts
+
+- URL: https://youtu.be/Jon29S3mCks
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F127
+- Duração: 20.4s
+- Publicado em: 2026-10-15T11:52:06+00:00
