@@ -496,3 +496,9 @@
 - https://www.instagram.com/reel/18639690472055575/
 - cena: `trailer1-004` · layout 1
 - 2026-10-16T11:57:51+00:00
+
+## 17901676965601456 — Vice City abre em 34 dias
+
+- https://www.instagram.com/reel/17901676965601456/
+- cena: `galeria-vice-city-11` · layout 2
+- 2026-10-16T15:51:56+00:00
