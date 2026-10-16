@@ -534,3 +534,11 @@
 - Item: short-3 — F054
 - Duração: 17.7s
 - Publicado em: 2026-10-15T20:27:52+00:00
+
+## GHvUroHqy8M — Nove meses de pré-venda para o controle não | GTA 6 curiosidades — faltam 34 dias #shorts
+
+- URL: https://youtu.be/GHvUroHqy8M
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F128
+- Duração: 22.0s
+- Publicado em: 2026-10-16T12:38:00+00:00

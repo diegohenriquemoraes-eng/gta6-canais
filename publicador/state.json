@@ -537,13 +537,21 @@
           "video_id": "yKDuTjzU8Ik",
           "titulo": "Pilotos de corrida ajustaram os carros | GTA 6 curiosidades #shorts",
           "em": "2026-10-15T20:27:52+00:00"
+        },
+        {
+          "pacote": "2026-10-16",
+          "item": "short-1",
+          "formato": "A",
+          "video_id": "GHvUroHqy8M",
+          "titulo": "Nove meses de pré-venda para o controle não | GTA 6 curiosidades — faltam 34 dias #shorts",
+          "em": "2026-10-16T12:38:00+00:00"
         }
       ],
-      "ultimo_short": "2026-10-15T20:27:52+00:00",
+      "ultimo_short": "2026-10-16T12:38:00+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-15",
-        "n": 3
+        "data": "2026-10-16",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
