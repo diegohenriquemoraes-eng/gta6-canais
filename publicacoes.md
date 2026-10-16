@@ -542,3 +542,11 @@
 - Item: short-1 — F128
 - Duração: 22.0s
 - Publicado em: 2026-10-16T12:38:00+00:00
+
+## LYxf8DIoXWI — A pele dos personagens tem imperfeições | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/LYxf8DIoXWI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F055
+- Duração: 21.2s
+- Publicado em: 2026-10-16T17:35:31+00:00
