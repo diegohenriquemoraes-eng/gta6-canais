@@ -550,3 +550,11 @@
 - Item: short-2 — F055
 - Duração: 21.2s
 - Publicado em: 2026-10-16T17:35:31+00:00
+
+## ArBW-_9x2A0 — Michael de GTA 5 deixou herança | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/ArBW-_9x2A0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F056
+- Duração: 20.1s
+- Publicado em: 2026-10-16T21:48:56+00:00
