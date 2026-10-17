@@ -532,3 +532,9 @@
 - https://www.instagram.com/reel/18371717902211884/
 - cena: `galeria-port-gellhorn-06` · layout 2
 - 2026-10-17T16:43:18+00:00
+
+## 17917092657264031 — O romance entre Jason e Lucia é opcional
+
+- https://www.instagram.com/reel/17917092657264031/
+- cena: `trailer1-011` · layout 3
+- 2026-10-17T18:55:05+00:00
