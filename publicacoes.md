@@ -558,3 +558,11 @@
 - Item: short-3 — F056
 - Duração: 20.1s
 - Publicado em: 2026-10-16T21:48:56+00:00
+
+## r_59GaGav5s — Um terço dos brasileiros pagaria 100 dólares | GTA 6 curiosidades — faltam 33 dias #shorts
+
+- URL: https://youtu.be/r_59GaGav5s
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F129
+- Duração: 23.1s
+- Publicado em: 2026-10-17T13:19:40+00:00

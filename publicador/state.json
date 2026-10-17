@@ -561,13 +561,21 @@
           "video_id": "ArBW-_9x2A0",
           "titulo": "Michael de GTA 5 deixou herança | GTA 6 curiosidades #shorts",
           "em": "2026-10-16T21:48:56+00:00"
+        },
+        {
+          "pacote": "2026-10-17",
+          "item": "short-1",
+          "formato": "A",
+          "video_id": "r_59GaGav5s",
+          "titulo": "Um terço dos brasileiros pagaria 100 dólares | GTA 6 curiosidades — faltam 33 dias #shorts",
+          "em": "2026-10-17T13:19:40+00:00"
         }
       ],
-      "ultimo_short": "2026-10-16T21:48:56+00:00",
+      "ultimo_short": "2026-10-17T13:19:40+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-16",
-        "n": 3
+        "data": "2026-10-17",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -1360,12 +1368,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-16-c5.mp4",
           "em": "2026-10-16T23:59:45+00:00"
+        },
+        {
+          "id": "2026-10-17-c1",
+          "media_id": "18098338253393692",
+          "cena": "trailer1-002",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-17-c1.mp4",
+          "em": "2026-10-17T13:19:40+00:00"
         }
       ],
-      "ultimo": "2026-10-16T23:59:45+00:00",
+      "ultimo": "2026-10-17T13:19:40+00:00",
       "dia": {
-        "data": "2026-10-16",
-        "n": 5
+        "data": "2026-10-17",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-09-27",
