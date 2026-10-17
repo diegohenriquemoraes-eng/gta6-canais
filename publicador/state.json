@@ -577,13 +577,21 @@
           "video_id": "05SxKr44qzE",
           "titulo": "Lucia tem cor, Jason tem outra | GTA 6 curiosidades #shorts",
           "em": "2026-10-17T16:43:18+00:00"
+        },
+        {
+          "pacote": "2026-10-17",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "GVZFssKJj-E",
+          "titulo": "Um retorno a Vice City depois de 24 anos | GTA 6 curiosidades #shorts",
+          "em": "2026-10-17T22:47:51+00:00"
         }
       ],
-      "ultimo_short": "2026-10-17T16:43:18+00:00",
+      "ultimo_short": "2026-10-17T22:47:51+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-17",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",

@@ -574,3 +574,11 @@
 - Item: short-2 — F057
 - Duração: 18.2s
 - Publicado em: 2026-10-17T16:43:18+00:00
+
+## GVZFssKJj-E — Um retorno a Vice City depois de 24 anos | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/GVZFssKJj-E
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F058
+- Duração: 22.7s
+- Publicado em: 2026-10-17T22:47:51+00:00
