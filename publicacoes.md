@@ -566,3 +566,11 @@
 - Item: short-1 — F129
 - Duração: 23.1s
 - Publicado em: 2026-10-17T13:19:40+00:00
+
+## 05SxKr44qzE — Lucia tem cor, Jason tem outra | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/05SxKr44qzE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F057
+- Duração: 18.2s
+- Publicado em: 2026-10-17T16:43:18+00:00
