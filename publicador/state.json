@@ -585,13 +585,21 @@
           "video_id": "GVZFssKJj-E",
           "titulo": "Um retorno a Vice City depois de 24 anos | GTA 6 curiosidades #shorts",
           "em": "2026-10-17T22:47:51+00:00"
+        },
+        {
+          "pacote": "2026-10-18",
+          "item": "short-1",
+          "formato": "A",
+          "video_id": "PB7riGGSbtY",
+          "titulo": "O dia seguinte também importa | GTA 6 curiosidades — faltam 32 dias #shorts",
+          "em": "2026-10-18T11:50:10+00:00"
         }
       ],
-      "ultimo_short": "2026-10-17T22:47:51+00:00",
+      "ultimo_short": "2026-10-18T11:50:10+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-17",
-        "n": 3
+        "data": "2026-10-18",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -1429,12 +1437,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-17-c5.mp4",
           "em": "2026-10-17T23:46:22+00:00"
+        },
+        {
+          "id": "2026-10-18-c1",
+          "media_id": "18098923631542751",
+          "cena": "galeria-vice-city-10",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-18-c1.mp4",
+          "em": "2026-10-18T11:50:10+00:00"
         }
       ],
-      "ultimo": "2026-10-17T23:46:22+00:00",
+      "ultimo": "2026-10-18T11:50:10+00:00",
       "dia": {
-        "data": "2026-10-17",
-        "n": 5
+        "data": "2026-10-18",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-09-27",

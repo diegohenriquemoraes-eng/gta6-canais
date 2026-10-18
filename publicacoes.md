@@ -582,3 +582,11 @@
 - Item: short-3 — F058
 - Duração: 22.7s
 - Publicado em: 2026-10-17T22:47:51+00:00
+
+## PB7riGGSbtY — O dia seguinte também importa | GTA 6 curiosidades — faltam 32 dias #shorts
+
+- URL: https://youtu.be/PB7riGGSbtY
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F150
+- Duração: 22.1s
+- Publicado em: 2026-10-18T11:50:10+00:00
