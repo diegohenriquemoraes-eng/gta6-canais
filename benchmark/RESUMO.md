@@ -63,20 +63,20 @@ Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para 
 - 0-10 s: 30 itens, mediana 4,706
 - mais visto: 15,900 — “”
 
-## yt · gta 6 (2026-10-11, 50 itens)
+## yt · gta 6 (2026-10-18, 50 itens)
 
-- mediana de views: 1,754,922
-- 0-10 s: 1 itens, mediana 1,840,206
-- 10-20 s: 5 itens, mediana 3,318,835
-- 20-30 s: 3 itens, mediana 1,130,023
-- 30-60 s: 7 itens, mediana 1,366,025
-- 60-∞ s: 34 itens, mediana 1,907,942
-- mais visto: 24,824,905 — “GTA 6 - Ep. 12 x Halo x Cyberpunk”
+- mediana de views: 1,888,519
+- 0-10 s: 2 itens, mediana 4,369,478
+- 10-20 s: 4 itens, mediana 3,381,085
+- 20-30 s: 4 itens, mediana 1,237,662
+- 30-60 s: 10 itens, mediana 1,850,020
+- 60-∞ s: 30 itens, mediana 1,837,049
+- mais visto: 40,766,555 — “Grand Theft Auto VI Launch Trailer”
 
-## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-10-11, 50 itens)
+## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-10-18, 50 itens)
 
-- mediana de views: 142
-- 10-20 s: 22 itens, mediana 127
-- 20-30 s: 28 itens, mediana 148
+- mediana de views: 150
+- 10-20 s: 24 itens, mediana 131
+- 20-30 s: 26 itens, mediana 160
 - mais visto: 758 — “A música do Trailer 2 é de 1986 | GTA 6 curiosidades #shorts”
 
