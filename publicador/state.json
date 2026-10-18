@@ -601,13 +601,21 @@
           "video_id": "zJo81Lq2Fw0",
           "titulo": "Jason e Lucia não postam selfie | GTA 6 curiosidades #shorts",
           "em": "2026-10-18T14:58:01+00:00"
+        },
+        {
+          "pacote": "2026-10-18",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "Nx-LZ2JLpm0",
+          "titulo": "Os dois podem se ligar dentro do jogo | GTA 6 curiosidades #shorts",
+          "em": "2026-10-18T19:33:42+00:00"
         }
       ],
-      "ultimo_short": "2026-10-18T14:58:01+00:00",
+      "ultimo_short": "2026-10-18T19:33:42+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-18",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",

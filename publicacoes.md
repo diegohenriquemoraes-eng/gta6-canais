@@ -598,3 +598,11 @@
 - Item: short-2 — F059
 - Duração: 18.4s
 - Publicado em: 2026-10-18T14:58:01+00:00
+
+## Nx-LZ2JLpm0 — Os dois podem se ligar dentro do jogo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Nx-LZ2JLpm0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F060
+- Duração: 16.0s
+- Publicado em: 2026-10-18T19:33:42+00:00
