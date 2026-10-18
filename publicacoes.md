@@ -590,3 +590,11 @@
 - Item: short-1 — F150
 - Duração: 22.1s
 - Publicado em: 2026-10-18T11:50:10+00:00
+
+## zJo81Lq2Fw0 — Jason e Lucia não postam selfie | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/zJo81Lq2Fw0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F059
+- Duração: 18.4s
+- Publicado em: 2026-10-18T14:58:01+00:00
