@@ -606,3 +606,11 @@
 - Item: short-3 — F060
 - Duração: 16.0s
 - Publicado em: 2026-10-18T19:33:42+00:00
+
+## hpFwtWCn6RE — Treze anos entre um jogo e outro | GTA 6 curiosidades — faltam 31 dias #shorts
+
+- URL: https://youtu.be/hpFwtWCn6RE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F190
+- Duração: 22.7s
+- Publicado em: 2026-10-19T11:02:17+00:00
