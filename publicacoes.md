@@ -614,3 +614,11 @@
 - Item: short-1 — F190
 - Duração: 22.7s
 - Publicado em: 2026-10-19T11:02:17+00:00
+
+## nQNJB3mLWv4 — Seis estrelas de procurado voltaram | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/nQNJB3mLWv4
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F061
+- Duração: 20.2s
+- Publicado em: 2026-10-19T15:04:43+00:00
