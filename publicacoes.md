@@ -622,3 +622,11 @@
 - Item: short-2 — F061
 - Duração: 20.2s
 - Publicado em: 2026-10-19T15:04:43+00:00
+
+## _5X35TEr5zo — A polícia precisa de uma testemunha | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/_5X35TEr5zo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F062
+- Duração: 18.1s
+- Publicado em: 2026-10-19T20:47:02+00:00

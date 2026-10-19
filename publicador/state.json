@@ -625,13 +625,21 @@
           "video_id": "nQNJB3mLWv4",
           "titulo": "Seis estrelas de procurado voltaram | GTA 6 curiosidades #shorts",
           "em": "2026-10-19T15:04:43+00:00"
+        },
+        {
+          "pacote": "2026-10-19",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "_5X35TEr5zo",
+          "titulo": "A polícia precisa de uma testemunha | GTA 6 curiosidades #shorts",
+          "em": "2026-10-19T20:47:02+00:00"
         }
       ],
-      "ultimo_short": "2026-10-19T15:04:43+00:00",
+      "ultimo_short": "2026-10-19T20:47:02+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-19",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -1541,12 +1549,21 @@
           "layout": 3,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-19-c3.mp4",
           "em": "2026-10-19T17:37:36+00:00"
+        },
+        {
+          "id": "2026-10-19-c4",
+          "media_id": "17966130164985319",
+          "cena": "trailer2-009",
+          "frase": "GTA 6 em 31 dias: você está pronto?",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-19-c4.mp4",
+          "em": "2026-10-19T20:47:02+00:00"
         }
       ],
-      "ultimo": "2026-10-19T17:37:36+00:00",
+      "ultimo": "2026-10-19T20:47:02+00:00",
       "dia": {
         "data": "2026-10-19",
-        "n": 3
+        "n": 4
       },
       "story_dia": {
         "data": "2026-10-19",

@@ -598,3 +598,9 @@
 - https://www.instagram.com/reel/17942769228099955/
 - cena: `galeria-jason-and-lucia-10` · layout 3
 - 2026-10-19T17:37:36+00:00
+
+## 17966130164985319 — GTA 6 em 31 dias: você está pronto?
+
+- https://www.instagram.com/reel/17966130164985319/
+- cena: `trailer2-009` · layout 1
+- 2026-10-19T20:47:02+00:00
