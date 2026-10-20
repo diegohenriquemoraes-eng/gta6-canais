@@ -630,3 +630,11 @@
 - Item: short-3 — F062
 - Duração: 18.1s
 - Publicado em: 2026-10-19T20:47:02+00:00
+
+## _fpBx2nJlZE — O jogo atrasou dezoito meses do plano original | GTA 6 curiosidades — faltam 30 dias #shorts
+
+- URL: https://youtu.be/_fpBx2nJlZE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F209
+- Duração: 24.3s
+- Publicado em: 2026-10-20T13:44:53+00:00
