@@ -638,3 +638,11 @@
 - Item: short-1 — F209
 - Duração: 24.3s
 - Publicado em: 2026-10-20T13:44:53+00:00
+
+## wVeBHADX8Ls — Troque de roupa para despistar | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/wVeBHADX8Ls
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F063
+- Duração: 17.6s
+- Publicado em: 2026-10-20T18:11:26+00:00

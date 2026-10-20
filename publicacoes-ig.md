@@ -616,3 +616,9 @@
 - https://www.instagram.com/reel/18122392241291689/
 - cena: `trailer2-019` · layout 1
 - 2026-10-20T13:44:53+00:00
+
+## 18122375782877091 — 30 dias para Vice City
+
+- https://www.instagram.com/reel/18122375782877091/
+- cena: `trailer2-014` · layout 2
+- 2026-10-20T18:11:26+00:00
