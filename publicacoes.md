@@ -646,3 +646,11 @@
 - Item: short-2 — F063
 - Duração: 17.6s
 - Publicado em: 2026-10-20T18:11:26+00:00
+
+## 6JbSB8IdXLg — A polícia tem memória | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/6JbSB8IdXLg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F064
+- Duração: 17.9s
+- Publicado em: 2026-10-20T22:21:42+00:00
