@@ -670,3 +670,11 @@
 - Item: short-2 — F066
 - Duração: 16.2s
 - Publicado em: 2026-10-21T15:42:57+00:00
+
+## pYBb4v1jRzo — A história é dividida em capítulos | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/pYBb4v1jRzo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F067
+- Duração: 19.5s
+- Publicado em: 2026-10-21T19:44:25+00:00
