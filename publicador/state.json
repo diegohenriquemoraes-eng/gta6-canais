@@ -657,13 +657,21 @@
           "video_id": "6JbSB8IdXLg",
           "titulo": "A polícia tem memória | GTA 6 curiosidades #shorts",
           "em": "2026-10-20T22:21:42+00:00"
+        },
+        {
+          "pacote": "2026-10-21",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "ApXIsIJ8TZ4",
+          "titulo": "O jogo julga como você joga | GTA 6 curiosidades #shorts",
+          "em": "2026-10-21T10:42:28+00:00"
         }
       ],
-      "ultimo_short": "2026-10-20T22:21:42+00:00",
+      "ultimo_short": "2026-10-21T10:42:28+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-20",
-        "n": 3
+        "data": "2026-10-21",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",

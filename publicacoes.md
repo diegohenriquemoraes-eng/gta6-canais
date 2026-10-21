@@ -654,3 +654,11 @@
 - Item: short-3 — F064
 - Duração: 17.9s
 - Publicado em: 2026-10-20T22:21:42+00:00
+
+## ApXIsIJ8TZ4 — O jogo julga como você joga | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/ApXIsIJ8TZ4
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F065
+- Duração: 19.1s
+- Publicado em: 2026-10-21T10:42:28+00:00
