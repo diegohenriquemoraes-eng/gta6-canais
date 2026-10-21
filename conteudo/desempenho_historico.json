@@ -362,5 +362,18 @@
   "mediana_longo_2a7d": 0,
   "n_coorte": 16,
   "janela_dias": 30
+ },
+ {
+  "medido_em": "2026-10-21",
+  "canal": "Rumo a Vice City",
+  "inscritos": 11,
+  "views_totais": 12403,
+  "videos_publicados": 83,
+  "longos_publicados": 2,
+  "shorts_publicados": 81,
+  "mediana_short_2a7d": 76,
+  "mediana_longo_2a7d": 0,
+  "n_coorte": 19,
+  "janela_dias": 30
  }
 ]
