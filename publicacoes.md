@@ -662,3 +662,11 @@
 - Item: short-1 — F065
 - Duração: 19.1s
 - Publicado em: 2026-10-21T10:42:28+00:00
+
+## _qNyCojqOPQ — É como a honra de Red Dead 2 | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/_qNyCojqOPQ
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F066
+- Duração: 16.2s
+- Publicado em: 2026-10-21T15:42:57+00:00
