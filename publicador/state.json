@@ -697,13 +697,21 @@
           "video_id": "UWHb4Pd2pzo",
           "titulo": "A troca de personagem está de volta | GTA 6 curiosidades #shorts",
           "em": "2026-10-22T15:27:12+00:00"
+        },
+        {
+          "pacote": "2026-10-22",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "EWk3WokkVNI",
+          "titulo": "Roubar carro velho é fácil, carro novo não | GTA 6 curiosidades #shorts",
+          "em": "2026-10-22T19:55:57+00:00"
         }
       ],
-      "ultimo_short": "2026-10-22T15:27:12+00:00",
+      "ultimo_short": "2026-10-22T19:55:57+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-22",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",

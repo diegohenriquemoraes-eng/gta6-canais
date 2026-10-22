@@ -694,3 +694,11 @@
 - Item: short-2 — F069
 - Duração: 19.3s
 - Publicado em: 2026-10-22T15:27:12+00:00
+
+## EWk3WokkVNI — Roubar carro velho é fácil, carro novo não | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/EWk3WokkVNI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F070
+- Duração: 20.1s
+- Publicado em: 2026-10-22T19:55:57+00:00
