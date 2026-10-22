@@ -686,3 +686,11 @@
 - Item: short-1 — F068
 - Duração: 19.3s
 - Publicado em: 2026-10-22T10:42:13+00:00
+
+## UWHb4Pd2pzo — A troca de personagem está de volta | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/UWHb4Pd2pzo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F069
+- Duração: 19.3s
+- Publicado em: 2026-10-22T15:27:12+00:00
