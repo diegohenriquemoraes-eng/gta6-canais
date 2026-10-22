@@ -670,3 +670,9 @@
 - https://www.instagram.com/reel/18118480162950258/
 - cena: `galeria-jason-and-lucia-12` · layout 3
 - 2026-10-22T18:18:34+00:00
+
+## 18433954462194801 — 28 dias para Vice City
+
+- https://www.instagram.com/reel/18433954462194801/
+- cena: `trailer1-005` · layout 1
+- 2026-10-22T20:54:11+00:00
