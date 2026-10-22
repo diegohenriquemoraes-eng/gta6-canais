@@ -678,3 +678,11 @@
 - Item: short-3 — F067
 - Duração: 19.5s
 - Publicado em: 2026-10-21T19:44:25+00:00
+
+## Vt-It1xP-SI — O romance é opcional | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Vt-It1xP-SI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F068
+- Duração: 19.3s
+- Publicado em: 2026-10-22T10:42:13+00:00
