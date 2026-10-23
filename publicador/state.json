@@ -1755,7 +1755,7 @@
         "n": 5
       },
       "story_dia": {
-        "data": "2026-10-19",
+        "data": "2026-10-23",
         "n": 1
       },
       "stories": [
@@ -1768,6 +1768,11 @@
           "story_id": "17914775841282055",
           "oferta": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=ig_story\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal.",
           "em": "2026-10-19T00:02:50+00:00"
+        },
+        {
+          "story_id": "17920732215449004",
+          "oferta": "🛒 Os acessórios de GTA 6 que a gente indica:\nhttps://diegohenriquemoraes-eng.github.io/gta6-canais/loja.html?de=ig_story\n\nLinks de afiliado da Shopee: comprando por eles você paga o mesmo preço e ajuda o canal.",
+          "em": "2026-10-23T00:12:32+00:00"
         }
       ]
     },
@@ -2402,12 +2407,19 @@
           "url": null,
           "estado": "publishing",
           "em": "2026-10-22T05:07:55+00:00"
+        },
+        {
+          "cartao": "2026-10-17-c4",
+          "post_id": "6adaa68c36b4775862ae3d67",
+          "url": null,
+          "estado": "published",
+          "em": "2026-10-23T00:12:59+00:00"
         }
       ],
-      "ultimo": "2026-10-22T05:07:55+00:00",
+      "ultimo": "2026-10-23T00:12:59+00:00",
       "dia": {
-        "data": "2026-10-22",
-        "n": 3
+        "data": "2026-10-23",
+        "n": 1
       },
       "story_dia": {
         "data": "",
