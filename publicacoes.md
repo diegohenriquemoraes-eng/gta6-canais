@@ -710,3 +710,11 @@
 - Item: short-1 — F071
 - Duração: 17.1s
 - Publicado em: 2026-10-23T13:06:21+00:00
+
+## sWIz6OI6jHE — Tem um app que avalia o carro | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/sWIz6OI6jHE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F072
+- Duração: 17.8s
+- Publicado em: 2026-10-23T18:39:47+00:00
