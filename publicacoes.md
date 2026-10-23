@@ -702,3 +702,11 @@
 - Item: short-3 — F070
 - Duração: 20.1s
 - Publicado em: 2026-10-22T19:55:57+00:00
+
+## VwkzEnT9K7Y — O slim jim virou minigame | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/VwkzEnT9K7Y
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F071
+- Duração: 17.1s
+- Publicado em: 2026-10-23T13:06:21+00:00
