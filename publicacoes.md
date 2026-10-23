@@ -718,3 +718,11 @@
 - Item: short-2 — F072
 - Duração: 17.8s
 - Publicado em: 2026-10-23T18:39:47+00:00
+
+## vEBYPbP92R0 — Bateu, vale menos | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/vEBYPbP92R0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F073
+- Duração: 17.6s
+- Publicado em: 2026-10-23T22:41:39+00:00
