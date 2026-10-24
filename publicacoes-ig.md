@@ -718,3 +718,9 @@
 - https://www.instagram.com/reel/17923737489442844/
 - cena: `trailer1-002` · layout 1
 - 2026-10-24T11:23:01+00:00
+
+## 18003101567809240 — Faltam 26 dias para conhecer Leonida
+
+- https://www.instagram.com/reel/18003101567809240/
+- cena: `galeria-port-gellhorn-06` · layout 2
+- 2026-10-24T14:43:50+00:00

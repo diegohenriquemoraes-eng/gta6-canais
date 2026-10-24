@@ -734,3 +734,11 @@
 - Item: short-1 — F074
 - Duração: 19.6s
 - Publicado em: 2026-10-24T11:23:01+00:00
+
+## 96yGZCMty_8 — Às vezes a história trava por dinheiro | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/96yGZCMty_8
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F075
+- Duração: 16.2s
+- Publicado em: 2026-10-24T14:43:50+00:00
