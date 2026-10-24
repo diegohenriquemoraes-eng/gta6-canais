@@ -726,3 +726,11 @@
 - Item: short-3 — F073
 - Duração: 17.6s
 - Publicado em: 2026-10-23T22:41:39+00:00
+
+## xL8aLaVEfJY — Você vai precisar de um receptador | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/xL8aLaVEfJY
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F074
+- Duração: 19.6s
+- Publicado em: 2026-10-24T11:23:01+00:00

@@ -729,13 +729,21 @@
           "video_id": "vEBYPbP92R0",
           "titulo": "Bateu, vale menos | GTA 6 curiosidades #shorts",
           "em": "2026-10-23T22:41:39+00:00"
+        },
+        {
+          "pacote": "2026-10-24",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "xL8aLaVEfJY",
+          "titulo": "Você vai precisar de um receptador | GTA 6 curiosidades #shorts",
+          "em": "2026-10-24T11:23:01+00:00"
         }
       ],
-      "ultimo_short": "2026-10-23T22:41:39+00:00",
+      "ultimo_short": "2026-10-24T11:23:01+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-23",
-        "n": 3
+        "data": "2026-10-24",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -1816,12 +1824,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-23-c5.mp4",
           "em": "2026-10-23T23:56:13+00:00"
+        },
+        {
+          "id": "2026-10-24-c1",
+          "media_id": "17923737489442844",
+          "cena": "trailer1-002",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-24-c1.mp4",
+          "em": "2026-10-24T11:23:01+00:00"
         }
       ],
-      "ultimo": "2026-10-23T23:56:13+00:00",
+      "ultimo": "2026-10-24T11:23:01+00:00",
       "dia": {
-        "data": "2026-10-23",
-        "n": 5
+        "data": "2026-10-24",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-10-23",
