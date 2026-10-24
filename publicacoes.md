@@ -742,3 +742,11 @@
 - Item: short-2 — F075
 - Duração: 16.2s
 - Publicado em: 2026-10-24T14:43:50+00:00
+
+## 1sioFtMcOSc — Explodir o cofre ou achar a combinação | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/1sioFtMcOSc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F076
+- Duração: 20.3s
+- Publicado em: 2026-10-24T18:17:48+00:00
