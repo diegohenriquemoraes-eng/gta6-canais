@@ -753,13 +753,21 @@
           "video_id": "1sioFtMcOSc",
           "titulo": "Explodir o cofre ou achar a combinação | GTA 6 curiosidades #shorts",
           "em": "2026-10-24T18:17:48+00:00"
+        },
+        {
+          "pacote": "2026-10-25",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "45f0wGiWk_k",
+          "titulo": "Dá para conversar em vez de atirar | GTA 6 curiosidades #shorts",
+          "em": "2026-10-25T10:15:26+00:00"
         }
       ],
-      "ultimo_short": "2026-10-24T18:17:48+00:00",
+      "ultimo_short": "2026-10-25T10:15:26+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-24",
-        "n": 3
+        "data": "2026-10-25",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",

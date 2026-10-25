@@ -750,3 +750,11 @@
 - Item: short-3 — F076
 - Duração: 20.3s
 - Publicado em: 2026-10-24T18:17:48+00:00
+
+## 45f0wGiWk_k — Dá para conversar em vez de atirar | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/45f0wGiWk_k
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F077
+- Duração: 19.4s
+- Publicado em: 2026-10-25T10:15:26+00:00
