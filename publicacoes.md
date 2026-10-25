@@ -758,3 +758,11 @@
 - Item: short-1 — F077
 - Duração: 19.4s
 - Publicado em: 2026-10-25T10:15:26+00:00
+
+## _Tyfo40kAS4 — Se você seguir alguém, ele percebe | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/_Tyfo40kAS4
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F078
+- Duração: 18.8s
+- Publicado em: 2026-10-25T14:38:40+00:00
