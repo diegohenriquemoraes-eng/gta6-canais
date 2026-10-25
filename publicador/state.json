@@ -769,13 +769,21 @@
           "video_id": "_Tyfo40kAS4",
           "titulo": "Se você seguir alguém, ele percebe | GTA 6 curiosidades #shorts",
           "em": "2026-10-25T14:38:40+00:00"
+        },
+        {
+          "pacote": "2026-10-25",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "Pcz0r8jrizM",
+          "titulo": "O desafio do porta-malas | GTA 6 curiosidades #shorts",
+          "em": "2026-10-25T17:56:33+00:00"
         }
       ],
-      "ultimo_short": "2026-10-25T14:38:40+00:00",
+      "ultimo_short": "2026-10-25T17:56:33+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-25",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -1919,12 +1927,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-25-c2.mp4",
           "em": "2026-10-25T14:38:40+00:00"
+        },
+        {
+          "id": "2026-10-25-c3",
+          "media_id": "18091357925248762",
+          "cena": "galeria-jason-and-lucia-11",
+          "frase": "O romance entre Jason e Lucia é opcional",
+          "layout": 3,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-25-c3.mp4",
+          "em": "2026-10-25T17:56:33+00:00"
         }
       ],
-      "ultimo": "2026-10-25T14:38:40+00:00",
+      "ultimo": "2026-10-25T17:56:33+00:00",
       "dia": {
         "data": "2026-10-25",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "2026-10-23",

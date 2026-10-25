@@ -766,3 +766,11 @@
 - Item: short-2 — F078
 - Duração: 18.8s
 - Publicado em: 2026-10-25T14:38:40+00:00
+
+## Pcz0r8jrizM — O desafio do porta-malas | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Pcz0r8jrizM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F079
+- Duração: 17.4s
+- Publicado em: 2026-10-25T17:56:33+00:00
