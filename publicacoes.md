@@ -782,3 +782,11 @@
 - Item: short-1 — F080
 - Duração: 19.7s
 - Publicado em: 2026-10-26T18:16:02+00:00
+
+## 7Vr2d6JzyRw — O porta-malas é seu armário | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/7Vr2d6JzyRw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F081
+- Duração: 17.3s
+- Publicado em: 2026-10-26T22:13:51+00:00

@@ -790,3 +790,9 @@
 - https://www.instagram.com/reel/17996773704022330/
 - cena: `galeria-jason-and-lucia-10` · layout 3
 - 2026-10-26T20:03:33+00:00
+
+## 18129896968865635 — Pré-download em 12/11, jogo em 19/11, faltam 24
+
+- https://www.instagram.com/reel/18129896968865635/
+- cena: `trailer2-009` · layout 1
+- 2026-10-26T22:13:51+00:00
