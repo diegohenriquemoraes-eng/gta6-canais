@@ -1980,12 +1980,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-26-c2.mp4",
           "em": "2026-10-26T18:16:02+00:00"
+        },
+        {
+          "id": "2026-10-26-c3",
+          "media_id": "17996773704022330",
+          "cena": "galeria-jason-and-lucia-10",
+          "frase": "O romance entre Jason e Lucia é opcional",
+          "layout": 3,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-26-c3.mp4",
+          "em": "2026-10-26T20:03:33+00:00"
         }
       ],
-      "ultimo": "2026-10-26T18:16:02+00:00",
+      "ultimo": "2026-10-26T20:03:33+00:00",
       "dia": {
         "data": "2026-10-26",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "2026-10-23",
