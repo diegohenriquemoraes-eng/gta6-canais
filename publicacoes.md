@@ -774,3 +774,11 @@
 - Item: short-3 — F079
 - Duração: 17.4s
 - Publicado em: 2026-10-25T17:56:33+00:00
+
+## y_pnXk1NUa0 — A geladeira abre | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/y_pnXk1NUa0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F080
+- Duração: 19.7s
+- Publicado em: 2026-10-26T18:16:02+00:00
