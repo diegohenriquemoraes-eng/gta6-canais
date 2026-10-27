@@ -796,3 +796,9 @@
 - https://www.instagram.com/reel/18129896968865635/
 - cena: `trailer2-009` · layout 1
 - 2026-10-26T22:13:51+00:00
+
+## 18140349448535157 — Rumo a Vice City: um post por vez
+
+- https://www.instagram.com/reel/18140349448535157/
+- cena: `galeria-vice-city-07` · layout 2
+- 2026-10-27T00:09:33+00:00

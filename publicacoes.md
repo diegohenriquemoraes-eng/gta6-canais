@@ -790,3 +790,11 @@
 - Item: short-2 — F081
 - Duração: 17.3s
 - Publicado em: 2026-10-26T22:13:51+00:00
+
+## xXPjsWNqFSg — Malhar muda o corpo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/xXPjsWNqFSg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F082
+- Duração: 18.4s
+- Publicado em: 2026-10-27T00:09:33+00:00

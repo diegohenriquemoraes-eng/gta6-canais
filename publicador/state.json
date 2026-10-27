@@ -793,13 +793,21 @@
           "video_id": "7Vr2d6JzyRw",
           "titulo": "O porta-malas é seu armário | GTA 6 curiosidades #shorts",
           "em": "2026-10-26T22:13:51+00:00"
+        },
+        {
+          "pacote": "2026-10-26",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "xXPjsWNqFSg",
+          "titulo": "Malhar muda o corpo | GTA 6 curiosidades #shorts",
+          "em": "2026-10-27T00:09:33+00:00"
         }
       ],
-      "ultimo_short": "2026-10-26T22:13:51+00:00",
+      "ultimo_short": "2026-10-27T00:09:33+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-26",
-        "n": 2
+        "data": "2026-10-27",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -2006,12 +2014,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-26-c4.mp4",
           "em": "2026-10-26T22:13:51+00:00"
+        },
+        {
+          "id": "2026-10-26-c5",
+          "media_id": "18140349448535157",
+          "cena": "galeria-vice-city-07",
+          "frase": "Rumo a Vice City: um post por vez",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-26-c5.mp4",
+          "em": "2026-10-27T00:09:33+00:00"
         }
       ],
-      "ultimo": "2026-10-26T22:13:51+00:00",
+      "ultimo": "2026-10-27T00:09:33+00:00",
       "dia": {
-        "data": "2026-10-26",
-        "n": 4
+        "data": "2026-10-27",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-10-23",
@@ -2750,12 +2767,19 @@
           "url": null,
           "estado": "publishing",
           "em": "2026-10-26T05:30:14+00:00"
+        },
+        {
+          "cartao": "2026-10-20-c1",
+          "post_id": "6adfec1a6c97bafd9601ca62",
+          "url": null,
+          "estado": "published",
+          "em": "2026-10-27T00:11:05+00:00"
         }
       ],
-      "ultimo": "2026-10-26T05:30:14+00:00",
+      "ultimo": "2026-10-27T00:11:05+00:00",
       "dia": {
-        "data": "2026-10-26",
-        "n": 3
+        "data": "2026-10-27",
+        "n": 1
       },
       "story_dia": {
         "data": "",
