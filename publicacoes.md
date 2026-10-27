@@ -798,3 +798,11 @@
 - Item: short-3 — F082
 - Duração: 18.4s
 - Publicado em: 2026-10-27T00:09:33+00:00
+
+## 37X4X7Vxy9o — Luta livre com finalização | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/37X4X7Vxy9o
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F084
+- Duração: 15.9s
+- Publicado em: 2026-10-27T10:46:07+00:00
