@@ -806,3 +806,11 @@
 - Item: short-2 — F084
 - Duração: 15.9s
 - Publicado em: 2026-10-27T10:46:07+00:00
+
+## afMyB-sWktk — Pesca voltou de Red Dead 2 | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/afMyB-sWktk
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F085
+- Duração: 19.4s
+- Publicado em: 2026-10-27T22:56:34+00:00
