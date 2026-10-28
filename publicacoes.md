@@ -822,3 +822,11 @@
 - Item: short-1 — F086
 - Duração: 23.5s
 - Publicado em: 2026-10-28T14:14:48+00:00
+
+## sXUvVYLbLPk — Tem Uber em Vice City | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/sXUvVYLbLPk
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F087
+- Duração: 16.3s
+- Publicado em: 2026-10-28T19:43:36+00:00
