@@ -814,3 +814,11 @@
 - Item: short-3 — F085
 - Duração: 19.4s
 - Publicado em: 2026-10-27T22:56:34+00:00
+
+## s2PyuaQNzwM — Mais de vinte atividades fora das missões | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/s2PyuaQNzwM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F086
+- Duração: 23.5s
+- Publicado em: 2026-10-28T14:14:48+00:00
