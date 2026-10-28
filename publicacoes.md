@@ -830,3 +830,11 @@
 - Item: short-2 — F087
 - Duração: 16.3s
 - Publicado em: 2026-10-28T19:43:36+00:00
+
+## fAJmgN9uBWw — As redes sociais estão em todo lugar | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/fAJmgN9uBWw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F088
+- Duração: 17.4s
+- Publicado em: 2026-10-28T23:57:55+00:00
