@@ -854,3 +854,11 @@
 - Item: short-2 — F090
 - Duração: 20.8s
 - Publicado em: 2026-10-29T17:09:16+00:00
+
+## clC3yBj-sMM — O mapa agora é em 3D | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/clC3yBj-sMM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F091
+- Duração: 16.1s
+- Publicado em: 2026-10-29T22:18:16+00:00
