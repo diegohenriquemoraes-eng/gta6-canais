@@ -849,13 +849,21 @@
           "video_id": "f_MtrqDhhao",
           "titulo": "O Lifeinvader ainda existe | GTA 6 curiosidades #shorts",
           "em": "2026-10-29T10:29:57+00:00"
+        },
+        {
+          "pacote": "2026-10-29",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "zwShOX3FhcM",
+          "titulo": "Um sanduíche de 30 mil calorias | GTA 6 curiosidades #shorts",
+          "em": "2026-10-29T17:09:16+00:00"
         }
       ],
-      "ultimo_short": "2026-10-29T10:29:57+00:00",
+      "ultimo_short": "2026-10-29T17:09:16+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-29",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -2134,12 +2142,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-29-c1.mp4",
           "em": "2026-10-29T13:26:57+00:00"
+        },
+        {
+          "id": "2026-10-29-c2",
+          "media_id": "18077057606738836",
+          "cena": "trailer2-015",
+          "frase": "Mais 21 noites e o jogo é nosso",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-29-c2.mp4",
+          "em": "2026-10-29T17:09:16+00:00"
         }
       ],
-      "ultimo": "2026-10-29T13:26:57+00:00",
+      "ultimo": "2026-10-29T17:09:16+00:00",
       "dia": {
         "data": "2026-10-29",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "2026-10-23",

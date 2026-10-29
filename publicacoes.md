@@ -846,3 +846,11 @@
 - Item: short-1 — F089
 - Duração: 18.3s
 - Publicado em: 2026-10-29T10:29:57+00:00
+
+## zwShOX3FhcM — Um sanduíche de 30 mil calorias | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/zwShOX3FhcM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F090
+- Duração: 20.8s
+- Publicado em: 2026-10-29T17:09:16+00:00
