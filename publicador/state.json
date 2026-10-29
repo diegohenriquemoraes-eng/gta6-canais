@@ -841,13 +841,21 @@
           "video_id": "fAJmgN9uBWw",
           "titulo": "As redes sociais estão em todo lugar | GTA 6 curiosidades #shorts",
           "em": "2026-10-28T23:57:55+00:00"
+        },
+        {
+          "pacote": "2026-10-29",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "f_MtrqDhhao",
+          "titulo": "O Lifeinvader ainda existe | GTA 6 curiosidades #shorts",
+          "em": "2026-10-29T10:29:57+00:00"
         }
       ],
-      "ultimo_short": "2026-10-28T23:57:55+00:00",
+      "ultimo_short": "2026-10-29T10:29:57+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-28",
-        "n": 3
+        "data": "2026-10-29",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",

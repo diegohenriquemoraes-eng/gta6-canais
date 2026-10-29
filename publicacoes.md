@@ -838,3 +838,11 @@
 - Item: short-3 — F088
 - Duração: 17.4s
 - Publicado em: 2026-10-28T23:57:55+00:00
+
+## f_MtrqDhhao — O Lifeinvader ainda existe | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/f_MtrqDhhao
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F089
+- Duração: 18.3s
+- Publicado em: 2026-10-29T10:29:57+00:00
