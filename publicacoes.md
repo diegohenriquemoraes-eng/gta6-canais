@@ -878,3 +878,11 @@
 - Item: short-2 — F093
 - Duração: 20.2s
 - Publicado em: 2026-10-30T16:20:28+00:00
+
+## CheLqTRlY4g — Dá para espiar pela janela | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/CheLqTRlY4g
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F094
+- Duração: 16.3s
+- Publicado em: 2026-10-30T21:53:32+00:00

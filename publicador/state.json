@@ -881,13 +881,21 @@
           "video_id": "Tv263sWiCl8",
           "titulo": "O fuzil se chama Duke 556 | GTA 6 curiosidades #shorts",
           "em": "2026-10-30T16:20:28+00:00"
+        },
+        {
+          "pacote": "2026-10-30",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "CheLqTRlY4g",
+          "titulo": "Dá para espiar pela janela | GTA 6 curiosidades #shorts",
+          "em": "2026-10-30T21:53:32+00:00"
         }
       ],
-      "ultimo_short": "2026-10-30T16:20:28+00:00",
+      "ultimo_short": "2026-10-30T21:53:32+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-30",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",
