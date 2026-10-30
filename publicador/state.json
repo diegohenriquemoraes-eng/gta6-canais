@@ -865,13 +865,21 @@
           "video_id": "clC3yBj-sMM",
           "titulo": "O mapa agora é em 3D | GTA 6 curiosidades #shorts",
           "em": "2026-10-29T22:18:16+00:00"
+        },
+        {
+          "pacote": "2026-10-30",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "ljh40EZoCYo",
+          "titulo": "Troca rápida entre duas armas | GTA 6 curiosidades #shorts",
+          "em": "2026-10-30T10:19:42+00:00"
         }
       ],
-      "ultimo_short": "2026-10-29T22:18:16+00:00",
+      "ultimo_short": "2026-10-30T10:19:42+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-10-29",
-        "n": 3
+        "data": "2026-10-30",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",

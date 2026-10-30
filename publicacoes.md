@@ -862,3 +862,11 @@
 - Item: short-3 — F091
 - Duração: 16.1s
 - Publicado em: 2026-10-29T22:18:16+00:00
+
+## ljh40EZoCYo — Troca rápida entre duas armas | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/ljh40EZoCYo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F092
+- Duração: 18.4s
+- Publicado em: 2026-10-30T10:19:42+00:00
