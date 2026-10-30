@@ -870,3 +870,11 @@
 - Item: short-1 — F092
 - Duração: 18.4s
 - Publicado em: 2026-10-30T10:19:42+00:00
+
+## Tv263sWiCl8 — O fuzil se chama Duke 556 | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Tv263sWiCl8
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F093
+- Duração: 20.2s
+- Publicado em: 2026-10-30T16:20:28+00:00
