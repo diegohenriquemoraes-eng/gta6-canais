@@ -894,3 +894,11 @@
 - Item: short-1 — F095
 - Duração: 16.6s
 - Publicado em: 2026-10-31T13:57:32+00:00
+
+## UNBlZ4b1Uf8 — Estilete na briga de rua | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/UNBlZ4b1Uf8
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F096
+- Duração: 16.1s
+- Publicado em: 2026-10-31T18:03:20+00:00

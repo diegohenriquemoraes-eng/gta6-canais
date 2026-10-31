@@ -897,13 +897,21 @@
           "video_id": "Xk4cSPZwXg8",
           "titulo": "Atire do carro enquanto ela dirige | GTA 6 curiosidades #shorts",
           "em": "2026-10-31T13:57:32+00:00"
+        },
+        {
+          "pacote": "2026-10-31",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "UNBlZ4b1Uf8",
+          "titulo": "Estilete na briga de rua | GTA 6 curiosidades #shorts",
+          "em": "2026-10-31T18:03:20+00:00"
         }
       ],
-      "ultimo_short": "2026-10-31T13:57:32+00:00",
+      "ultimo_short": "2026-10-31T18:03:20+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-10-31",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -2245,12 +2253,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-31-c1.mp4",
           "em": "2026-10-31T13:57:32+00:00"
+        },
+        {
+          "id": "2026-10-31-c2",
+          "media_id": "18015098978993297",
+          "cena": "galeria-port-gellhorn-06",
+          "frase": "Faltam 19 dias para conhecer Leonida",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-10-31-c2.mp4",
+          "em": "2026-10-31T18:03:20+00:00"
         }
       ],
-      "ultimo": "2026-10-31T13:57:32+00:00",
+      "ultimo": "2026-10-31T18:03:20+00:00",
       "dia": {
         "data": "2026-10-31",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "2026-10-23",
