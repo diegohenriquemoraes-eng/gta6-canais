@@ -902,3 +902,11 @@
 - Item: short-2 — F096
 - Duração: 16.1s
 - Publicado em: 2026-10-31T18:03:20+00:00
+
+## drZ7lasi85Q — As escolhas mudam a história | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/drZ7lasi85Q
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F097
+- Duração: 18.9s
+- Publicado em: 2026-10-31T22:13:05+00:00
