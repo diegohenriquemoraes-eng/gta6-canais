@@ -886,3 +886,11 @@
 - Item: short-3 — F094
 - Duração: 16.3s
 - Publicado em: 2026-10-30T21:53:32+00:00
+
+## Xk4cSPZwXg8 — Atire do carro enquanto ela dirige | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Xk4cSPZwXg8
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F095
+- Duração: 16.6s
+- Publicado em: 2026-10-31T13:57:32+00:00
