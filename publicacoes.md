@@ -926,3 +926,11 @@
 - Item: short-2 — F099
 - Duração: 19.2s
 - Publicado em: 2026-11-01T18:40:25+00:00
+
+## txDzZB3Yzfc — Barbearia muda o visual de verdade | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/txDzZB3Yzfc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F100
+- Duração: 20.8s
+- Publicado em: 2026-11-01T22:45:26+00:00
