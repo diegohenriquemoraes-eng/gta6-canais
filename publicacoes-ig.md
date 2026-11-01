@@ -916,3 +916,9 @@
 - https://www.instagram.com/reel/18145623079580820/
 - cena: `galeria-jason-and-lucia-11` · layout 3
 - 2026-11-01T18:40:25+00:00
+
+## 18119326765956199 — 18 dias e a espera de 13 anos acaba
+
+- https://www.instagram.com/reel/18119326765956199/
+- cena: `trailer2-016` · layout 1
+- 2026-11-01T20:40:30+00:00
