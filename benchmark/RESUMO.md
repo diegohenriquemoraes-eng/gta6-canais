@@ -63,20 +63,19 @@ Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para 
 - 0-10 s: 30 itens, mediana 4,706
 - mais visto: 15,900 — “”
 
-## yt · gta 6 (2026-10-25, 50 itens)
+## yt · gta 6 (2026-11-01, 50 itens)
 
-- mediana de views: 3,831,627
-- 0-10 s: 2 itens, mediana 3,108,152
-- 10-20 s: 7 itens, mediana 3,361,332
-- 20-30 s: 2 itens, mediana 3,745,016
-- 30-60 s: 8 itens, mediana 4,811,966
-- 60-∞ s: 31 itens, mediana 3,940,894
-- mais visto: 64,882,377 — “Grand Theft Auto VI Launch Trailer”
+- mediana de views: 5,662,327
+- 10-20 s: 4 itens, mediana 3,615,319
+- 20-30 s: 5 itens, mediana 4,783,153
+- 30-60 s: 11 itens, mediana 10,305,956
+- 60-∞ s: 30 itens, mediana 6,560,016
+- mais visto: 71,560,944 — “Grand Theft Auto VI Launch Trailer”
 
-## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-10-25, 50 itens)
+## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-11-01, 50 itens)
 
-- mediana de views: 148
-- 10-20 s: 25 itens, mediana 134
-- 20-30 s: 25 itens, mediana 149
+- mediana de views: 130
+- 10-20 s: 27 itens, mediana 126
+- 20-30 s: 23 itens, mediana 132
 - mais visto: 758 — “A música do Trailer 2 é de 1986 | GTA 6 curiosidades #shorts”
 
