@@ -910,3 +910,11 @@
 - Item: short-3 — F097
 - Duração: 18.9s
 - Publicado em: 2026-10-31T22:13:05+00:00
+
+## 5oO1rdOlE8g — Cada missão tem mais de uma saída | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/5oO1rdOlE8g
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F098
+- Duração: 17.6s
+- Publicado em: 2026-11-01T13:56:57+00:00
