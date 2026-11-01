@@ -918,3 +918,11 @@
 - Item: short-1 — F098
 - Duração: 17.6s
 - Publicado em: 2026-11-01T13:56:57+00:00
+
+## B0X9jSIUeAE — Tem zoológico em Leonida | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/B0X9jSIUeAE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F099
+- Duração: 19.2s
+- Publicado em: 2026-11-01T18:40:25+00:00
