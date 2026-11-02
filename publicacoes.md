@@ -934,3 +934,11 @@
 - Item: short-3 — F100
 - Duração: 20.8s
 - Publicado em: 2026-11-01T22:45:26+00:00
+
+## JD4XGcIpd0g — Chihuahua é personagem | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/JD4XGcIpd0g
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F131
+- Duração: 18.7s
+- Publicado em: 2026-11-02T18:39:27+00:00

@@ -928,3 +928,9 @@
 - https://www.instagram.com/reel/18162874210496834/
 - cena: `galeria-vice-city-09` · layout 2
 - 2026-11-01T22:45:26+00:00
+
+## 18422072812156974 — Aqui a gente vive Vice City antes de todo mundo
+
+- https://www.instagram.com/reel/18422072812156974/
+- cena: `galeria-vice-city-08` · layout 1
+- 2026-11-02T18:39:27+00:00
