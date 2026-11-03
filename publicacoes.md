@@ -958,3 +958,11 @@
 - Item: short-2 — F135
 - Duração: 17.4s
 - Publicado em: 2026-11-03T22:19:19+00:00
+
+## XYk4V7fNGAM — Patinete elétrico em Ocean Beach | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/XYk4V7fNGAM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F136
+- Duração: 18.8s
+- Publicado em: 2026-11-03T23:48:15+00:00
