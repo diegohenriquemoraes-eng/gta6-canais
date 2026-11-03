@@ -942,3 +942,11 @@
 - Item: short-1 — F131
 - Duração: 18.7s
 - Publicado em: 2026-11-02T18:39:27+00:00
+
+## YDUwWDpnKTU — Mergulho com cilindro | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/YDUwWDpnKTU
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F134
+- Duração: 16.4s
+- Publicado em: 2026-11-03T16:41:22+00:00
