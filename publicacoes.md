@@ -950,3 +950,11 @@
 - Item: short-1 — F134
 - Duração: 16.4s
 - Publicado em: 2026-11-03T16:41:22+00:00
+
+## ngpi1Ad0fHc — Base jump e paraquedas voltaram | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/ngpi1Ad0fHc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F135
+- Duração: 17.4s
+- Publicado em: 2026-11-03T22:19:19+00:00
