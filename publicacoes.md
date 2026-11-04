@@ -974,3 +974,11 @@
 - Item: short-1 — F137
 - Duração: 16.7s
 - Publicado em: 2026-11-04T10:02:22+00:00
+
+## Q-1odP7tHxk — Aerobarco no pântano | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Q-1odP7tHxk
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F138
+- Duração: 18.5s
+- Publicado em: 2026-11-04T15:38:04+00:00
