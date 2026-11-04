@@ -982,3 +982,11 @@
 - Item: short-2 — F138
 - Duração: 18.5s
 - Publicado em: 2026-11-04T15:38:04+00:00
+
+## qU3QGwr7FVY — A boate de Boobie se chama Jack of Hearts | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/qU3QGwr7FVY
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F139
+- Duração: 18.5s
+- Publicado em: 2026-11-04T22:14:57+00:00
