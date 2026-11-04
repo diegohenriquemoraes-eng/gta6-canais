@@ -966,3 +966,11 @@
 - Item: short-3 — F136
 - Duração: 18.8s
 - Publicado em: 2026-11-03T23:48:15+00:00
+
+## eeyPYO8NA48 — Minigolfe é atividade oficial | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/eeyPYO8NA48
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F137
+- Duração: 16.7s
+- Publicado em: 2026-11-04T10:02:22+00:00

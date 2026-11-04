@@ -969,13 +969,21 @@
           "video_id": "XYk4V7fNGAM",
           "titulo": "Patinete elétrico em Ocean Beach | GTA 6 curiosidades #shorts",
           "em": "2026-11-03T23:48:15+00:00"
+        },
+        {
+          "pacote": "2026-11-04",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "eeyPYO8NA48",
+          "titulo": "Minigolfe é atividade oficial | GTA 6 curiosidades #shorts",
+          "em": "2026-11-04T10:02:22+00:00"
         }
       ],
-      "ultimo_short": "2026-11-03T23:48:15+00:00",
+      "ultimo_short": "2026-11-04T10:02:22+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-11-03",
-        "n": 3
+        "data": "2026-11-04",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -3342,12 +3350,19 @@
           "url": null,
           "estado": "published",
           "em": "2026-11-04T06:47:14+00:00"
+        },
+        {
+          "cartao": "2026-10-25-c5",
+          "post_id": "6aeb02af9bb74964440e8413",
+          "url": null,
+          "estado": "published",
+          "em": "2026-11-04T10:02:22+00:00"
         }
       ],
-      "ultimo": "2026-11-04T06:47:14+00:00",
+      "ultimo": "2026-11-04T10:02:22+00:00",
       "dia": {
         "data": "2026-11-04",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "",
