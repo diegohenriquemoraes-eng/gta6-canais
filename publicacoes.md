@@ -998,3 +998,11 @@
 - Item: short-1 — F140
 - Duração: 18.6s
 - Publicado em: 2026-11-05T10:14:12+00:00
+
+## 6_SIKTg_vuM — Cansaço aparece no rosto | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/6_SIKTg_vuM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F141
+- Duração: 17.7s
+- Publicado em: 2026-11-05T18:22:55+00:00

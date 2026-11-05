@@ -1001,13 +1001,21 @@
           "video_id": "5xr0nmbhK04",
           "titulo": "A TV do esconderijo tem propaganda | GTA 6 curiosidades #shorts",
           "em": "2026-11-05T10:14:12+00:00"
+        },
+        {
+          "pacote": "2026-11-05",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "6_SIKTg_vuM",
+          "titulo": "Cansaço aparece no rosto | GTA 6 curiosidades #shorts",
+          "em": "2026-11-05T18:22:55+00:00"
         }
       ],
-      "ultimo_short": "2026-11-05T10:14:12+00:00",
+      "ultimo_short": "2026-11-05T18:22:55+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-05",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -2484,12 +2492,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-05-c1.mp4",
           "em": "2026-11-05T11:18:09+00:00"
+        },
+        {
+          "id": "2026-11-05-c2",
+          "media_id": "18083496497344801",
+          "cena": "trailer2-015",
+          "frase": "Mais 14 noites e o jogo é nosso",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-05-c2.mp4",
+          "em": "2026-11-05T18:22:55+00:00"
         }
       ],
-      "ultimo": "2026-11-05T11:18:09+00:00",
+      "ultimo": "2026-11-05T18:22:55+00:00",
       "dia": {
         "data": "2026-11-05",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "2026-10-23",
