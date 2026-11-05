@@ -993,13 +993,21 @@
           "video_id": "qU3QGwr7FVY",
           "titulo": "A boate de Boobie se chama Jack of Hearts | GTA 6 curiosidades #shorts",
           "em": "2026-11-04T22:14:57+00:00"
+        },
+        {
+          "pacote": "2026-11-05",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "5xr0nmbhK04",
+          "titulo": "A TV do esconderijo tem propaganda | GTA 6 curiosidades #shorts",
+          "em": "2026-11-05T10:14:12+00:00"
         }
       ],
-      "ultimo_short": "2026-11-04T22:14:57+00:00",
+      "ultimo_short": "2026-11-05T10:14:12+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-11-04",
-        "n": 3
+        "data": "2026-11-05",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -3414,12 +3422,19 @@
           "url": null,
           "estado": "published",
           "em": "2026-11-05T02:58:19+00:00"
+        },
+        {
+          "cartao": "2026-10-26-c3",
+          "post_id": "6aec56f51948a168fddc5e9a",
+          "url": null,
+          "estado": "published",
+          "em": "2026-11-05T10:14:12+00:00"
         }
       ],
-      "ultimo": "2026-11-05T02:58:19+00:00",
+      "ultimo": "2026-11-05T10:14:12+00:00",
       "dia": {
         "data": "2026-11-05",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "",

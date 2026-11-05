@@ -990,3 +990,11 @@
 - Item: short-3 — F139
 - Duração: 18.5s
 - Publicado em: 2026-11-04T22:14:57+00:00
+
+## 5xr0nmbhK04 — A TV do esconderijo tem propaganda | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/5xr0nmbhK04
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F140
+- Duração: 18.6s
+- Publicado em: 2026-11-05T10:14:12+00:00
