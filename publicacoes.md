@@ -1014,3 +1014,11 @@
 - Item: short-1 — F143
 - Duração: 17.5s
 - Publicado em: 2026-11-06T11:40:07+00:00
+
+## RrZYkx0ihq4 — Leonida é cheia de gente estranha | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/RrZYkx0ihq4
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F144
+- Duração: 18.8s
+- Publicado em: 2026-11-06T15:55:37+00:00
