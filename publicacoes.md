@@ -1006,3 +1006,11 @@
 - Item: short-2 — F141
 - Duração: 17.7s
 - Publicado em: 2026-11-05T18:22:55+00:00
+
+## tGQwELJm1WQ — A câmera é de cinema | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/tGQwELJm1WQ
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F143
+- Duração: 17.5s
+- Publicado em: 2026-11-06T11:40:07+00:00
