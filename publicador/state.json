@@ -1025,13 +1025,21 @@
           "video_id": "RrZYkx0ihq4",
           "titulo": "Leonida é cheia de gente estranha | GTA 6 curiosidades #shorts",
           "em": "2026-11-06T15:55:37+00:00"
+        },
+        {
+          "pacote": "2026-11-06",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "kILcBRjxnNA",
+          "titulo": "Um Stanier de 1955 como primeiro carro | GTA 6 curiosidades #shorts",
+          "em": "2026-11-06T20:59:30+00:00"
         }
       ],
-      "ultimo_short": "2026-11-06T15:55:37+00:00",
+      "ultimo_short": "2026-11-06T20:59:30+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-06",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -2544,12 +2552,21 @@
           "layout": 3,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-06-c3.mp4",
           "em": "2026-11-06T18:34:32+00:00"
+        },
+        {
+          "id": "2026-11-06-c4",
+          "media_id": "18129018295885158",
+          "cena": "trailer1-003",
+          "frase": "13 dias para conhecer Leonida de verdade",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-06-c4.mp4",
+          "em": "2026-11-06T20:59:30+00:00"
         }
       ],
-      "ultimo": "2026-11-06T18:34:32+00:00",
+      "ultimo": "2026-11-06T20:59:30+00:00",
       "dia": {
         "data": "2026-11-06",
-        "n": 3
+        "n": 4
       },
       "story_dia": {
         "data": "2026-10-23",

@@ -1022,3 +1022,11 @@
 - Item: short-2 — F144
 - Duração: 18.8s
 - Publicado em: 2026-11-06T15:55:37+00:00
+
+## kILcBRjxnNA — Um Stanier de 1955 como primeiro carro | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/kILcBRjxnNA
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F147
+- Duração: 18.5s
+- Publicado em: 2026-11-06T20:59:30+00:00
