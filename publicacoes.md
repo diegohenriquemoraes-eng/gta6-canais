@@ -1038,3 +1038,11 @@
 - Item: short-1 — F148
 - Duração: 19.2s
 - Publicado em: 2026-11-07T10:45:33+00:00
+
+## wxyeUeTyvw4 — Mais de 50 tatuagens numa loja só | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/wxyeUeTyvw4
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F149
+- Duração: 19.1s
+- Publicado em: 2026-11-07T14:17:41+00:00
