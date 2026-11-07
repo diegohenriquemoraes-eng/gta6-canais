@@ -1046,3 +1046,11 @@
 - Item: short-2 — F149
 - Duração: 19.1s
 - Publicado em: 2026-11-07T14:17:41+00:00
+
+## fwXVipqPbMo — A polícia agora repara na sua roupa | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/fwXVipqPbMo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F151
+- Duração: 16.6s
+- Publicado em: 2026-11-07T18:58:28+00:00
