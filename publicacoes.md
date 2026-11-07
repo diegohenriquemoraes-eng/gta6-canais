@@ -1030,3 +1030,11 @@
 - Item: short-3 — F147
 - Duração: 18.5s
 - Publicado em: 2026-11-06T20:59:30+00:00
+
+## FO6dLXMCB14 — Cheetah de 1995 na Ultimate | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/FO6dLXMCB14
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F148
+- Duração: 19.2s
+- Publicado em: 2026-11-07T10:45:33+00:00

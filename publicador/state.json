@@ -1033,13 +1033,21 @@
           "video_id": "kILcBRjxnNA",
           "titulo": "Um Stanier de 1955 como primeiro carro | GTA 6 curiosidades #shorts",
           "em": "2026-11-06T20:59:30+00:00"
+        },
+        {
+          "pacote": "2026-11-07",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "FO6dLXMCB14",
+          "titulo": "Cheetah de 1995 na Ultimate | GTA 6 curiosidades #shorts",
+          "em": "2026-11-07T10:45:33+00:00"
         }
       ],
-      "ultimo_short": "2026-11-06T20:59:30+00:00",
+      "ultimo_short": "2026-11-07T10:45:33+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-11-06",
-        "n": 3
+        "data": "2026-11-07",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
