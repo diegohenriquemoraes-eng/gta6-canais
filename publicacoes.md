@@ -1054,3 +1054,11 @@
 - Item: short-3 — F151
 - Duração: 16.6s
 - Publicado em: 2026-11-07T18:58:28+00:00
+
+## Vbd8YWkjRzs — Queimar o carro virou tática de fuga | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Vbd8YWkjRzs
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F152
+- Duração: 18.3s
+- Publicado em: 2026-11-08T10:39:24+00:00
