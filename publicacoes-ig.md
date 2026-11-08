@@ -1054,3 +1054,9 @@
 - https://www.instagram.com/reel/18170743690466571/
 - cena: `galeria-jason-and-lucia-11` · layout 3
 - 2026-11-08T21:31:13+00:00
+
+## 18248605378313300 — 11 dias. Pré-venda aberta.
+
+- https://www.instagram.com/reel/18248605378313300/
+- cena: `trailer2-016` · layout 1
+- 2026-11-08T22:49:10+00:00
