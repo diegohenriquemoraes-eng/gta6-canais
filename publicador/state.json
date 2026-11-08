@@ -2655,12 +2655,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-08-c1.mp4",
           "em": "2026-11-08T13:57:41+00:00"
+        },
+        {
+          "id": "2026-11-08-c2",
+          "media_id": "18135890651498158",
+          "cena": "trailer2-006",
+          "frase": "Mais 11 noites e o jogo é nosso",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-08-c2.mp4",
+          "em": "2026-11-08T17:09:48+00:00"
         }
       ],
-      "ultimo": "2026-11-08T13:57:41+00:00",
+      "ultimo": "2026-11-08T17:09:48+00:00",
       "dia": {
         "data": "2026-11-08",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "2026-10-23",
