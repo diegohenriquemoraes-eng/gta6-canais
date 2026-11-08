@@ -63,19 +63,21 @@ Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para 
 - 0-10 s: 30 itens, mediana 4,706
 - mais visto: 15,900 — “”
 
-## yt · gta 6 (2026-11-01, 50 itens)
+## yt · gta 6 (2026-11-08, 50 itens)
 
-- mediana de views: 5,662,327
-- 10-20 s: 4 itens, mediana 3,615,319
-- 20-30 s: 5 itens, mediana 4,783,153
-- 30-60 s: 11 itens, mediana 10,305,956
-- 60-∞ s: 30 itens, mediana 6,560,016
-- mais visto: 71,560,944 — “Grand Theft Auto VI Launch Trailer”
+- mediana de views: 3,197,368
+- 0-10 s: 1 itens, mediana 3,300,094
+- 10-20 s: 6 itens, mediana 3,469,536
+- 20-30 s: 4 itens, mediana 3,182,940
+- 30-60 s: 4 itens, mediana 2,695,182
+- 60-∞ s: 35 itens, mediana 3,483,546
+- mais visto: 74,911,242 — “Grand Theft Auto VI Launch Trailer”
 
-## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-11-01, 50 itens)
+## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-11-08, 50 itens)
 
-- mediana de views: 130
-- 10-20 s: 27 itens, mediana 126
-- 20-30 s: 23 itens, mediana 132
-- mais visto: 758 — “A música do Trailer 2 é de 1986 | GTA 6 curiosidades #shorts”
+- mediana de views: 88
+- 0-10 s: 1 itens, mediana 61
+- 10-20 s: 29 itens, mediana 90
+- 20-30 s: 20 itens, mediana 86
+- mais visto: 630 — “Jason e Lucia não postam selfie | GTA 6 curiosidades #shorts”
 
