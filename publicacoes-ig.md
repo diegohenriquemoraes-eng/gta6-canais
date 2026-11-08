@@ -1048,3 +1048,9 @@
 - https://www.instagram.com/reel/18135890651498158/
 - cena: `trailer2-006` · layout 2
 - 2026-11-08T17:09:48+00:00
+
+## 18170743690466571 — O romance entre Jason e Lucia é opcional
+
+- https://www.instagram.com/reel/18170743690466571/
+- cena: `galeria-jason-and-lucia-11` · layout 3
+- 2026-11-08T21:31:13+00:00
