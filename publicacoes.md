@@ -1070,3 +1070,11 @@
 - Item: short-2 — F153
 - Duração: 18.6s
 - Publicado em: 2026-11-08T13:57:41+00:00
+
+## aA1tHznnqHc — Jason e Lucia têm garagem própria | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/aA1tHznnqHc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F154
+- Duração: 17.7s
+- Publicado em: 2026-11-08T18:35:34+00:00
