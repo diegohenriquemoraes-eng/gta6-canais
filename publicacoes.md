@@ -1062,3 +1062,11 @@
 - Item: short-1 — F152
 - Duração: 18.3s
 - Publicado em: 2026-11-08T10:39:24+00:00
+
+## T6MkU3psF1o — Dá para se esconder dentro do porta-malas | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/T6MkU3psF1o
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F153
+- Duração: 18.6s
+- Publicado em: 2026-11-08T13:57:41+00:00
