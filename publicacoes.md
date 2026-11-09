@@ -1078,3 +1078,11 @@
 - Item: short-3 — F154
 - Duração: 17.7s
 - Publicado em: 2026-11-08T18:35:34+00:00
+
+## zp8XfjdEmAg — O carro acaba a gasolina | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/zp8XfjdEmAg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F155
+- Duração: 18.3s
+- Publicado em: 2026-11-09T10:30:05+00:00
