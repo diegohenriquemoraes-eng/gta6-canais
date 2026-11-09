@@ -1086,3 +1086,11 @@
 - Item: short-1 — F155
 - Duração: 18.3s
 - Publicado em: 2026-11-09T10:30:05+00:00
+
+## dAXBD5KvL1s — Você troca de personagem quando quiser | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/dAXBD5KvL1s
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F156
+- Duração: 17.7s
+- Publicado em: 2026-11-09T18:59:16+00:00
