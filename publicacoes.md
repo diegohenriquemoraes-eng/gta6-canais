@@ -1094,3 +1094,11 @@
 - Item: short-2 — F156
 - Duração: 17.7s
 - Publicado em: 2026-11-09T18:59:16+00:00
+
+## eg8aF0eZdVw — A relação dos dois muda o final | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/eg8aF0eZdVw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F157
+- Duração: 18.5s
+- Publicado em: 2026-11-09T21:24:07+00:00
