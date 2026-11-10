@@ -1102,3 +1102,11 @@
 - Item: short-3 — F157
 - Duração: 18.5s
 - Publicado em: 2026-11-09T21:24:07+00:00
+
+## 00UsCqvKyac — A primeira jogabilidade de verdade | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/00UsCqvKyac
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F158
+- Duração: 18.8s
+- Publicado em: 2026-11-10T10:11:34+00:00
