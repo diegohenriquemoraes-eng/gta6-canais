@@ -2740,12 +2740,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-09-c2.mp4",
           "em": "2026-11-09T21:24:07+00:00"
+        },
+        {
+          "id": "2026-11-10-c1",
+          "media_id": "18000812795826961",
+          "cena": "trailer2-019",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-10-c1.mp4",
+          "em": "2026-11-10T11:54:08+00:00"
         }
       ],
-      "ultimo": "2026-11-09T21:24:07+00:00",
+      "ultimo": "2026-11-10T11:54:08+00:00",
       "dia": {
-        "data": "2026-11-09",
-        "n": 2
+        "data": "2026-11-10",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-10-23",
