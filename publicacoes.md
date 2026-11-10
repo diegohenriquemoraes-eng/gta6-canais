@@ -1110,3 +1110,11 @@
 - Item: short-1 — F158
 - Duração: 18.8s
 - Publicado em: 2026-11-10T10:11:34+00:00
+
+## pdJ70BhpSUo — O mapa é onze vezes a cidade de GTA 5 | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/pdJ70BhpSUo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F159
+- Duração: 18.9s
+- Publicado em: 2026-11-10T18:27:33+00:00
