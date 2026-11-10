@@ -1118,3 +1118,11 @@
 - Item: short-2 — F159
 - Duração: 18.9s
 - Publicado em: 2026-11-10T18:27:33+00:00
+
+## OBB1i1HgrQU — Um mundo para explorar sem marcador | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/OBB1i1HgrQU
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F160
+- Duração: 17.7s
+- Publicado em: 2026-11-10T23:48:24+00:00
