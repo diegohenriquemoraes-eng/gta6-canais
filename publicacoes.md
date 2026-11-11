@@ -1126,3 +1126,11 @@
 - Item: short-3 — F160
 - Duração: 17.7s
 - Publicado em: 2026-11-10T23:48:24+00:00
+
+## nFAo1CVEbag — O que você come muda o corpo do personagem | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/nFAo1CVEbag
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F161
+- Duração: 17.3s
+- Publicado em: 2026-11-11T11:32:01+00:00
