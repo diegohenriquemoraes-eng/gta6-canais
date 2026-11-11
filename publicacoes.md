@@ -1134,3 +1134,11 @@
 - Item: short-1 — F161
 - Duração: 17.3s
 - Publicado em: 2026-11-11T11:32:01+00:00
+
+## VQ9FKl0X_wY — Passar noites sem dormir marca o rosto | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/VQ9FKl0X_wY
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F162
+- Duração: 18.5s
+- Publicado em: 2026-11-11T22:21:59+00:00
