@@ -1158,3 +1158,11 @@
 - Item: short-2 — F165
 - Duração: 17.7s
 - Publicado em: 2026-11-12T17:11:49+00:00
+
+## quvx9LP4_JE — Lucia corre de moto na terra | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/quvx9LP4_JE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F166
+- Duração: 16.5s
+- Publicado em: 2026-11-12T20:14:15+00:00
