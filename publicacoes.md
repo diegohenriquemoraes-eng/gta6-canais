@@ -1150,3 +1150,11 @@
 - Item: short-1 — F164
 - Duração: 17.9s
 - Publicado em: 2026-11-12T11:36:54+00:00
+
+## jQWJJ9-sQcw — A série terá corrida em autódromo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/jQWJJ9-sQcw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F165
+- Duração: 17.7s
+- Publicado em: 2026-11-12T17:11:49+00:00
