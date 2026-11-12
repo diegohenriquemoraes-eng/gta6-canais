@@ -11,18 +11,18 @@
   "trailer2-004": "2026-11-12",
   "trailer2-010": "2026-11-11",
   "trailer1-005": "2026-11-12",
-  "trailer2-012": "2026-11-07",
+  "trailer2-012": "2026-11-14",
   "galeria-jason-and-lucia-12": "2026-11-12",
   "trailer1-004": "2026-11-13",
   "galeria-vice-city-12": "2026-11-12",
-  "trailer1-002": "2026-11-07",
-  "galeria-port-gellhorn-06": "2026-11-07",
+  "trailer1-002": "2026-11-14",
+  "galeria-port-gellhorn-06": "2026-11-14",
   "trailer2-008": "2026-11-13",
   "trailer1-003": "2026-11-13",
   "galeria-vice-city-11": "2026-11-13",
-  "trailer1-001": "2026-11-07",
+  "trailer1-001": "2026-11-14",
   "galeria-vice-city-10": "2026-11-08",
-  "trailer1-011": "2026-11-07",
+  "trailer1-011": "2026-11-14",
   "trailer2-006": "2026-11-08",
   "galeria-vice-city-09": "2026-11-08",
   "galeria-vice-city-08": "2026-11-09",
@@ -40,14 +40,14 @@
   "galeria-vice-city-03": "2026-10-02"
  },
  "frases": {
-  "Aqui a gente vive Vice City antes de todo mundo": "2026-11-13",
-  "Mais {N} noites e o jogo é nosso": "2026-11-12",
-  "O romance entre Jason e Lucia é opcional": "2026-11-13",
+  "Aqui a gente vive Vice City antes de todo mundo": "2026-11-14",
+  "Mais {N} noites e o jogo é nosso": "2026-11-14",
+  "O romance entre Jason e Lucia é opcional": "2026-11-14",
   "{N} dias para Vice City": "2026-11-12",
-  "Rumo a Vice City: um post por vez": "2026-11-13",
+  "Rumo a Vice City: um post por vez": "2026-11-14",
   "{N} dias para conhecer Leonida de verdade": "2026-11-13",
   "Vice City abre em {N} dias": "2026-11-13",
-  "Faltam {N} dias para conhecer Leonida": "2026-11-11",
+  "Faltam {N} dias para conhecer Leonida": "2026-11-14",
   "Faltam {N} dias para GTA 6": "2026-11-02",
   "{N} dias. Pré-venda aberta.": "2026-11-08",
   "GTA 6 em {N} dias: você está pronto?": "2026-11-09",
@@ -1380,6 +1380,31 @@
    "cena": "galeria-vice-city-05",
    "frase": "Rumo a Vice City: um post por vez",
    "em": "2026-11-13"
+  },
+  {
+   "cena": "trailer1-002",
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "em": "2026-11-14"
+  },
+  {
+   "cena": "galeria-port-gellhorn-06",
+   "frase": "Faltam {N} dias para conhecer Leonida",
+   "em": "2026-11-14"
+  },
+  {
+   "cena": "trailer1-011",
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "em": "2026-11-14"
+  },
+  {
+   "cena": "trailer2-012",
+   "frase": "Mais {N} noites e o jogo é nosso",
+   "em": "2026-11-14"
+  },
+  {
+   "cena": "trailer1-001",
+   "frase": "Rumo a Vice City: um post por vez",
+   "em": "2026-11-14"
   }
  ]
 }
