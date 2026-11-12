@@ -1142,3 +1142,11 @@
 - Item: short-2 — F162
 - Duração: 18.5s
 - Publicado em: 2026-11-11T22:21:59+00:00
+
+## GSOw4VL77Yg — Existe câmera lenta para acertar o tiro | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/GSOw4VL77Yg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F164
+- Duração: 17.9s
+- Publicado em: 2026-11-12T11:36:54+00:00
