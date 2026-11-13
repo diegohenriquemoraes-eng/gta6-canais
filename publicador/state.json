@@ -1169,13 +1169,21 @@
           "video_id": "quvx9LP4_JE",
           "titulo": "Lucia corre de moto na terra | GTA 6 curiosidades #shorts",
           "em": "2026-11-12T20:14:15+00:00"
+        },
+        {
+          "pacote": "2026-11-13",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "W1KgzuG9uSI",
+          "titulo": "Dá para nadar, mergulhar e pescar | GTA 6 curiosidades #shorts",
+          "em": "2026-11-13T10:32:19+00:00"
         }
       ],
-      "ultimo_short": "2026-11-12T20:14:15+00:00",
+      "ultimo_short": "2026-11-13T10:32:19+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-11-12",
-        "n": 3
+        "data": "2026-11-13",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",

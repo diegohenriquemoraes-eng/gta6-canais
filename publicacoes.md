@@ -1166,3 +1166,11 @@
 - Item: short-3 — F166
 - Duração: 16.5s
 - Publicado em: 2026-11-12T20:14:15+00:00
+
+## W1KgzuG9uSI — Dá para nadar, mergulhar e pescar | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/W1KgzuG9uSI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F167
+- Duração: 18.6s
+- Publicado em: 2026-11-13T10:32:19+00:00
