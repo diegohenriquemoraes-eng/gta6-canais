@@ -1182,3 +1182,11 @@
 - Item: short-2 — F168
 - Duração: 16.0s
 - Publicado em: 2026-11-13T16:39:02+00:00
+
+## RpWJaajAojI — Você pode pular de um arranha-céu | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/RpWJaajAojI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F169
+- Duração: 17.9s
+- Publicado em: 2026-11-13T22:45:49+00:00
