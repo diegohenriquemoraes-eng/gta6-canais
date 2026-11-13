@@ -1177,13 +1177,21 @@
           "video_id": "W1KgzuG9uSI",
           "titulo": "Dá para nadar, mergulhar e pescar | GTA 6 curiosidades #shorts",
           "em": "2026-11-13T10:32:19+00:00"
+        },
+        {
+          "pacote": "2026-11-13",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "0tTE6T7L1NE",
+          "titulo": "Tem basquete de rua no jogo | GTA 6 curiosidades #shorts",
+          "em": "2026-11-13T16:39:02+00:00"
         }
       ],
-      "ultimo_short": "2026-11-13T10:32:19+00:00",
+      "ultimo_short": "2026-11-13T16:39:02+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-13",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -2894,12 +2902,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-12-c4.mp4",
           "em": "2026-11-12T22:56:02+00:00"
+        },
+        {
+          "id": "2026-11-13-c1",
+          "media_id": "18320567950304266",
+          "cena": "trailer1-004",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-13-c1.mp4",
+          "em": "2026-11-13T16:39:02+00:00"
         }
       ],
-      "ultimo": "2026-11-12T22:56:02+00:00",
+      "ultimo": "2026-11-13T16:39:02+00:00",
       "dia": {
-        "data": "2026-11-12",
-        "n": 4
+        "data": "2026-11-13",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-10-23",

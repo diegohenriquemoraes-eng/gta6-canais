@@ -1174,3 +1174,11 @@
 - Item: short-1 — F167
 - Duração: 18.6s
 - Publicado em: 2026-11-13T10:32:19+00:00
+
+## 0tTE6T7L1NE — Tem basquete de rua no jogo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/0tTE6T7L1NE
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F168
+- Duração: 16.0s
+- Publicado em: 2026-11-13T16:39:02+00:00
