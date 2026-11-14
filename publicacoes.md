@@ -1198,3 +1198,11 @@
 - Item: short-1 — F170
 - Duração: 15.6s
 - Publicado em: 2026-11-14T10:45:32+00:00
+
+## dx53RRtHqtk — O jogo roda a trinta quadros por segundo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/dx53RRtHqtk
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F171
+- Duração: 17.8s
+- Publicado em: 2026-11-14T17:16:20+00:00
