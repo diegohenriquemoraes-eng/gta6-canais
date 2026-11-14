@@ -1190,3 +1190,11 @@
 - Item: short-3 — F169
 - Duração: 17.9s
 - Publicado em: 2026-11-13T22:45:49+00:00
+
+## 2qo2_Q7YH3A — O cachorro pode ser treinado | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/2qo2_Q7YH3A
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F170
+- Duração: 15.6s
+- Publicado em: 2026-11-14T10:45:32+00:00
