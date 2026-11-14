@@ -1206,3 +1206,11 @@
 - Item: short-2 — F171
 - Duração: 17.8s
 - Publicado em: 2026-11-14T17:16:20+00:00
+
+## vffeAWkdXFg — A direção ficou mais nervosa que em GTA 5 | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/vffeAWkdXFg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F174
+- Duração: 18.0s
+- Publicado em: 2026-11-14T21:54:26+00:00
