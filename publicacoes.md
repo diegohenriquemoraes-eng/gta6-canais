@@ -1222,3 +1222,11 @@
 - Item: short-1 — F177
 - Duração: 17.9s
 - Publicado em: 2026-11-15T15:56:59+00:00
+
+## 411-PqSX3BA — O esconderijo muda conforme a história anda | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/411-PqSX3BA
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F179
+- Duração: 17.8s
+- Publicado em: 2026-11-15T20:39:22+00:00
