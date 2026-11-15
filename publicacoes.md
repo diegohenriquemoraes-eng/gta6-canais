@@ -1214,3 +1214,11 @@
 - Item: short-3 — F174
 - Duração: 18.0s
 - Publicado em: 2026-11-14T21:54:26+00:00
+
+## SwjKYemVACQ — A roda de armas voltou repaginada | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/SwjKYemVACQ
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F177
+- Duração: 17.9s
+- Publicado em: 2026-11-15T15:56:59+00:00
