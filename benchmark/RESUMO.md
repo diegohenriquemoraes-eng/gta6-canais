@@ -63,21 +63,18 @@ Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para 
 - 0-10 s: 30 itens, mediana 4,706
 - mais visto: 15,900 — “”
 
-## yt · gta 6 (2026-11-08, 50 itens)
+## yt · gta 6 (2026-11-15, 50 itens)
 
-- mediana de views: 3,197,368
-- 0-10 s: 1 itens, mediana 3,300,094
-- 10-20 s: 6 itens, mediana 3,469,536
-- 20-30 s: 4 itens, mediana 3,182,940
-- 30-60 s: 4 itens, mediana 2,695,182
-- 60-∞ s: 35 itens, mediana 3,483,546
-- mais visto: 74,911,242 — “Grand Theft Auto VI Launch Trailer”
+- mediana de views: 1,855,829
+- 20-30 s: 3 itens, mediana 5,825,876
+- 30-60 s: 10 itens, mediana 2,349,084
+- 60-∞ s: 37 itens, mediana 1,754,623
+- mais visto: 7,592,743 — “GTA 6 NEW ZEALAND TRICK EXPLAINED #shorts”
 
-## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-11-08, 50 itens)
+## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-11-15, 50 itens)
 
-- mediana de views: 88
-- 0-10 s: 1 itens, mediana 61
-- 10-20 s: 29 itens, mediana 90
-- 20-30 s: 20 itens, mediana 86
+- mediana de views: 76
+- 10-20 s: 36 itens, mediana 76
+- 20-30 s: 14 itens, mediana 75
 - mais visto: 630 — “Jason e Lucia não postam selfie | GTA 6 curiosidades #shorts”
 
