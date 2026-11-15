@@ -1230,3 +1230,11 @@
 - Item: short-2 — F179
 - Duração: 17.8s
 - Publicado em: 2026-11-15T20:39:22+00:00
+
+## bNBxpy4zRIo — Seis estrelas e a polícia lê o contexto | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/bNBxpy4zRIo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F180
+- Duração: 18.9s
+- Publicado em: 2026-11-15T22:08:31+00:00
