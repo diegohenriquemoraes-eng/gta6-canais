@@ -1238,3 +1238,11 @@
 - Item: short-3 — F180
 - Duração: 18.9s
 - Publicado em: 2026-11-15T22:08:31+00:00
+
+## ZpbsBBXF-RI — O porta-malas guarda o que a polícia procura | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/ZpbsBBXF-RI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F181
+- Duração: 18.0s
+- Publicado em: 2026-11-16T17:34:31+00:00
