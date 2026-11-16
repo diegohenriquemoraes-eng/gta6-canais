@@ -1246,3 +1246,11 @@
 - Item: short-1 — F181
 - Duração: 18.0s
 - Publicado em: 2026-11-16T17:34:31+00:00
+
+## aXOd1qIpDpQ — Academia e comida disputam o mesmo corpo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/aXOd1qIpDpQ
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F182
+- Duração: 18.7s
+- Publicado em: 2026-11-16T20:37:55+00:00
