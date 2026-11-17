@@ -1273,13 +1273,21 @@
           "video_id": "Jn4CS4O5mSw",
           "titulo": "O karma acompanha o que você faz | GTA 6 curiosidades #shorts",
           "em": "2026-11-17T18:49:32+00:00"
+        },
+        {
+          "pacote": "2026-11-17",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "cPbq2GNrT_A",
+          "titulo": "Dez segundos segurando o botão para abastecer | GTA 6 curiosidades #shorts",
+          "em": "2026-11-17T22:43:19+00:00"
         }
       ],
-      "ultimo_short": "2026-11-17T18:49:32+00:00",
+      "ultimo_short": "2026-11-17T22:43:19+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-17",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -3116,12 +3124,21 @@
           "layout": 2,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-17-c2.mp4",
           "em": "2026-11-17T18:49:32+00:00"
+        },
+        {
+          "id": "2026-11-17-c3",
+          "media_id": "18377341867244797",
+          "cena": "galeria-jason-and-lucia-13",
+          "frase": "O romance entre Jason e Lucia é opcional",
+          "layout": 3,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-17-c3.mp4",
+          "em": "2026-11-17T22:43:19+00:00"
         }
       ],
-      "ultimo": "2026-11-17T18:49:32+00:00",
+      "ultimo": "2026-11-17T22:43:19+00:00",
       "dia": {
         "data": "2026-11-17",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "2026-10-23",

@@ -1270,3 +1270,11 @@
 - Item: short-2 — F185
 - Duração: 16.6s
 - Publicado em: 2026-11-17T18:49:32+00:00
+
+## cPbq2GNrT_A — Dez segundos segurando o botão para abastecer | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/cPbq2GNrT_A
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F186
+- Duração: 17.9s
+- Publicado em: 2026-11-17T22:43:19+00:00
