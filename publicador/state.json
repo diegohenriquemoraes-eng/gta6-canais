@@ -1265,13 +1265,21 @@
           "video_id": "e869hfu3Mqc",
           "titulo": "Mini golfe entre um assalto e outro | GTA 6 curiosidades #shorts",
           "em": "2026-11-17T13:43:32+00:00"
+        },
+        {
+          "pacote": "2026-11-17",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "Jn4CS4O5mSw",
+          "titulo": "O karma acompanha o que você faz | GTA 6 curiosidades #shorts",
+          "em": "2026-11-17T18:49:32+00:00"
         }
       ],
-      "ultimo_short": "2026-11-17T13:43:32+00:00",
+      "ultimo_short": "2026-11-17T18:49:32+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-17",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -3099,12 +3107,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-17-c1.mp4",
           "em": "2026-11-17T13:43:32+00:00"
+        },
+        {
+          "id": "2026-11-17-c2",
+          "media_id": "17912813964665562",
+          "cena": "trailer2-014",
+          "frase": "2 dias para Vice City",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-17-c2.mp4",
+          "em": "2026-11-17T18:49:32+00:00"
         }
       ],
-      "ultimo": "2026-11-17T13:43:32+00:00",
+      "ultimo": "2026-11-17T18:49:32+00:00",
       "dia": {
         "data": "2026-11-17",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "2026-10-23",

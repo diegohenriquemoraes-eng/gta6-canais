@@ -1262,3 +1262,11 @@
 - Item: short-1 — F184
 - Duração: 18.5s
 - Publicado em: 2026-11-17T13:43:32+00:00
+
+## Jn4CS4O5mSw — O karma acompanha o que você faz | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Jn4CS4O5mSw
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F185
+- Duração: 16.6s
+- Publicado em: 2026-11-17T18:49:32+00:00
