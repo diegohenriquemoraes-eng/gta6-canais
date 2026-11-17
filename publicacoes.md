@@ -1254,3 +1254,11 @@
 - Item: short-2 — F182
 - Duração: 18.7s
 - Publicado em: 2026-11-16T20:37:55+00:00
+
+## e869hfu3Mqc — Mini golfe entre um assalto e outro | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/e869hfu3Mqc
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F184
+- Duração: 18.5s
+- Publicado em: 2026-11-17T13:43:32+00:00
