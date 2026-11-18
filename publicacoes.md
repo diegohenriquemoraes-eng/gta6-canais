@@ -1278,3 +1278,11 @@
 - Item: short-3 — F186
 - Duração: 17.9s
 - Publicado em: 2026-11-17T22:43:19+00:00
+
+## zhyxl9oM-90 — Os dois conversam por mensagem no meio do jogo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/zhyxl9oM-90
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F187
+- Duração: 18.0s
+- Publicado em: 2026-11-18T14:34:05+00:00
