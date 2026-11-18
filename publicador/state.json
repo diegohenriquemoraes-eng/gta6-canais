@@ -1289,13 +1289,21 @@
           "video_id": "zhyxl9oM-90",
           "titulo": "Os dois conversam por mensagem no meio do jogo | GTA 6 curiosidades #shorts",
           "em": "2026-11-18T14:34:05+00:00"
+        },
+        {
+          "pacote": "2026-11-18",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "_LeDb5sUGoM",
+          "titulo": "A cidade é o dobro, o estado é muito mais | GTA 6 curiosidades #shorts",
+          "em": "2026-11-18T18:29:38+00:00"
         }
       ],
-      "ultimo_short": "2026-11-18T14:34:05+00:00",
+      "ultimo_short": "2026-11-18T18:29:38+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-18",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -3150,12 +3158,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-18-c1.mp4",
           "em": "2026-11-18T14:34:05+00:00"
+        },
+        {
+          "id": "2026-11-18-c2",
+          "media_id": "18097832129692267",
+          "cena": "trailer2-017",
+          "frase": "1 dias para conhecer Leonida de verdade",
+          "layout": 2,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-18-c2.mp4",
+          "em": "2026-11-18T18:29:38+00:00"
         }
       ],
-      "ultimo": "2026-11-18T14:34:05+00:00",
+      "ultimo": "2026-11-18T18:29:38+00:00",
       "dia": {
         "data": "2026-11-18",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "2026-10-23",

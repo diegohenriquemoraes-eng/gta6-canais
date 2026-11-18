@@ -1286,3 +1286,11 @@
 - Item: short-1 — F187
 - Duração: 18.0s
 - Publicado em: 2026-11-18T14:34:05+00:00
+
+## _LeDb5sUGoM — A cidade é o dobro, o estado é muito mais | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/_LeDb5sUGoM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F188
+- Duração: 18.0s
+- Publicado em: 2026-11-18T18:29:38+00:00
