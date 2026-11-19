@@ -1294,3 +1294,11 @@
 - Item: short-2 — F188
 - Duração: 18.0s
 - Publicado em: 2026-11-18T18:29:38+00:00
+
+## OzYfemaL3DM — Seis personagens de apoio já têm nome e rosto | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/OzYfemaL3DM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F196
+- Duração: 20.2s
+- Publicado em: 2026-11-19T17:47:19+00:00
