@@ -1302,3 +1302,11 @@
 - Item: short-1 — F196
 - Duração: 20.2s
 - Publicado em: 2026-11-19T17:47:19+00:00
+
+## IAAliAHqWok — O estado se chama Leonida, não Vice City | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/IAAliAHqWok
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F197
+- Duração: 19.0s
+- Publicado em: 2026-11-19T22:32:30+00:00
