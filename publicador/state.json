@@ -1321,13 +1321,21 @@
           "video_id": "QSFK_7fQuV8",
           "titulo": "O sul do mapa é um arquipélago | GTA 6 curiosidades #shorts",
           "em": "2026-11-20T00:06:39+00:00"
+        },
+        {
+          "pacote": "2026-11-20",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "OoEdtaRr6QI",
+          "titulo": "Uma cidade portuária decadente no golfo | GTA 6 curiosidades #shorts",
+          "em": "2026-11-20T13:22:33+00:00"
         }
       ],
-      "ultimo_short": "2026-11-20T00:06:39+00:00",
+      "ultimo_short": "2026-11-20T13:22:33+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-20",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -3236,12 +3244,21 @@
           "layout": 1,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-19-c4.mp4",
           "em": "2026-11-20T00:06:39+00:00"
+        },
+        {
+          "id": "2026-11-20-c1",
+          "media_id": "18020040038958989",
+          "cena": "trailer1-004",
+          "frase": "Aqui a gente vive Vice City antes de todo mundo",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-20-c1.mp4",
+          "em": "2026-11-20T13:22:33+00:00"
         }
       ],
-      "ultimo": "2026-11-20T00:06:39+00:00",
+      "ultimo": "2026-11-20T13:22:33+00:00",
       "dia": {
         "data": "2026-11-20",
-        "n": 1
+        "n": 2
       },
       "story_dia": {
         "data": "2026-10-23",

@@ -1318,3 +1318,11 @@
 - Item: short-3 — F198
 - Duração: 18.7s
 - Publicado em: 2026-11-20T00:06:39+00:00
+
+## OoEdtaRr6QI — Uma cidade portuária decadente no golfo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/OoEdtaRr6QI
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F200
+- Duração: 18.1s
+- Publicado em: 2026-11-20T13:22:33+00:00
