@@ -1313,13 +1313,21 @@
           "video_id": "IAAliAHqWok",
           "titulo": "O estado se chama Leonida, não Vice City | GTA 6 curiosidades #shorts",
           "em": "2026-11-19T22:32:30+00:00"
+        },
+        {
+          "pacote": "2026-11-19",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "QSFK_7fQuV8",
+          "titulo": "O sul do mapa é um arquipélago | GTA 6 curiosidades #shorts",
+          "em": "2026-11-20T00:06:39+00:00"
         }
       ],
-      "ultimo_short": "2026-11-19T22:32:30+00:00",
+      "ultimo_short": "2026-11-20T00:06:39+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-11-19",
-        "n": 2
+        "data": "2026-11-20",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -3219,12 +3227,21 @@
           "layout": 3,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-19-c3.mp4",
           "em": "2026-11-19T22:32:30+00:00"
+        },
+        {
+          "id": "2026-11-19-c4",
+          "media_id": "17920457025467563",
+          "cena": "galeria-jason-and-lucia-12",
+          "frase": "Jason ou Lucia: com quem você começa?",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-19-c4.mp4",
+          "em": "2026-11-20T00:06:39+00:00"
         }
       ],
-      "ultimo": "2026-11-19T22:32:30+00:00",
+      "ultimo": "2026-11-20T00:06:39+00:00",
       "dia": {
-        "data": "2026-11-19",
-        "n": 3
+        "data": "2026-11-20",
+        "n": 1
       },
       "story_dia": {
         "data": "2026-10-23",
@@ -4467,12 +4484,19 @@
           "url": null,
           "estado": "published",
           "em": "2026-11-19T08:04:22+00:00"
+        },
+        {
+          "cartao": "2026-11-08-c2",
+          "post_id": "6aff8f3af83b01f98bbf9bde",
+          "url": null,
+          "estado": "published",
+          "em": "2026-11-20T00:07:21+00:00"
         }
       ],
-      "ultimo": "2026-11-19T08:04:22+00:00",
+      "ultimo": "2026-11-20T00:07:21+00:00",
       "dia": {
-        "data": "2026-11-19",
-        "n": 3
+        "data": "2026-11-20",
+        "n": 1
       },
       "story_dia": {
         "data": "",

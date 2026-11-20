@@ -1258,3 +1258,9 @@
 - https://www.instagram.com/reel/18125404777930905/
 - cena: `trailer1-010` · layout 3
 - 2026-11-19T22:32:30+00:00
+
+## 17920457025467563 — Jason ou Lucia: com quem você começa?
+
+- https://www.instagram.com/reel/17920457025467563/
+- cena: `galeria-jason-and-lucia-12` · layout 1
+- 2026-11-20T00:06:39+00:00

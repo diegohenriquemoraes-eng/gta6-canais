@@ -1310,3 +1310,11 @@
 - Item: short-2 — F197
 - Duração: 19.0s
 - Publicado em: 2026-11-19T22:32:30+00:00
+
+## QSFK_7fQuV8 — O sul do mapa é um arquipélago | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/QSFK_7fQuV8
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F198
+- Duração: 18.7s
+- Publicado em: 2026-11-20T00:06:39+00:00
