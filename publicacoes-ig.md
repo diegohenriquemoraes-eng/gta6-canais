@@ -1270,3 +1270,9 @@
 - https://www.instagram.com/reel/18020040038958989/
 - cena: `trailer1-004` · layout 1
 - 2026-11-20T13:22:33+00:00
+
+## 18111340943255749 — Vice City ou Los Santos: qual é a melhor cidade?
+
+- https://www.instagram.com/reel/18111340943255749/
+- cena: `galeria-vice-city-11` · layout 2
+- 2026-11-20T21:36:08+00:00

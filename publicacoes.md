@@ -1326,3 +1326,11 @@
 - Item: short-2 — F200
 - Duração: 18.1s
 - Publicado em: 2026-11-20T13:22:33+00:00
+
+## K0QyWCUJu1U — Existe um parque nacional inteiro no norte | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/K0QyWCUJu1U
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F201
+- Duração: 18.8s
+- Publicado em: 2026-11-20T21:36:08+00:00
