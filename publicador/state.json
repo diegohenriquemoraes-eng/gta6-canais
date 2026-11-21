@@ -1337,13 +1337,21 @@
           "video_id": "K0QyWCUJu1U",
           "titulo": "Existe um parque nacional inteiro no norte | GTA 6 curiosidades #shorts",
           "em": "2026-11-20T21:36:08+00:00"
+        },
+        {
+          "pacote": "2026-11-21",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "ExvBbW3jsGc",
+          "titulo": "O site oficial diz onde o jogo roda melhor | GTA 6 curiosidades #shorts",
+          "em": "2026-11-21T10:22:06+00:00"
         }
       ],
-      "ultimo_short": "2026-11-20T21:36:08+00:00",
+      "ultimo_short": "2026-11-21T10:22:06+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-11-20",
-        "n": 3
+        "data": "2026-11-21",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -4553,12 +4561,19 @@
           "url": null,
           "estado": "published",
           "em": "2026-11-21T02:53:46+00:00"
+        },
+        {
+          "cartao": "2026-11-10-c1",
+          "post_id": "6b0170cf831449c5249b8f57",
+          "url": null,
+          "estado": "published",
+          "em": "2026-11-21T10:22:06+00:00"
         }
       ],
-      "ultimo": "2026-11-21T02:53:46+00:00",
+      "ultimo": "2026-11-21T10:22:06+00:00",
       "dia": {
         "data": "2026-11-21",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "",
