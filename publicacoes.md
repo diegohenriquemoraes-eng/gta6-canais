@@ -1350,3 +1350,11 @@
 - Item: short-2 — F010
 - Duração: 21.2s
 - Publicado em: 2026-11-21T17:50:02+00:00
+
+## pZw5aRem3p4 — Ambrosia é a sexta região confirmada | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/pZw5aRem3p4
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F202
+- Duração: 20.2s
+- Publicado em: 2026-11-21T22:43:07+00:00

@@ -1353,13 +1353,21 @@
           "video_id": "HG6RJODb6dQ",
           "titulo": "O primeiro trailer tem só 91 segundos | GTA 6 curiosidades #shorts",
           "em": "2026-11-21T17:50:02+00:00"
+        },
+        {
+          "pacote": "2026-11-21",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "pZw5aRem3p4",
+          "titulo": "Ambrosia é a sexta região confirmada | GTA 6 curiosidades #shorts",
+          "em": "2026-11-21T22:43:07+00:00"
         }
       ],
-      "ultimo_short": "2026-11-21T17:50:02+00:00",
+      "ultimo_short": "2026-11-21T22:43:07+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-21",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -3313,12 +3321,21 @@
           "layout": 3,
           "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-21-c3.mp4",
           "em": "2026-11-21T19:35:52+00:00"
+        },
+        {
+          "id": "2026-11-21-c4",
+          "media_id": "18575441656072674",
+          "cena": "galeria-jason-and-lucia-08",
+          "frase": "Jason ou Lucia: com quem você começa?",
+          "layout": 1,
+          "url_midia": "https://github.com/diegohenriquemoraes-eng/gta6-canais/releases/download/cartoes/2026-11-21-c4.mp4",
+          "em": "2026-11-21T22:43:07+00:00"
         }
       ],
-      "ultimo": "2026-11-21T19:35:52+00:00",
+      "ultimo": "2026-11-21T22:43:07+00:00",
       "dia": {
         "data": "2026-11-21",
-        "n": 3
+        "n": 4
       },
       "story_dia": {
         "data": "2026-10-23",
