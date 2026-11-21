@@ -1342,3 +1342,11 @@
 - Item: short-1 — F006
 - Duração: 20.8s
 - Publicado em: 2026-11-21T10:22:06+00:00
+
+## HG6RJODb6dQ — O primeiro trailer tem só 91 segundos | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/HG6RJODb6dQ
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F010
+- Duração: 21.2s
+- Publicado em: 2026-11-21T17:50:02+00:00
