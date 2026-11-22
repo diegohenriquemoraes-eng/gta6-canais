@@ -1366,3 +1366,11 @@
 - Item: short-1 — F017
 - Duração: 23.0s
 - Publicado em: 2026-11-22T10:26:23+00:00
+
+## JBkzyHeqhfo — A classificação indicativa está no site | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/JBkzyHeqhfo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F024
+- Duração: 19.6s
+- Publicado em: 2026-11-22T16:31:31+00:00
