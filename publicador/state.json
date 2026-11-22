@@ -1361,13 +1361,21 @@
           "video_id": "pZw5aRem3p4",
           "titulo": "Ambrosia é a sexta região confirmada | GTA 6 curiosidades #shorts",
           "em": "2026-11-21T22:43:07+00:00"
+        },
+        {
+          "pacote": "2026-11-22",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "JkuGrdZRqaM",
+          "titulo": "26 minutos de gameplay numa plataforma de filmes | GTA 6 curiosidades #shorts",
+          "em": "2026-11-22T10:26:23+00:00"
         }
       ],
-      "ultimo_short": "2026-11-21T22:43:07+00:00",
+      "ultimo_short": "2026-11-22T10:26:23+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-11-21",
-        "n": 3
+        "data": "2026-11-22",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",

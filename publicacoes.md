@@ -1358,3 +1358,11 @@
 - Item: short-3 — F202
 - Duração: 20.2s
 - Publicado em: 2026-11-21T22:43:07+00:00
+
+## JkuGrdZRqaM — 26 minutos de gameplay numa plataforma de filmes | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/JkuGrdZRqaM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F017
+- Duração: 23.0s
+- Publicado em: 2026-11-22T10:26:23+00:00
