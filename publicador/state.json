@@ -1377,13 +1377,21 @@
           "video_id": "JBkzyHeqhfo",
           "titulo": "A classificação indicativa está no site | GTA 6 curiosidades #shorts",
           "em": "2026-11-22T16:31:31+00:00"
+        },
+        {
+          "pacote": "2026-11-22",
+          "item": "short-3",
+          "formato": "B",
+          "video_id": "DR1uhKxdI7Y",
+          "titulo": "A primeira missão mostrada é entrega de carro | GTA 6 curiosidades #shorts",
+          "em": "2026-11-22T22:09:47+00:00"
         }
       ],
-      "ultimo_short": "2026-11-22T16:31:31+00:00",
+      "ultimo_short": "2026-11-22T22:09:47+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-22",
-        "n": 2
+        "n": 3
       },
       "longos_dia": {
         "data": "2026-09-24",

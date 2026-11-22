@@ -1374,3 +1374,11 @@
 - Item: short-2 — F024
 - Duração: 19.6s
 - Publicado em: 2026-11-22T16:31:31+00:00
+
+## DR1uhKxdI7Y — A primeira missão mostrada é entrega de carro | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/DR1uhKxdI7Y
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F211
+- Duração: 19.5s
+- Publicado em: 2026-11-22T22:09:47+00:00
