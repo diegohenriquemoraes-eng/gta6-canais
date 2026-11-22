@@ -63,18 +63,18 @@ Gerado por `produzir/ranquear_perfil.py --resumo`. **Nada aqui foi baixado para 
 - 0-10 s: 30 itens, mediana 4,706
 - mais visto: 15,900 — “”
 
-## yt · gta 6 (2026-11-15, 50 itens)
+## yt · gta 6 (2026-11-22, 50 itens)
 
-- mediana de views: 1,855,829
-- 20-30 s: 3 itens, mediana 5,825,876
-- 30-60 s: 10 itens, mediana 2,349,084
-- 60-∞ s: 37 itens, mediana 1,754,623
-- mais visto: 7,592,743 — “GTA 6 NEW ZEALAND TRICK EXPLAINED #shorts”
+- mediana de views: 5,334,164
+- 10-20 s: 2 itens, mediana 5,748,084
+- 30-60 s: 3 itens, mediana 5,845,624
+- 60-∞ s: 45 itens, mediana 4,685,120
+- mais visto: 68,962,685 — “🔴PLAYING GTA 6 EARLY ACCESS GAMEPLAY GET IN HERE!”
 
-## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-11-15, 50 itens)
+## yt · UCUJdsMoY_H4hLlvckVjCcEg (2026-11-22, 50 itens)
 
-- mediana de views: 76
-- 10-20 s: 36 itens, mediana 76
-- 20-30 s: 14 itens, mediana 75
-- mais visto: 630 — “Jason e Lucia não postam selfie | GTA 6 curiosidades #shorts”
+- mediana de views: 73
+- 10-20 s: 38 itens, mediana 71
+- 20-30 s: 12 itens, mediana 80
+- mais visto: 360 — “Dá para espiar pela janela | GTA 6 curiosidades #shorts”
 
