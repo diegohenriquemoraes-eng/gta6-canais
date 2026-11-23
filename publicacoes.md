@@ -1382,3 +1382,11 @@
 - Item: short-3 — F211
 - Duração: 19.5s
 - Publicado em: 2026-11-22T22:09:47+00:00
+
+## Ilnbnwyfo40 — A capa foi revelada em junho | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/Ilnbnwyfo40
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F029
+- Duração: 18.5s
+- Publicado em: 2026-11-23T13:24:25+00:00
