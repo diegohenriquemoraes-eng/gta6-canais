@@ -1406,3 +1406,11 @@
 - Item: short-2 — F146
 - Duração: 16.6s
 - Publicado em: 2026-11-24T21:37:27+00:00
+
+## bT1v9028eMM — A praia é o cartão-postal do jogo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/bT1v9028eMM
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-3 — F216
+- Duração: 18.7s
+- Publicado em: 2026-11-24T23:06:51+00:00
