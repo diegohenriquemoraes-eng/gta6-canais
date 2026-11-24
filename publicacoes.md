@@ -1390,3 +1390,11 @@
 - Item: short-1 — F029
 - Duração: 18.5s
 - Publicado em: 2026-11-23T13:24:25+00:00
+
+## -0Id9BGInCU — Dois protagonistas, quatro mãos | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/-0Id9BGInCU
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F145
+- Duração: 19.6s
+- Publicado em: 2026-11-24T11:16:27+00:00
