@@ -1401,13 +1401,21 @@
           "video_id": "-0Id9BGInCU",
           "titulo": "Dois protagonistas, quatro mãos | GTA 6 curiosidades #shorts",
           "em": "2026-11-24T11:16:27+00:00"
+        },
+        {
+          "pacote": "2026-11-24",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "dY77hCIpsnQ",
+          "titulo": "As cartas estão marcadas contra eles | GTA 6 curiosidades #shorts",
+          "em": "2026-11-24T21:37:27+00:00"
         }
       ],
-      "ultimo_short": "2026-11-24T11:16:27+00:00",
+      "ultimo_short": "2026-11-24T21:37:27+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-24",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
