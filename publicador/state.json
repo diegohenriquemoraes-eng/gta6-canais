@@ -1425,13 +1425,21 @@
           "video_id": "O0sOnFSMn-g",
           "titulo": "O dono do pedaço tem gravadora própria | GTA 6 curiosidades #shorts",
           "em": "2026-11-25T14:45:31+00:00"
+        },
+        {
+          "pacote": "2026-11-25",
+          "item": "short-2",
+          "formato": "B",
+          "video_id": "tLC9Ggoi0iU",
+          "titulo": "Ele largou o crime para virar empresário musical | GTA 6 curiosidades #shorts",
+          "em": "2026-11-25T23:55:12+00:00"
         }
       ],
-      "ultimo_short": "2026-11-25T14:45:31+00:00",
+      "ultimo_short": "2026-11-25T23:55:12+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
         "data": "2026-11-25",
-        "n": 1
+        "n": 2
       },
       "longos_dia": {
         "data": "2026-09-24",
