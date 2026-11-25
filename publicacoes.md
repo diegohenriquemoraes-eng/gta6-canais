@@ -1414,3 +1414,11 @@
 - Item: short-3 — F216
 - Duração: 18.7s
 - Publicado em: 2026-11-24T23:06:51+00:00
+
+## O0sOnFSMn-g — O dono do pedaço tem gravadora própria | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/O0sOnFSMn-g
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F191
+- Duração: 19.5s
+- Publicado em: 2026-11-25T14:45:31+00:00

@@ -1417,13 +1417,21 @@
           "video_id": "bT1v9028eMM",
           "titulo": "A praia é o cartão-postal do jogo | GTA 6 curiosidades #shorts",
           "em": "2026-11-24T23:06:51+00:00"
+        },
+        {
+          "pacote": "2026-11-25",
+          "item": "short-1",
+          "formato": "B",
+          "video_id": "O0sOnFSMn-g",
+          "titulo": "O dono do pedaço tem gravadora própria | GTA 6 curiosidades #shorts",
+          "em": "2026-11-25T14:45:31+00:00"
         }
       ],
-      "ultimo_short": "2026-11-24T23:06:51+00:00",
+      "ultimo_short": "2026-11-25T14:45:31+00:00",
       "ultimo_longo": "2026-09-24T22:42:49+00:00",
       "shorts_dia": {
-        "data": "2026-11-24",
-        "n": 3
+        "data": "2026-11-25",
+        "n": 1
       },
       "longos_dia": {
         "data": "2026-09-24",
@@ -4753,12 +4761,19 @@
           "url": null,
           "estado": "publishing",
           "em": "2026-11-25T05:06:39+00:00"
+        },
+        {
+          "cartao": "2026-11-13-c3",
+          "post_id": "6b06f49bc17765801184d6b8",
+          "url": null,
+          "estado": "publishing",
+          "em": "2026-11-25T14:45:46+00:00"
         }
       ],
-      "ultimo": "2026-11-25T05:06:39+00:00",
+      "ultimo": "2026-11-25T14:45:46+00:00",
       "dia": {
         "data": "2026-11-25",
-        "n": 2
+        "n": 3
       },
       "story_dia": {
         "data": "",
