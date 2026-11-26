@@ -1430,3 +1430,11 @@
 - Item: short-2 — F192
 - Duração: 17.7s
 - Publicado em: 2026-11-25T23:55:12+00:00
+
+## ZpMPWId83d0 — A dupla que viralizou e quer repetir a dose | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/ZpMPWId83d0
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F193
+- Duração: 18.4s
+- Publicado em: 2026-11-26T18:48:07+00:00
