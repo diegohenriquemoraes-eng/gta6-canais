@@ -1438,3 +1438,11 @@
 - Item: short-1 — F193
 - Duração: 18.4s
 - Publicado em: 2026-11-26T18:48:07+00:00
+
+## F75ELfDXh48 — A Only Raw Records liga quase todo mundo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/F75ELfDXh48
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F210
+- Duração: 18.3s
+- Publicado em: 2026-11-27T10:29:20+00:00
