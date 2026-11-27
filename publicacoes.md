@@ -1446,3 +1446,11 @@
 - Item: short-1 — F210
 - Duração: 18.3s
 - Publicado em: 2026-11-27T10:29:20+00:00
+
+## TWviiDOhLMg — Os dois moram num motel no começo | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/TWviiDOhLMg
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-2 — F213
+- Duração: 19.3s
+- Publicado em: 2026-11-27T19:43:44+00:00
