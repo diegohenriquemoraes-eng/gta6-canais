@@ -25,14 +25,14 @@
   "trailer1-011": "2026-11-28",
   "trailer2-006": "2026-11-29",
   "galeria-vice-city-09": "2026-11-29",
-  "galeria-vice-city-08": "2026-11-23",
+  "galeria-vice-city-08": "2026-11-30",
   "trailer1-007": "2026-11-16",
   "galeria-jason-and-lucia-11": "2026-11-29",
   "trailer2-016": "2026-11-23",
-  "galeria-vice-city-07": "2026-11-23",
+  "galeria-vice-city-07": "2026-11-30",
   "galeria-vice-city-06": "2026-11-24",
   "trailer2-009": "2026-11-16",
-  "galeria-jason-and-lucia-10": "2026-11-23",
+  "galeria-jason-and-lucia-10": "2026-11-30",
   "trailer2-007": "2026-09-28",
   "galeria-vice-city-05": "2026-11-28",
   "galeria-vice-city-04": "2026-11-25",
@@ -41,16 +41,16 @@
   "trailer1-010": "2026-11-29",
   "galeria-jason-and-lucia-09": "2026-11-27",
   "galeria-jason-and-lucia-08": "2026-11-28",
-  "trailer1-009": "2026-11-22",
-  "trailer2-003": "2026-11-23",
+  "trailer1-009": "2026-11-30",
+  "trailer2-003": "2026-11-30",
   "galeria-jason-and-lucia-07": "2026-11-25"
  },
  "frases": {
-  "Aqui a gente vive Vice City antes de todo mundo": "2026-11-29",
+  "Aqui a gente vive Vice City antes de todo mundo": "2026-11-30",
   "Mais {N} noites e o jogo é nosso": "2026-11-16",
-  "O romance entre Jason e Lucia é opcional": "2026-11-29",
+  "O romance entre Jason e Lucia é opcional": "2026-11-30",
   "{N} dias para Vice City": "2026-11-17",
-  "Rumo a Vice City: um post por vez": "2026-11-29",
+  "Rumo a Vice City: um post por vez": "2026-11-30",
   "{N} dias para conhecer Leonida de verdade": "2026-11-18",
   "Vice City abre em {N} dias": "2026-11-17",
   "Faltam {N} dias para conhecer Leonida": "2026-11-18",
@@ -62,10 +62,10 @@
   "{N} dias e a espera de 13 anos acaba": "2026-11-01",
   "Vice City ou Los Santos: qual é a melhor cidade?": "2026-11-28",
   "A polícia precisa de uma testemunha para te caçar": "2026-11-19",
-  "Jason ou Lucia: com quem você começa?": "2026-11-28",
+  "Jason ou Lucia: com quem você começa?": "2026-11-30",
   "Você encontrou a página que fala tudo sobre GTA 6": "2026-11-20",
   "Você vai comprar o controle de GTA 6?": "2026-11-29",
-  "Você percebeu o que muda na polícia?": "2026-11-29",
+  "Você percebeu o que muda na polícia?": "2026-11-30",
   "Você tinha visto esse detalhe?": "2026-11-23",
   "Você lembra de Vice City em 2002?": "2026-11-24",
   "Vice City é duas vezes o tamanho de Los Santos": "2026-11-26",
@@ -1797,6 +1797,31 @@
    "cena": "galeria-vice-city-09",
    "frase": "Rumo a Vice City: um post por vez",
    "em": "2026-11-29"
+  },
+  {
+   "cena": "galeria-vice-city-08",
+   "frase": "Aqui a gente vive Vice City antes de todo mundo",
+   "em": "2026-11-30"
+  },
+  {
+   "cena": "trailer2-003",
+   "frase": "Jason ou Lucia: com quem você começa?",
+   "em": "2026-11-30"
+  },
+  {
+   "cena": "galeria-jason-and-lucia-10",
+   "frase": "O romance entre Jason e Lucia é opcional",
+   "em": "2026-11-30"
+  },
+  {
+   "cena": "trailer1-009",
+   "frase": "Você percebeu o que muda na polícia?",
+   "em": "2026-11-30"
+  },
+  {
+   "cena": "galeria-vice-city-07",
+   "frase": "Rumo a Vice City: um post por vez",
+   "em": "2026-11-30"
   }
  ]
 }
