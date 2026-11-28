@@ -1454,3 +1454,11 @@
 - Item: short-2 — F213
 - Duração: 19.3s
 - Publicado em: 2026-11-27T19:43:44+00:00
+
+## i56BGSVQ3lo — É a primeira dupla jogável da série | GTA 6 curiosidades #shorts
+
+- URL: https://youtu.be/i56BGSVQ3lo
+- Canal: Rumo a Vice City · GTA 6
+- Item: short-1 — F214
+- Duração: 19.4s
+- Publicado em: 2026-11-28T11:00:08+00:00
